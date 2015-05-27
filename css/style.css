@@ -1173,7 +1173,7 @@
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 1.1em 0 1.1em 0;
+			padding: 5.1em 0 3.1em 0;
 			width: 100%;
 		}
 
@@ -1189,7 +1189,7 @@
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 1em 1em;
+			padding: 4em 3em;
 			top: 0;
 			width: 28em;
 		}
