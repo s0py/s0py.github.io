@@ -830,14 +830,14 @@
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.5em 0.5em;
 		}
 
 		table th {
 			color: #ffffff;
 			font-size: 0.9em;
 			font-weight: 300;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0.5em 0.5em 0.5em;
 			text-align: left;
 		}
 
@@ -1222,6 +1222,10 @@
 
 		.spotlight.style5 .content {
 			border-color: #f15454;
+			}
+			
+		.spotlight.style6 .content {
+			border-color: #a254f1;
 			}
 			
 		.spotlight.inactive .content {
