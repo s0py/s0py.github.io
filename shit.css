@@ -33,7 +33,7 @@ h3,.h3{font-size:1.125em;margin-bottom:12px;}
 h4,.h4{font-size:0.8125em;margin-bottom:12px;}
 h5,.h5{font-size:0.6875em;margin-bottom:12px;}
 body{background:#f2f2f2;text-align:center;}
-#wrapper{margin:0 auto;padding-bottom:1px;text-align:left;position:relative;background:url(http://static.tumblr.com/26l8vc7/q7Glbweh4/bg.jpg) repeat fixed;}
+#wrapper{margin:0 auto;padding-bottom:1px;text-align:left;position:relative;background:url() repeat fixed;}
 .wrapper{width:690px;max-width:100%;margin:0 auto;}
 #header h1{position:absolute;top:90px;text-align:center;width:100%;text-transform:uppercase;}#header h1 a{color:#000;}#header h1 a:hover{color:#05b2c2;}
 #description{position:absolute;top:140px;text-align:center;width:100%;}#description p{width:690px;max-width:100%;margin:0 auto;font-size:1.125em;color:#817f7f;font-style:italic;line-height:normal;text-shadow:0 1px 0 #fff;}
