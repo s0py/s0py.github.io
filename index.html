@@ -1,407 +1,86 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+
+<!--
+
+ ________________________________________ 
+/ We are the Borg. We will add your maps \
+| to our own. Your worlds will adapt to  |
+\ service us. Resistance is futile.      /
+ ---------------------------------------- 
+        \
+         \
+          \
+           /-/_"/-/_/-/|
+          /"-/-_"/-_//||
+         /__________/|/|
+         |"|_'='-]:+|/||
+         |-+-|.|_'-"||//
+         |[".[:!+-'=|//
+         |='!+|-:]|-|/
+          ----------
+
+
+
+(http://startrekasciiart.blogspot.de/2011/06/borg-cube.html, thanks to Carlo Valenti!)
+
+-->
+
 <html>
 	<head>
-		<title>Joseph Vadella - Human Muscles</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<title>Minecraft Map</title>
+		<meta name="generator" content="Mapcrafter 2.2 (v.2.2.1)" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<link rel="stylesheet" href="static/leaflet/leaflet.css" />
+		<script src="static/leaflet/leaflet.js"></script>
+		<style type="text/css">
+		.leaflet-container {
+			background: #DDDDDD;
+		}
+		</style>
+		
+		<script type="text/javascript" src="static/js/handler/base.js"></script>
+		<script type="text/javascript" src="static/js/handler/marker.js"></script>
+		<script type="text/javascript" src="static/js/handler/poshash.js"></script>
+		<script type="text/javascript" src="static/js/handler/rotationselect.js"></script>
+		<script type="text/javascript" src="static/js/control/base.js"></script>
+		<script type="text/javascript" src="static/js/control/html.js"></script>
+		<script type="text/javascript" src="static/js/control/mapselect.js"></script>
+		<script type="text/javascript" src="static/js/control/marker.js"></script>
+		<script type="text/javascript" src="static/js/control/mousepos.js"></script>
+		<script type="text/javascript" src="static/js/control/rotationselect.js"></script>
+		<script type="text/javascript" src="static/js/mapcrafterui.js"></script>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrollex.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
+		<!-- Last update 22.04.2016, 09:15:19 -->
+		<script type="text/javascript" src="config.js"></script>
+		<script type="text/javascript" src="markers.js"></script>
+		<script type="text/javascript" src="markers-generated.js"></script>
+		<script type="text/javascript">
+		var Mapcrafter = new MapcrafterUI(CONFIG);
+
+		function init() {
+			Mapcrafter.init();
+			
+			Mapcrafter.addControl(new MapSelectControl(), "topright", 1);
+			Mapcrafter.addControl(new RotationSelectControl(), "topright", 3);
+			Mapcrafter.addControl(new MousePosControl(), "bottomleft", 1);
+
+			// merge the two marker configurations
+			var markers = [];
+			if(typeof MAPCRAFTER_MARKERS !== "undefined")
+				for(var i = 0; i < MAPCRAFTER_MARKERS.length; i++)
+					markers.push(MAPCRAFTER_MARKERS[i]);
+			if(typeof MAPCRAFTER_MARKERS_GENERATED !== "undefined")
+				for(var i = 0; i < MAPCRAFTER_MARKERS_GENERATED.length; i++)
+					markers.push(MAPCRAFTER_MARKERS_GENERATED[i]);
+			// only create marker control if marker groups exist
+			if(markers.length > 0)
+				Mapcrafter.addControl(new MarkerControl(markers), "topright", 2);
+		}
+		</script>
 	</head>
-	<body class="landing">
-
-		<!-- Header -->
-			<header id="header">
-				<h1 id="logo"><a href="index.html">Joseph Vadella</a></h1>
-				
-			</header>
-
-		<!-- Banner -->
-			<section id="banner">
-				<div class="content">
-					<header>
-						<font color="#48d75b"><h2>Skeletal Muscles</h2></font>
-						<p>Joseph Vadella, Period 8<br />
-						Christy Hinton, 2015 March 1<br /> 
-						Click the Arrow!
-						<center>
-					</p>
-					</header>
-					<span class="image"><img src="images/frog.png" alt="" /></span>
-				</div>
-				<a href="#one" class="goto-next scrolly">Next</a>
-			</section>
-
-		<!-- One -->
-			<section id="one" class="spotlight style1 bottom">
-				<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
-				<div class="content">
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u$(medium)">
-								<header>
-									<h2><font color="#e575ff">Muscle Groups</font></h2>
-									<p>
-									In no particular order
-									</p>
-								</header>
-							</div>
-							<div class="4u 12u$(medium)">
-								<p>
-								</p>
-								</p>
-							</div>
-							<b> Click or Scroll 
-									<ul>
-										<li><a href="#two"><font color="#5480f1">Head</font></a></li>
-										<li><a href="#three"><font color="f1e420">Trunk</font></a></li>
-										<li><a href="#five"><font color="e34343">Upper Limbs</font></a></li>
-										<li><a href="#six"><font color="39da88">Lower Limbs</font></a></li>
-										<li><a href="#seven"><font color="a254f1">Posterior Trunk</font></a></li>
-									</ul>
-									</b>
-						</div>
-					</div>
-				</div>
-				<a href="#two" class="goto-next scrolly">Next</a>
-			</section>
-
-		<!-- Two -->
-			<section id="two" class="spotlight style2 right">
-				<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
-				<div class="content">
-					<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Muscle</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><font style=bold color="#49B4FF">Frontalis & Occipitalis</font></td>
-												<td>Raises Eyebrows</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="5d90f1">Orbicularis Oculi</font></td>
-												<td>Blinking</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#49B4FF">Oribularis Oris</font></td>
-												<td>Closes and protrudes lips</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="5d90f1">Temporalis</font></td>
-												<td>Closes Jaw</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#49B4FF">Zygomaticus</font></td>
-												<td>Enables smiling</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="5d90f1">Masseter</font></td>
-												<td>closes jaw</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#49B4FF">Buccinator</font></td>
-												<td>Compresses cheek</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#5d90f1">Platysma</font></td>
-												<td>Tenses skin on neck</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#49B4FF">Sternocleidomastoid</font></td>
-												<td>laterally rotates head</td>
-												
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="1"></td>
-												
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-						</p> <br \>
-						
-					<ul class="actions">
-					</ul>
-				</div>
-				<a href="#three" class="goto-next scrolly">Next</a>
-			</section>
-
-		<!-- Three -->
-			<section id="three" class="spotlight style3 left">
-				<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
-				<div class="content">
-					<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Muscle</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><font style=bold color="#ffd719">Rectus Abdominus</font></td>
-												<td>Flexes Vertebral Column</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="FFDC4A">External Obliques</font></td>
-												<td>Flex and Rotate Vertebral Column</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#ffd719">Intercoastals</font></td>
-												<td>Raise ribs for breathing</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="FFDC4A">Internal Obliques</font></td>
-												<td>see <i>External Obliques</i></td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#ffd719">Transversus Abdominus</font></td>
-												<td>Compresses abdominal contents</td>
-												
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="1"></td>
-												
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-									<ul class="actions">
-					</ul>
-				</div>
-				<a href="#five" class="goto-next scrolly">Next</a>
-			</section>
-<!-- Two -->
-			<section id="five" class="spotlight style5 right">
-				<span class="image fit main"><img src="images/pic06.jpg" alt="" /></span>
-				<div class="content">
-					<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Muscle</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><font style=bold color="#ff4a4a">Deltoid</font></td>
-												<td>Abduct Arm</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="FF4976">Pectoralis Major<font></td>
-												<td>Adduct Arm</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#ff4a4a">Triceps Brachii</font></td>
-												<td>Extend Elbow</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="FF4976">Biceps Brachii</font></td>
-												<td>Flex Eblow and Supinate Forearm</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#ff4a4a">Brachialis</font></td>
-												<td>Flexes Elbow</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="FF4976">Felxor Carpi Radialis</font></td>
-												<td>Flexes Fingers</td>
-												
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="1"></td>
-												
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-									<ul class="actions">
-					</ul>
-				</div>
-					
-					<ul class="actions">
-					</ul>
-				</div>
-				<a href="#six" class="goto-next scrolly">Next</a>
-			</section>
-
-
-		<!-- Five -->
-			<section id="six" class="spotlight style4 left">
-				<span class="image fit main bottom"><img src="images/pic05.jpg" alt="" /></span>
-				<div class="content">
-				
-					<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Muscle</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><font style=bold color="#4aff7a">Iliopsoas</font></td>
-												<td>Flexes Hip</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="33ff69">Sartorius</font></td>
-												<td>Flexes thigh and hip</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#4aff7a">Quadraceps</font></td>
-												<td>Extend knee, flex hip and thigh</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="33ff69">Digitorum Longus</font></td>
-												<td>Extends toes</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#33ff69">Vastus Medialis</font></td>
-												<td>Adduct and medially roate thigh</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="33ff69">Masseter</font></td>
-												<td>closes jaw</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#4aff7a">Gastrocnemius</font></td>
-												<td>plantarflexes foot</td>
-												
-											</tr>
-						
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="1"></td>
-												
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-					
-					<ul class="actions">
-					</ul>
-				</div>
-				<a href="#seven" class="goto-next scrolly">Next</a>
-			</section>
-		<!-- Six -->
-			<section id="seven" class="spotlight style6 right">
-				<span class="image fit main"><img src="images/pic07.jpg" alt="" /></span>
-				<div class="content">
-					<div class="table-wrapper">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Muscle</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><font style=bold color="#8d5bc5">Trapezius</font></td>
-												<td>Extend Head</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="852df1">Erector Spinae</font></td>
-												<td>Extend Back</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#8d5bc5">Latisimus Dorsi</font></td>
-												<td>Extends & adducts humerus</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="852df1">Quadratus Lumborum</font></td>
-												<td>Flexing Body</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#8d5bc5">Gluteus Medius</font></td>
-												<td>Abducts Hip</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="852df1">GLUTEUS MAXIMUS</font></td>
-												<td>ur but, and also hip extensor</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#8d5bc5">Hamstring Group</font></td>
-												<td>Extend thigh and flex knee</td>
-												
-											</tr>
-											<tr>
-												<td><font style=bold color="#852df1">Adductor Group</font></td>
-												<td>Adducts</td>
-												
-											</tr>
-											
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="1"></td>
-												
-											</tr>
-										</tfoot>
-									</table>
-								</div>
-						</p> <br \>
-						
-					<ul class="actions">
-					</ul>
-				</div>
-				
-			</section>
-
+	<body onload="init()">
+		<div id="mcmap"></div>
 	</body>
 </html>
