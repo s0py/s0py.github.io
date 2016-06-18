@@ -1,86 +1,173 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
 <!--
-
- ________________________________________ 
-/ We are the Borg. We will add your maps \
-| to our own. Your worlds will adapt to  |
-\ service us. Resistance is futile.      /
- ---------------------------------------- 
-        \
-         \
-          \
-           /-/_"/-/_/-/|
-          /"-/-_"/-_//||
-         /__________/|/|
-         |"|_'='-]:+|/||
-         |-+-|.|_'-"||//
-         |[".[:!+-'=|//
-         |='!+|-:]|-|/
-          ----------
-
-
-
-(http://startrekasciiart.blogspot.de/2011/06/borg-cube.html, thanks to Carlo Valenti!)
-
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-
 <html>
 	<head>
-		<title>Minecraft Map</title>
-		<meta name="generator" content="Mapcrafter 2.2 (v.2.2.1)" />
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
-		<link rel="stylesheet" href="static/leaflet/leaflet.css" />
-		<script src="static/leaflet/leaflet.js"></script>
-		<style type="text/css">
-		.leaflet-container {
-			background: #DDDDDD;
-		}
-		</style>
-		
-		<script type="text/javascript" src="static/js/handler/base.js"></script>
-		<script type="text/javascript" src="static/js/handler/marker.js"></script>
-		<script type="text/javascript" src="static/js/handler/poshash.js"></script>
-		<script type="text/javascript" src="static/js/handler/rotationselect.js"></script>
-		<script type="text/javascript" src="static/js/control/base.js"></script>
-		<script type="text/javascript" src="static/js/control/html.js"></script>
-		<script type="text/javascript" src="static/js/control/mapselect.js"></script>
-		<script type="text/javascript" src="static/js/control/marker.js"></script>
-		<script type="text/javascript" src="static/js/control/mousepos.js"></script>
-		<script type="text/javascript" src="static/js/control/rotationselect.js"></script>
-		<script type="text/javascript" src="static/js/mapcrafterui.js"></script>
-
-		<!-- Last update 22.04.2016, 09:15:19 -->
-		<script type="text/javascript" src="config.js"></script>
-		<script type="text/javascript" src="markers.js"></script>
-		<script type="text/javascript" src="markers-generated.js"></script>
-		<script type="text/javascript">
-		var Mapcrafter = new MapcrafterUI(CONFIG);
-
-		function init() {
-			Mapcrafter.init();
-			
-			Mapcrafter.addControl(new MapSelectControl(), "topright", 1);
-			Mapcrafter.addControl(new RotationSelectControl(), "topright", 3);
-			Mapcrafter.addControl(new MousePosControl(), "bottomleft", 1);
-
-			// merge the two marker configurations
-			var markers = [];
-			if(typeof MAPCRAFTER_MARKERS !== "undefined")
-				for(var i = 0; i < MAPCRAFTER_MARKERS.length; i++)
-					markers.push(MAPCRAFTER_MARKERS[i]);
-			if(typeof MAPCRAFTER_MARKERS_GENERATED !== "undefined")
-				for(var i = 0; i < MAPCRAFTER_MARKERS_GENERATED.length; i++)
-					markers.push(MAPCRAFTER_MARKERS_GENERATED[i]);
-			// only create marker control if marker groups exist
-			if(markers.length > 0)
-				Mapcrafter.addControl(new MarkerControl(markers), "topright", 2);
-		}
-		</script>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<body onload="init()">
-		<div id="mcmap"></div>
+	<body>
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="icon fa-home active"><span>Home</span></a>
+						<a href="#work" class="icon fa-folder"><span>My Plan</span></a>
+						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+						<a href="#" class="icon fa-twitter"><span>Twitter</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Joseph B. S. Vadella</h1>
+									<p>President Apparent</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>Cool Things</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h1>My Plan</h1>
+								</header>
+								<p>
+									<h2>Metric</h2><br>
+									It's god damned 2016<br>
+									<br>
+									<h2>Education</h2><br>
+									
+									Nullify college debt, Free college, all media used for college is under fair use (text books, lectures, etc.), and We are officially adopting Finland's school system and banning standardized tests. <br>
+									<br>
+									<h2>Public Transportation</h2>
+									<br>
+									Bicycles and Trams for all! Fuck cars! Maglev trains to the moon!<br>
+									<br>
+									<h2>Military</h2><br>
+									There are planets to land on and diseases to cure, the military budget is being dropped to 0 and being transfered to NASA and the CDC.<br>
+									<br>
+									<h2>International Relations</h2><br>
+									Apologize to Japan, Russia, Germany, the American People, the Native Americans, Every Latin American country, the citizens of the middle east, close guantonimo, apologize to cuba, stop selling arms to other nations, no more TTP, disarm all nuclear weapons, cure and eliminate Malaria from the world, along with AIDS, and Cancer, and all diseases, and FREE CASCADIA<br>
+									<br>
+									<h2>Free Cascadia?</h2>
+									<br>
+									FREE CASCADIA
+									<br>
+									<br>
+									<h2>Voting?</h2>
+									<br>
+									Schulze Method, immediately. No more ranges<br><br>
+									<h2>Electricity</h2>
+									<br>
+									full Thorium<br><br>
+									<h2>Rights?</h2><br>
+									Internet, Water, Food, Electricity, Housing, Privacy, Guns, Opt-Out from all automaticlly made decisions<br>
+									<br>
+									<h2>Vaccines</h2><br>
+									Croatian policy is now our policy<br><br>
+									<h2>Peurto Rico</h2><br>
+									It's a state. <br><br>
+									<h2>Healthcare</h2><br>
+									Free for everyone<br><br>
+									<h2>Domestic Agenda</h2><br>
+									switch to writing the date as yyyy-mm-dd, replace the money with pictures of scientists and national parks, issue $1 and $2 coins, get rid of the penny, dime, and nickel, fix the names of SEPTEMber, OCTober, NOVEMber, DECEMber<br>
+									
+									<br>
+									<h2>Copyright</h2><br>
+									Everything is under CC 4.0, software is under GPL, copyright doesn't exist, neither do patents.
+									<br>
+									<br>
+									<h2>Language</h2><br>
+									Threaten the world with nuclear annihilation unless the EU and UN agree to hold all meetings and post all reports in lojban<br>
+									<br>
+									<h2>Supreme Court</h2><br>
+									The Supreme Court will change its name, to The Court of Last Resort<br>
+									<br>
+									<h2>Freedoms</h2><br>
+									I will reform lawyers. I hate them. They fight for money, not to find the truth.<br>
+									<br>
+									<h2>Court Hearing</h2>
+									<br> Anyone taking the stand shall have their voice modified and not be visibile<br><br>
+									<h2>Israel</h2><br>
+									Send them to court over war crimes, stop funding them, make them say sorry to Palestine<br><br>
+									<h2>Palestine</h2><br>
+									Make them say sorry to Israel for the terrorism. Give them a country. Initiate, but do not force, a group hug between the two leaders and myself.<br><br>
+									<h2>Vexillology</h2><br>
+									Remove one state right for every day that a state keeps its "blue back ground with state seal" until it's on territorial status again. Also ask Hawaii to please get with.<br><br>\
+									<h2>Capitals</h2><br>
+									Ask if Mongolia and Afghanistan will unite udner one government so that the capital can be Kabulaanbataar.<br><br>
+									<h2>Initiate Internation 'FUCK ENGLAND' Day</h2><br>
+									Celebration between the US, Ireland, Pakistan, and India, celebrating the independence and making fun of New Zealand, Australia, and Canada. <br><br>
+									<h2>North American Currency Union</h2><br>
+									Create a common currency, the Amero, between the 4 nations of Canada, the United States, the United States of Mexico, and Cascadia. <br><br>
+									<h2>Apologies cont.</h2><br>
+									Threaten the world with nuclear war, unless everyone apologizes for everything bad they have ever done. <br><br>
+									
+								</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="6u 12u$(mobile)">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="6u$ 12u$(mobile)">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="12u$">
+												<textarea name="message" placeholder="Message" rows="8"></textarea>
+											</div>
+											<div class="12u$">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
