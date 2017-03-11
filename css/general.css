@@ -1,0 +1,45 @@
+.top{
+	position: absolute;
+	left: 9%; top:0px; right:0px; bottom: 10%;
+	height: 10%;
+	background-color: #B6D8EF
+}
+.left {
+    position:absolute;
+    left:0; top:0%; bottom: 0;
+    width: 9%;
+    background-color: #B6D8EF;
+}
+.main {
+    position: absolute;
+    left:9%; top:6%; right:0; bottom:0;
+    background-color: #ffffff;
+    border-style: solid;
+    box-shadow: 10px 10px 10px 10px #040F16;
+    border-width: 1px;
+    border-color: #040F16;
+}
+.main-content {
+	padding: 1%;
+	padding-top: 0%;
+}
+h1 {
+	font-family: "Times New Roman";
+	font-weight: normal;
+	margin-bottom: 0;
+	font-size: 200%;
+}
+.clock {
+	padding: 1%;
+	font-family: "Roboto";
+	font-weight: 500;
+	color: #2B2D42;
+}
+hr.style13 {
+	border: 0;
+    height: 1px;
+    background: #333;
+}
+.content-body {
+	font-family: "Roboto"
+}
