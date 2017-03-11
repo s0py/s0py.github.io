@@ -2,20 +2,20 @@
 	position: absolute;
 	left: 9%; top:0px; right:0px; bottom: 10%;
 	height: 10%;
-	background-color: #B6D8EF
+	background-color: #e3e3e3
 }
 .left {
     position:absolute;
     left:0; top:0%; bottom: 0;
     width: 9%;
-    background-color: #B6D8EF;
+    background-color: #e3e3e3;
 }
 .main {
     position: absolute;
     left:9%; top:6%; right:0; bottom:0;
     background-color: #ffffff;
     border-style: solid;
-    box-shadow: 10px 10px 10px 10px #040F16;
+    
     border-width: 1px;
     border-color: #040F16;
 }
