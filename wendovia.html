@@ -1,0 +1,123 @@
+<link rel="stylesheet" type="text/css" href="css\general.css">
+<body style="background-color:#f5f5f5;">
+<div class="top">
+	<script>
+	function startTime() {
+	    var today = new Date();
+	    var h = today.getHours();
+	    var m = today.getMinutes();
+	    var s = today.getSeconds();
+	    var year = today.getFullYear();
+	    var month = today.getMonth();
+	    var day = today.getDate();
+	    m = checkTime(m);
+	    s = checkTime(s);
+	    document.getElementById('txt').innerHTML =
+	      year + '-' + month + '-' + day + '\xa0\xa0' + h + ":" + m;
+	    var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+	    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+	    return i;
+	}
+	</script>
+	<body onload="startTime()">
+	<div class="clock">
+		<div id="txt"></div>
+	</div>
+</div>
+<div class="left">
+	<img src="logo.png" style="width: auto; height: auto;max-width: 70%;max-height: 70%; padding: 15%;">
+	<div class="left-content">
+	<a class="style1" href="#">Main page</a> <br>
+	<a class="style1" href="#">Contents</a> <br>
+	<a class="style1" href="#">Featured ontent</a> <br>
+	<a class="style1" href="#">Current Events</a> <br>
+	<a class="style1" href="#">Random article</a> <br>
+	<a class="style1" href="#">Donate</a> <br>
+	<a class="style1" href="#">Wiki Misc</a> <br>
+	<hr class="style2">
+	Interaction <br>
+	<a class="style1" href="#">Help</a> <br>
+	<a class="style1" href="#">About</a> <br>
+	<a class="style1" href="#">Community portal</a> <br>
+	<a class="style1" href="#">Recent Changes</a> <br>
+	<a class="style1" href="#">Contact page</a> <br>
+	<hr class="style2">
+	</div>
+</div>
+<div class="main">
+	<div class="main-content">
+    	<h1>Lorem Ipsum</h1>
+    	<hr class="style1">
+    	<div class="content-body">
+    	<div class="content-box">
+    		<center>
+    			<img src="wendovia.png" style="width: auto; height: auto;max-width: 100%; padding-bottom: 2%;">
+    		</center>
+    		<div class="cb-img-caption">
+    			A map of <a href="./orslozgo">Orslozgo</a>, Wendovia is highlighted in red.
+    		</div>
+    		<div class="row">
+			    <div class="column1">Size</div>
+			    <div class="column2">Largest of the continets</div>
+			</div>
+			<div class="row">
+			    <div class="column1">Demonym</div>
+			    <div class="column2">Wendovian</div>
+			</div>
+			<div class="cb-title-bkg">
+    			<div class="cb-title-text">
+    				Quick Facts
+    			</div>
+    		</div>
+    		<div class="row">
+			    <div class="column1">Known for</div>
+			    <div class="column2">Vast amounts of timber, animal products, arable land, spices, gems, coal, potatoes, carrots, yams, donkeys, iron, gold, water, stone</div>
+			</div>
+			<div class="row">
+			    <div class="column1">History</div>
+			    <div class="column2">Hypothesized to have existed long before being discovered, data in the <a href="./iylanomicon.html">Iylanomicon</a> hinted at it's existence</div>
+			</div>
+    	</div>
+
+    	<p>
+    		Wendovia is a region of Orslozgo West of the Red Pass Mountains that has been uninhabited for a huge portion of recorded history and potentially all history. The region is a general name for an area of land encompassing a large span of climates and terrains from the far north to far south.
+    	</p>
+    	<p>
+    		The region has recently been the subject of wide debate and conversation as it has recently been colonized. Huge amounts of settlers have established cities, town, and villages in the region, tho most are huddled in the south.
+    	</p>
+    	<div class="table-of-contents">
+    		<center style="display: block; padding-top: .4em; padding-bottom: .3em;"><b>Contents</b></center>
+    		1 <a class ="contents" href="#">Settlement</a> <br>
+    		2 <a class ="contents" href="#">Notable Settlements</a> <br>
+    		<tab1> 2.1 <a class ="contents" href="#">Smaller Settlements</a></tab1> <br>
+    	</div>
+    	<h2>Settlement</h2>
+    	<hr class="style1">
+    	<p>
+			The first settlers to the area were humans in the year 681. The band of about 30 was headed by Eric the Wayfarer and they ventured as far west as the Badgebee Lake where they stayed for 3 years. The expedition took around 5 years to complete, and during the expedition numerous records were kept. With the explorers return, hundreds of people moved west to claim the resources told by Eric and his followers. The first towns to be founded were along the Sea of Sands and were one resource producing. Later, other businesses took root and roads between the towns were carved out.
+		</p>
+    	<h2>Notable Settlements</h2>
+    	<ul>
+    		<li><a href="./arbornob.html">Arbornob</a>  <i>Pop. 65 000</i></li>
+			<li><a href="./postjam_beach.html">Postjam Beach</a>  <i>Pop. 87 000</i></li>
+			<li><a href="./crowpart.html">Crowpart</a>  <i>Pop. </i></li>
+			<li><a href="./littletons_pass.html">Littleton's Pass</a>  <i>Pop. 24 650</i></li>
+			<li><a href="./rockbend.html">Rockbend</a>  <i>Pop. - </i></li>
+			<li><a href="./fort_mysie.html">Fort Mysie</a>  <i>Pop. 600</i></li>
+    	</ul>
+    	<h3>Smaller Settlements</h3>
+    	<ul>
+    		<li><a href="./fronanoh.html">Fronanoh</a></li>
+			<li><a href="./maimn.html">Maimn</a></li>
+			<li><a href="./dreallen.html">Dreallen</a></li>
+			<li><a href="./ilozur.html">Ilozur</a></li>
+			<li><a href="./knights_tower.html">Knight's Tower</a></li>
+			<li><a href="./trethorp.html">Trethorp</a></li>
+			<li><a href="./mernant.html">Mernant</a></li>
+			<li><a href="./evergreen.html">Evergreen</a></li>
+    	</ul>
+    	</div>
+    </div>
+</div>
