@@ -1,0 +1,151 @@
+<link rel="stylesheet" type="text/css" href="css\general.css">
+<body style="background-color:#f5f5f5;">
+<div class="top">
+	<script>
+	function startTime() {
+	    var today = new Date();
+	    var h = today.getHours();
+	    var m = today.getMinutes();
+	    var s = today.getSeconds();
+	    var year = today.getFullYear();
+	    var month = today.getMonth();
+	    var day = today.getDate();
+	    m = checkTime(m);
+	    s = checkTime(s);
+	    document.getElementById('txt').innerHTML =
+	      year + '-' + month + '-' + day + '\xa0\xa0' + h + ":" + m;
+	    var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+	    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+	    return i;
+	}
+	</script>
+	<body onload="startTime()">
+	<div class="clock">
+		<div id="txt"></div>
+	</div>
+</div>
+<div class="left">
+	<img src="logo.png" style="width: auto; height: auto;max-width: 70%;max-height: 70%; padding: 15%;">
+	<div class="left-content">
+	<a class="style1" href="#">Main page</a> <br>
+	<a class="style1" href="#">Contents</a> <br>
+	<a class="style1" href="#">Featured ontent</a> <br>
+	<a class="style1" href="#">Current Events</a> <br>
+	<a class="style1" href="#">Random article</a> <br>
+	<a class="style1" href="#">Donate</a> <br>
+	<a class="style1" href="#">Wiki Misc</a> <br>
+	<hr class="style2">
+	Interaction <br>
+	<a class="style1" href="#">Help</a> <br>
+	<a class="style1" href="#">About</a> <br>
+	<a class="style1" href="#">Community portal</a> <br>
+	<a class="style1" href="#">Recent Changes</a> <br>
+	<a class="style1" href="#">Contact page</a> <br>
+	<hr class="style2">
+	</div>
+</div>
+<div class="main">
+	<div class="main-content">
+    	<h1>Lorem Ipsum</h1>
+    	<hr class="style1">
+    	<div class="content-body">
+    	<div class="content-box">
+    		<center>
+    			<img src="4.png" style="width: auto; height: auto;max-width: 100%; padding-bottom: 2%;">
+    		</center>
+    		<div class="cb-img-caption">
+    			This is an image for testing purposes
+    		</div>
+    		<div class="cb-title-bkg">
+    			<div class="cb-title-text">
+    				Subsection
+    			</div>
+    		</div>
+    		<div class="row">
+			    <div class="column1">Phasellus</div>
+			    <div class="column2">Est massa, imperdiet a sapien nec, consequat varius ipsum.</div>
+			</div>
+			<div class="row">
+			    <div class="column1">Lorem</div>
+			    <div class="column2">Ipsum dolor sit amet, consectetur adipiscing elit.</div>
+			</div>
+			<div class="cb-title-bkg">
+    			<div class="cb-title-text">
+    				Subsection
+    			</div>
+    		</div>
+    		<div class="row">
+			    <div class="column1">Phasellus</div>
+			    <div class="column2">Est massa (lorem ipsum)</div>
+			</div>
+			<div class="row">
+			    <div class="column1">Lorem</div>
+			    <div class="column2">Ipsum dolor (sit amet)</div>
+			</div>
+    	</div>
+
+    	<p>
+    		<b>Lorem ipsum</b> dolor sit <b>amet</b>, consectetur adipiscing elit. Sed ac risus sed risus convallis porttitor. Pellentesque nulla ex, fringilla nec posuere a, commodo at ligula. Suspendisse ut quam id turpis rhoncus malesuada vel vitae urna. Donec sed <a href="##">sodales velit</a>. Duis ultricies consequat urna eleifend elementum. Integer tristique porttitor magna, sed accumsan ex gravida ac. Nulla vitae vehicula ante, eget tristique odio. Morbi commodo eget nisi sit amet consectetur. Nulla sodales dignissim turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer euismod, elit at facilisis ultricies, dolor sem gravida orci, eu suscipit sapien diam sed.
+    	</p>
+    	<p>
+    		Vivamus fringilla ipsum nec tellus vestibulum auctor. Ut suscipit eros tortor. Sed id ex laoreet ante mollis mattis. Aliquam tincidunt placerat viverra. Sed eget lacinia ex. Nulla facilisi. Maecenas et sapien elit. Donec ipsum elit, volutpat in felis a, lobortis imperdiet felis. Pellentesque elit leo, dignissim sit amet accumsan quis, vehicula at dui. Quisque ante tortor, tristique ut aliquam in, eleifend vitae sapien. Suspendisse ullamcorper dictum finibus. Morbi eget velit in ante luctus volutpat finibus at nisl. Vivamus ex ligula, sollicitudin sit amet magna a, condimentum hendrerit velit.
+    	</p>
+    	<div class="table-of-contents">
+    		<center style="display: block; padding-top: .4em; padding-bottom: .3em;"><b>Contents</b></center>
+    		1 <a class ="contents" href="#">Name</a> <br>
+    		2 <a class ="contents" href="#">Test</a> <br>
+    		<tab1> 2.1 <a class ="contents" href="#">Sub-test</a></tab1> <br>
+    		<tab2> 2.1.1 <a class ="contents" href="#">Sub-test</a></tab1> <br>
+    		<tab2> 2.1.2 <a class ="contents" href="#">Tiny-test</a></tab1> <br>
+    		3 <a class ="contents" href="#">Section</a> <br>
+    		<tab1>3.1 <a class ="contents" href="#">Sub-section</a></tab1> <br>
+    	</div>
+    	<h2>Name</h2>
+    	<hr class="style1">
+    	<p>
+    		
+		</p>
+    	<p>
+			Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed facilisis lorem ullamcorper ullamcorper molestie. Suspendisse ornare malesuada elit. Integer nec diam risus. In a vehicula dolor.<a href="#" class="ref">[1]</a> Curabitur felis sapien, accumsan sed pretium eu, fringilla a nunc. Donec sed porta neque. Integer turpis velit, venenatis vitae gravida id, volutpat at turpis. Vestibulum pellentesque, diam non aliquet tempor, arcu mi pretium lorem, congue elementum enim nibh consequat justo. Mauris in ornare lectus. Fusce faucibus dolor magna, sit amet luctus neque sagittis quis. Ut sit amet massa velit. Nunc vitae mauris porta, sagittis eros eget, pellentesque eros. Quisque consequat in nisl molestie lacinia. Nulla eget gravida erat, consectetur porta mauris. Nullam sodales leo varius odio congue condimentum.
+		</p>
+		<div class="info-box">
+			<center>
+    			<img src="7.png" style="width: auto; height: auto;max-width: 100%; padding-bottom: 2%;">
+    		</center>
+    		<div class="ib-img-caption">
+    		This is also for testing
+    		</div>
+		</div>
+    	<p>
+			Proin nec massa id turpis rhoncus blandit. Duis vehicula diam augue, et cursus erat tempus vitae. Aliquam id risus at tellus sollicitudin semper at quis diam. Etiam quis euismod nulla, imperdiet semper metus. Cras suscipit est non diam mattis tempus. Cras volutpat scelerisque elit, ut placerat lectus accumsan eu. Nam consequat nisl diam, vitae suscipit diam bibendum vitae.
+		</p>
+    	<p>
+			Vestibulum tempor dui lectus, vitae finibus elit pellentesque a. Fusce venenatis massa nulla, in semper arcu varius non. Nam ac dolor sed odio accumsan luctus.
+    	</p>
+    	<div class="info-box-l">
+			<center>
+    			<img src="3.png" style="width: auto; height: auto;max-width: 100%; padding-bottom: 1%;">
+    		</center>
+    		<div class="ib-img-caption">
+    		This is also for testing
+    		</div>
+    		<center>
+    			<img src="8.png" style="width: auto; height: auto;max-width: 100%; padding-bottom: 1%; padding-top: 1%;">
+    		</center>
+    		<div class="ib-img-caption">
+    		This is also for testing
+    		</div>
+		</div>
+
+    	<p>
+    		Donec facilisis<a href="#" class="ref">[2]</a><a href="#" class="ref">[3]</a>, dolor eu fringilla ultrices, est nulla scelerisque magna, ut tempor ante justo consectetur mauris. In luctus semper mi. Nulla a semper lacus. Ut turpis lorem, scelerisque at nunc ac, scelerisque sollicitudin lectus. Nunc dignissim dignissim interdum. Etiam convallis nisi neque, et mollis orci aliquet ut. Aliquam sit amet dui vehicula, tristique ante et, tincidunt urna. Nullam venenatis, dolor sed gravida maximus, nulla eros congue metus, a tincidunt tortor turpis quis eros. Ut nibh dolor, pellentesque a vehicula quis, ultricies a urna. Pellentesque iaculis tortor sed metus semper imperdiet. In luctus, odio pharetra cursus pellentesque, augue eros tempor massa, id sagittis massa enim ac mi. Duis tristique posuere quam nec consequat. Fusce maximus eleifend lacus nec interdum. Sed mauris lacus, porta nec lorem elementum, consequat aliquam felis. Nam porttitor ac mi eget efficitur. Mauris vulputate nisi eget hendrerit aliquam. Aenean ac turpis at enim sodales ornare ut et massa. Maecenas sed viverra urna. Nunc eleifend in nisi ac congue. Integer commodo neque vitae dignissim sagittis. Sed nunc nibh, hendrerit id tortor sit amet, finibus pulvinar neque. Aenean ac purus tellus. Quisque sit amet volutpat velit. Mauris tristique neque vel varius accumsan. In a porttitor erat, et bibendum eros. Aenean interdum auctor neque a rhoncus. Pellentesque eleifend velit ac volutpat rhoncus.
+    	</p>
+    	<p>
+    		Donec facilisis, dolor eu fringilla ultrices, est nulla scelerisque magna, ut tempor ante justo consectetur mauris. In luctus semper mi. Nulla a semper lacus. Ut turpis lorem, scelerisque at nunc ac, scelerisque sollicitudin lectus. Nunc dignissim dignissim interdum. Etiam convallis nisi neque, et mollis orci aliquet ut. Aliquam sit amet dui vehicula, tristique ante et, tincidunt urna. Nullam venenatis, dolor sed gravida maximus, nulla eros congue metus, a tincidunt tortor turpis quis eros. Ut nibh dolor, pellentesque a vehicula quis, ultricies a urna. Pellentesque iaculis tortor sed metus semper imperdiet. In luctus, odio pharetra cursus pellentesque, augue eros tempor massa, id sagittis massa enim ac mi. Duis tristique posuere quam nec consequat. Fusce maximus eleifend lacus nec interdum. Sed mauris lacus, porta nec lorem elementum, consequat aliquam felis. Nam porttitor ac mi eget efficitur. Mauris vulputate nisi eget hendrerit aliquam. Aenean ac turpis at enim sodales ornare ut et massa. Maecenas sed viverra urna. Nunc eleifend in nisi ac congue. Integer commodo neque vitae dignissim sagittis. Sed nunc nibh, hendrerit id tortor sit amet, finibus pulvinar neque. Aenean ac purus tellus. Quisque sit amet volutpat velit. Mauris tristique neque vel varius accumsan. In a porttitor erat, et bibendum eros. Aenean interdum auctor neque a rhoncus. Pellentesque eleifend velit ac volutpat rhoncus.
+    	</p>
+
+    	</div>
+    </div>
+</div>
