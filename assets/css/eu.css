@@ -1,0 +1,22 @@
+body { background:#eee; margin:1em; text-align:center; }
+canvas { display:block; margin:1em auto; background:#fff; border:1px solid #ccc }
+
+ul {
+    margin: 20px;
+}
+
+.input-color {
+    position: relative;
+}
+.input-color input {
+    padding-left: 20px;
+}
+.input-color .color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
