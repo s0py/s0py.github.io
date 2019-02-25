@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>OktopusBoks</title>
+    <link rel="stylesheet" href="assets/css/dnd.css">
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <div class="weather-container">
+            <div class="row">
+                <h2>𝕷𝖔𝖔𝖙 𝕲𝖊𝖓𝖊𝖗𝖆𝖙𝖔𝖗</h2>
+            </div>
+        </div>
+        <div class="bookmark-container">
+            <!--
+            -->
+            <div class="bookmark-set">
+                <div class="bookmark-title-1">Food</div>
+                <div class="bookmark-inner-container">
+                    <input type="button" id="btnSearch" value="Forest" onclick="GetValue(1);" />
+                    <input type="button" id="btnSearch" value="Mountain" onclick="GetValue(2);" />
+                    <input type="button" id="btnSearch" value="Water/Coastal" onclick="GetValue(3);" />
+                    <input type="button" id="btnSearch" value="Plains/Meadow" onclick="GetValue(4);" />
+                    <input type="button" id="btnSearch" value="Arid/Desert" onclick="GetValue(5);" />
+					<p id="message" style="color:white"></p>
+                </div>
+            </div>
+            <div class="bookmark-set">
+            <div class="bookmark-title-2">Items</div>
+                <div class="bookmark-inner-container">
+                    
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title-0">Weapons</div>
+                <div class="bookmark-inner-container">
+                    
+                </div>
+            </div>
+            <!--
+            <div class="bookmark-set">
+                <div class="bookmark-title-3">Misc</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://twitter.com" target="_blank">Twitter</a>
+                    <a class="bookmark" href="https://facebook.com" target="_blank">Facebook</a>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+
+    <script>
+		function GetValue(location)
+		{
+			var forest = new Array("Ramps (Wild Leeks)", "River Cane Shoots", "Fiddleheads (Young Ferns)", "Oyster Mushroom", "Quail Eggs", "Catfish", "Queen Anne’s Lace (Wild Carrots)", "Chicken of the Woods Mushroom", "Cattails (near water)", "BlackBerries", "Chicory (Leafy Vegetable)", "Paw Paw (Tree Fruit)", "Black Walnuts", "Acorns", "Bolete Mushrooms", "Rose Hips (Rose Bush Berries)", "Crabapple (Tree Fruit)", "Persimmons (Tree Fruit)", "Gingko nuts", "Chestnuts", "Honeycomb", "Abandoned cart with cheeses", "A buried, but sealed, cask of ale", "Cottage ruins with jarred preserves", "Several fat, nutritious grubs");
+			var mountain = new Array("Shaggy Mane Mushrooms", "Horseradish", "Rhubarb", "Morel Mushrooms", "Green Fir Pine Cones", "Cherries", "Gooseberry", "Blueberry", "Elderberries", "Raspberries", "Porcini Mushroom", "Chanterelle", "Salmon", "Sheep Sorrel (Leafy Vegetable)", "Evergreen Needles", "Camas Root", "Actinidia (Bush Fruit)", "Juniper Berries", "Sea buckthorn (Bush Berry)", "Usnea – Old Man’s Beard (Moss)", "Honeycomb", "Abandoned cart with cheeses", "A buried, but sealed, cask of ale", "Cottage ruins with jarred preserves", "Several fat, nutritious grubs")
+			var coast = new Array("Pepper Dulse (Seaweed)", "Gutweed (Seaweed)", "Brown Crabs", "Duck Eggs", "Sandpiper Eggs", "Brown shrimp", "Snails", "Sugar Kelp (Seaweed)", "Sea Lettuce (Seaweed)", "Beach Peas", "Beach Mustard (Leafy Vegetable)", "Sand Crab", "Watercress (Leafy Vegetable)", "Oarweed (Seaweed)", "Serrated Wrack (Seaweed)", "Mussels", "Laver (Seaweed)", "Dumont’s Weed (Seaweed)", "Clams", "Oysters", "Honeycomb", "Abandoned cart with cheeses", "A buried, but sealed, cask of ale", "Cottage ruins with jarred preserves", "Several fat, nutritious grubs")
+			var meadow = new Array("Wild Violets", "Dandelions", "Burdock (Leafy Vegetable)", "Daylilies", "Kudzu (Leafy Vegetable)", "Lambsquarter (Leafy Vegetable)", "Purslane (Succulent)", "Miner’s Lettuce", "Hedgehog Mushrooms", "Wild Onions", "Strawberries", "Wild Grapes", "Wild Apples", "Squash", "Pecans", "Kinnikinnick (Leafy Vegetable)", "Greenbriar Root", "Cattail Root", "Chickweed", "Teaberry", "Honeycomb", "Abandoned cart with cheeses", "A buried, but sealed, cask of ale", "Cottage ruins with jarred preserves", "Several fat, nutritious grubs")
+			var arid = new Array("Nettles (Leafy Vegetable)", "Agarita Berries", "Yucca Flower", "Milk Thistle", "Chiávul Buds (Cactus)", "Saguaro Fruit (Cactus)", "Mulberries", "Wild Poppies", "Hackberry", "Amaranth", "Honey Mesquite (Bush and Seeds)", "Prickly Pear (Cactus)", "Peppergrass", "Sweetgum Pods", "Henbit (Leafy Vegetable)", "Buffalo Gourd", "Carolina Bristle Mallow", "Barrel Cactus", "Agave", "Arrowhead Root", "Honeycomb", "Abandoned cart with cheeses", "A buried, but sealed, cask of ale", "Cottage ruins with jarred preserves", "Several fat, nutritious grubs")
+			if(location==1){
+				var location = forest
+			}
+			if(location==2){
+				var location = mountain
+			}
+			if(location==3){
+				var location = coast
+			}
+			if(location==4){
+				var location = meadow
+			}
+			if(location==5){
+				var location = arid
+			}
+			var random = location[Math.floor(Math.random() * location.length)];
+			//alert(random);
+			document.getElementById("message").innerHTML=random;
+		}
+    </script>
+</body>
+</html>
