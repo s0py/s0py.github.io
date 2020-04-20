@@ -41,77 +41,77 @@
 1/-,Tunic,fur trimmed,20,clothing,,
 8½p,Tunic,leather,0,clothing,,
 1/-,Tunic,silk,0,clothing,,
-5/-,Boots,Riding,0,appendages,,
-1/-,Boots,High soft leather,5 if furred,appendages,,
-2/-,Boots,High hard leather,5 if furred,appendages,,
-1/-,Boots,Low soft leather,5 if furred,appendages,,
-9¾p,Boots,Low hard leather,5 if furred,appendages,,
-4/-,Boots,Waterproof,0,appendages,,
-5/-,Boots,High healed,-5,appendages,,
-6¼p,Shoes,Basic,0,appendages,,
-1s.6p,Shoes,Dancing,0,appendages,,
-2cr.5/-,Shoes,Elven,0,appendages,,
-2/-,Shoes,Moccasins,0,appendages,,
-1/-,Shoes,High heeled,0,appendages,,
-12/-,Jester,clumsy bright,0,appendages,,
-5/2p,Sandals,common,0,appendages,,
-6¼p,Sandals,high heeled,0,appendages,,
-1s.6p,Slipper,linen,0,appendages,,
-1cr.15/-,Slipper,quilted silk,0,appendages,,
-1/-,Slipper,wool,0,appendages,,
-5/4p,Socks,common,5,appendages,,
-5/-,Panties,silk,0,appendages,,
-10/-,Panties,embroidered,0,appendages,,
-2/-,Snowshoes,common,10,appendages,,
-10/-,Gauntlet,Swordsman,0,appendages,,
-6¼p,Gauntlet,Perch Glove,0,appendages,,
-5/-,Gloves,Thieve's,0,appendages,,
-5/-,Gloves,Spiked,0,appendages,,
-6¼p,Gloves,Heavy leather,0,appendages,,
-1/-,Gloves,Soft linen,0,appendages,,
-4/-,Gloves,Soft Archery,5,appendages,,
-4/-,Gloves,Sloth and fur,0,appendages,,
-15/-,Gloves,Silk,0,appendages,,
-16/-,Gloves,Snakeskin,0,appendages,,
-3¾p,Mittens,Normal,10,appendages,,
-7s.6p,Mittens,Arctic,40,appendages,,
-8½p,Hat,cloth,5,appendages,,
-2/-,Hat,fur,15,appendages,,
-5/2p,Hat,straw,0,appendages,,
-5/2p,Hat,leather,0,appendages,,
-6¼p,Hat,fancy,0,appendages,,
-5/2p,Hat,wool,10,appendages,,
-7¼p,Bra,common,0,smallclothes,,
-2s.7¼p,Bra,push-up,0,smallclothes,,
-5/-,Bustle,side,0,smallclothes,,
-9/-,Bustle,rear,0,smallclothes,,
-1s.6p,Corest,X,0,smallclothes,"Dx-1, Ch + 1",
-1s.5/2p,Corset,V,0,smallclothes,"dDx -1, Ch + 1",
-6¼p,Suspenders,Leather,0,smallclothes,,
-6/-,Nightshirt,common,0,smallclothes,,
-1s.5/2p,Waistcincer,common,0,smallclothes,"Dx -1, Ch +1",
-10/-,Arctic Coat,common,30,outer,,
-5/2p,Cape,straw,0,outer,,
-5p,Cape,half,0,outer,,
-8½p,Cape,full,0,outer,,
-5/-,Cloak,short,0,outer,,
-10/-,Cloak,long,0,outer,,
-2cr.10/s-,Camo,night,0,outer,,
-2cr.10/s-,Camo,desert,0,outer,,
-2cr.10/s-,Camo,snow,0,outer,,
-2cr.10/s-,Camo,grasslands,0,outer,,
-2cr.10/s-,Cmao,growth,0,outer,,
-2cr.10/s-,Camo,aquatic,0,outer,,
-2cr.10/s-,Camo,rocky,0,outer,,
-3cr.,Camo,fur,10,outer,,
-5/-,Tarcloak,long,0,outer,,
-5/-,Parka,common,15,outer,,
-6/-,Poncho,rain,5,outer,,
-4cr.,Silk Jacket,common,0,outer,,
-7¼p,Surcoat,linen,0,outer,,
-7¼p,Tabard,heraldic,0,outer,,
-6/-,Tabard,cleric,0,outer,,
-3cr.,Tabard,embroidered,0,outer,,
+5/-,Boots,Riding,0,"clothing, appendages",,
+1/-,Boots,High soft leather,5 if furred,"clothing, appendages",,
+2/-,Boots,High hard leather,5 if furred,"clothing, appendages",,
+1/-,Boots,Low soft leather,5 if furred,"clothing, appendages",,
+9¾p,Boots,Low hard leather,5 if furred,"clothing, appendages",,
+4/-,Boots,Waterproof,0,"clothing, appendages",,
+5/-,Boots,High healed,-5,"clothing, appendages",,
+6¼p,Shoes,Basic,0,"clothing, appendages",,
+1s.6p,Shoes,Dancing,0,"clothing, appendages",,
+2cr.5/-,Shoes,Elven,0,"clothing, appendages",,
+2/-,Shoes,Moccasins,0,"clothing, appendages",,
+1/-,Shoes,High heeled,0,"clothing, appendages",,
+12/-,Jester,clumsy bright,0,"clothing, appendages",,
+5/2p,Sandals,common,0,"clothing, appendages",,
+6¼p,Sandals,high heeled,0,"clothing, appendages",,
+1s.6p,Slipper,linen,0,"clothing, appendages",,
+1cr.15/-,Slipper,quilted silk,0,"clothing, appendages",,
+1/-,Slipper,wool,0,"clothing, appendages",,
+5/4p,Socks,common,5,"clothing, appendages",,
+5/-,Panties,silk,0,"clothing, appendages",,
+10/-,Panties,embroidered,0,"clothing, appendages",,
+2/-,Snowshoes,common,10,"clothing, appendages",,
+10/-,Gauntlet,Swordsman,0,"clothing, appendages",,
+6¼p,Gauntlet,Perch Glove,0,"clothing, appendages",,
+5/-,Gloves,Thieve's,0,"clothing, appendages",,
+5/-,Gloves,Spiked,0,"clothing, appendages",,
+6¼p,Gloves,Heavy leather,0,"clothing, appendages",,
+1/-,Gloves,Soft linen,0,"clothing, appendages",,
+4/-,Gloves,Soft Archery,5,"clothing, appendages",,
+4/-,Gloves,Sloth and fur,0,"clothing, appendages",,
+15/-,Gloves,Silk,0,"clothing, appendages",,
+16/-,Gloves,Snakeskin,0,"clothing, appendages",,
+3¾p,Mittens,Normal,10,"clothing, appendages",,
+7s.6p,Mittens,Arctic,40,"clothing, appendages",,
+8½p,Hat,cloth,5,"clothing, appendages",,
+2/-,Hat,fur,15,"clothing, appendages",,
+5/2p,Hat,straw,0,"clothing, appendages",,
+5/2p,Hat,leather,0,"clothing, appendages",,
+6¼p,Hat,fancy,0,"clothing, appendages",,
+5/2p,Hat,wool,10,"clothing, appendages",,
+7¼p,Bra,common,0,smallclothing,,
+2s.7¼p,Bra,push-up,0,smallclothing,,
+5/-,Bustle,side,0,smallclothing,,
+9/-,Bustle,rear,0,smallclothing,,
+1s.6p,Corest,X,0,smallclothing,"Dx-1, Ch + 1",
+1s.5/2p,Corset,V,0,smallclothing,"dDx -1, Ch + 1",
+6¼p,Suspenders,Leather,0,smallclothing,,
+6/-,Nightshirt,common,0,smallclothing,,
+1s.5/2p,Waistcincer,common,0,smallclothing,"Dx -1, Ch +1",
+10/-,Arctic Coat,common,30,outer clothing,,
+5/2p,Cape,straw,0,outer clothing,,
+5p,Cape,half,0,outer clothing,,
+8½p,Cape,full,0,outer clothing,,
+5/-,Cloak,short,0,outer clothing,,
+10/-,Cloak,long,0,outer clothing,,
+2cr.10/s-,Camo,night,0,outer clothing,,
+2cr.10/s-,Camo,desert,0,outer clothing,,
+2cr.10/s-,Camo,snow,0,outer clothing,,
+2cr.10/s-,Camo,grasslands,0,outer clothing,,
+2cr.10/s-,Cmao,growth,0,outer clothing,,
+2cr.10/s-,Camo,aquatic,0,outer clothing,,
+2cr.10/s-,Camo,rocky,0,outer clothing,,
+3cr.,Camo,fur,10,outer clothing,,
+5/-,Tarcloak,long,0,outer clothing,,
+5/-,Parka,common,15,outer clothing,,
+6/-,Poncho,rain,5,outer clothing,,
+4cr.,Silk Jacket,common,0,outer clothing,,
+7¼p,Surcoat,linen,0,outer clothing,,
+7¼p,Tabard,heraldic,0,outer clothing,,
+6/-,Tabard,cleric,0,outer clothing,,
+3cr.,Tabard,embroidered,0,outer clothing,,
 1/-,Tattoo,Black,0,accessories,,
 2/-,Tattoo,Colored,0,accessories,,
 5/2p,Belt,common,0,accessories,,
@@ -179,7 +179,7 @@
 2p,Soup,Tomato,,food,,
 5/4p,Fish,River,,food,,
 1s.6p,Fish,Smoked Shark,,food,,
-3/-,Fish,Roast,,food,,
+3/-,Roast,Fish,,food,,
 3/-,Fish,Crab,,food,,
 7¼p,Fish,Caviar,,food,,
 10/-,Fish,Whale Blubber,,food,,
@@ -412,3 +412,75 @@ varies,Musical Instrument,,,misc,,.5 to 3
 3/-,Shield,small,0,armor,,5
 4cr.,Splint mail,,0,armor,,40
 1cr.,Studded leather,,0,armor,,25
+4H.1cr.,Arquebus,,,weapon,1d10 1d10 p,10
+5/-,Battle Axe,,,weapon,1d8 1d8 s,7
+5/-,Blowgun,,,weapon,-,2
+5/4p,Blowgun,barbed dart,,weapon,1d3 1d2 p,*
+¼p,Blowgun,needle,,weapon,1 1 p,*
+1cr.10/-,Bow,short,,weapon,-,2
+3cr.15s/-,Bow,long,,weapon,-,3
+3cr.15/-,Bow,composite short,,weapon,-,2
+5cr.,Bow,composite long,,weapon,-,3
+½p,Bow,flight arrow,,weapon,1d6 1d6 p,*
+¾p,Bow,sheaf arrow,,weapon,1d8 1d8 p,*
+¼p,Club,,,weapon,1d6 1d3 b,3
+2H.3cr.,Crossbow,hand,,weapon,-,3
+1cr.15/-,Crossbow,light,,weapon,-,7
+2cr.10/-,Crossbow,heavy,,weapon,-,14
+1/-,Crossbow,hand quarrel,,weapon,1d3 1d2 p,*
+5/4p,Crossbow,light quarrel,,weapon,1d4 1d4 p,*
+5/2p,Crossbow,heavy quarrel,,weapon,1d4+1 1d6+1 p,*
+2/-,Dagger or dirk,,,weapon,1d4 1d3 p,1
+6¼p,Dart,,,weapon,1d3 1d2 p,0.5
+15/-,Footman's Flail,,,weapon,1d6+1 2d4 b,15
+8/-,Footman's mace,,,weapon,1d6+1 1d6 b,10
+8/-,Footman's pick,,,weapon,1d6+1 2d4 b,6
+1/-,hand axe,,,weapon,1d6 1d4 s,5
+1cr.,harpoon,,,weapon,2d4 2d6 p,6
+8/-,Horseman's Flail,,,weapon,1d4+1 1d4+1 b,5
+5/-,Horseman's Mace,,,weapon,1d6 1d4 b,6
+7/-,Horseman's pick,,,weapon,1d4+1 1d4 p,4
+6¼p,Javelin,,,weapon,1d6 1d6 p,2
+6¼p,Knife,,,weapon,1d6 1d6 p/s,0.5
+15/-,Lance,heavy horse,,weapon,1d8+1 3d6 p,15
+6/-,Lance,light horse,,weapon,1d6 1d8 p,5
+1cr.,Lance,jousting,,weapon,1d3-1 1d2-1 p,20
+10/-,Lance,medium horse,,weapon,1d6+1 2d6,10
+1cr.10/-,Mancatcher,,,weapon,-,8
+10/-,Morning star,,,weapon,2d4 1d6+1 p/b,12
+5/-,Polearm,awl pike,,weapon,1d6 1d12 p,12
+7/-,Polearm,bardiche,,weapon,2d4 2d6 s,12
+8/-,Polearm,bec de corbin,,weapon,1d8 1d6 p/b,10
+7/-,Polearm,bill-guisarme,,weapon,2d4 1d10 p/s,15
+5/-,Polearm,fauchard,,weapon,1d6 1d8 p/s,7
+8/-,Polearm,fauchard-fork,,weapon,1d8 1d10 p/s,9
+6/-,Polearm,glaive,,weapon,1d6 1d10 s,8
+10/-,Polearm,glaive-guisarme,,weapon,2d4 2d6 p/s,10
+5/-,Polearm,guisarme,,weapon,2d4 1d8 s,8
+8/-,Polearm,guisarme-voulge,,weapon,1d4 1d4 p/s,15
+10/-,Polearm,halberd,,weapon,1d10 2d6 p/s,15
+10/-,Polearm,hook fauchard,,weapon,1d4 1d4 p/s,8
+7/-,Polearm,lucern hammer,,weapon,2d4 1d6 p/b,15
+5/-,Polearm,military fork,,weapon,1d8 2d4 p,7
+10/-,Polearm,partisan,,weapon,1d6 1d6+1 p,8
+6/-,Polearm,ranseur,,weapon,2d4 2d4 p,7
+5/-,Polearm,spetum,,weapon,1d6+1 2d6 p,7
+5/-,Polearm,voulge,,weapon,2d4 2d4 s,12
+¼p,Quarterstaff,,,weapon,1d6 1d6 b,4
+1/-,Scourge,,,weapon,1d4 1d2 -,2
+7¼p,Sickle,,,weapon,1d4+1 1d4 s,3
+¾p,Sling,,,weapon,-,*
+¼p,Sling,bullet,,weapon,1d4+1 1d6+1 b,*
+¼p,Sling,stone,,weapon,1d4 1d4 b,*
+9¾p,Spear,,,weapon,1d6 1d8 p,5
+5/2p,Staff sling,,,weapon,-,2
+1cr.5/-,Sword,bastard,,weapon,1d8(2d4) 1d12(2d8) s,10
+10/-,Sword,broad,,weapon,2d4 1d6+1 s,4
+10/-,Sword,khopesh,,weapon,2d4 1d6 s,7
+15/-,Sword,long,,weapon,1d8 1d12 s,4
+15/-,Sword,scimitar,,weapon,1d8 1d8 s,4
+10/-,Sword,short,,weapon,1d6 1d8 p,3
+2cr.10/-,Sword,two-handed,,weapon,1d10 3d6 s,15
+15/-,Trident,,,weapon,1d6+1 3d4 p,5
+2/-,Warhammer,,,weapon,1d4+1 1d4 b,6
+5/4p,Whip,,,weapon,1d2 1 -,2
