@@ -121,7 +121,7 @@
 5/-,Insect Repellant,citrus,0,accessories,,
 3¾p,Umbrella,common,0,accessories,,
 3¾p,Purse,common,0,accessories,,
-1/-,Sewing kit,,0,accessories,,
+1/-,Sewing Kit,,0,accessories,,
 3¾p,Cane,,0,accessories,,
 2/-,Weapon Black,,0,accessories,,
 ½p,Egg,chicken,,food,,
@@ -269,28 +269,28 @@
 5/4p,Cat,,,animal,,
 ¼p,Chicken,,,animal,,
 10/-,Cow,,,animal,,
-1cr.5/-,"Dog, guard",,,animal,,
-17/-,"Dog, hunting",,,animal,,
-1cr.,"Dog, war",,,animal,,
+1cr.5/-,"Dog, Guard",,,animal,,
+17/-,"Dog, Hunting",,,animal,,
+1cr.,"Dog, War",,,animal,,
 8/-,Donkey,,,animal,,
-1H.4cr.,"Elephant, labor",,,animal,,
-4H.1cr.,"Elephant, war",,,animal,,
-5cr.,Falcon (trained),,,animal,,
+1H.4cr.,"Elephant, Labor",,,animal,,
+4H.1cr.,"Elephant, War",,,animal,,
+5cr.,Falcon (Trained),,,animal,,
 1/-,Goat,,,animal,,
 ¾p,Goose,,,animal,,
 ¼p,Guinea Hen,,,animal,,
-1H.4cr.,Horse draft,,,animal,,
-3H.2cr.,Horse heavy war,,,animal,,
-1H.1cr.10/-,Horse light war,,,animal,,
-1H.5cr.5/-,Horse medium war,,,animal,,
-3cr.15/-,Horse riding,,,animal,,
-41H.4cr.,Hunting cat,,,animal,,
+1H.4cr.,Horse Draft,,,animal,,
+3H.2cr.,Horse Heavy War,,,animal,,
+1H.1cr.10/-,Horse Light War,,,animal,,
+1H.5cr.5/-,Horse Medium War,,,animal,,
+3cr.15/-,Horse Riding,,,animal,,
+41H.4cr.,Hunting Cat,,,animal,,
 15/-,Ox,,,animal,,
 ¾p,Partridge,,,animal,,
 6¼p,Peacock,,,animal,,
 3/-,Pig,,,animal,,
 ¼p,Pigeon,,,animal,,
-5cr.,Pigeon homing,,,animal,,
+5cr.,Pigeon Homing,,,animal,,
 1cr.10/-,Pony,,,animal,,
 4/-,Ram,,,animal,,
 2/-,Sheep,,,animal,,
@@ -309,9 +309,9 @@
 1/-,Barding,Horseshoes & shoeing,,tackle,,10
 5/-,Saddle,Pack,,tackle,,15
 10/-,Saddle,Riding,,tackle,,35
-4/-,Saddle bag,Large,,tackle,,8
-3/-,Saddle bag,Small,,tackle,,5
-3¾p,Saddle bag,Saddle blanket,,tackle,,4
+4/-,Saddle Bag,Large,,tackle,,8
+3/-,Saddle Bag,Small,,tackle,,5
+3¾p,Saddle Bag,Saddle blanket,,tackle,,4
 5/-,Yoke,Horse,,tackle,,15
 3/-,Yoke,Ox,,tackle,,20
 ½p,Bath,,,service,,
@@ -323,7 +323,7 @@
 5/4p,Messenger,per message,,service,,
 3/-,Minstrel,per performance,,service,,
 5/2p,Mourner,per funeral,,service,,
-5/4p,Teamster w/ wagon,per mile,,service,,
+5/4p,Teamster W/ Wagon,per mile,,service,,
 2/-,Backpack,,,misc,,2
 2/-,Barrel,,,misc,,30
 3¾p,Basket,Large,,misc,,1
@@ -331,8 +331,8 @@
 1/-,Bell,,,misc,,
 1/-,Belt Pouch,Large,,misc,,1
 8½p,Belt Pouch,Small,,misc,,0.5
-5/-,Block and tackle,,,misc,,5
-1/-,Bolt case,,,misc,,1
+5/-,Block And Tackle,,,misc,,5
+1/-,Bolt Case,,,misc,,1
 6¼p,Bucket,,,misc,,3
 4/-,Chain,Heavy,,misc,per foot,3
 3/-,Chain,Light,,misc,per foot,1
@@ -346,21 +346,21 @@
 ¼p,Chalk,,,misc,,*
 4/-,Crampons,,,misc,,2
 5/4p,Fishhook,,,misc,,**
-4/-,Fishing net,,,misc,10 sq feet,5
-6¼p,Flint and Steel,,,misc,,*
-10/-,Glass bottle,,,misc,,*
-9¾p,Grappling hook,,,misc,,4
-1cr.5/-,Holy item,symbol,,misc,,*
-1cr.5/-,Holy item,water,,misc,,*
+4/-,Fishing Net,,,misc,10 sq feet,5
+6¼p,Flint And Steel,,,misc,,*
+10/-,Glass Bottle,,,misc,,*
+9¾p,Grappling Hook,,,misc,,4
+1cr.5/-,Holy Item,symbol,,misc,,*
+1cr.5/-,Holy Item,water,,misc,,*
 6¼p,Hourglass,,,misc,,1
-¾p,Iron pot,,,misc,,2
+¾p,Iron Pot,,,misc,,2
 1H.1cr.10/-,Ladder,,,misc,10 ft,20
 1H.1cr.10/-,Lantern,Beacon,,misc,,50
 12/-,Lantern,Bullseye,,misc,,3
 7/-,Lantern,Hooded,,misc,,2
 1cr.,Padlock,,,misc,,1
 5cr.,Magnifying Glass,,,misc,,*
-9¾p,Map or scroll case,,,misc,,0.5
+9¾p,Map Or Scroll Case,,,misc,,0.5
 2/-,Merchant's Scale,,,misc,,1
 10/-,Mirror,metal,,misc,,*
 varies,Musical Instrument,,,misc,,.5 to 3
@@ -379,36 +379,36 @@ varies,Musical Instrument,,,misc,,.5 to 3
 1/-,Wax,sealing/candle,,misc,,1
 6¼p,Needle,sewing,,misc,,**
 9¾p,Whistle,signal,,misc,,*
-5/-,signet ring or personal seal,,,misc,,*
-6¼p,soap,,,misc,per lb,1
-8H.2cr.,spyglass,,,misc,,1
-1cr.10/-,Thieve's picks,,,misc,,1
+5/-,Signet Ring Or Personal Seal,,,misc,,*
+6¼p,Soap,,,misc,per lb,1
+8H.2cr.,Spyglass,,,misc,,1
+1cr.10/-,Thieve's Picks,,,misc,,1
 ¼p,Torchbearer,,,misc,,1
-8H.2cr.,Water clock,,,misc,,200
+8H.2cr.,Water Clock,,,misc,,200
 ¼p,Whetstone,,,misc,,1
 9¾p,Wineskin,,,misc,,1
-6¼p,Winter blanket,,,misc,,3
-8/-,ink,,,misc,per vial,*
-1H.4cr.,Banded mai,,0,armor,,35
+6¼p,Winter Blanket,,,misc,,3
+8/-,Ink,,,misc,per vial,*
+1H.4cr.,Banded Mai,,0,armor,,35
 6cr.,Brigandine,,0,armor,,35
-3H.2cr.,Bronze plate mail,,0,armor,,45
-3cr.15/-,Chain mail,,0,armor,,40
-16H.4cr.,Field plate,,0,armor,,60
-83H.,Full plate,,0,armor,,70
-1cr.10/-,Great helm,,0,armor,,10
+3H.2cr.,Bronze Plate Mail,,0,armor,,45
+3cr.15/-,Chain Mail,,0,armor,,40
+16H.4cr.,Field Plate,,0,armor,,60
+83H.,Full Plate,,0,armor,,70
+1cr.10/-,Great Helm,,0,armor,,10
 8/-,Basinet,,0,armor,,5
 15/-,Hide,,0,armor,,30
 5/-,Leather,,0,armor,,15
 4/-,Padded,,0,armor,,10
-4H.6cr.,Plate mail,,0,armor,,50
-5cr.,Ring mail,,0,armor,,30
-6cr.,Scale mail,,0,armor,,40
+4H.6cr.,Plate Mail,,0,armor,,50
+5cr.,Ring Mail,,0,armor,,30
+6cr.,Scale Mail,,0,armor,,40
 10/-,Shield,body,0,armor,,15
 1/-,Shield,buckler,0,armor,,3
 7/-,Shield,medium,0,armor,,10
 3/-,Shield,small,0,armor,,5
-4cr.,Splint mail,,0,armor,,40
-1cr.,Studded leather,,0,armor,,25
+4cr.,Splint Mail,,0,armor,,40
+1cr.,Studded Leather,,0,armor,,25
 4H.1cr.,Arquebus,,,weapon,1d10 1d10 p,10
 5/-,Battle Axe,,,weapon,1d8 1d8 s,7
 5/-,Blowgun,,,weapon,-,2
@@ -427,16 +427,16 @@ varies,Musical Instrument,,,misc,,.5 to 3
 1/-,Crossbow,hand quarrel,,weapon,1d3 1d2 p,*
 5/4p,Crossbow,light quarrel,,weapon,1d4 1d4 p,*
 5/2p,Crossbow,heavy quarrel,,weapon,1d4+1 1d6+1 p,*
-2/-,Dagger or dirk,,,weapon,1d4 1d3 p,1
+2/-,Dagger Or Dirk,,,weapon,1d4 1d3 p,1
 6¼p,Dart,,,weapon,1d3 1d2 p,0.5
 15/-,Footman's Flail,,,weapon,1d6+1 2d4 b,15
-8/-,Footman's mace,,,weapon,1d6+1 1d6 b,10
-8/-,Footman's pick,,,weapon,1d6+1 2d4 b,6
-1/-,hand axe,,,weapon,1d6 1d4 s,5
-1cr.,harpoon,,,weapon,2d4 2d6 p,6
+8/-,Footman's Mace,,,weapon,1d6+1 1d6 b,10
+8/-,Footman's Pick,,,weapon,1d6+1 2d4 b,6
+1/-,Hand Axe,,,weapon,1d6 1d4 s,5
+1cr.,Harpoon,,,weapon,2d4 2d6 p,6
 8/-,Horseman's Flail,,,weapon,1d4+1 1d4+1 b,5
 5/-,Horseman's Mace,,,weapon,1d6 1d4 b,6
-7/-,Horseman's pick,,,weapon,1d4+1 1d4 p,4
+7/-,Horseman's Pick,,,weapon,1d4+1 1d4 p,4
 6¼p,Javelin,,,weapon,1d6 1d6 p,2
 6¼p,Knife,,,weapon,1d6 1d6 p/s,0.5
 15/-,Lance,heavy horse,,weapon,1d8+1 3d6 p,15
@@ -444,7 +444,7 @@ varies,Musical Instrument,,,misc,,.5 to 3
 1cr.,Lance,jousting,,weapon,1d3-1 1d2-1 p,20
 10/-,Lance,medium horse,,weapon,1d6+1 2d6,10
 1cr.10/-,Mancatcher,,,weapon,-,8
-10/-,Morning star,,,weapon,2d4 1d6+1 p/b,12
+10/-,Morning Star,,,weapon,2d4 1d6+1 p/b,12
 5/-,Polearm,awl pike,,weapon,1d6 1d12 p,12
 7/-,Polearm,bardiche,,weapon,2d4 2d6 s,12
 8/-,Polearm,bec de corbin,,weapon,1d8 1d6 p/b,10
@@ -470,7 +470,7 @@ varies,Musical Instrument,,,misc,,.5 to 3
 ¼p,Sling,bullet,,weapon,1d4+1 1d6+1 b,*
 ¼p,Sling,stone,,weapon,1d4 1d4 b,*
 9¾p,Spear,,,weapon,1d6 1d8 p,5
-5/2p,Staff sling,,,weapon,-,2
+5/2p,Staff Sling,,,weapon,-,2
 1cr.5/-,Sword,bastard,,weapon,1d8(2d4) 1d12(2d8) s,10
 10/-,Sword,broad,,weapon,2d4 1d6+1 s,4
 10/-,Sword,khopesh,,weapon,2d4 1d6 s,7
@@ -505,7 +505,7 @@ varies,Musical Instrument,,,misc,,.5 to 3
 5p,Brandy,Thyatian Imperian,,drink,"1 shot, 4 alcohol",
 3¾p,Brandy,Minrothadian,,drink,"1 shot, 4 alcohol",
 6¼p,Evermead,,,drink,"1 pint, 5 alcohol",
-1s.6p,Fruit juice,,,drink,1 gill,
+1s.6p,Fruit Juice,,,drink,1 gill,
 5p,Mezcal,Sindhi,,drink,"1 shot, 7 alcohol",
 3¾p,Mezcal,Savage Coast,,drink,"1 shot, 6 alcohol",
 1s.6p,Kumis,Ethengarian,,drink,"1 gallon, 32 (shake bag before drinking)",
@@ -552,7 +552,7 @@ varies,Musical Instrument,,,misc,,.5 to 3
 2cr.,Fox,silver,,pelt,,10
 2cr.10/-,Fox,hoar,,pelt,,10
 2cr.10/-,Giraffe,,,pelt,,125
-2cr.10/-,Hell hound,,,pelt,,80
+2cr.10/-,Hell Hound,,,pelt,,80
 2cr.,Ermine,,,pelt,,5
 1cr.10/-,Mink,,,pelt,,5
 3cr.10/-,Nonfel,,,pelt,,5
@@ -564,7 +564,7 @@ varies,Musical Instrument,,,misc,,.5 to 3
 5cr.,Snow-Owlbear,,,pelt,,250
 2cr.10/-,Spotted Cats,,,pelt,,20
 2cr.10/-,Tiger,,,pelt,,75
-2cr.10/-,Winter wolf,,,pelt,,150
+2cr.10/-,Winter Wolf,,,pelt,,150
 2cr.10/-,Yeti,,,pelt,,180
 2cr.10/-,Zebra,,,pelt,,65
 5/4p,Tipster,common knowledge,,illegal service,99%,
@@ -652,8 +652,8 @@ varies,Musical Instrument,,,misc,,.5 to 3
 4H.19s.9p,Tent,Sweat lodge 8 man,20,shelter,"40hp, downpour",71
 10s/-,Tent,Warmth Lining,30,shelter,10hp+,3
 5/-,Hammock,,,sleeping,,1
-5/4p,Straw mat,,,sleeping,,1
-1/-,bedroll,,5 if dry,sleeping,,3
-3/-,sleeping bag,,10 if dry,sleeping,,5
-10/-,polar bag,,40 if dry,sleeping,,20
-2H.9s.10½p,klamboe,,,sleeping,stops insects,1
+5/4p,Straw Mat,,,sleeping,,1
+1/-,Bedroll,,5 if dry,sleeping,,3
+3/-,Sleeping Bag,,10 if dry,sleeping,,5
+10/-,Polar Bag,,40 if dry,sleeping,,20
+2H.9s.10½p,Klamboe,,,sleeping,stops insects,1
