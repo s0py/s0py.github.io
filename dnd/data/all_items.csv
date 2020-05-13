@@ -324,7 +324,7 @@
 323,3/-,Minstrel,per performance,,service,,
 324,5/2p,Mourner,per funeral,,service,,
 325,5/4p,Teamster W/ Wagon,per mile,,service,,
-326,8K,Lawyer,per month,,service,,
+326,8Kh,Lawyer,per month,,service,,
 327,12/-,Armorer,per 10-AC,,service,,
 328,5gn.,Cleric,per month,,service,,
 329,3¾p,Horser,per horse per week,,service,,
@@ -332,407 +332,416 @@
 331,5/-,Nigh Guard,per night,,service,,
 332,1/-,Storage,per chest,,service,,
 333,9/-,Wainwrite,per hp of work,,service,,
-334,2/-,Backpack,,,misc,,2
-335,2/-,Barrel,,,misc,,30
-336,3¾p,Basket,Large,,misc,,1
-337,¾p,Basket,Small,,misc,,*
-338,1/-,Bell,,,misc,,
-339,1/-,Belt Pouch,Large,,misc,,1
-340,8½p,Belt Pouch,Small,,misc,,0.5
-341,5/-,Block And Tackle,,,misc,,5
-342,1/-,Bolt Case,,,misc,,1
-343,6¼p,Bucket,,,misc,,3
-344,4/-,Chain,Heavy,,misc,per foot,3
-345,3/-,Chain,Light,,misc,per foot,1
-346,2/-,Chest,Large,,misc,,25
-347,1/-,Chest,Small,,misc,,10
-348,7/-,Cloth,cheap,,misc,per 10 square yards,10
-349,2cr.10/-,Cloth,fine,,misc,per 10 square yards,10
-350,4cr.20/-,Cloth,silk,,misc,per 10 square yards,10
-351,¼p,Candle,,,misc,,*
-352,5p,Canvas,,,misc,per sq. yard,1
-353,¼p,Chalk,,,misc,,*
-354,4/-,Crampons,,,misc,,2
-355,5/4p,Fishhook,,,fishing,,**
-356,4/-,Fishing Net,,,misc,10 sq feet,5
-357,6¼p,Flint And Steel,,,misc,,*
-358,10/-,Glass Bottle,,,misc,,*
-359,9¾p,Grappling Hook,,,misc,,4
-360,1cr.5/-,Holy Item,symbol,,misc,,*
-361,1cr.5/-,Holy Item,water,,misc,,*
-362,6¼p,Hourglass,,,misc,,1
-363,¾p,Iron Pot,,,misc,,2
-364,1H.1cr.10/-,Ladder,,,misc,10 ft,20
-365,1H.1cr.10/-,Lantern,Beacon,,misc,,50
-366,12/-,Lantern,Bullseye,,misc,,3
-367,7/-,Lantern,Hooded,,misc,,2
-368,1cr.,Padlock,,,misc,,1
-369,5cr.,Magnifying Glass,,,misc,,*
-370,9¾p,Map Or Scroll Case,,,misc,,0.5
-371,2/-,Merchant's Scale,,,misc,,1
-372,10/-,Mirror,metal,,misc,,*
-373,varies,Musical Instrument,,,misc,,.5 to 3
-374,10/-,Oil,Greek fire,,misc,per flask,2
-375,¾p,Oil,Lamp,,misc,per flask,1
-376,2/-,Paper,,,misc,per sheet,**
-377,9¾p,Papyrus,,,misc,per sheet,**
-378,1/-,Parchment,,,misc,per sheet,**
-379,5/-,Perfume,,,misc,per vial,*
-380,½p,Piton,,,misc,,0.5
-381,9¾p,Quiver,,,misc,,1
-382,1/-,Rope,Hemp,,misc,per 50 ft,20
-383,10/-,Rope,Silk,,misc,per 50 ft,8
-384,5/2p,Sack,Large,,misc,,0.5
-385,¾p,Sack,Small,,misc,,*
-386,1/-,Wax,sealing/candle,,misc,,1
-387,6¼p,Needle,sewing,,misc,,**
-388,9¾p,Whistle,signal,,misc,,*
-389,5/-,Signet Ring Or Personal Seal,,,misc,,*
-390,6¼p,Soap,,,misc,per lb,1
-391,8H.2cr.,Spyglass,,,misc,,1
-392,1cr.10/-,Thieve's Picks,,,misc,,1
-393,¼p,Torchbearer,,,misc,,1
-394,8H.2cr.,Water Clock,,,misc,,200
-395,¼p,Whetstone,,,misc,,1
-396,9¾p,Wineskin,,,misc,,1
-397,6¼p,Winter Blanket,,,misc,,3
-398,8/-,Ink,,,misc,per vial,*
-399,1H.4cr.,Banded Mai,,0,armor,,35
-400,6cr.,Brigandine,,0,armor,,35
-401,3H.2cr.,Bronze Plate Mail,,0,armor,,45
-402,3cr.15/-,Chain Mail,,0,armor,,40
-403,16H.4cr.,Field Plate,,0,armor,,60
-404,83H.,Full Plate,,0,armor,,70
-405,1cr.10/-,Great Helm,,0,armor,,10
-406,8/-,Basinet,,0,armor,,5
-407,15/-,Hide,,0,armor,,30
-408,5/-,Leather,,0,armor,,15
-409,4/-,Padded,,0,armor,,10
-410,4H.6cr.,Plate Mail,,0,armor,,50
-411,5cr.,Ring Mail,,0,armor,,30
-412,6cr.,Scale Mail,,0,armor,,40
-413,10/-,Shield,body,0,armor,,15
-414,1/-,Shield,buckler,0,armor,,3
-415,7/-,Shield,medium,0,armor,,10
-416,3/-,Shield,small,0,armor,,5
-417,4cr.,Splint Mail,,0,armor,,40
-418,1cr.,Studded Leather,,0,armor,,25
-419,4H.1cr.,Arquebus,,,weapon,1d10 1d10 p,10
-420,5/-,Battle Axe,,,weapon,1d8 1d8 s,7
-421,5/-,Blowgun,,,weapon,-,2
-422,5/4p,Blowgun,barbed dart,,weapon,1d3 1d2 p,*
-423,¼p,Blowgun,needle,,weapon,1 1 p,*
-424,1cr.10/-,Bow,short,,weapon,-,2
-425,3cr.15s/-,Bow,long,,weapon,-,3
-426,3cr.15/-,Bow,composite short,,weapon,-,2
-427,5cr.,Bow,composite long,,weapon,-,3
-428,½p,Bow,flight arrow,,weapon,1d6 1d6 p,*
-429,¾p,Bow,sheaf arrow,,weapon,1d8 1d8 p,*
-430,¼p,Club,,,weapon,1d6 1d3 b,3
-431,2H.3cr.,Crossbow,hand,,weapon,-,3
-432,1cr.15/-,Crossbow,light,,weapon,-,7
-433,2cr.10/-,Crossbow,heavy,,weapon,-,14
-434,1/-,Crossbow,hand quarrel,,weapon,1d3 1d2 p,*
-435,5/4p,Crossbow,light quarrel,,weapon,1d4 1d4 p,*
-436,5/2p,Crossbow,heavy quarrel,,weapon,1d4+1 1d6+1 p,*
-437,2/-,Dagger Or Dirk,,,weapon,1d4 1d3 p,1
-438,6¼p,Dart,,,weapon,1d3 1d2 p,0.5
-439,15/-,Footman's Flail,,,weapon,1d6+1 2d4 b,15
-440,8/-,Footman's Mace,,,weapon,1d6+1 1d6 b,10
-441,8/-,Footman's Pick,,,weapon,1d6+1 2d4 b,6
-442,1/-,Hand Axe,,,weapon,1d6 1d4 s,5
-443,1cr.,Harpoon,,,weapon,2d4 2d6 p,6
-444,8/-,Horseman's Flail,,,weapon,1d4+1 1d4+1 b,5
-445,5/-,Horseman's Mace,,,weapon,1d6 1d4 b,6
-446,7/-,Horseman's Pick,,,weapon,1d4+1 1d4 p,4
-447,6¼p,Javelin,,,weapon,1d6 1d6 p,2
-448,6¼p,Knife,,,weapon,1d6 1d6 p/s,0.5
-449,15/-,Lance,heavy horse,,weapon,1d8+1 3d6 p,15
-450,6/-,Lance,light horse,,weapon,1d6 1d8 p,5
-451,1cr.,Lance,jousting,,weapon,1d3-1 1d2-1 p,20
-452,10/-,Lance,medium horse,,weapon,1d6+1 2d6,10
-453,1cr.10/-,Mancatcher,,,weapon,-,8
-454,10/-,Morning Star,,,weapon,2d4 1d6+1 p/b,12
-455,5/-,Polearm,awl pike,,weapon,1d6 1d12 p,12
-456,7/-,Polearm,bardiche,,weapon,2d4 2d6 s,12
-457,8/-,Polearm,bec de corbin,,weapon,1d8 1d6 p/b,10
-458,7/-,Polearm,bill-guisarme,,weapon,2d4 1d10 p/s,15
-459,5/-,Polearm,fauchard,,weapon,1d6 1d8 p/s,7
-460,8/-,Polearm,fauchard-fork,,weapon,1d8 1d10 p/s,9
-461,6/-,Polearm,glaive,,weapon,1d6 1d10 s,8
-462,10/-,Polearm,glaive-guisarme,,weapon,2d4 2d6 p/s,10
-463,5/-,Polearm,guisarme,,weapon,2d4 1d8 s,8
-464,8/-,Polearm,guisarme-voulge,,weapon,1d4 1d4 p/s,15
-465,10/-,Polearm,halberd,,weapon,1d10 2d6 p/s,15
-466,10/-,Polearm,hook fauchard,,weapon,1d4 1d4 p/s,8
-467,7/-,Polearm,lucern hammer,,weapon,2d4 1d6 p/b,15
-468,5/-,Polearm,military fork,,weapon,1d8 2d4 p,7
-469,10/-,Polearm,partisan,,weapon,1d6 1d6+1 p,8
-470,6/-,Polearm,ranseur,,weapon,2d4 2d4 p,7
-471,5/-,Polearm,spetum,,weapon,1d6+1 2d6 p,7
-472,5/-,Polearm,voulge,,weapon,2d4 2d4 s,12
-473,¼p,Quarterstaff,,,weapon,1d6 1d6 b,4
-474,1/-,Scourge,,,weapon,1d4 1d2 -,2
-475,7¼p,Sickle,,,weapon,1d4+1 1d4 s,3
-476,¾p,Sling,,,weapon,-,*
-477,¼p,Sling,bullet,,weapon,1d4+1 1d6+1 b,*
-478,¼p,Sling,stone,,weapon,1d4 1d4 b,*
-479,9¾p,Spear,,,weapon,1d6 1d8 p,5
-480,5/2p,Staff Sling,,,weapon,-,2
-481,1cr.5/-,Sword,bastard,,weapon,1d8(2d4) 1d12(2d8) s,10
-482,10/-,Sword,broad,,weapon,2d4 1d6+1 s,4
-483,10/-,Sword,khopesh,,weapon,2d4 1d6 s,7
-484,15/-,Sword,long,,weapon,1d8 1d12 s,4
-485,15/-,Sword,scimitar,,weapon,1d8 1d8 s,4
-486,10/-,Sword,short,,weapon,1d6 1d8 p,3
-487,2cr.10/-,Sword,two-handed,,weapon,1d10 3d6 s,15
-488,15/-,Trident,,,weapon,1d6+1 3d4 p,5
-489,2/-,Warhammer,,,weapon,1d4+1 1d4 b,6
-490,5/4p,Whip,,,weapon,1d2 1 -,2
-491,6¼p,Feed,horse,,feed,,
-492,¾p,Ale,common,,drink,"1 pint, 1 alcohol",
-493,1p,Ale,dwarven,,drink,"1 pint, 1.5 alcohol",
-494,5/4p,Ale,orcish,,drink,"1 pint, 2 alcohol",
-495,¼p,Beer,light,,drink,"1 pint, .5 alcohol",
-496,½p,Beer,normal,,drink,"1 pint, 2 alcohol",
-497,½p,Beer,dark,,drink,"1 pint, 2 alcohol",
-498,1/-,Cider,common,,drink,"1 pint, 5 alcohol",
-499,¾p,Coffee,common,,drink,1 gill,
-500,1s.6p,Coffee,Isle of Dawn,,drink,"1 gill, 3 alcohol",
-501,¾p,Cacao,,,drink,1 gill,
-502,½p,Milk,,,drink,1 quart,
-503,¾p,Yogurt,,,drink,1 pint,
-504,¼p,Vinegar,white,,drink,1 quart (medicinal),
-505,½p,Vinegar,red,,drink,1 quart (medicinal),
-506,5/2p,Thee,common,,drink,1 gill,
-507,1/-,Thee,yak butter,,drink,1 gill,
-508,3¾p,Thee,herbal,,drink,1 gill,
-509,3¾p,Akvavit,Ostlander,,drink,"1 shot, 5 alcohol",
-510,5/4p,Akvavit,common,,drink,"1 shot, 3 alcohol",
-511,5p,Arkhi,Hobgoblandish,,drink,"1 shot, 4 alcohl",
-512,5p,Brandy,Thyatian Imperian,,drink,"1 shot, 4 alcohol",
-513,3¾p,Brandy,Minrothadian,,drink,"1 shot, 4 alcohol",
-514,6¼p,Evermead,,,drink,"1 pint, 5 alcohol",
-515,1s.6p,Fruit Juice,,,drink,1 gill,
-516,5p,Mezcal,Sindhi,,drink,"1 shot, 7 alcohol",
-517,3¾p,Mezcal,Savage Coast,,drink,"1 shot, 6 alcohol",
-518,1s.6p,Kumis,Ethengarian,,drink,"1 gallon, 32 (shake bag before drinking)",
-519,5/2p,Ouzo,Redstone,,drink,"1 shot, 3 alcohol",
-520,1/-,Ouzo,Ierendi,,drink,"1 shot, 7 alcohol",
-521,5p,Rum,Ethengarian,,drink,"1 shot, 5 alcohol",
-522,5p,Rum,Heldannic,,drink,"1 shot, 6 alcohol",
-523,6¼p,Rum,Light,,drink,"1 shot, 6 alcohol",
-524,8½p,Rum,Dark,,drink,"1 shot, 7 alcohol",
-525,7¼p,Sake,Pearl Islands,,drink,"1 shot, 5 alcohol",
-526,9¾p,Sake,Alphatian,,drink,"1 shot, 5 alcohol",
-527,1s.6p,Tequila,Savage coast,,drink,"1 shot + lemon + salt, 8 alcohol",
-528,6¼p,Tequila,Orcish,,drink,"1 shot + lemon + salt, 8 alcohol",
-529,2s.6p,Tequila,With Scorpion,,drink,"1 shot + lemon + salt, 9 alcohol",
-530,3¾p,Uisce,Glantrian,,drink,"1 shot, 5 alcohol",
-531,5/2p,Uisce,common,,drink,"1 shot, 4 alcohol",
-532,3¾p,Vodka,Karameikan,,drink,"1 shot, 5 alcohol",
-533,5/2p,Vodka,Glantrian,,drink,"1 shot, 2 alcohol",
-534,5/4p,Whisky,Texeiran,,drink,"1 gill, 4 alcohol",
-535,5/2p,Whisky,common,,drink,"1 gill, 4 alcohol",
-536,5/2p,Tobacco,,,drug,1 pipe worth,
-537,10/-,Cigar,,,drug,"6""",
-538,11p,Beaver,,,pelt,,10
-539,5p,Bobcat,,,pelt,,10
-540,5/2p,Cat,,,pelt,,4
-541,3¾p,Cow,,,pelt,,100
-542,5/4p,Dog,,,pelt,,4
-543,3¾p,Horse,,,pelt,,100
-544,5/2p,Lynx,,,pelt,,10
-545,5/2p,Otter,,,pelt,,10
-546,5/4p,Rat,,,pelt,,5
-547,1/-,Boar,,,pelt,,10
-548,3/-,Fisher,,,pelt,,5
-549,3/-,Fox,red,,pelt,,10
-550,3/-,Marten,,,pelt,,5
-551,3/-,Otter,sea,,pelt,,10
-552,1/-,Rabbit,,,pelt,,10
-553,3/-,Weasel,,,pelt,,10
-554,1/-,Wolverine,,,pelt,,30
-555,2cr.10/-,Bear,,,pelt,,125
-556,2cr.10/-,Bunyip,,,pelt,,10
-557,3cr.10/-,Caterwaul,,,pelt,,65
-558,1cr.10/-,Chincilla,,,pelt,,5
-559,2cr.,Fox,silver,,pelt,,10
-560,2cr.10/-,Fox,hoar,,pelt,,10
-561,2cr.10/-,Giraffe,,,pelt,,125
-562,2cr.10/-,Hell Hound,,,pelt,,80
-563,2cr.,Ermine,,,pelt,,5
-564,1cr.10/-,Mink,,,pelt,,5
-565,3cr.10/-,Nonfel,,,pelt,,5
-566,2cr.10/-,Owlbear,,,pelt,,125
-567,3cr.10/-,Panther,,,pelt,,60
-568,2cr.10/-,Sable,,,pelt,,5
-569,2cr.10/-,Seal,,,pelt,,10
-570,4cr.,Snow Leopard,,,pelt,,40
-571,5cr.,Snow-Owlbear,,,pelt,,250
-572,2cr.10/-,Spotted Cats,,,pelt,,20
-573,2cr.10/-,Tiger,,,pelt,,75
-574,2cr.10/-,Winter Wolf,,,pelt,,150
-575,2cr.10/-,Yeti,,,pelt,,180
-576,2cr.10/-,Zebra,,,pelt,,65
-577,5/4p,Tipster,common knowledge,,illegal service,99%,
-578,1/-,Tipster,uncommon knowledge,,illegal service,80%,
-579,5/-,Tipser,specific information,,illegal service,30%,
-580,10/-,Tipster,exact information,,illegal service,15%,
-581,10/-,Private Investigator,1 day,,illegal service,improve chance to know by 1 step,
-582,10/-,Tipster,dangerous information,,illegal service,40% slain in 1d6 days,
-583,1gn.5/-,Fixer,avoid arrest,,illegal service,,
-584,2gn.10/-,Fixer,turn minor infraction,,illegal service,,
-585,5gn.,Fixer,turn major infraction,,illegal service,,
-586,1Kh.4gn.,Fixer,assist escape,,illegal service,,
-587,20% take,Fixer,cleanup/dispose,,illegal service,,
-588,5Kh.,Fixer,escape capital crime,,illegal service,,
-589,5Kh.,Fixer,"do a  ""personal favor""",,illegal service,,
-590,8Kh.2gn.,Fixer,cross thieve's guild,,illegal service,,
-591,1Kh.2gn.,Forgery,royal pardon,,illegal service,5 days,
-592,2gn.10/-,Forgery,military pass,,illegal service,3 days,
-593,1gn.5/-,Forgery,city pass,,illegal service,2 days,
-594,10/-,Forgery,official's signature,,illegal service,1 day,
-595,25% value,Forgery,counterfeit coins,,illegal service,10 days,
-596,5% value,Forgery,counterfeit jewelry,,illegal service,2-7 days,
-597,50% profit,Forgery,money clipping,,illegal service,1 day,
-598,12/-,Forgery,copy deed or title,,illegal service,4-5 days,
-599,1gn.,Forgery,copy work of art,,illegal service,2-3 weeks,
-600,50%,Blackmarket,buy/sell,,illegal service,,
-601,50%,Blackmarket,buy/sell stolen,,illegal service,,
-602,3¾p,Whore,basic free,,illegal service,,
-603,1/-,Whore,exotic free,,illegal service,,
-604,2/-,Whore,new style free,,illegal service,,
-605,5p,Whore,basic club,,illegal service,,
-606,1s.6p,Whore,exotic club,,illegal service,,
-607,3/-,Whore,new style club,,illegal service,,
-608,50% / month,Loans,any amount,,illegal service,,
-609,20% / month,Loans,any amount (guildmember),,illegal service,,
-610,10/-,Threat,nobody special,,illegal service,,
-611,1gn.10/-,Threat,known locally,,illegal service,,
-612,6gn.,Threat,well known locally,,illegal service,,
-613,3Kh.4gn.10s/-,Threat,petty official,,illegal service,,
-614,4Kh.6gn.,Threat,minor city official,,illegal service,,
-615,12Kh.3gn.,Threat,major city official,,illegal service,,
-616,208Kh.,Threat,very high profile,,illegal service,,
-617,1gn.,Bone Breaking,nobody special,,illegal service,,
-618,3gn.,Bone Breaking,known locally,,illegal service,,
-619,1Kh.4gn.,Bone Breaking,well known locally,,illegal service,,
-620,6Kh.4gn.,Bone Breaking,petty official,,illegal service,,
-621,9Kh.5gn.,Bone Breaking,minor city official,,illegal service,,
-622,25Kh,Bone Breaking,major city official,,illegal service,,
-623,416Kh.,Bone Breaking,very high profile,,illegal service,,
-624,5gn.,Elimination,nobody special,,illegal service,,
-625,5Kh.,Elimination,known locally,,illegal service,,
-626,8Kh.2gn.,Elimination,well known locally,,illegal service,,
-627,41Kh.4gn.,Elimination,petty official,,illegal service,,
-628,83Kh.1gn.,Elimination,minor city official,,illegal service,,
-629,416Kh.,Elimination,major city official,,illegal service,,
-630,832Kh.,Elimination,very high profile,,illegal service,,
-631,1gn.10/-,Kidnapping,nobody special,,illegal service,,
-632,4gn.9s.11½p,Kidnapping,known locally,,illegal service,,
-633,2Kh.3gn.,Kidnapping,well known locally,,illegal service,,
-634,9Kh.6gn.,Kidnapping,petty official,,illegal service,,
-635,14Kh.6gn.,Kidnapping,minor city official,,illegal service,,
-636,37Kh.,Kidnapping,major city official,,illegal service,,
-637,624Kh.,Kidnapping,very high profile,,illegal service,,
-638,1/-,Shelter,Poor 1 man,0,shelter,"4hp, light moisture",6
-639,2/-,Shelter,Poor 2 man,0,shelter,"4hp, light moisture",7
-640,3/-,Shelter,Poor 4 man,0,shelter,"4hp, light moisture",8
-641,3/-,Shelter,Adequate 1 man,0,shelter,"8hp, moderate moisture",7
-642,5/-,Shelter,Adequate 2 man,0,shelter,"8hp, moderate moisture",8
-643,7s.6p,Shelter,Adequate 4 man,0,shelter,"8hp, moderate moisture",9
-644,7s.6p,Shelter,Good 1 man,5,shelter,"12hp, heavy moisture",8
-645,12/-,Shelter,Good 2 man,5,shelter,"12hp, heavy moisture",9
-646,18/-,Shelter,Good 4 man,5,shelter,"12hp, heavy moisture",10
-647,1cr.,Shelter,Superior 1 man,10,shelter,"24hp, downpour",9
-648,1cr.10/-,Shelter,Superior 2 man,10,shelter,"24hp, downpour",10
-649,1cr.20/-,Shelter,Superior 4 man,10,shelter,"24hp, downpour",12
-650,5/-,Tent,Solo 1 man,10,shelter,"10hp, heavy moisture",10
-651,5/-,Tent,Wedge 1 man,10,shelter,"10hp, moderate moisture, no floor",10
-652,1cr.,Tent,Duo 2 man,10,shelter,"20hp, heavy moisture",14
-653,4/-,Tent,Bell 2 man,10,shelter,"10hp, moderate moisture",10
-654,1cr.,Tent,Traveling Pavillion 3 man,10,shelter,"20hp, moderatr moisture",16
-655,5/-,Tent,Group 4 man,15,shelter,"30hp, heavy moisture",22
-656,5cr.,Tent,Pavillion 6 man,15,shelter,"40hp, heavy moisture",28
-657,15/-,Tent,Pyramid 6 man,15,shelter,"35hp, heavy moisture",12
-658,1H.1cr.10/-,Tent,Tournament 6 man,5,shelter,"40hp, moderate moisture",32
-659,4H.19s.9p,Tent,Sweat lodge 8 man,20,shelter,"40hp, downpour",71
-660,10s/-,Tent,Warmth Lining,30,shelter,10hp+,3
-661,5/-,Hammock,,,sleeping,,1
-662,5/4p,Straw Mat,,,sleeping,,1
-663,1/-,Bedroll,,5 if dry,sleeping,,3
-664,3/-,Sleeping Bag,,10 if dry,sleeping,,5
-665,10/-,Polar Bag,,40 if dry,sleeping,,20
-666,2H.9s.10½p,Klamboe,,,sleeping,stops insects,1
-667,5/2p,Twine,100ft,,misc,,0.5
-668,1/-,Flask,1 qt,,misc,,0.1
-669,1s.6p,Scroll Case,20 sheets,,alchemy,waterproof,0.01
-670,5/-,Bellows,common,,alchemy,to heat up fire,2.5
-671,2H.10/-,Bellows,furnace,,alchemy,to heat up fire,250
-672,1cr.15/-,Furnace,common,,alchemy,for extra hot fires,4000
-673,8H.2cr.,Smelter,small,,alchemy,"30'x30', connect to furnace",2000
-674,16H.4cr.,Smelter,medium,,alchemy,"50'x50', connect to furnace",4000
-675,41H.3cr.18/-,Smelter,large,,alchemy,"75'x75', connect to furnace",8000
-676,4/-,Alembic,common,,alchemy,distillation aparatus,2
-677,10/-,Balance,"small, golden",,alchemy,to weigh material,0.25
-678,3/-,Beaker,common,,alchemy,heatable container to pour liquids,0.5
-679,1s.6p,Brazier,small,,alchemy,to make a small fire,0.5
-680,8½p,Crucible,common,,alchemy,to melt items within,1
-681,10/-,Decanter,crystal,,alchemy,to hold/pour liquids 1pint,0.5
-682,¾p,Decanter,ceramic,,alchemy,to hold/pour liquids 1pint,0.5
-683,4/-,Decanter,silver,,alchemy,to hold/pour liquids 1pint,0.5
-684,5/2p,Earspoon,common,,alchemy,to clean holes,0.01
-685,2/-,Merchant Scale,small,,alchemy,with 1 oz weights,0.25
-686,5/-,Merchant Scale,large,,alchemy,with 1 lb weights,1
-687,1/-,Needle,Magnetized,,alchemy,,0.01
-688,4/-,Spinner,brass,,alchemy,to split liquids in 12 vials,1
-689,2/-,Retort,common,,alchemy,distillation aparatus,0.5
-690,¼p,Ribbon,common,,alchemy,to suck up liquid,0.01
-691,1H.1cr.10/-,Test Kit,basic,,alchemy,identify basic potions,10
-692,8/-,Vellum,common,,alchemy,filter paper,0.01
-693,5p,Funnel,common,,alchemy,,0.01
-694,1/-,Glass Bottle,crystal,,alchemy,1 pint,0.1
-695,5p,Glass Bottle,normal,,alchemy,1 pint,0.25
-696,1/-,Glass Bottle,gold/silver,,alchemy,1 pint,0.25
-697,5/4p,Glass Bottle,cheap,,alchemy,1 pint,0.3
-698,6¼p,Grind Stone,common,,alchemy,to grind material,0.3
-699,2/-,Morter and Pestle,ceramic,,alchemy,to grind material,2
-700,2cr.10/-,Morter and Pestle,stone,,alchemy,to grind material,8
-701,1/-,Punk Pot,common,,alchemy,smolder 2',2
-702,10/-,Prism,common,,alchemy,,0.5
-703,5/-,Leeches,jar,,alchemy,to drain blood,0.5
-704,5/4p,Magnet,small,,alchemy,,0.1
-705,3¾p,Tubing Glass,per foot,,alchemy,,0.25
-706,6¼p,Tripod,common,,alchemy,to hold scales/dishes above fire,0.25
-707,6¼p,Tweezers,common,,alchemy,,0.01
-708,3¼p,Vial,clay,,alchemy,to hold liquid/powder,0.25
-709,1/-,Vial,ceramic,,alchemy,to hold liquid/powder,0.25
-710,3/-,Vial,glass,,alchemy,to hold liquid/powder,0.25
-711,4/-,Vial,crystal,,alchemy,to hold liquid/powder,0.25
-712,5/-,Vial,steel,,alchemy,to hold liquid/powder,0.25
-713,7/-,Vial,silver,,alchemy,to hold liquid/powder,0.25
-714,x1,Vial,small,,alchemy,"modifier, doubles capacity",x1
-715,x2,Vial,medium,,alchemy,"modifier, doubles capacity",x2
-716,x3,Vial,large,,alchemy,"modifier, doubles capacity",x4
-717,1cr.5/-,Hourglass,many times,,alchemy,measure time,0.25
-718,10/-,Sundial,common,,alchemy,measure time,16
-719,5/-,Fishing Rod,common,,fishing,"10'-30' rod, 5% chance of breaking per 10 lb of fish",0.5
-720,1H.1cr.10/-,Monster Rod,common,,fishing,"10'-30' iron rod, 5% chance of breaking every 50 lb",3
-721,¼p,Line Lead,common,,fishing,,0.1
-722,1/-,Net Lead,common,,fishing,,1.5
-723,¼p,Floating Bob,common,,fishing,,0.01
-724,5/4p,Net Floaters,1 per sq foot,,fishing,,0.01
-725,3/-,Monster Hook,common,,fishing,,0.25
-726,3/-,Fishline,small,,fishing,"50', 5% breakage per 10lb of fish",0.01
-727,1cr.10/-,Fishline,monster,,fishing,"50', 5% breakage per 50lb of fish",0.25
-728,1/-,Monsternet,per sq foot,,fishing,,0.1
-729,5/4p,Fishnet,per sq fot,,fishing,,0.01
-730,3/-,Sheath,bastard sword,,accessories,,0.5
-731,2/-,Sheath,long sword,,accessories,,0.25
-732,1/-,Sheath,short sword,,accessories,,0.1
-733,4/-,Sheath,back,,accessories,,1
-734,7¼p,Scabbard,dagger/knife,,accessories,,0.1
-735,1s.5/2p,Weapon Ring,,,accessories,,0.1
-736,1s.7¼p,Back Clasp,,,accessories,,0.5
-,,,,,,,
+334,2Kh,Mage,per spell per week,,service,6 spells/day,
+335,5Kh,Mage,per spell per week,,service,12 spells/day,
+336,12Kn,Mage,per spell per week,,service,24 spells/day,
+337,79Kh,Audience,Emperor,,service,,
+338,39Kh,Audience,King,,service,,
+339,7Kh,Audience,Baron,,service,,
+340,4Kh.6gn.,Audience,Lord,,service,,
+341,800Kh,Title,Ambassador,,service,,
+342,2000Kh,Title,Lord,,service,,
+343,4000Kh,Title,Baron,,service,,
+344,2/-,Backpack,,,misc,,2
+345,2/-,Barrel,,,misc,,30
+346,3¾p,Basket,Large,,misc,,1
+347,¾p,Basket,Small,,misc,,*
+348,1/-,Bell,,,misc,,
+349,1/-,Belt Pouch,Large,,misc,,1
+350,8½p,Belt Pouch,Small,,misc,,0.5
+351,5/-,Block And Tackle,,,misc,,5
+352,1/-,Bolt Case,,,misc,,1
+353,6¼p,Bucket,,,misc,,3
+354,4/-,Chain,Heavy,,misc,per foot,3
+355,3/-,Chain,Light,,misc,per foot,1
+356,2/-,Chest,Large,,misc,,25
+357,1/-,Chest,Small,,misc,,10
+358,7/-,Cloth,cheap,,misc,per 10 square yards,10
+359,2cr.10/-,Cloth,fine,,misc,per 10 square yards,10
+360,4cr.20/-,Cloth,silk,,misc,per 10 square yards,10
+361,¼p,Candle,,,misc,,*
+362,5p,Canvas,,,misc,per sq. yard,1
+363,¼p,Chalk,,,misc,,*
+364,4/-,Crampons,,,misc,,2
+365,5/4p,Fishhook,,,fishing,,**
+366,4/-,Fishing Net,,,misc,10 sq feet,5
+367,6¼p,Flint And Steel,,,misc,,*
+368,10/-,Glass Bottle,,,misc,,*
+369,9¾p,Grappling Hook,,,misc,,4
+370,1cr.5/-,Holy Item,symbol,,misc,,*
+371,1cr.5/-,Holy Item,water,,misc,,*
+372,6¼p,Hourglass,,,misc,,1
+373,¾p,Iron Pot,,,misc,,2
+374,1H.1cr.10/-,Ladder,,,misc,10 ft,20
+375,1H.1cr.10/-,Lantern,Beacon,,misc,,50
+376,12/-,Lantern,Bullseye,,misc,,3
+377,7/-,Lantern,Hooded,,misc,,2
+378,1cr.,Padlock,,,misc,,1
+379,5cr.,Magnifying Glass,,,misc,,*
+380,9¾p,Map Or Scroll Case,,,misc,,0.5
+381,2/-,Merchant's Scale,,,misc,,1
+382,10/-,Mirror,metal,,misc,,*
+383,varies,Musical Instrument,,,misc,,.5 to 3
+384,10/-,Oil,Greek fire,,misc,per flask,2
+385,¾p,Oil,Lamp,,misc,per flask,1
+386,2/-,Paper,,,misc,per sheet,**
+387,9¾p,Papyrus,,,misc,per sheet,**
+388,1/-,Parchment,,,misc,per sheet,**
+389,5/-,Perfume,,,misc,per vial,*
+390,½p,Piton,,,misc,,0.5
+391,9¾p,Quiver,,,misc,,1
+392,1/-,Rope,Hemp,,misc,per 50 ft,20
+393,10/-,Rope,Silk,,misc,per 50 ft,8
+394,5/2p,Sack,Large,,misc,,0.5
+395,¾p,Sack,Small,,misc,,*
+396,1/-,Wax,sealing/candle,,misc,,1
+397,6¼p,Needle,sewing,,misc,,**
+398,9¾p,Whistle,signal,,misc,,*
+399,5/-,Signet Ring Or Personal Seal,,,misc,,*
+400,6¼p,Soap,,,misc,per lb,1
+401,8H.2cr.,Spyglass,,,misc,,1
+402,1cr.10/-,Thieve's Picks,,,misc,,1
+403,¼p,Torchbearer,,,misc,,1
+404,8H.2cr.,Water Clock,,,misc,,200
+405,¼p,Whetstone,,,misc,,1
+406,9¾p,Wineskin,,,misc,,1
+407,6¼p,Winter Blanket,,,misc,,3
+408,8/-,Ink,,,misc,per vial,*
+409,1H.4cr.,Banded Mai,,0,armor,,35
+410,6cr.,Brigandine,,0,armor,,35
+411,3H.2cr.,Bronze Plate Mail,,0,armor,,45
+412,3cr.15/-,Chain Mail,,0,armor,,40
+413,16H.4cr.,Field Plate,,0,armor,,60
+414,83H.,Full Plate,,0,armor,,70
+415,1cr.10/-,Great Helm,,0,armor,,10
+416,8/-,Basinet,,0,armor,,5
+417,15/-,Hide,,0,armor,,30
+418,5/-,Leather,,0,armor,,15
+419,4/-,Padded,,0,armor,,10
+420,4H.6cr.,Plate Mail,,0,armor,,50
+421,5cr.,Ring Mail,,0,armor,,30
+422,6cr.,Scale Mail,,0,armor,,40
+423,10/-,Shield,body,0,armor,,15
+424,1/-,Shield,buckler,0,armor,,3
+425,7/-,Shield,medium,0,armor,,10
+426,3/-,Shield,small,0,armor,,5
+427,4cr.,Splint Mail,,0,armor,,40
+428,1cr.,Studded Leather,,0,armor,,25
+429,4H.1cr.,Arquebus,,,weapon,1d10 1d10 p,10
+430,5/-,Battle Axe,,,weapon,1d8 1d8 s,7
+431,5/-,Blowgun,,,weapon,-,2
+432,5/4p,Blowgun,barbed dart,,weapon,1d3 1d2 p,*
+433,¼p,Blowgun,needle,,weapon,1 1 p,*
+434,1cr.10/-,Bow,short,,weapon,-,2
+435,3cr.15s/-,Bow,long,,weapon,-,3
+436,3cr.15/-,Bow,composite short,,weapon,-,2
+437,5cr.,Bow,composite long,,weapon,-,3
+438,½p,Bow,flight arrow,,weapon,1d6 1d6 p,*
+439,¾p,Bow,sheaf arrow,,weapon,1d8 1d8 p,*
+440,¼p,Club,,,weapon,1d6 1d3 b,3
+441,2H.3cr.,Crossbow,hand,,weapon,-,3
+442,1cr.15/-,Crossbow,light,,weapon,-,7
+443,2cr.10/-,Crossbow,heavy,,weapon,-,14
+444,1/-,Crossbow,hand quarrel,,weapon,1d3 1d2 p,*
+445,5/4p,Crossbow,light quarrel,,weapon,1d4 1d4 p,*
+446,5/2p,Crossbow,heavy quarrel,,weapon,1d4+1 1d6+1 p,*
+447,2/-,Dagger Or Dirk,,,weapon,1d4 1d3 p,1
+448,6¼p,Dart,,,weapon,1d3 1d2 p,0.5
+449,15/-,Footman's Flail,,,weapon,1d6+1 2d4 b,15
+450,8/-,Footman's Mace,,,weapon,1d6+1 1d6 b,10
+451,8/-,Footman's Pick,,,weapon,1d6+1 2d4 b,6
+452,1/-,Hand Axe,,,weapon,1d6 1d4 s,5
+453,1cr.,Harpoon,,,weapon,2d4 2d6 p,6
+454,8/-,Horseman's Flail,,,weapon,1d4+1 1d4+1 b,5
+455,5/-,Horseman's Mace,,,weapon,1d6 1d4 b,6
+456,7/-,Horseman's Pick,,,weapon,1d4+1 1d4 p,4
+457,6¼p,Javelin,,,weapon,1d6 1d6 p,2
+458,6¼p,Knife,,,weapon,1d6 1d6 p/s,0.5
+459,15/-,Lance,heavy horse,,weapon,1d8+1 3d6 p,15
+460,6/-,Lance,light horse,,weapon,1d6 1d8 p,5
+461,1cr.,Lance,jousting,,weapon,1d3-1 1d2-1 p,20
+462,10/-,Lance,medium horse,,weapon,1d6+1 2d6,10
+463,1cr.10/-,Mancatcher,,,weapon,-,8
+464,10/-,Morning Star,,,weapon,2d4 1d6+1 p/b,12
+465,5/-,Polearm,awl pike,,weapon,1d6 1d12 p,12
+466,7/-,Polearm,bardiche,,weapon,2d4 2d6 s,12
+467,8/-,Polearm,bec de corbin,,weapon,1d8 1d6 p/b,10
+468,7/-,Polearm,bill-guisarme,,weapon,2d4 1d10 p/s,15
+469,5/-,Polearm,fauchard,,weapon,1d6 1d8 p/s,7
+470,8/-,Polearm,fauchard-fork,,weapon,1d8 1d10 p/s,9
+471,6/-,Polearm,glaive,,weapon,1d6 1d10 s,8
+472,10/-,Polearm,glaive-guisarme,,weapon,2d4 2d6 p/s,10
+473,5/-,Polearm,guisarme,,weapon,2d4 1d8 s,8
+474,8/-,Polearm,guisarme-voulge,,weapon,1d4 1d4 p/s,15
+475,10/-,Polearm,halberd,,weapon,1d10 2d6 p/s,15
+476,10/-,Polearm,hook fauchard,,weapon,1d4 1d4 p/s,8
+477,7/-,Polearm,lucern hammer,,weapon,2d4 1d6 p/b,15
+478,5/-,Polearm,military fork,,weapon,1d8 2d4 p,7
+479,10/-,Polearm,partisan,,weapon,1d6 1d6+1 p,8
+480,6/-,Polearm,ranseur,,weapon,2d4 2d4 p,7
+481,5/-,Polearm,spetum,,weapon,1d6+1 2d6 p,7
+482,5/-,Polearm,voulge,,weapon,2d4 2d4 s,12
+483,¼p,Quarterstaff,,,weapon,1d6 1d6 b,4
+484,1/-,Scourge,,,weapon,1d4 1d2 -,2
+485,7¼p,Sickle,,,weapon,1d4+1 1d4 s,3
+486,¾p,Sling,,,weapon,-,*
+487,¼p,Sling,bullet,,weapon,1d4+1 1d6+1 b,*
+488,¼p,Sling,stone,,weapon,1d4 1d4 b,*
+489,9¾p,Spear,,,weapon,1d6 1d8 p,5
+490,5/2p,Staff Sling,,,weapon,-,2
+491,1cr.5/-,Sword,bastard,,weapon,1d8(2d4) 1d12(2d8) s,10
+492,10/-,Sword,broad,,weapon,2d4 1d6+1 s,4
+493,10/-,Sword,khopesh,,weapon,2d4 1d6 s,7
+494,15/-,Sword,long,,weapon,1d8 1d12 s,4
+495,15/-,Sword,scimitar,,weapon,1d8 1d8 s,4
+496,10/-,Sword,short,,weapon,1d6 1d8 p,3
+497,2cr.10/-,Sword,two-handed,,weapon,1d10 3d6 s,15
+498,15/-,Trident,,,weapon,1d6+1 3d4 p,5
+499,2/-,Warhammer,,,weapon,1d4+1 1d4 b,6
+500,5/4p,Whip,,,weapon,1d2 1 -,2
+501,6¼p,Feed,horse,,feed,,
+502,¾p,Ale,common,,drink,"1 pint, 1 alcohol",
+503,1p,Ale,dwarven,,drink,"1 pint, 1.5 alcohol",
+504,5/4p,Ale,orcish,,drink,"1 pint, 2 alcohol",
+505,¼p,Beer,light,,drink,"1 pint, .5 alcohol",
+506,½p,Beer,normal,,drink,"1 pint, 2 alcohol",
+507,½p,Beer,dark,,drink,"1 pint, 2 alcohol",
+508,1/-,Cider,common,,drink,"1 pint, 5 alcohol",
+509,¾p,Coffee,common,,drink,1 gill,
+510,1s.6p,Coffee,Isle of Dawn,,drink,"1 gill, 3 alcohol",
+511,¾p,Cacao,,,drink,1 gill,
+512,½p,Milk,,,drink,1 quart,
+513,¾p,Yogurt,,,drink,1 pint,
+514,¼p,Vinegar,white,,drink,1 quart (medicinal),
+515,½p,Vinegar,red,,drink,1 quart (medicinal),
+516,5/2p,Thee,common,,drink,1 gill,
+517,1/-,Thee,yak butter,,drink,1 gill,
+518,3¾p,Thee,herbal,,drink,1 gill,
+519,3¾p,Akvavit,Ostlander,,drink,"1 shot, 5 alcohol",
+520,5/4p,Akvavit,common,,drink,"1 shot, 3 alcohol",
+521,5p,Arkhi,Hobgoblandish,,drink,"1 shot, 4 alcohl",
+522,5p,Brandy,Thyatian Imperian,,drink,"1 shot, 4 alcohol",
+523,3¾p,Brandy,Minrothadian,,drink,"1 shot, 4 alcohol",
+524,6¼p,Evermead,,,drink,"1 pint, 5 alcohol",
+525,1s.6p,Fruit Juice,,,drink,1 gill,
+526,5p,Mezcal,Sindhi,,drink,"1 shot, 7 alcohol",
+527,3¾p,Mezcal,Savage Coast,,drink,"1 shot, 6 alcohol",
+528,1s.6p,Kumis,Ethengarian,,drink,"1 gallon, 32 (shake bag before drinking)",
+529,5/2p,Ouzo,Redstone,,drink,"1 shot, 3 alcohol",
+530,1/-,Ouzo,Ierendi,,drink,"1 shot, 7 alcohol",
+531,5p,Rum,Ethengarian,,drink,"1 shot, 5 alcohol",
+532,5p,Rum,Heldannic,,drink,"1 shot, 6 alcohol",
+533,6¼p,Rum,Light,,drink,"1 shot, 6 alcohol",
+534,8½p,Rum,Dark,,drink,"1 shot, 7 alcohol",
+535,7¼p,Sake,Pearl Islands,,drink,"1 shot, 5 alcohol",
+536,9¾p,Sake,Alphatian,,drink,"1 shot, 5 alcohol",
+537,1s.6p,Tequila,Savage coast,,drink,"1 shot + lemon + salt, 8 alcohol",
+538,6¼p,Tequila,Orcish,,drink,"1 shot + lemon + salt, 8 alcohol",
+539,2s.6p,Tequila,With Scorpion,,drink,"1 shot + lemon + salt, 9 alcohol",
+540,3¾p,Uisce,Glantrian,,drink,"1 shot, 5 alcohol",
+541,5/2p,Uisce,common,,drink,"1 shot, 4 alcohol",
+542,3¾p,Vodka,Karameikan,,drink,"1 shot, 5 alcohol",
+543,5/2p,Vodka,Glantrian,,drink,"1 shot, 2 alcohol",
+544,5/4p,Whisky,Texeiran,,drink,"1 gill, 4 alcohol",
+545,5/2p,Whisky,common,,drink,"1 gill, 4 alcohol",
+546,5/2p,Tobacco,,,drug,1 pipe worth,
+547,10/-,Cigar,,,drug,"6""",
+548,11p,Beaver,,,pelt,,10
+549,5p,Bobcat,,,pelt,,10
+550,5/2p,Cat,,,pelt,,4
+551,3¾p,Cow,,,pelt,,100
+552,5/4p,Dog,,,pelt,,4
+553,3¾p,Horse,,,pelt,,100
+554,5/2p,Lynx,,,pelt,,10
+555,5/2p,Otter,,,pelt,,10
+556,5/4p,Rat,,,pelt,,5
+557,1/-,Boar,,,pelt,,10
+558,3/-,Fisher,,,pelt,,5
+559,3/-,Fox,red,,pelt,,10
+560,3/-,Marten,,,pelt,,5
+561,3/-,Otter,sea,,pelt,,10
+562,1/-,Rabbit,,,pelt,,10
+563,3/-,Weasel,,,pelt,,10
+564,1/-,Wolverine,,,pelt,,30
+565,2cr.10/-,Bear,,,pelt,,125
+566,2cr.10/-,Bunyip,,,pelt,,10
+567,3cr.10/-,Caterwaul,,,pelt,,65
+568,1cr.10/-,Chincilla,,,pelt,,5
+569,2cr.,Fox,silver,,pelt,,10
+570,2cr.10/-,Fox,hoar,,pelt,,10
+571,2cr.10/-,Giraffe,,,pelt,,125
+572,2cr.10/-,Hell Hound,,,pelt,,80
+573,2cr.,Ermine,,,pelt,,5
+574,1cr.10/-,Mink,,,pelt,,5
+575,3cr.10/-,Nonfel,,,pelt,,5
+576,2cr.10/-,Owlbear,,,pelt,,125
+577,3cr.10/-,Panther,,,pelt,,60
+578,2cr.10/-,Sable,,,pelt,,5
+579,2cr.10/-,Seal,,,pelt,,10
+580,4cr.,Snow Leopard,,,pelt,,40
+581,5cr.,Snow-Owlbear,,,pelt,,250
+582,2cr.10/-,Spotted Cats,,,pelt,,20
+583,2cr.10/-,Tiger,,,pelt,,75
+584,2cr.10/-,Winter Wolf,,,pelt,,150
+585,2cr.10/-,Yeti,,,pelt,,180
+586,2cr.10/-,Zebra,,,pelt,,65
+587,5/4p,Tipster,common knowledge,,illegal service,99%,
+588,1/-,Tipster,uncommon knowledge,,illegal service,80%,
+589,5/-,Tipser,specific information,,illegal service,30%,
+590,10/-,Tipster,exact information,,illegal service,15%,
+591,10/-,Private Investigator,1 day,,illegal service,improve chance to know by 1 step,
+592,10/-,Tipster,dangerous information,,illegal service,40% slain in 1d6 days,
+593,1gn.5/-,Fixer,avoid arrest,,illegal service,,
+594,2gn.10/-,Fixer,turn minor infraction,,illegal service,,
+595,5gn.,Fixer,turn major infraction,,illegal service,,
+596,1Kh.4gn.,Fixer,assist escape,,illegal service,,
+597,20% take,Fixer,cleanup/dispose,,illegal service,,
+598,5Kh.,Fixer,escape capital crime,,illegal service,,
+599,5Kh.,Fixer,"do a  ""personal favor""",,illegal service,,
+600,8Kh.2gn.,Fixer,cross thieve's guild,,illegal service,,
+601,1Kh.2gn.,Forgery,royal pardon,,illegal service,5 days,
+602,2gn.10/-,Forgery,military pass,,illegal service,3 days,
+603,1gn.5/-,Forgery,city pass,,illegal service,2 days,
+604,10/-,Forgery,official's signature,,illegal service,1 day,
+605,25% value,Forgery,counterfeit coins,,illegal service,10 days,
+606,5% value,Forgery,counterfeit jewelry,,illegal service,2-7 days,
+607,50% profit,Forgery,money clipping,,illegal service,1 day,
+608,12/-,Forgery,copy deed or title,,illegal service,4-5 days,
+609,1gn.,Forgery,copy work of art,,illegal service,2-3 weeks,
+610,50%,Blackmarket,buy/sell,,illegal service,,
+611,50%,Blackmarket,buy/sell stolen,,illegal service,,
+612,3¾p,Whore,basic free,,illegal service,,
+613,1/-,Whore,exotic free,,illegal service,,
+614,2/-,Whore,new style free,,illegal service,,
+615,5p,Whore,basic club,,illegal service,,
+616,1s.6p,Whore,exotic club,,illegal service,,
+617,3/-,Whore,new style club,,illegal service,,
+618,50% / month,Loans,any amount,,illegal service,,
+619,20% / month,Loans,any amount (guildmember),,illegal service,,
+620,10/-,Threat,nobody special,,illegal service,,
+621,1gn.10/-,Threat,known locally,,illegal service,,
+622,6gn.,Threat,well known locally,,illegal service,,
+623,3Kh.4gn.10s/-,Threat,petty official,,illegal service,,
+624,4Kh.6gn.,Threat,minor city official,,illegal service,,
+625,12Kh.3gn.,Threat,major city official,,illegal service,,
+626,208Kh.,Threat,very high profile,,illegal service,,
+627,1gn.,Bone Breaking,nobody special,,illegal service,,
+628,3gn.,Bone Breaking,known locally,,illegal service,,
+629,1Kh.4gn.,Bone Breaking,well known locally,,illegal service,,
+630,6Kh.4gn.,Bone Breaking,petty official,,illegal service,,
+631,9Kh.5gn.,Bone Breaking,minor city official,,illegal service,,
+632,25Kh,Bone Breaking,major city official,,illegal service,,
+633,416Kh.,Bone Breaking,very high profile,,illegal service,,
+634,5gn.,Elimination,nobody special,,illegal service,,
+635,5Kh.,Elimination,known locally,,illegal service,,
+636,8Kh.2gn.,Elimination,well known locally,,illegal service,,
+637,41Kh.4gn.,Elimination,petty official,,illegal service,,
+638,83Kh.1gn.,Elimination,minor city official,,illegal service,,
+639,416Kh.,Elimination,major city official,,illegal service,,
+640,832Kh.,Elimination,very high profile,,illegal service,,
+641,1gn.10/-,Kidnapping,nobody special,,illegal service,,
+642,4gn.9s.11½p,Kidnapping,known locally,,illegal service,,
+643,2Kh.3gn.,Kidnapping,well known locally,,illegal service,,
+644,9Kh.6gn.,Kidnapping,petty official,,illegal service,,
+645,14Kh.6gn.,Kidnapping,minor city official,,illegal service,,
+646,37Kh.,Kidnapping,major city official,,illegal service,,
+647,624Kh.,Kidnapping,very high profile,,illegal service,,
+648,1/-,Shelter,Poor 1 man,0,shelter,"4hp, light moisture",6
+649,2/-,Shelter,Poor 2 man,0,shelter,"4hp, light moisture",7
+650,3/-,Shelter,Poor 4 man,0,shelter,"4hp, light moisture",8
+651,3/-,Shelter,Adequate 1 man,0,shelter,"8hp, moderate moisture",7
+652,5/-,Shelter,Adequate 2 man,0,shelter,"8hp, moderate moisture",8
+653,7s.6p,Shelter,Adequate 4 man,0,shelter,"8hp, moderate moisture",9
+654,7s.6p,Shelter,Good 1 man,5,shelter,"12hp, heavy moisture",8
+655,12/-,Shelter,Good 2 man,5,shelter,"12hp, heavy moisture",9
+656,18/-,Shelter,Good 4 man,5,shelter,"12hp, heavy moisture",10
+657,1cr.,Shelter,Superior 1 man,10,shelter,"24hp, downpour",9
+658,1cr.10/-,Shelter,Superior 2 man,10,shelter,"24hp, downpour",10
+659,1cr.20/-,Shelter,Superior 4 man,10,shelter,"24hp, downpour",12
+660,5/-,Tent,Solo 1 man,10,shelter,"10hp, heavy moisture",10
+661,5/-,Tent,Wedge 1 man,10,shelter,"10hp, moderate moisture, no floor",10
+662,1cr.,Tent,Duo 2 man,10,shelter,"20hp, heavy moisture",14
+663,4/-,Tent,Bell 2 man,10,shelter,"10hp, moderate moisture",10
+664,1cr.,Tent,Traveling Pavillion 3 man,10,shelter,"20hp, moderatr moisture",16
+665,5/-,Tent,Group 4 man,15,shelter,"30hp, heavy moisture",22
+666,5cr.,Tent,Pavillion 6 man,15,shelter,"40hp, heavy moisture",28
+667,15/-,Tent,Pyramid 6 man,15,shelter,"35hp, heavy moisture",12
+668,1H.1cr.10/-,Tent,Tournament 6 man,5,shelter,"40hp, moderate moisture",32
+669,4H.19s.9p,Tent,Sweat lodge 8 man,20,shelter,"40hp, downpour",71
+670,10s/-,Tent,Warmth Lining,30,shelter,10hp+,3
+671,5/-,Hammock,,,sleeping,,1
+672,5/4p,Straw Mat,,,sleeping,,1
+673,1/-,Bedroll,,5 if dry,sleeping,,3
+674,3/-,Sleeping Bag,,10 if dry,sleeping,,5
+675,10/-,Polar Bag,,40 if dry,sleeping,,20
+676,2H.9s.10½p,Klamboe,,,sleeping,stops insects,1
+677,5/2p,Twine,100ft,,misc,,0.5
+678,1/-,Flask,1 qt,,misc,,0.1
+679,1s.6p,Scroll Case,20 sheets,,alchemy,waterproof,0.01
+680,5/-,Bellows,common,,alchemy,to heat up fire,2.5
+681,2H.10/-,Bellows,furnace,,alchemy,to heat up fire,250
+682,1cr.15/-,Furnace,common,,alchemy,for extra hot fires,4000
+683,8H.2cr.,Smelter,small,,alchemy,"30'x30', connect to furnace",2000
+684,16H.4cr.,Smelter,medium,,alchemy,"50'x50', connect to furnace",4000
+685,41H.3cr.18/-,Smelter,large,,alchemy,"75'x75', connect to furnace",8000
+686,4/-,Alembic,common,,alchemy,distillation aparatus,2
+687,10/-,Balance,"small, golden",,alchemy,to weigh material,0.25
+688,3/-,Beaker,common,,alchemy,heatable container to pour liquids,0.5
+689,1s.6p,Brazier,small,,alchemy,to make a small fire,0.5
+690,8½p,Crucible,common,,alchemy,to melt items within,1
+691,10/-,Decanter,crystal,,alchemy,to hold/pour liquids 1pint,0.5
+692,¾p,Decanter,ceramic,,alchemy,to hold/pour liquids 1pint,0.5
+693,4/-,Decanter,silver,,alchemy,to hold/pour liquids 1pint,0.5
+694,5/2p,Earspoon,common,,alchemy,to clean holes,0.01
+695,2/-,Merchant Scale,small,,alchemy,with 1 oz weights,0.25
+696,5/-,Merchant Scale,large,,alchemy,with 1 lb weights,1
+697,1/-,Needle,Magnetized,,alchemy,,0.01
+698,4/-,Spinner,brass,,alchemy,to split liquids in 12 vials,1
+699,2/-,Retort,common,,alchemy,distillation aparatus,0.5
+700,¼p,Ribbon,common,,alchemy,to suck up liquid,0.01
+701,1H.1cr.10/-,Test Kit,basic,,alchemy,identify basic potions,10
+702,8/-,Vellum,common,,alchemy,filter paper,0.01
+703,5p,Funnel,common,,alchemy,,0.01
+704,1/-,Glass Bottle,crystal,,alchemy,1 pint,0.1
+705,5p,Glass Bottle,normal,,alchemy,1 pint,0.25
+706,1/-,Glass Bottle,gold/silver,,alchemy,1 pint,0.25
+707,5/4p,Glass Bottle,cheap,,alchemy,1 pint,0.3
+708,6¼p,Grind Stone,common,,alchemy,to grind material,0.3
+709,2/-,Morter and Pestle,ceramic,,alchemy,to grind material,2
+710,2cr.10/-,Morter and Pestle,stone,,alchemy,to grind material,8
+711,1/-,Punk Pot,common,,alchemy,smolder 2',2
+712,10/-,Prism,common,,alchemy,,0.5
+713,5/-,Leeches,jar,,alchemy,to drain blood,0.5
+714,5/4p,Magnet,small,,alchemy,,0.1
+715,3¾p,Tubing Glass,per foot,,alchemy,,0.25
+716,6¼p,Tripod,common,,alchemy,to hold scales/dishes above fire,0.25
+717,6¼p,Tweezers,common,,alchemy,,0.01
+718,3¼p,Vial,clay,,alchemy,to hold liquid/powder,0.25
+719,1/-,Vial,ceramic,,alchemy,to hold liquid/powder,0.25
+720,3/-,Vial,glass,,alchemy,to hold liquid/powder,0.25
+721,4/-,Vial,crystal,,alchemy,to hold liquid/powder,0.25
+722,5/-,Vial,steel,,alchemy,to hold liquid/powder,0.25
+723,7/-,Vial,silver,,alchemy,to hold liquid/powder,0.25
+724,x1,Vial,small,,alchemy,"modifier, doubles capacity",x1
+725,x2,Vial,medium,,alchemy,"modifier, doubles capacity",x2
+726,x3,Vial,large,,alchemy,"modifier, doubles capacity",x4
+727,1cr.5/-,Hourglass,many times,,alchemy,measure time,0.25
+728,10/-,Sundial,common,,alchemy,measure time,16
+729,5/-,Fishing Rod,common,,fishing,"10'-30' rod, 5% chance of breaking per 10 lb of fish",0.5
+730,1H.1cr.10/-,Monster Rod,common,,fishing,"10'-30' iron rod, 5% chance of breaking every 50 lb",3
+731,¼p,Line Lead,common,,fishing,,0.1
+732,1/-,Net Lead,common,,fishing,,1.5
+733,¼p,Floating Bob,common,,fishing,,0.01
+734,5/4p,Net Floaters,1 per sq foot,,fishing,,0.01
+735,3/-,Monster Hook,common,,fishing,,0.25
+736,3/-,Fishline,small,,fishing,"50', 5% breakage per 10lb of fish",0.01
+,1cr.10/-,Fishline,monster,,fishing,"50', 5% breakage per 50lb of fish",0.25
+,1/-,Monsternet,per sq foot,,fishing,,0.1
+,5/4p,Fishnet,per sq fot,,fishing,,0.01
+,3/-,Sheath,bastard sword,,accessories,,0.5
+,2/-,Sheath,long sword,,accessories,,0.25
+,1/-,Sheath,short sword,,accessories,,0.1
+,4/-,Sheath,back,,accessories,,1
+,7¼p,Scabbard,dagger/knife,,accessories,,0.1
+,1s.5/2p,Weapon Ring,,,accessories,,0.1
+,1s.7¼p,Back Clasp,,,accessories,,0.5
