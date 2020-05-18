@@ -1,989 +1,1031 @@
 ﻿Index,Price,Item,Type,Temp,Category,Notes,Weight
-001,5/4p,Apron,common,0,clothing,,
-002,1/-,Breeches,linen,0,clothing,,
-003,6¼p,Breeches,sack cloth,0,clothing,,
-004,2/-,Breeches,wollen,0,clothing,,
-005,4/-,Breeches,velvet,0,clothing,,
-006,8/-,Breeches,silk,0,clothing,,
-007,¾p,Dress,linen,0,clothing,,
-008,5/4p,Dress,elf,5,clothing,,
-009,1p,Dress,halfling,5,clothing,,
-010,1s.5/2p,Gown,common,5,clothing,,
-011,5/-,Gown,silk,0,clothing,,
-012,7/-,Gown,elf,0,clothing,,
-013,2/-,Pants,human,0,clothing,,
-014,5/2p,Pants,gnome,0,clothing,,
-015,5p,Pants,halfling,0,clothing,,
-016,5/-,Pants,elf,0,clothing,,
-017,4cr.,Jacket,silk,5,clothing,,
-018,9¾p,Jerkins,linen,0,clothing,,
-019,1/-,Jerkins,woolen,5,clothing,,
-020,10/-,Jerkins,leather,0,clothing,,
-021,3/-,Jerkins,cotton,5,clothing,,
-022,3/-,Jester,hat with bells,0,clothing,,
-023,1/-,Jester,collar,0,clothing,,
-024,10/-,Jester,satin shirt,0,clothing,,
-025,8½p,Jester,white gloves,0,clothing,,
-026,8/-,Jester,bunch pants,0,clothing,,
-027,9¾p,Jester,bright stockings,0,clothing,,
-028,11p,Robe,Aba (desert robe),-30,clothing,,
-029,1cr.,Robe,Aba embroidered,-30,clothing,,
-030,11p,Robe,embroidered,5,clothing,,
-031,1cr.,Robe,fur trimmed,5,clothing,,
-032,3/-,Robe,common,5,clothing,,
-033,9s.6p,Robe,embroidered silk,0,clothing,,
-034,1cr.10/-,Robe,noble silk,0,clothing,,
-035,5p,Shirt,common,0,clothing,,
-036,1/-,Trousers,wool,0,clothing,,
-037,3¾p,Trousers,cotton,0,clothing,,
-038,9¾p,Tunic,uniform coat,5,clothing,,
-039,7¼p,Tunic,cloth sweater,15,clothing,,
-040,1/-,Tunic,fur trimmed,20,clothing,,
-041,8½p,Tunic,leather,0,clothing,,
-042,1/-,Tunic,silk,0,clothing,,
-043,5/-,Boots,Riding,0,"clothing, appendages",,
-044,1/-,Boots,High soft leather,5 if furred,"clothing, appendages",,
-045,2/-,Boots,High hard leather,5 if furred,"clothing, appendages",,
-046,1/-,Boots,Low soft leather,5 if furred,"clothing, appendages",,
-047,9¾p,Boots,Low hard leather,5 if furred,"clothing, appendages",,
-048,4/-,Boots,Waterproof,0,"clothing, appendages",,
-049,5/-,Boots,High healed,-5,"clothing, appendages",,
-050,6¼p,Shoes,Basic,0,"clothing, appendages",,
-051,1s.6p,Shoes,Dancing,0,"clothing, appendages",,
-052,2cr.5/-,Shoes,Elven,0,"clothing, appendages",,
-053,2/-,Shoes,Moccasins,0,"clothing, appendages",,
-054,1/-,Shoes,High heeled,0,"clothing, appendages",,
-055,12/-,Jester,clumsy bright,0,"clothing, appendages",,
-056,5/2p,Sandals,common,0,"clothing, appendages",,
-057,6¼p,Sandals,high heeled,0,"clothing, appendages",,
-058,1s.6p,Slipper,linen,0,"clothing, appendages",,
-059,1cr.15/-,Slipper,quilted silk,0,"clothing, appendages",,
-060,1/-,Slipper,wool,0,"clothing, appendages",,
-061,5/4p,Socks,common,5,"clothing, appendages",,
-062,5/-,Panties,silk,0,"clothing, appendages",,
-063,10/-,Panties,embroidered,0,"clothing, appendages",,
-064,2/-,Snowshoes,common,10,"clothing, appendages",,
-065,10/-,Gauntlet,Swordsman,0,"clothing, appendages",,
-066,6¼p,Gauntlet,Perch Glove,0,"clothing, appendages",,
-067,5/-,Gloves,Thieve's,0,"clothing, appendages",,
-068,5/-,Gloves,Spiked,0,"clothing, appendages",,
-069,6¼p,Gloves,Heavy leather,0,"clothing, appendages",,
-070,1/-,Gloves,Soft linen,0,"clothing, appendages",,
-071,4/-,Gloves,Soft Archery,5,"clothing, appendages",,
-072,4/-,Gloves,Sloth and fur,0,"clothing, appendages",,
-073,15/-,Gloves,Silk,0,"clothing, appendages",,
-074,16/-,Gloves,Snakeskin,0,"clothing, appendages",,
-075,3¾p,Mittens,Normal,10,"clothing, appendages",,
-076,7s.6p,Mittens,Arctic,40,"clothing, appendages",,
-077,8½p,Hat,cloth,5,"clothing, appendages",,
-078,2/-,Hat,fur,15,"clothing, appendages",,
-079,5/2p,Hat,straw,0,"clothing, appendages",,
-080,5/2p,Hat,leather,0,"clothing, appendages",,
-081,6¼p,Hat,fancy,0,"clothing, appendages",,
-082,5/2p,Hat,wool,10,"clothing, appendages",,
-083,7¼p,Bra,common,0,smallclothing,,
-084,2s.7¼p,Bra,push-up,0,smallclothing,,
-085,5/-,Bustle,side,0,smallclothing,,
-086,9/-,Bustle,rear,0,smallclothing,,
-087,1s.6p,Corest,X,0,smallclothing,"Dx-1, Ch + 1",
-088,1s.5/2p,Corset,V,0,smallclothing,"dDx -1, Ch + 1",
-089,6¼p,Suspenders,Leather,0,smallclothing,,
-090,6/-,Nightshirt,common,0,smallclothing,,
-091,1s.5/2p,Waistcincer,common,0,smallclothing,"Dx -1, Ch +1",
-092,10/-,Arctic Coat,common,30,outer clothing,,
-093,5/2p,Cape,straw,0,outer clothing,,
-094,5p,Cape,half,0,outer clothing,,
-095,8½p,Cape,full,0,outer clothing,,
-096,5/-,Cloak,short,0,outer clothing,,
-097,10/-,Cloak,long,0,outer clothing,,
-098,2cr.10/s-,Camo,night,0,outer clothing,,
-099,2cr.10/s-,Camo,desert,0,outer clothing,,
-100,2cr.10/s-,Camo,snow,0,outer clothing,,
-101,2cr.10/s-,Camo,grasslands,0,outer clothing,,
-102,2cr.10/s-,Cmao,growth,0,outer clothing,,
-103,2cr.10/s-,Camo,aquatic,0,outer clothing,,
-104,2cr.10/s-,Camo,rocky,0,outer clothing,,
-105,3cr.,Camo,fur,10,outer clothing,,
-106,5/-,Tarcloak,long,0,outer clothing,,
-107,5/-,Parka,common,15,outer clothing,,
-108,6/-,Poncho,rain,5,outer clothing,,
-109,4cr.,Silk Jacket,common,0,outer clothing,,
-110,7¼p,Surcoat,linen,0,outer clothing,,
-111,7¼p,Tabard,heraldic,0,outer clothing,,
-112,6/-,Tabard,cleric,0,outer clothing,,
-113,3cr.,Tabard,embroidered,0,outer clothing,,
-114,1/-,Tattoo,Black,0,accessories,,
-115,2/-,Tattoo,Colored,0,accessories,,
-116,5/2p,Belt,common,0,accessories,,
-117,¼p,Condom,sheep bladder,0,accessories,,
-118,¼p,Handkerchief,cloth,0,accessories,,
-119,5/2p,Handkerchief,silk,0,accessories,,
-120,5/-,Insect Repellant,citrus,0,accessories,,
-121,3¾p,Umbrella,common,0,accessories,,
-122,3¾p,Purse,common,0,accessories,,
-123,1/-,Sewing Kit,,0,accessories,,
-124,3¾p,Cane,,0,accessories,,
-125,2/-,Weapon Black,,0,accessories,,
-126,½p,Egg,chicken,,food,,
-127,½p,Egg,goose,,food,,
-128,1s.5/4p,Egg,duck,,food,,
-129,5/4p,Egg,ostrich,,food,,
-130,5/4p,Egg,rare,,food,,
-131,¾p,Egg,snake,,food,,
-132,7/-,Egg,turtle/lizard,,food,,
-133,6¼p,Haggis,common,,food,,
-134,4/-,Pork,Bacon,,food,,
-135,5/-,Pork,Ham,,food,,
-136,3/-,Pork,Salted,,food,,
-137,5/2p,Pork,Sausage,,food,,
-138,3¾p,Pork,Brotwurst,,food,,
-139,3/-,Beef,Corned,,food,,
-140,5/-,Beef,Dried,,food,,
-141,7/-,Beef,Jerked,,food,,
-142,2/-,Beef,Sausage,,food,,
-143,6¼p,Smoked,Beef,,food,,
-144,8½p,Smoked,Ham,,food,,
-145,2/-,Smoked,Bear,,food,,
-146,1s.8½p,Smoked,Venison,,food,,
-147,2/-,Steak,Lizard,,food,,
-148,1/-,Steak,Beef,,food,,
-149,4/-,Steak,Eel,,food,,
-150,6/-,Steak,Venison,,food,,
-151,¾p,Stew,Snake,,food,,
-152,2p,Stew,Otter,,food,,
-153,½p,Stew,Beef,,food,,
-154,½p,Stew,Rabbit,,food,,
-155,1p,Stew,Wolf,,food,,
-156,1/-,Special,Frog legs,,food,,
-157,6¼p,Special,Beavertails,,food,,
-158,3¾p,Special,Fried Snake,,food,,
-159,2s.7¼p,Special,Snails,,food,,
-160,7¼p,Special,Fish & Rice,,food,,
-161,3¾p,Special,Bean chilly,,food,,
-162,5/2p,Special,Rice,,food,,
-163,6¼p,Special,Rice cake,,food,,
-164,¾p,Special,Noodles,,food,,
-165,5/4p,Special,Mushrooms,,food,,
-166,6¼p,Roast,chicken,,food,,
-167,9¾p,Roast,duck,,food,,
-168,3/-,Roast,turkey,,food,,
-169,5/-,Roast,pheasant,,food,,
-170,6/-,Roast,venison,,food,,
-171,5p,Roast,mutton,,food,,
-172,9¾p,Roast,beef ribs,,food,,
-173,7/-,Roast,goose,,food,,
-174,4H.19s.9p,Roast,ostrich,,food,,
-175,41H.4cr.,Roast,Roc,,food,,
-176,¾p,Soup,Bouillon,,food,,
-177,5/4p,Soup,Veg/Mush/Chicken,,food,,
-178,2p,Soup,Tomato,,food,,
-179,5/4p,Fish,River,,food,,
-180,1s.6p,Fish,Smoked Shark,,food,,
-181,3/-,Roast,Fish,,food,,
-182,3/-,Fish,Crab,,food,,
-183,7¼p,Fish,Caviar,,food,,
-184,10/-,Fish,Whale Blubber,,food,,
-185,5/2p,Fish,Lobster,,food,,
-186,3/-,Fish,Crab,,food,,
-187,3/-,Fish,Herring picked,,food,,
-188,5/-,Fish,Herring salted,,food,,
-189,5/2p,Fish,Lobster tail,,food,,
-190,3/-,Fish,Picked fish,,food,,
-191,1/-,Fish,Salmon salted,,food,,
-192,15/-,Fish,Salmon smoked,,food,,
-193,4/-,Fish,Sardines,,food,,
-194,3/-,Fish,Shark,,food,,
-195,¼p,Fat,Animal,,food,,
-196,6¼p,Fat,Applebutter,,food,,
-197,8½p,Fat,Blackberrybutter,,food,,
-198,7¼p,Fat,Pearbutter,,food,,
-199,5/4p,Fat,Butter,,food,,
-200,6¼p,Fat,Milkfat,,food,,
-201,2/-,Fat,Veg Oil,,food,,
-202,½p,Bread,Common,,food,,
-203,¼p,Bread,Small Common,,food,,
-204,¼p,Bread,Rye,,food,,
-205,¼p,Bread,Flatbread,,food,,
-206,¼p,Bread,Wheat,,food,,
-207,¼p,Bread,Sourdough,,food,,
-208,¼p,Bread,Corned,,food,,
-209,5/4p,Bread,Ginger,,food,,
-210,5/-,Bread,Elven Waybread,,food,,
-211,¼p,Bread,Hardtack,,food,,
-212,5/4p,Cheese,Poor,,food,,
-213,5p,Cheese,Common,,food,,
-214,1cr.15/-,Cheese,Cheddar wheel,,food,,
-215,5p,Cheese,Cheddar whey,,food,,
-216,2cr.10/-,Cheese,Nut wheel,,food,,
-217,1/-,Cheese,Nut whey,,food,,
-218,2cr.5/-,Cheese,Pepper wheel,,food,,
-219,6¼p,Cheese,Pepper whey,,food,,
-220,½p,Vegetable,scraps,,food,,
-221,5/2p,Vegetable,cabbage,,food,,
-222,¾p,Vegetable,turnip,,food,,
-223,¾p,Vegetable,carrots,,food,,
-224,5/2p,Vegetable,beets,,food,,
-225,½p,Vegetable,salad,,food,,
-226,1cr.,Vegetable,artichokes,,food,,
-227,5/2p,Vegetable,green beans,,food,,
-228,5/2p,Vegetable,small peas,,food,,
-229,2/-,Fruit,onions/potatos,,food,,
-230,¼p,Fruit,common,,food,,
-231,5/2p,Fruit,rare,,food,,
-232,1/-,Fruit,very rare,,food,,
-233,1/-,Fruit,soft,,food,,
-234,15/-,Fruit,apricots,,food,,
-235,2/-,Fruit,strawberries,,food,,
-236,15/-,Fruit,peaches,,food,,
-237,5/-,Fruit,pears,,food,,
-238,3/-,Fruit,prunes,,food,,
-239,6¼p,Fruit,cherries,,food,,
-240,5/4p,Fruit,elderberries,,food,,
-241,1/-,Fruit,mixed,,food,,
-242,3/-,Fruit,raspberries,,food,,
-243,3¾p,Fruit,figs,,food,,
-244,4/-,Fruit,spiced pears,,food,,
-245,3/-,Fruit,spiced plums,,food,,
-246,5/-,Fruit,dates,,food,,
-247,1cr.10/-,Fruit,pumpklin seeds,,food,,
-248,5/2p,Fruit,raisins,,food,,
-249,5p,Preserves,cherry,,food,,
-250,6¼p,Preserves,raspberry,,food,,
-251,5p,Preserves,apricots,,food,,
-252,5p,Preserves,apple,,food,,
-253,5p,Preserves,plum,,food,,
-254,6¼p,Preserves,strawberry,,food,,
-255,1/-,Sweets,Caramel,,food,,
-256,2s.6p,Sweets,Milk Chocolate,,food,,
-257,2s.3¾p,Sweets,Cocoa,,food,,
-258,¾p,Sweets,Sugarcane,,food,,
-259,5/2p,Sweets,Flavored Figurines,,food,,
-260,5/4p,Sweets,Jellybeans,,food,,
-261,1/-,Sweets,Gum,,food,,
-262,8½p,Sweets,Rice,,food,,
-263,10/-,Boar,,,animal,,
-264,1cr.,Bull,,,animal,,
-265,5/-,Calf,,,animal,,
-266,2cr.10/-,Camel,,,animal,,
-267,½p,Capon,,,animal,,
-268,5/4p,Cat,,,animal,,
-269,¼p,Chicken,,,animal,,
-270,10/-,Cow,,,animal,,
-271,1cr.5/-,"Dog, Guard",,,animal,,
-272,17/-,"Dog, Hunting",,,animal,,
-273,1cr.,"Dog, War",,,animal,,
-274,8/-,Donkey,,,animal,,
-275,1H.4cr.,"Elephant, Labor",,,animal,,
-276,4H.1cr.,"Elephant, War",,,animal,,
-277,5cr.,Falcon (Trained),,,animal,,
-278,1/-,Goat,,,animal,,
-279,¾p,Goose,,,animal,,
-280,¼p,Guinea Hen,,,animal,,
-281,1H.4cr.,Horse Draft,,,animal,,
-282,3H.2cr.,Horse Heavy War,,,animal,,
-283,1H.1cr.10/-,Horse Light War,,,animal,,
-284,1H.5cr.5/-,Horse Medium War,,,animal,,
-285,3cr.15/-,Horse Riding,,,animal,,
-286,41H.4cr.,Hunting Cat,,,animal,,
-287,15/-,Ox,,,animal,,
-288,¾p,Partridge,,,animal,,
-289,6¼p,Peacock,,,animal,,
-290,3/-,Pig,,,animal,,
-291,¼p,Pigeon,,,animal,,
-292,5cr.,Pigeon Homing,,,animal,,
-293,1cr.10/-,Pony,,,animal,,
-294,4/-,Ram,,,animal,,
-295,2/-,Sheep,,,animal,,
-296,1/-,Songbird,,,animal,,
-297,6¼p,Swan,,,animal,,
-298,4H.1cr.,Barding,Chain,,tackle,,70
-299,16H.3cr.,Barding,Full plate,,tackle,,85
-300,8H.2cr.,Barding,Full scale,,tackle,,75
-301,4H.1cr.,Barding,Half brigandine,,tackle,,45
-302,5cr.,Barding,Half padded,,tackle,,25
-303,4H.1cr.,Barding,Half scale,,tackle,,50
-304,1H.1cr.10/-,Barding,Leather or padded,,tackle,,60
-305,1s.6p,Barding,Bit and bridle,,tackle,,3
-306,2/-,Barding,Cart harness,,tackle,,10
-307,¾p,Barding,Halter,,tackle,,*
-308,1/-,Barding,Horseshoes & shoeing,,tackle,,10
-309,5/-,Saddle,Pack,,tackle,,15
-310,10/-,Saddle,Riding,,tackle,,35
-311,4/-,Saddle Bag,Large,,tackle,,8
-312,3/-,Saddle Bag,Small,,tackle,,5
-313,3¾p,Saddle Bag,Saddle blanket,,tackle,,4
-314,5/-,Yoke,Horse,,tackle,,15
-315,3/-,Yoke,Ox,,tackle,,20
-316,½p,Bath,,,service,,
-317,5/2p,Clerk,per letter,,service,,
-318,3/-,Doctor,"leeching, bleeding, etc.",,service,,
-319,5/2p,Guide,per day,,service,,
-320,5/4p,Torchbearer,per night,,service,,
-321,¼p,Laundry,by load,,service,,
-322,5/4p,Messenger,per message,,service,,
-323,3/-,Minstrel,per performance,,service,,
-324,5/2p,Mourner,per funeral,,service,,
-325,5/4p,Teamster W/ Wagon,per mile,,service,,
-326,8Kh,Lawyer,per month,,service,,
-327,12/-,Armorer,per 10-AC,,service,,
-328,5gn.,Cleric,per month,,service,,
-329,3¾p,Horser,per horse per week,,service,,
-330,varies,Insurance,per month,,service,,
-331,5/-,Nigh Guard,per night,,service,,
-332,1/-,Storage,per chest,,service,,
-333,9/-,Wainwrite,per hp of work,,service,,
-334,2Kh,Mage,per spell per week,,service,6 spells/day,
-335,5Kh,Mage,per spell per week,,service,12 spells/day,
-336,12Kn,Mage,per spell per week,,service,24 spells/day,
-337,79Kh,Audience,Emperor,,service,,
-338,39Kh,Audience,King,,service,,
-339,7Kh,Audience,Baron,,service,,
-340,4Kh.6gn.,Audience,Lord,,service,,
-341,800Kh,Title,Ambassador,,service,,
-342,2000Kh,Title,Lord,,service,,
-343,4000Kh,Title,Baron,,service,,
-344,2/-,Backpack,,,misc,,2
-345,2/-,Barrel,,,misc,,30
-346,3¾p,Basket,Large,,misc,,1
-347,¾p,Basket,Small,,misc,,*
-348,1/-,Bell,,,misc,,
-349,1/-,Belt Pouch,Large,,misc,,1
-350,8½p,Belt Pouch,Small,,misc,,0.5
-351,5/-,Block And Tackle,,,misc,,5
-352,1/-,Bolt Case,,,misc,,1
-353,6¼p,Bucket,,,misc,,3
-354,4/-,Chain,Heavy,,misc,per foot,3
-355,3/-,Chain,Light,,misc,per foot,1
-356,2/-,Chest,Large,,misc,,25
-357,1/-,Chest,Small,,misc,,10
-358,7/-,Cloth,cheap,,misc,per 10 square yards,10
-359,2cr.10/-,Cloth,fine,,misc,per 10 square yards,10
-360,4cr.20/-,Cloth,silk,,misc,per 10 square yards,10
-361,¼p,Candle,,,misc,,*
-362,5p,Canvas,,,misc,per sq. yard,1
-363,¼p,Chalk,,,misc,,*
-364,4/-,Crampons,,,misc,,2
-365,5/4p,Fishhook,,,fishing,,**
-366,6¼p,Flint And Steel,,,misc,,*
-367,10/-,Glass Bottle,,,misc,,*
-368,9¾p,Grappling Hook,,,misc,,4
-369,1cr.5/-,Holy Item,symbol,,misc,,*
-370,1cr.5/-,Holy Item,water,,misc,,*
-371,6¼p,Hourglass,,,misc,,1
-372,¾p,Iron Pot,,,misc,,2
-373,1H.1cr.10/-,Ladder,,,misc,10 ft,20
-374,1H.1cr.10/-,Lantern,Beacon,,misc,,50
-375,12/-,Lantern,Bullseye,,misc,,3
-376,7/-,Lantern,Hooded,,misc,,2
-377,1cr.,Padlock,,,misc,,1
-378,5cr.,Magnifying Glass,,,misc,,*
-379,9¾p,Map Or Scroll Case,,,misc,,0.5
-380,2/-,Merchant's Scale,,,misc,,1
-381,10/-,Mirror,metal,,misc,,*
-382,varies,Musical Instrument,,,misc,,.5 to 3
-383,10/-,Oil,Greek fire,,misc,per flask,2
-384,¾p,Oil,Lamp,,misc,per flask,1
-385,2/-,Paper,,,misc,per sheet,**
-386,9¾p,Papyrus,,,misc,per sheet,**
-387,1/-,Parchment,,,misc,per sheet,**
-388,5/-,Perfume,,,misc,per vial,*
-389,½p,Piton,,,misc,,0.5
-390,9¾p,Quiver,,,misc,,1
-391,1/-,Rope,Hemp,,misc,per 50 ft,20
-392,10/-,Rope,Silk,,misc,per 50 ft,8
-393,5/2p,Sack,Large,,misc,,0.5
-394,¾p,Sack,Small,,misc,,*
-395,1/-,Wax,sealing/candle,,misc,,1
-396,6¼p,Needle,sewing,,misc,,**
-397,9¾p,Whistle,signal,,misc,,*
-398,5/-,Signet Ring Or Personal Seal,,,misc,,*
-399,6¼p,Soap,,,misc,per lb,1
-400,8H.2cr.,Spyglass,,,misc,,1
-401,1cr.10/-,Thieve's Picks,,,misc,,1
-402,¼p,Torchbearer,,,misc,,1
-403,8H.2cr.,Water Clock,,,misc,,200
-404,¼p,Whetstone,,,misc,,1
-405,9¾p,Wineskin,,,misc,,1
-406,6¼p,Winter Blanket,,,misc,,3
-407,8/-,Ink,,,misc,per vial,*
-408,1H.4cr.,Banded Mai,,0,armor,,35
-409,6cr.,Brigandine,,0,armor,,35
-410,3H.2cr.,Bronze Plate Mail,,0,armor,,45
-411,3cr.15/-,Chain Mail,,0,armor,,40
-412,16H.4cr.,Field Plate,,0,armor,,60
-413,83H.,Full Plate,,0,armor,,70
-414,1cr.10/-,Great Helm,,0,armor,,10
-415,8/-,Basinet,,0,armor,,5
-416,15/-,Hide,,0,armor,,30
-417,5/-,Leather,,0,armor,,15
-418,4/-,Padded,,0,armor,,10
-419,4H.6cr.,Plate Mail,,0,armor,,50
-420,5cr.,Ring Mail,,0,armor,,30
-421,6cr.,Scale Mail,,0,armor,,40
-422,10/-,Shield,body,0,armor,,15
-423,1/-,Shield,buckler,0,armor,,3
-424,7/-,Shield,medium,0,armor,,10
-425,3/-,Shield,small,0,armor,,5
-426,4cr.,Splint Mail,,0,armor,,40
-427,1cr.,Studded Leather,,0,armor,,25
-428,4H.1cr.,Arquebus,,,weapon,1d10 1d10 p,10
-429,5/-,Battle Axe,,,weapon,1d8 1d8 s,7
-430,5/-,Blowgun,,,weapon,-,2
-431,5/4p,Blowgun,barbed dart,,weapon,1d3 1d2 p,*
-432,¼p,Blowgun,needle,,weapon,1 1 p,*
-433,1cr.10/-,Bow,short,,weapon,-,2
-434,3cr.15s/-,Bow,long,,weapon,-,3
-435,3cr.15/-,Bow,composite short,,weapon,-,2
-436,5cr.,Bow,composite long,,weapon,-,3
-437,½p,Bow,flight arrow,,weapon,1d6 1d6 p,*
-438,¾p,Bow,sheaf arrow,,weapon,1d8 1d8 p,*
-439,¼p,Club,,,weapon,1d6 1d3 b,3
-440,2H.3cr.,Crossbow,hand,,weapon,-,3
-441,1cr.15/-,Crossbow,light,,weapon,-,7
-442,2cr.10/-,Crossbow,heavy,,weapon,-,14
-443,1/-,Crossbow,hand quarrel,,weapon,1d3 1d2 p,*
-444,5/4p,Crossbow,light quarrel,,weapon,1d4 1d4 p,*
-445,5/2p,Crossbow,heavy quarrel,,weapon,1d4+1 1d6+1 p,*
-446,2/-,Dagger Or Dirk,,,weapon,1d4 1d3 p,1
-447,6¼p,Dart,,,weapon,1d3 1d2 p,0.5
-448,15/-,Footman's Flail,,,weapon,1d6+1 2d4 b,15
-449,8/-,Footman's Mace,,,weapon,1d6+1 1d6 b,10
-450,8/-,Footman's Pick,,,weapon,1d6+1 2d4 b,6
-451,1/-,Hand Axe,,,weapon,1d6 1d4 s,5
-452,1cr.,Harpoon,,,weapon,2d4 2d6 p,6
-453,8/-,Horseman's Flail,,,weapon,1d4+1 1d4+1 b,5
-454,5/-,Horseman's Mace,,,weapon,1d6 1d4 b,6
-455,7/-,Horseman's Pick,,,weapon,1d4+1 1d4 p,4
-456,6¼p,Javelin,,,weapon,1d6 1d6 p,2
-457,6¼p,Knife,,,weapon,1d6 1d6 p/s,0.5
-458,15/-,Lance,heavy horse,,weapon,1d8+1 3d6 p,15
-459,6/-,Lance,light horse,,weapon,1d6 1d8 p,5
-460,1cr.,Lance,jousting,,weapon,1d3-1 1d2-1 p,20
-461,10/-,Lance,medium horse,,weapon,1d6+1 2d6,10
-462,1cr.10/-,Mancatcher,,,weapon,-,8
-463,10/-,Morning Star,,,weapon,2d4 1d6+1 p/b,12
-464,5/-,Polearm,awl pike,,weapon,1d6 1d12 p,12
-465,7/-,Polearm,bardiche,,weapon,2d4 2d6 s,12
-466,8/-,Polearm,bec de corbin,,weapon,1d8 1d6 p/b,10
-467,7/-,Polearm,bill-guisarme,,weapon,2d4 1d10 p/s,15
-468,5/-,Polearm,fauchard,,weapon,1d6 1d8 p/s,7
-469,8/-,Polearm,fauchard-fork,,weapon,1d8 1d10 p/s,9
-470,6/-,Polearm,glaive,,weapon,1d6 1d10 s,8
-471,10/-,Polearm,glaive-guisarme,,weapon,2d4 2d6 p/s,10
-472,5/-,Polearm,guisarme,,weapon,2d4 1d8 s,8
-473,8/-,Polearm,guisarme-voulge,,weapon,1d4 1d4 p/s,15
-474,10/-,Polearm,halberd,,weapon,1d10 2d6 p/s,15
-475,10/-,Polearm,hook fauchard,,weapon,1d4 1d4 p/s,8
-476,7/-,Polearm,lucern hammer,,weapon,2d4 1d6 p/b,15
-477,5/-,Polearm,military fork,,weapon,1d8 2d4 p,7
-478,10/-,Polearm,partisan,,weapon,1d6 1d6+1 p,8
-479,6/-,Polearm,ranseur,,weapon,2d4 2d4 p,7
-480,5/-,Polearm,spetum,,weapon,1d6+1 2d6 p,7
-481,5/-,Polearm,voulge,,weapon,2d4 2d4 s,12
-482,¼p,Quarterstaff,,,weapon,1d6 1d6 b,4
-483,1/-,Scourge,,,weapon,1d4 1d2 -,2
-484,7¼p,Sickle,,,weapon,1d4+1 1d4 s,3
-485,¾p,Sling,,,weapon,-,*
-486,¼p,Sling,bullet,,weapon,1d4+1 1d6+1 b,*
-487,¼p,Sling,stone,,weapon,1d4 1d4 b,*
-488,9¾p,Spear,,,weapon,1d6 1d8 p,5
-489,5/2p,Staff Sling,,,weapon,-,2
-490,1cr.5/-,Sword,bastard,,weapon,1d8(2d4) 1d12(2d8) s,10
-491,10/-,Sword,broad,,weapon,2d4 1d6+1 s,4
-492,10/-,Sword,khopesh,,weapon,2d4 1d6 s,7
-493,15/-,Sword,long,,weapon,1d8 1d12 s,4
-494,15/-,Sword,scimitar,,weapon,1d8 1d8 s,4
-495,10/-,Sword,short,,weapon,1d6 1d8 p,3
-496,2cr.10/-,Sword,two-handed,,weapon,1d10 3d6 s,15
-497,15/-,Trident,,,weapon,1d6+1 3d4 p,5
-498,2/-,Warhammer,,,weapon,1d4+1 1d4 b,6
-499,5/4p,Whip,,,weapon,1d2 1 -,2
-500,6¼p,Feed,horse,,feed,,
-501,¾p,Ale,common,,drink,"1 pint, 1 alcohol",
-502,1p,Ale,dwarven,,drink,"1 pint, 1.5 alcohol",
-503,5/4p,Ale,orcish,,drink,"1 pint, 2 alcohol",
-504,¼p,Beer,light,,drink,"1 pint, .5 alcohol",
-505,½p,Beer,normal,,drink,"1 pint, 2 alcohol",
-506,½p,Beer,dark,,drink,"1 pint, 2 alcohol",
-507,1/-,Cider,common,,drink,"1 pint, 5 alcohol",
-508,¾p,Coffee,common,,drink,1 gill,
-509,1s.6p,Coffee,Isle of Dawn,,drink,"1 gill, 3 alcohol",
-510,¾p,Cacao,,,drink,1 gill,
-511,½p,Milk,,,drink,1 quart,
-512,¾p,Yogurt,,,drink,1 pint,
-513,¼p,Vinegar,white,,drink,1 quart (medicinal),
-514,½p,Vinegar,red,,drink,1 quart (medicinal),
-515,5/2p,Thee,common,,drink,1 gill,
-516,1/-,Thee,yak butter,,drink,1 gill,
-517,3¾p,Thee,herbal,,drink,1 gill,
-518,3¾p,Akvavit,Ostlander,,drink,"1 shot, 5 alcohol",
-519,5/4p,Akvavit,common,,drink,"1 shot, 3 alcohol",
-520,5p,Arkhi,Hobgoblandish,,drink,"1 shot, 4 alcohl",
-521,5p,Brandy,Thyatian Imperian,,drink,"1 shot, 4 alcohol",
-522,3¾p,Brandy,Minrothadian,,drink,"1 shot, 4 alcohol",
-523,6¼p,Evermead,,,drink,"1 pint, 5 alcohol",
-524,1s.6p,Fruit Juice,,,drink,1 gill,
-525,5p,Mezcal,Sindhi,,drink,"1 shot, 7 alcohol",
-526,3¾p,Mezcal,Savage Coast,,drink,"1 shot, 6 alcohol",
-527,1s.6p,Kumis,Ethengarian,,drink,"1 gallon, 32 (shake bag before drinking)",
-528,5/2p,Ouzo,Redstone,,drink,"1 shot, 3 alcohol",
-529,1/-,Ouzo,Ierendi,,drink,"1 shot, 7 alcohol",
-530,5p,Rum,Ethengarian,,drink,"1 shot, 5 alcohol",
-531,5p,Rum,Heldannic,,drink,"1 shot, 6 alcohol",
-532,6¼p,Rum,Light,,drink,"1 shot, 6 alcohol",
-533,8½p,Rum,Dark,,drink,"1 shot, 7 alcohol",
-534,7¼p,Sake,Pearl Islands,,drink,"1 shot, 5 alcohol",
-535,9¾p,Sake,Alphatian,,drink,"1 shot, 5 alcohol",
-536,1s.6p,Tequila,Savage coast,,drink,"1 shot + lemon + salt, 8 alcohol",
-537,6¼p,Tequila,Orcish,,drink,"1 shot + lemon + salt, 8 alcohol",
-538,2s.6p,Tequila,With Scorpion,,drink,"1 shot + lemon + salt, 9 alcohol",
-539,3¾p,Uisce,Glantrian,,drink,"1 shot, 5 alcohol",
-540,5/2p,Uisce,common,,drink,"1 shot, 4 alcohol",
-541,3¾p,Vodka,Karameikan,,drink,"1 shot, 5 alcohol",
-542,5/2p,Vodka,Glantrian,,drink,"1 shot, 2 alcohol",
-543,5/4p,Whisky,Texeiran,,drink,"1 gill, 4 alcohol",
-544,5/2p,Whisky,common,,drink,"1 gill, 4 alcohol",
-545,5/2p,Tobacco,,,drug,1 pipe worth,
-546,10/-,Cigar,,,drug,"6""",
-547,11p,Beaver,,,pelt,,10
-548,5p,Bobcat,,,pelt,,10
-549,5/2p,Cat,,,pelt,,4
-550,3¾p,Cow,,,pelt,,100
-551,5/4p,Dog,,,pelt,,4
-552,3¾p,Horse,,,pelt,,100
-553,5/2p,Lynx,,,pelt,,10
-554,5/2p,Otter,,,pelt,,10
-555,5/4p,Rat,,,pelt,,5
-556,1/-,Boar,,,pelt,,10
-557,3/-,Fisher,,,pelt,,5
-558,3/-,Fox,red,,pelt,,10
-559,3/-,Marten,,,pelt,,5
-560,3/-,Otter,sea,,pelt,,10
-561,1/-,Rabbit,,,pelt,,10
-562,3/-,Weasel,,,pelt,,10
-563,1/-,Wolverine,,,pelt,,30
-564,2cr.10/-,Bear,,,pelt,,125
-565,2cr.10/-,Bunyip,,,pelt,,10
-566,3cr.10/-,Caterwaul,,,pelt,,65
-567,1cr.10/-,Chincilla,,,pelt,,5
-568,2cr.,Fox,silver,,pelt,,10
-569,2cr.10/-,Fox,hoar,,pelt,,10
-570,2cr.10/-,Giraffe,,,pelt,,125
-571,2cr.10/-,Hell Hound,,,pelt,,80
-572,2cr.,Ermine,,,pelt,,5
-573,1cr.10/-,Mink,,,pelt,,5
-574,3cr.10/-,Nonfel,,,pelt,,5
-575,2cr.10/-,Owlbear,,,pelt,,125
-576,3cr.10/-,Panther,,,pelt,,60
-577,2cr.10/-,Sable,,,pelt,,5
-578,2cr.10/-,Seal,,,pelt,,10
-579,4cr.,Snow Leopard,,,pelt,,40
-580,5cr.,Snow-Owlbear,,,pelt,,250
-581,2cr.10/-,Spotted Cats,,,pelt,,20
-582,2cr.10/-,Tiger,,,pelt,,75
-583,2cr.10/-,Winter Wolf,,,pelt,,150
-584,2cr.10/-,Yeti,,,pelt,,180
-585,2cr.10/-,Zebra,,,pelt,,65
-586,5/4p,Tipster,common knowledge,,illegal service,99%,
-587,1/-,Tipster,uncommon knowledge,,illegal service,80%,
-588,5/-,Tipser,specific information,,illegal service,30%,
-589,10/-,Tipster,exact information,,illegal service,15%,
-590,10/-,Private Investigator,1 day,,illegal service,improve chance to know by 1 step,
-591,10/-,Tipster,dangerous information,,illegal service,40% slain in 1d6 days,
-592,1gn.5/-,Fixer,avoid arrest,,illegal service,,
-593,2gn.10/-,Fixer,turn minor infraction,,illegal service,,
-594,5gn.,Fixer,turn major infraction,,illegal service,,
-595,1Kh.4gn.,Fixer,assist escape,,illegal service,,
-596,20% take,Fixer,cleanup/dispose,,illegal service,,
-597,5Kh.,Fixer,escape capital crime,,illegal service,,
-598,5Kh.,Fixer,"do a  ""personal favor""",,illegal service,,
-599,8Kh.2gn.,Fixer,cross thieve's guild,,illegal service,,
-600,1Kh.2gn.,Forgery,royal pardon,,illegal service,5 days,
-601,2gn.10/-,Forgery,military pass,,illegal service,3 days,
-602,1gn.5/-,Forgery,city pass,,illegal service,2 days,
-603,10/-,Forgery,official's signature,,illegal service,1 day,
-604,25% value,Forgery,counterfeit coins,,illegal service,10 days,
-605,5% value,Forgery,counterfeit jewelry,,illegal service,2-7 days,
-606,50% profit,Forgery,money clipping,,illegal service,1 day,
-607,12/-,Forgery,copy deed or title,,illegal service,4-5 days,
-608,1gn.,Forgery,copy work of art,,illegal service,2-3 weeks,
-609,50%,Blackmarket,buy/sell,,illegal service,,
-610,50%,Blackmarket,buy/sell stolen,,illegal service,,
-611,3¾p,Whore,basic free,,illegal service,,
-612,1/-,Whore,exotic free,,illegal service,,
-613,2/-,Whore,new style free,,illegal service,,
-614,5p,Whore,basic club,,illegal service,,
-615,1s.6p,Whore,exotic club,,illegal service,,
-616,3/-,Whore,new style club,,illegal service,,
-617,50% / month,Loans,any amount,,illegal service,,
-618,20% / month,Loans,any amount (guildmember),,illegal service,,
-619,10/-,Threat,nobody special,,illegal service,,
-620,1gn.10/-,Threat,known locally,,illegal service,,
-621,6gn.,Threat,well known locally,,illegal service,,
-622,3Kh.4gn.10s/-,Threat,petty official,,illegal service,,
-623,4Kh.6gn.,Threat,minor city official,,illegal service,,
-624,12Kh.3gn.,Threat,major city official,,illegal service,,
-625,208Kh.,Threat,very high profile,,illegal service,,
-626,1gn.,Bone Breaking,nobody special,,illegal service,,
-627,3gn.,Bone Breaking,known locally,,illegal service,,
-628,1Kh.4gn.,Bone Breaking,well known locally,,illegal service,,
-629,6Kh.4gn.,Bone Breaking,petty official,,illegal service,,
-630,9Kh.5gn.,Bone Breaking,minor city official,,illegal service,,
-631,25Kh,Bone Breaking,major city official,,illegal service,,
-632,416Kh.,Bone Breaking,very high profile,,illegal service,,
-633,5gn.,Elimination,nobody special,,illegal service,,
-634,5Kh.,Elimination,known locally,,illegal service,,
-635,8Kh.2gn.,Elimination,well known locally,,illegal service,,
-636,41Kh.4gn.,Elimination,petty official,,illegal service,,
-637,83Kh.1gn.,Elimination,minor city official,,illegal service,,
-638,416Kh.,Elimination,major city official,,illegal service,,
-639,832Kh.,Elimination,very high profile,,illegal service,,
-640,1gn.10/-,Kidnapping,nobody special,,illegal service,,
-641,4gn.9s.11½p,Kidnapping,known locally,,illegal service,,
-642,2Kh.3gn.,Kidnapping,well known locally,,illegal service,,
-643,9Kh.6gn.,Kidnapping,petty official,,illegal service,,
-644,14Kh.6gn.,Kidnapping,minor city official,,illegal service,,
-645,37Kh.,Kidnapping,major city official,,illegal service,,
-646,624Kh.,Kidnapping,very high profile,,illegal service,,
-647,1/-,Shelter,Poor 1 man,0,shelter,"4hp, light moisture",6
-648,2/-,Shelter,Poor 2 man,0,shelter,"4hp, light moisture",7
-649,3/-,Shelter,Poor 4 man,0,shelter,"4hp, light moisture",8
-650,3/-,Shelter,Adequate 1 man,0,shelter,"8hp, moderate moisture",7
-651,5/-,Shelter,Adequate 2 man,0,shelter,"8hp, moderate moisture",8
-652,7s.6p,Shelter,Adequate 4 man,0,shelter,"8hp, moderate moisture",9
-653,7s.6p,Shelter,Good 1 man,5,shelter,"12hp, heavy moisture",8
-654,12/-,Shelter,Good 2 man,5,shelter,"12hp, heavy moisture",9
-655,18/-,Shelter,Good 4 man,5,shelter,"12hp, heavy moisture",10
-656,1cr.,Shelter,Superior 1 man,10,shelter,"24hp, downpour",9
-657,1cr.10/-,Shelter,Superior 2 man,10,shelter,"24hp, downpour",10
-658,1cr.20/-,Shelter,Superior 4 man,10,shelter,"24hp, downpour",12
-659,5/-,Tent,Solo 1 man,10,shelter,"10hp, heavy moisture",10
-660,5/-,Tent,Wedge 1 man,10,shelter,"10hp, moderate moisture, no floor",10
-661,1cr.,Tent,Duo 2 man,10,shelter,"20hp, heavy moisture",14
-662,4/-,Tent,Bell 2 man,10,shelter,"10hp, moderate moisture",10
-663,1cr.,Tent,Traveling Pavillion 3 man,10,shelter,"20hp, moderatr moisture",16
-664,5/-,Tent,Group 4 man,15,shelter,"30hp, heavy moisture",22
-665,5cr.,Tent,Pavillion 6 man,15,shelter,"40hp, heavy moisture",28
-666,15/-,Tent,Pyramid 6 man,15,shelter,"35hp, heavy moisture",12
-667,1H.1cr.10/-,Tent,Tournament 6 man,5,shelter,"40hp, moderate moisture",32
-668,4H.19s.9p,Tent,Sweat lodge 8 man,20,shelter,"40hp, downpour",71
-669,10s/-,Tent,Warmth Lining,30,shelter,10hp+,3
-670,5/-,Hammock,,,sleeping,,1
-671,5/4p,Straw Mat,,,sleeping,,1
-672,1/-,Bedroll,,5 if dry,sleeping,,3
-673,3/-,Sleeping Bag,,10 if dry,sleeping,,5
-674,10/-,Polar Bag,,40 if dry,sleeping,,20
-675,2H.9s.10½p,Klamboe,,,sleeping,stops insects,1
-676,5/2p,Twine,100ft,,misc,,0.5
-677,1/-,Flask,1 qt,,misc,,0.1
-678,1s.6p,Scroll Case,20 sheets,,alchemy,waterproof,0.01
-679,5/-,Bellows,common,,alchemy,to heat up fire,2.5
-680,2H.10/-,Bellows,furnace,,alchemy,to heat up fire,250
-681,1cr.15/-,Furnace,common,,alchemy,for extra hot fires,4000
-682,8H.2cr.,Smelter,small,,alchemy,"30'x30', connect to furnace",2000
-683,16H.4cr.,Smelter,medium,,alchemy,"50'x50', connect to furnace",4000
-684,41H.3cr.18/-,Smelter,large,,alchemy,"75'x75', connect to furnace",8000
-685,4/-,Alembic,common,,alchemy,distillation aparatus,2
-686,10/-,Balance,"small, golden",,alchemy,to weigh material,0.25
-687,3/-,Beaker,common,,alchemy,heatable container to pour liquids,0.5
-688,1s.6p,Brazier,small,,alchemy,to make a small fire,0.5
-689,8½p,Crucible,common,,alchemy,to melt items within,1
-690,10/-,Decanter,crystal,,alchemy,to hold/pour liquids 1pint,0.5
-691,¾p,Decanter,ceramic,,alchemy,to hold/pour liquids 1pint,0.5
-692,4/-,Decanter,silver,,alchemy,to hold/pour liquids 1pint,0.5
-693,5/2p,Earspoon,common,,alchemy,to clean holes,0.01
-694,2/-,Merchant Scale,small,,alchemy,with 1 oz weights,0.25
-695,5/-,Merchant Scale,large,,alchemy,with 1 lb weights,1
-696,1/-,Needle,Magnetized,,alchemy,,0.01
-697,4/-,Spinner,brass,,alchemy,to split liquids in 12 vials,1
-698,2/-,Retort,common,,alchemy,distillation aparatus,0.5
-699,¼p,Ribbon,common,,alchemy,to suck up liquid,0.01
-700,1H.1cr.10/-,Test Kit,basic,,alchemy,identify basic potions,10
-701,8/-,Vellum,common,,alchemy,filter paper,0.01
-702,5p,Funnel,common,,alchemy,,0.01
-703,1/-,Glass Bottle,crystal,,alchemy,1 pint,0.1
-704,5p,Glass Bottle,normal,,alchemy,1 pint,0.25
-705,1/-,Glass Bottle,gold/silver,,alchemy,1 pint,0.25
-706,5/4p,Glass Bottle,cheap,,alchemy,1 pint,0.3
-707,6¼p,Grind Stone,common,,alchemy,to grind material,0.3
-708,2/-,Morter and Pestle,ceramic,,alchemy,to grind material,2
-709,2cr.10/-,Morter and Pestle,stone,,alchemy,to grind material,8
-710,1/-,Punk Pot,common,,alchemy,smolder 2',2
-711,10/-,Prism,common,,alchemy,,0.5
-712,5/-,Leeches,jar,,alchemy,to drain blood,0.5
-713,5/4p,Magnet,small,,alchemy,,0.1
-714,3¾p,Tubing Glass,per foot,,alchemy,,0.25
-715,6¼p,Tripod,common,,alchemy,to hold scales/dishes above fire,0.25
-716,6¼p,Tweezers,common,,alchemy,,0.01
-717,3¼p,Vial,clay,,alchemy,to hold liquid/powder,0.25
-718,1/-,Vial,ceramic,,alchemy,to hold liquid/powder,0.25
-719,3/-,Vial,glass,,alchemy,to hold liquid/powder,0.25
-720,4/-,Vial,crystal,,alchemy,to hold liquid/powder,0.25
-721,5/-,Vial,steel,,alchemy,to hold liquid/powder,0.25
-722,7/-,Vial,silver,,alchemy,to hold liquid/powder,0.25
-723,x1,Vial,small,,alchemy,"modifier, doubles capacity",x1
-724,x2,Vial,medium,,alchemy,"modifier, doubles capacity",x2
-725,x3,Vial,large,,alchemy,"modifier, doubles capacity",x4
-726,1cr.5/-,Hourglass,many times,,alchemy,measure time,0.25
-727,10/-,Sundial,common,,alchemy,measure time,16
-728,5/-,Fishing Rod,common,,fishing,"10'-30' rod, 5% chance of breaking per 10 lb of fish",0.5
-729,1H.1cr.10/-,Monster Rod,common,,fishing,"10'-30' iron rod, 5% chance of breaking every 50 lb",3
-730,¼p,Line Lead,common,,fishing,,0.1
-731,1/-,Net Lead,common,,fishing,,1.5
-732,¼p,Floating Bob,common,,fishing,,0.01
-733,5/4p,Net Floaters,1 per sq foot,,fishing,,0.01
-734,3/-,Monster Hook,common,,fishing,,0.25
-735,3/-,Fishline,small,,fishing,"50', 5% breakage per 10lb of fish",0.01
-736,1cr.10/-,Fishline,monster,,fishing,"50', 5% breakage per 50lb of fish",0.25
-737,1/-,Monsternet,per sq foot,,fishing,,0.1
-738,5/4p,Fishnet,per sq fot,,fishing,,0.01
-739,3/-,Sheath,bastard sword,,accessories,,0.5
-740,2/-,Sheath,long sword,,accessories,,0.25
-741,1/-,Sheath,short sword,,accessories,,0.1
-742,4/-,Sheath,back,,accessories,,1
-743,7¼p,Scabbard,dagger/knife,,accessories,,0.1
-744,1s.5/2p,Weapon Ring,,,accessories,,0.1
-745,1s.7¼p,Back Clasp,,,accessories,,0.5
-746,1/-,License,Glantrian,,license,Serving in a tavern,
-747,1/-,License,Glantrian,,license,Serving Alcohol,
-748,5/-,License,Glantrian,,license,Serving magical brews,
-749,3/-,License,Glantrian,,license,Turn invisible at will,
-750,10/-,License,Glantrian,,license,Private Spellcasting,
-751,1cr.,License,Glantrian,,license,Arcane Business,
-752,1cr.,License,Glantrian,,license,Magical Detection,
-753,1/-,License,Glantrian,,license,Business less than 5cr./day,
-754,5/-,License,Glantrian,,license,Business less than 100cr./day,
-755,1cr.,License,Glantrian,,license,Business over 100cr./day,
-756,1/-,License,Glantrian,,license,Weapons less than 15 inch,
-757,10/-,License,Glantrian,,license,Weapons larger than 15inch,
-758,5/-,License,Glantrian,,license,"Weapons, blunt",
-759,5/-,License,Glantrian,,license,Shield and Helmet,
-760,10/-,License,Glantrian,,license,"Armor, Leather",
-761,1cr.,License,Glantrian,,license,"Armor, metal",
-762,2cr.10/-,License,Glantrian,,license,Speaking in Public to 10 or more people,
-763,5cr.,Amber,whole,,gem,,
-764,2cr.11¾p,Amber,powdered,,gem,,
-765,1cr.5/-,Amber,rod,,gem,,
-766,5cr.,Alexandrite,,,gem,,
-767,5cr.,Amethyst,,,gem,,
-768,4H.,Aquamarine,,,gem,,
-769,10/-,Azurite,,,gem,,
-770,10/-,Banded Agate,,,gem,,
-771,8H.1cr.,Black Opal,,,gem,,
-772,41H.3cr.,Black Sapphire,,,gem,,
-773,2cr.10/-,Bloodstone,,,gem,,
-774,10/-,Blue Quartz,,,gem,,
-775,41H.4cr.,Blue Star,,,gem,,
-776,2cr.10/-,Carnetlian,,,gem,,
-777,2cr.10/-,Chalcedony,,,gem,,
-778,5cr.,Chrysoberyl,,,gem,,
-779,2cr.10/-,Chrysoprase,,,gem,,
-780,2cr.10/-,Citrine,,,gem,,
-781,3/-,Crystal Rod,,,gem,,
-782,41H.4cr.,Diamond,whole,,gem,,
-783,5cr.,Diamond,dust,,gem,,
-784,41H.4cr.,Emerald,whole,,gem,,
-785,2cr.,Emerald,powdered,,gem,,
-786,10/-,Eye Agate,,,gem,,
-787,5cr.,Fire Opal,,,gem,,
-788,4H.,Garnet,,,gem,,
-789,10/-,Hematite,,,gem,,
-790,41H.4cr.,Jacinth,,,gem,,
-791,10/-,Jade,,,gem,,
-792,2cr.10/-,Jasper,,,gem,,
-793,5cr.,Jet,,,gem,,
-794,10/-,Lapis Lazuli,,,gem,,
-795,10/-,Malachite,,,gem,,
-796,2cr.10/-,Moonstone,,,gem,,
-797,10/-,Moss Agate,,,gem,,
-798,10/-,Obsidian,,,gem,,
-799,2cr.10/-,Onyx,,,gem,,
-800,8H.1cr.,Opal,,,gem,,
-801,8H.1cr.,Oriental Amethyst,,,gem,,
-802,41H.4cr.,Oriental Emerald,,,gem,,
-803,8H.1cr.,Oriental Topaz,,,gem,,
-804,4H.,Pearl,,,gem,,
-805,4H.,Peridot,,,gem,,
-806,10/-,Rhodochrosite,,,gem,,
-807,2cr.10/-,Rock Crystal,,,gem,,
-808,41H.4cr.,Ruby,whole,,gem,,
-809,2cr.,Rubey,powdered,,gem,,
-810,10/-,Sapphire,,,gem,,
-811,2cr.10/-,Sardonyx,,,gem,,
-812,2cr.10/-,Smokey Quartz,,,gem,,
-813,4H.,Spinel,,,gem,,
-814,2cr.10/-,Star Rose Quartz,,,gem,,
-815,41H.4cr.,Star Ruby,,,gem,,
-816,41H.4cr.,Star Sapphire,,,gem,,
-817,10/-,Tiger Eye,,,gem,,
-818,4H.,Topaz,,,gem,,
-819,5cr.,Tourmaline,,,gem,,
-820,10/-,Turquoise,,,gem,,
-821,2cr.10/-,Zircon,,,gem,,
-822,5/4p,Volcanic Ash,,,metal and ore,,
-823,¾p,Bitumen,,,metal and ore,,
-824,¾p,Carbon,,,metal and ore,,
-825,1/-,Cinnabryl,per ounce,,metal and ore,,
-826,¼p,Clay,per pound,,metal and ore,,
-827,5cr.,Coral,,,metal and ore,,
-828,9¾p,Glass,Opaque,,metal and ore,,
-829,2/-,Glass sheet,,,metal and ore,,
-830,1/-,Glass rod,,,metal and ore,,
-831,1/-,Gold,dust,,metal and ore,,
-832,1cr.,Gold,sheet,,metal and ore,,
-833,2/-,Granite,black,,metal and ore,,
-834,¼p,Granite,dust,,metal and ore,,
-835,¼p,Platinum sheet,,,metal and ore,,
-836,5/2p,Red Steel,per ounce,,metal and ore,,
-837,5/-,Silver,powdered,,metal and ore,,
-838,15/-,Silver,sheet,,metal and ore,,
-839,40H.,Urthellis Craterdust,,,metal and ore,,
-840,9¾p,Zinc,,,metal and ore,,
-841,6¼p,Archer,human,per day,hireling,,
-842,1/-,Archer,elf,per day,hireling,,
-843,3¾p,Archer,orc,per day,hireling,,
-844,5/2p,Archer,goblin,per day,hireling,,
-845,9¾p,Archer,hobbit,per day,hireling,,
-846,1s.6p,Bowman,human,per day,hireling,,
-847,3/-,Bowman,elf,per day,hireling,,
-848,1/-,Bowman,hobbit,per day,hireling,,
-849,1s.6p,"Bowman, mounted",human,per day,hireling,,
-850,3/-,"Bowman, mounted",elf,per day,hireling,,
-851,1/-,Longbowman,human,per day,hireling,,
-852,2/-,Longbowman,elf,per day,hireling,,
-853,6¼p,Longbowman,orc,per day,hireling,,
-854,5p,Crossbowman,human,per day,hireling,,
-855,7¼p,Crossbowman,dwarf,per day,hireling,,
-856,5/2p,Crossbowman,orc,per day,hireling,,
-857,5/4p,Crossbowman,hobbit,per day,hireling,,
-858,6¼p,"Crossbowman, mounted",human,per day,hireling,,
-859,1s.6p,"Crossbowman, mounted",dwarf,per day,hireling,,
-860,5/2p,"Footman, light",human,per day,hireling,,
-861,5p,"Footman, light",dwarf,per day,hireling,,
-862,5p,"Footman, light",elf,per day,hireling,,
-863,5/4p,"Footman, light",orc,per day,hireling,,
-864,¾p,"Footman, light",goblin,per day,hireling,,
-865,5/2p,"Footman, light",hobbit,per day,hireling,,
-866,2/-,"Footman, light",giant,per day,hireling,,
-867,3¾p,"Footman, heavy",human,per day,hireling,,
-868,6¼p,"Footman, heavy",dwarf,per day,hireling,,
-869,7¼p,"Footman, heavy",elf,per day,hireling,,
-870,2p,"Footman, heavy",orc,per day,hireling,,
-871,5/2p,"Footman, heavy",goblin,per day,hireling,,
-872,4/-,"Footman, heavy",giant,per day,hireling,,
-873,5/4p,Peasant,human,per day,hireling,,
-874,5/4p,Peasant,dwarf,per day,hireling,,
-875,5/4p,Peasant,elf,per day,hireling,,
-876,5/4p,Peasant,orc,per day,hireling,,
-877,5/4p,Peasant,goblin,per day,hireling,,
-878,5/4p,Peasant,hobbit,per day,hireling,,
-879,2/-,Peasant,giant,per day,hireling,,
-880,1/-,"Horseman, Light",human,per day,hireling,,
-881,5/-,"Horseman, Light",elf,per day,hireling,,
-882,6¼p,"Horseman, Light",goblin,per day,hireling,,
-883,1s.6p,"Horseman, Medium",human,per day,hireling,,
-884,2s.6p,"Horseman, Medium",elf,per day,hireling,,
-885,1/-,"Horseman, Heavy",human,per day,hireling,,
-886,6¼p,Wolf rider,Goblin,per day,hireling,,
-887,6¼p,Cook,human,per day,retainer,feed 50,
-888,5p,Cook,dwarf,per day,retainer,feed 50,
-889,5/2p,Cook,elf,per day,retainer,feed 50,
-890,5/4p,Cook,orc,per day,retainer,feed 50,
-891,5/4p,Cook,goblin,per day,retainer,feed 50,
-892,5/2p,Cook,hobbit,per day,retainer,feed 50,
-893,6¼p,Cook,giant,per day,retainer,feed 50,
-894,6¼p,Armorer,human,per day,retainer,1 armor or 3 shield per month,
-895,5p,Armorer,dwarf,per day,retainer,1 armor or 3 shield per month,
-896,5/2p,Armorer,elf,per day,retainer,1 armor or 3 shield per month,
-897,6¼p,Armorer,orc,per day,retainer,1 armor or 3 shield per month,
-898,6¼p,Armorer,goblin,per day,retainer,1 armor or 3 shield per month,
-899,5/2p,Armorer,hobbit,per day,retainer,1 armor or 3 shield per month,
-900,1/-,Armorer,giant,per day,retainer,1 armor or 3 shield per month,
-901,2s.6p,Smith,human,per day,retainer,5 weapon or 3 shield per month,
-902,7s.6p,Smith,dwarf,per day,retainer,5 weapon or 3 shield per month,
-903,2s.6p,Smith,elf,per day,retainer,5 weapon or 3 shield per month,
-904,1/-,Smith,orc,per day,retainer,5 weapon or 3 shield per month,
-905,1s.6p,Smith,goblin,per day,retainer,5 weapon or 3 shield per month,
-906,1s.7¼p,Smith,hobbit,per day,retainer,5 weapon or 3 shield per month,
-907,10/-,Smith,giant,per day,retainer,5 weapon or 3 shield per month,
-908,5/-,Alchemist,human,per day,retainer,,
-909,2/-,Alchemist,elf,per day,retainer,,
-910,6¼p,Alchemist,orc,per day,retainer,,
-911,5/2p,Alchemist,goblin,per day,retainer,,
-912,1s.6p,Armorer Asssistant,human,per day,retainer,doubles smith/armorer output,
-913,6¼p,Armorer Asssistant,dwarf,per day,retainer,doubles smith/armorer output,
-914,9¾p,Armorer Asssistant,elf,per day,retainer,doubles smith/armorer output,
-915,6¼p,Armorer Asssistant,orc,per day,retainer,doubles smith/armorer output,
-916,3¾p,Armorer Asssistant,goblin,per day,retainer,doubles smith/armorer output,
-917,2s.6p,Armorer Asssistant,hobbit,per day,retainer,doubles smith/armorer output,
-918,6¼p,Artillerist,human,per day,retainer,can man 3 artillery,
-919,6¼p,Artillerist,dwarf,per day,retainer,can man 3 artillery,
-920,6¼p,Artillerist,elf,per day,retainer,can man 3 artillery,
-921,5p,Artillerist,orc,per day,retainer,can man 3 artillery,
-922,3¾p,Artillerist,goblin,per day,retainer,can man 3 artillery,
-923,6¼p,Artillerist,hobbit,per day,retainer,can man 3 artillery,
-924,2s.6p,Artillerist,giant,per day,retainer,can man 3 artillery,
-925,6¼p,Animal Trainer,"human, dwarf, elf",per day,retainer,,
-926,3¾p,Animal Trainer,"orc, goblin",per day,retainer,,
-927,2s.6p,Animal Trainer,giant,per day,retainer,,
-928,6¼p,Baliff,"human, dwarf, elf",per day,retainer,,
-929,3¾p,Baliff,"orc, goblin",per day,retainer,,
-930,2s.6p,Baliff,giant,per day,retainer,,
-931,6¼p,Chamberlain,"human, dwarf, elf",per day,retainer,,
-932,3¾p,Chamberlain,"orc, goblin",per day,retainer,,
-933,2s.6p,Chamerlain,giant,per day,retainer,,
-934,6¼p,Equerry,"human, dwarf, elf",per day,retainer,,
-935,3¾p,Equerry,"orc, goblin",per day,retainer,,
-936,2s.6p,Equerry,giant,per day,retainer,,
-937,6¼p,Herald,"human, dwarf, elf",per day,retainer,,
-938,3¾p,Herald,"orc, goblin",per day,retainer,,
-939,2s.6p,Herald,giant,per day,retainer,,
-940,6¼p,Lesser Magistrate,"human, dwarf, elf",per day,retainer,,
-941,3¾p,Lesser Magistrate,"orc, goblin",per day,retainer,,
-942,2s.6p,Lesser Magistrate,giant,per day,retainer,,
-943,6¼p,Marshall,"human, dwarf, elf",per day,retainer,,
-944,3¾p,Marshall,"orc, goblin",per day,retainer,,
-945,2s.6p,Marshall,giant,per day,retainer,,
-946,6¼p,Provost,"human, dwarf, elf",per day,retainer,,
-947,3¾p,Provost,"orc, goblin",per day,retainer,,
-948,2s.6p,Provost,giant,per day,retainer,,
-949,6¼p,Sheriff,"human, dwarf, elf",per day,retainer,,
-950,3¾p,Sheriff,"orc, goblin",per day,retainer,,
-951,2s.6p,Sheriff,giant,per day,retainer,,
-952,6¼p,Warden,"human, dwarf, elf",per day,retainer,,
-953,3¾p,Warden,"orc, goblin",per day,retainer,,
-954,2s.6p,Warden,giant,per day,retainer,,
-955,2s.6p,Engineer,human,per day,retainer,1 per 80H. Construction cost,
-956,2s.6p,Engineer,dwarf,per day,retainer,1 per 80H. Construction cost,
-957,2s.6p,Engineer,elf,per day,retainer,1 per 80H. Construction cost,
-958,1/-,Engineer,goblin,per day,retainer,1 per 80H. Construction cost,
-959,5/-,Engineer,giant,per day,retainer,1 per 80H. Construction cost,
-960,2s.6p,Castellan,"human, dwarf, elf",per day,retainer,,
-961,1/-,Castellan,"orc, goblin",per day,retainer,,
-962,5/-,Castellan,giant,per day,retainer,,
-963,2s.6p,Chaplain,"human, dwarf, elf",per day,retainer,,
-964,1/-,Chaplain,"orc, goblin",per day,retainer,,
-965,5/-,Chaplain,giant,per day,retainer,,
-966,2s.6p,Guard Captain,"human, dwarf, elf",per day,retainer,,
-967,1/-,Guard Captain,"orc, goblin",per day,retainer,,
-968,5/-,Guard Captain,giant,per day,retainer,,
-969,2s.6p,Magistrate,"human, dwarf, elf",per day,retainer,,
-970,1/-,Magistrate,"orc, goblin",per day,retainer,,
-971,5/-,Magistrate,giant,per day,retainer,,
-972,2s.6p,Reeve,"human, dwarf, elf",per day,retainer,,
-973,1/-,Reeve,"orc, goblin",per day,retainer,,
-974,5/-,Reeve,giant,per day,retainer,,
-975,2s.6p,Chief Steward,"human, dwarf, elf",per day,retainer,,
-976,1/-,Chief Steward,"orc, goblin",per day,retainer,,
-977,5/-,Chief Steward,giant,per day,retainer,,
-978,(I+W+Ch) * 1/-,Sage,,per day,retainer,,
-979,¼p,Rower,"human, elf, orc, goblin, hobbit",per day,retainer,free if convict,
-980,6¼p,Rower,giant,per day,retainer,free if convict,
-981,5/4p,Sailor,"human, elf, orc, goblin, hobbit",per day,retainer,,
-982,(I+W+Ch) * 1/-,Captain,,per day,retainer,,
-983,2s.6p,Navigator,,per day,retainer,,
-984,Int * Level /-,Spy,,per day,retainer,,
-985,Int * Level * 6/-,Mage,,per day,retainer,,
-986,Int * 5/2 * Level,Retainer Class,Thief,per day,retainer,,
-987,Int * 4p * Level,Retainer Class,Warrior,per day,retainer,,
-988,Int * 5p * Level,Retainer Class,Priest,per day,retainer,,
+0001,5/4p,Apron,common,0,clothing,,
+0002,1/-,Breeches,linen,0,clothing,,
+0003,6¼p,Breeches,sack cloth,0,clothing,,
+0004,2/-,Breeches,wollen,0,clothing,,
+0005,4/-,Breeches,velvet,0,clothing,,
+0006,8/-,Breeches,silk,0,clothing,,
+0007,¾p,Dress,linen,0,clothing,,
+0008,5/4p,Dress,elf,5,clothing,,
+0009,1p,Dress,halfling,5,clothing,,
+0010,1s.5/2p,Gown,common,5,clothing,,
+0011,5/-,Gown,silk,0,clothing,,
+0012,7/-,Gown,elf,0,clothing,,
+0013,2/-,Pants,human,0,clothing,,
+0014,5/2p,Pants,gnome,0,clothing,,
+0015,5p,Pants,halfling,0,clothing,,
+0016,5/-,Pants,elf,0,clothing,,
+0017,4cr.,Jacket,silk,5,clothing,,
+0018,9¾p,Jerkins,linen,0,clothing,,
+0019,1/-,Jerkins,woolen,5,clothing,,
+0020,10/-,Jerkins,leather,0,clothing,,
+0021,3/-,Jerkins,cotton,5,clothing,,
+0022,3/-,Jester,hat with bells,0,clothing,,
+0023,1/-,Jester,collar,0,clothing,,
+0024,10/-,Jester,satin shirt,0,clothing,,
+0025,8½p,Jester,white gloves,0,clothing,,
+0026,8/-,Jester,bunch pants,0,clothing,,
+0027,9¾p,Jester,bright stockings,0,clothing,,
+0028,11p,Robe,Aba (desert robe),-30,clothing,,
+0029,1cr.,Robe,Aba embroidered,-30,clothing,,
+0030,11p,Robe,embroidered,5,clothing,,
+0031,1cr.,Robe,fur trimmed,5,clothing,,
+0032,3/-,Robe,common,5,clothing,,
+0033,9s.6p,Robe,embroidered silk,0,clothing,,
+0034,1cr.10/-,Robe,noble silk,0,clothing,,
+0035,5p,Shirt,common,0,clothing,,
+0036,1/-,Trousers,wool,0,clothing,,
+0037,3¾p,Trousers,cotton,0,clothing,,
+0038,9¾p,Tunic,uniform coat,5,clothing,,
+0039,7¼p,Tunic,cloth sweater,15,clothing,,
+0040,1/-,Tunic,fur trimmed,20,clothing,,
+0041,8½p,Tunic,leather,0,clothing,,
+0042,1/-,Tunic,silk,0,clothing,,
+0043,5/-,Boots,Riding,0,"clothing, appendages",,
+0044,1/-,Boots,High soft leather,5 if furred,"clothing, appendages",,
+0045,2/-,Boots,High hard leather,5 if furred,"clothing, appendages",,
+0046,1/-,Boots,Low soft leather,5 if furred,"clothing, appendages",,
+0047,9¾p,Boots,Low hard leather,5 if furred,"clothing, appendages",,
+0048,4/-,Boots,Waterproof,0,"clothing, appendages",,
+0049,5/-,Boots,High healed,-5,"clothing, appendages",,
+0050,6¼p,Shoes,Basic,0,"clothing, appendages",,
+0051,1s.6p,Shoes,Dancing,0,"clothing, appendages",,
+0052,2cr.5/-,Shoes,Elven,0,"clothing, appendages",,
+0053,2/-,Shoes,Moccasins,0,"clothing, appendages",,
+0054,1/-,Shoes,High heeled,0,"clothing, appendages",,
+0055,12/-,Jester,clumsy bright,0,"clothing, appendages",,
+0056,5/2p,Sandals,common,0,"clothing, appendages",,
+0057,6¼p,Sandals,high heeled,0,"clothing, appendages",,
+0058,1s.6p,Slipper,linen,0,"clothing, appendages",,
+0059,1cr.15/-,Slipper,quilted silk,0,"clothing, appendages",,
+0060,1/-,Slipper,wool,0,"clothing, appendages",,
+0061,5/4p,Socks,common,5,"clothing, appendages",,
+0062,5/-,Panties,silk,0,"clothing, appendages",,
+0063,10/-,Panties,embroidered,0,"clothing, appendages",,
+0064,2/-,Snowshoes,common,10,"clothing, appendages",,
+0065,10/-,Gauntlet,Swordsman,0,"clothing, appendages",,
+0066,6¼p,Gauntlet,Perch Glove,0,"clothing, appendages",,
+0067,5/-,Gloves,Thieve's,0,"clothing, appendages",,
+0068,5/-,Gloves,Spiked,0,"clothing, appendages",,
+0069,6¼p,Gloves,Heavy leather,0,"clothing, appendages",,
+0070,1/-,Gloves,Soft linen,0,"clothing, appendages",,
+0071,4/-,Gloves,Soft Archery,5,"clothing, appendages",,
+0072,4/-,Gloves,Sloth and fur,0,"clothing, appendages",,
+0073,15/-,Gloves,Silk,0,"clothing, appendages",,
+0074,16/-,Gloves,Snakeskin,0,"clothing, appendages",,
+0075,3¾p,Mittens,Normal,10,"clothing, appendages",,
+0076,7s.6p,Mittens,Arctic,40,"clothing, appendages",,
+0077,8½p,Hat,cloth,5,"clothing, appendages",,
+0078,2/-,Hat,fur,15,"clothing, appendages",,
+0079,5/2p,Hat,straw,0,"clothing, appendages",,
+0080,5/2p,Hat,leather,0,"clothing, appendages",,
+0081,6¼p,Hat,fancy,0,"clothing, appendages",,
+0082,5/2p,Hat,wool,10,"clothing, appendages",,
+0083,7¼p,Bra,common,0,smallclothing,,
+0084,2s.7¼p,Bra,push-up,0,smallclothing,,
+0085,5/-,Bustle,side,0,smallclothing,,
+0086,9/-,Bustle,rear,0,smallclothing,,
+0087,1s.6p,Corest,X,0,smallclothing,"Dx-1, Ch + 1",
+0088,1s.5/2p,Corset,V,0,smallclothing,"dDx -1, Ch + 1",
+0089,6¼p,Suspenders,Leather,0,smallclothing,,
+0090,6/-,Nightshirt,common,0,smallclothing,,
+0091,1s.5/2p,Waistcincer,common,0,smallclothing,"Dx -1, Ch +1",
+0092,10/-,Arctic Coat,common,30,outer clothing,,
+0093,5/2p,Cape,straw,0,outer clothing,,
+0094,5p,Cape,half,0,outer clothing,,
+0095,8½p,Cape,full,0,outer clothing,,
+0096,5/-,Cloak,short,0,outer clothing,,
+0097,10/-,Cloak,long,0,outer clothing,,
+0098,2cr.10/s-,Camo,night,0,outer clothing,,
+0099,2cr.10/s-,Camo,desert,0,outer clothing,,
+0100,2cr.10/s-,Camo,snow,0,outer clothing,,
+0101,2cr.10/s-,Camo,grasslands,0,outer clothing,,
+0102,2cr.10/s-,Cmao,growth,0,outer clothing,,
+0103,2cr.10/s-,Camo,aquatic,0,outer clothing,,
+0104,2cr.10/s-,Camo,rocky,0,outer clothing,,
+0105,3cr.,Camo,fur,10,outer clothing,,
+0106,5/-,Tarcloak,long,0,outer clothing,,
+0107,5/-,Parka,common,15,outer clothing,,
+0108,6/-,Poncho,rain,5,outer clothing,,
+0109,4cr.,Silk Jacket,common,0,outer clothing,,
+0110,7¼p,Surcoat,linen,0,outer clothing,,
+0111,7¼p,Tabard,heraldic,0,outer clothing,,
+0112,6/-,Tabard,cleric,0,outer clothing,,
+0113,3cr.,Tabard,embroidered,0,outer clothing,,
+0114,1/-,Tattoo,Black,0,accessories,,
+0115,2/-,Tattoo,Colored,0,accessories,,
+0116,5/2p,Belt,common,0,accessories,,
+0117,¼p,Condom,sheep bladder,0,accessories,,
+0118,¼p,Handkerchief,cloth,0,accessories,,
+0119,5/2p,Handkerchief,silk,0,accessories,,
+0120,5/-,Insect Repellant,citrus,0,accessories,,
+0121,3¾p,Umbrella,common,0,accessories,,
+0122,3¾p,Purse,common,0,accessories,,
+0123,1/-,Sewing Kit,,0,accessories,,
+0124,3¾p,Cane,,0,accessories,,
+0125,2/-,Weapon Black,,0,accessories,,
+0126,½p,Egg,chicken,,food,,
+0127,½p,Egg,goose,,food,,
+0128,1s.5/4p,Egg,duck,,food,,
+0129,5/4p,Egg,ostrich,,food,,
+0130,5/4p,Egg,rare,,food,,
+0131,¾p,Egg,snake,,food,,
+0132,7/-,Egg,turtle/lizard,,food,,
+0133,6¼p,Haggis,common,,food,,
+0134,4/-,Pork,Bacon,,food,,
+0135,5/-,Pork,Ham,,food,,
+0136,3/-,Pork,Salted,,food,,
+0137,5/2p,Pork,Sausage,,food,,
+0138,3¾p,Pork,Brotwurst,,food,,
+0139,3/-,Beef,Corned,,food,,
+0140,5/-,Beef,Dried,,food,,
+0141,7/-,Beef,Jerked,,food,,
+0142,2/-,Beef,Sausage,,food,,
+0143,6¼p,Smoked,Beef,,food,,
+0144,8½p,Smoked,Ham,,food,,
+0145,2/-,Smoked,Bear,,food,,
+0146,1s.8½p,Smoked,Venison,,food,,
+0147,2/-,Steak,Lizard,,food,,
+0148,1/-,Steak,Beef,,food,,
+0149,4/-,Steak,Eel,,food,,
+0150,6/-,Steak,Venison,,food,,
+0151,¾p,Stew,Snake,,food,,
+0152,2p,Stew,Otter,,food,,
+0153,½p,Stew,Beef,,food,,
+0154,½p,Stew,Rabbit,,food,,
+0155,1p,Stew,Wolf,,food,,
+0156,1/-,Special,Frog legs,,food,,
+0157,6¼p,Special,Beavertails,,food,,
+0158,3¾p,Special,Fried Snake,,food,,
+0159,2s.7¼p,Special,Snails,,food,,
+0160,7¼p,Special,Fish & Rice,,food,,
+0161,3¾p,Special,Bean chilly,,food,,
+0162,5/2p,Special,Rice,,food,,
+0163,6¼p,Special,Rice cake,,food,,
+0164,¾p,Special,Noodles,,food,,
+0165,5/4p,Special,Mushrooms,,food,,
+0166,6¼p,Roast,chicken,,food,,
+0167,9¾p,Roast,duck,,food,,
+0168,3/-,Roast,turkey,,food,,
+0169,5/-,Roast,pheasant,,food,,
+0170,6/-,Roast,venison,,food,,
+0171,5p,Roast,mutton,,food,,
+0172,9¾p,Roast,beef ribs,,food,,
+0173,7/-,Roast,goose,,food,,
+0174,4H.19s.9p,Roast,ostrich,,food,,
+0175,41H.4cr.,Roast,Roc,,food,,
+0176,¾p,Soup,Bouillon,,food,,
+0177,5/4p,Soup,Veg/Mush/Chicken,,food,,
+0178,2p,Soup,Tomato,,food,,
+0179,5/4p,Fish,River,,food,,
+0180,1s.6p,Fish,Smoked Shark,,food,,
+0181,3/-,Roast,Fish,,food,,
+0182,3/-,Fish,Crab,,food,,
+0183,7¼p,Fish,Caviar,,food,,
+0184,10/-,Fish,Whale Blubber,,food,,
+0185,5/2p,Fish,Lobster,,food,,
+0186,3/-,Fish,Crab,,food,,
+0187,3/-,Fish,Herring picked,,food,,
+0188,5/-,Fish,Herring salted,,food,,
+0189,5/2p,Fish,Lobster tail,,food,,
+0190,3/-,Fish,Picked fish,,food,,
+0191,1/-,Fish,Salmon salted,,food,,
+0192,15/-,Fish,Salmon smoked,,food,,
+0193,4/-,Fish,Sardines,,food,,
+0194,3/-,Fish,Shark,,food,,
+0195,¼p,Fat,Animal,,food,,
+0196,6¼p,Fat,Applebutter,,food,,
+0197,8½p,Fat,Blackberrybutter,,food,,
+0198,7¼p,Fat,Pearbutter,,food,,
+0199,5/4p,Fat,Butter,,food,,
+0200,6¼p,Fat,Milkfat,,food,,
+0201,2/-,Fat,Veg Oil,,food,,
+0202,½p,Bread,Common,,food,,
+0203,¼p,Bread,Small Common,,food,,
+0204,¼p,Bread,Rye,,food,,
+0205,¼p,Bread,Flatbread,,food,,
+0206,¼p,Bread,Wheat,,food,,
+0207,¼p,Bread,Sourdough,,food,,
+0208,¼p,Bread,Corned,,food,,
+0209,5/4p,Bread,Ginger,,food,,
+0210,5/-,Bread,Elven Waybread,,food,,
+0211,¼p,Bread,Hardtack,,food,,
+0212,5/4p,Cheese,Poor,,food,,
+0213,5p,Cheese,Common,,food,,
+0214,1cr.15/-,Cheese,Cheddar wheel,,food,,
+0215,5p,Cheese,Cheddar whey,,food,,
+0216,2cr.10/-,Cheese,Nut wheel,,food,,
+0217,1/-,Cheese,Nut whey,,food,,
+0218,2cr.5/-,Cheese,Pepper wheel,,food,,
+0219,6¼p,Cheese,Pepper whey,,food,,
+0220,½p,Vegetable,scraps,,food,,
+0221,5/2p,Vegetable,cabbage,,food,,
+0222,¾p,Vegetable,turnip,,food,,
+0223,¾p,Vegetable,carrots,,food,,
+0224,5/2p,Vegetable,beets,,food,,
+0225,½p,Vegetable,salad,,food,,
+0226,1cr.,Vegetable,artichokes,,food,,
+0227,5/2p,Vegetable,green beans,,food,,
+0228,5/2p,Vegetable,small peas,,food,,
+0229,2/-,Fruit,onions/potatos,,food,,
+0230,¼p,Fruit,common,,food,,
+0231,5/2p,Fruit,rare,,food,,
+0232,1/-,Fruit,very rare,,food,,
+0233,1/-,Fruit,soft,,food,,
+0234,15/-,Fruit,apricots,,food,,
+0235,2/-,Fruit,strawberries,,food,,
+0236,15/-,Fruit,peaches,,food,,
+0237,5/-,Fruit,pears,,food,,
+0238,3/-,Fruit,prunes,,food,,
+0239,6¼p,Fruit,cherries,,food,,
+0240,5/4p,Fruit,elderberries,,food,,
+0241,1/-,Fruit,mixed,,food,,
+0242,3/-,Fruit,raspberries,,food,,
+0243,3¾p,Fruit,figs,,food,,
+0244,4/-,Fruit,spiced pears,,food,,
+0245,3/-,Fruit,spiced plums,,food,,
+0246,5/-,Fruit,dates,,food,,
+0247,1cr.10/-,Fruit,pumpklin seeds,,food,,
+0248,5/2p,Fruit,raisins,,food,,
+0249,5p,Preserves,cherry,,food,,
+0250,6¼p,Preserves,raspberry,,food,,
+0251,5p,Preserves,apricots,,food,,
+0252,5p,Preserves,apple,,food,,
+0253,5p,Preserves,plum,,food,,
+0254,6¼p,Preserves,strawberry,,food,,
+0255,1/-,Sweets,Caramel,,food,,
+0256,2s.6p,Sweets,Milk Chocolate,,food,,
+0257,2s.3¾p,Sweets,Cocoa,,food,,
+0258,¾p,Sweets,Sugarcane,,food,,
+0259,5/2p,Sweets,Flavored Figurines,,food,,
+0260,5/4p,Sweets,Jellybeans,,food,,
+0261,1/-,Sweets,Gum,,food,,
+0262,8½p,Sweets,Rice,,food,,
+0263,10/-,Boar,,,animal,,
+0264,1cr.,Bull,,,animal,,
+0265,5/-,Calf,,,animal,,
+0266,2cr.10/-,Camel,,,animal,,
+0267,½p,Capon,,,animal,,
+0268,5/4p,Cat,,,animal,,
+0269,¼p,Chicken,,,animal,,
+0270,10/-,Cow,,,animal,,
+0271,1cr.5/-,"Dog, Guard",,,animal,,
+0272,17/-,"Dog, Hunting",,,animal,,
+0273,1cr.,"Dog, War",,,animal,,
+0274,8/-,Donkey,,,animal,,
+0275,1H.4cr.,"Elephant, Labor",,,animal,,
+0276,4H.1cr.,"Elephant, War",,,animal,,
+0277,5cr.,Falcon (Trained),,,animal,,
+0278,1/-,Goat,,,animal,,
+0279,¾p,Goose,,,animal,,
+0280,¼p,Guinea Hen,,,animal,,
+0281,1H.4cr.,Horse Draft,,,animal,,
+0282,3H.2cr.,Horse Heavy War,,,animal,,
+0283,1H.1cr.10/-,Horse Light War,,,animal,,
+0284,1H.5cr.5/-,Horse Medium War,,,animal,,
+0285,3cr.15/-,Horse Riding,,,animal,,
+0286,41H.4cr.,Hunting Cat,,,animal,,
+0287,15/-,Ox,,,animal,,
+0288,¾p,Partridge,,,animal,,
+0289,6¼p,Peacock,,,animal,,
+0290,3/-,Pig,,,animal,,
+0291,¼p,Pigeon,,,animal,,
+0292,5cr.,Pigeon Homing,,,animal,,
+0293,1cr.10/-,Pony,,,animal,,
+0294,4/-,Ram,,,animal,,
+0295,2/-,Sheep,,,animal,,
+0296,1/-,Songbird,,,animal,,
+0297,6¼p,Swan,,,animal,,
+0298,4H.1cr.,Barding,Chain,,tackle,,70
+0299,16H.3cr.,Barding,Full plate,,tackle,,85
+0300,8H.2cr.,Barding,Full scale,,tackle,,75
+0301,4H.1cr.,Barding,Half brigandine,,tackle,,45
+0302,5cr.,Barding,Half padded,,tackle,,25
+0303,4H.1cr.,Barding,Half scale,,tackle,,50
+0304,1H.1cr.10/-,Barding,Leather or padded,,tackle,,60
+0305,1s.6p,Barding,Bit and bridle,,tackle,,3
+0306,2/-,Barding,Cart harness,,tackle,,10
+0307,¾p,Barding,Halter,,tackle,,*
+0308,1/-,Barding,Horseshoes & shoeing,,tackle,,10
+0309,5/-,Saddle,Pack,,tackle,,15
+0310,10/-,Saddle,Riding,,tackle,,35
+0311,4/-,Saddle Bag,Large,,tackle,,8
+0312,3/-,Saddle Bag,Small,,tackle,,5
+0313,3¾p,Saddle Bag,Saddle blanket,,tackle,,4
+0314,5/-,Yoke,Horse,,tackle,,15
+0315,3/-,Yoke,Ox,,tackle,,20
+0316,½p,Bath,,,service,,
+0317,5/2p,Clerk,per letter,,service,,
+0318,3/-,Doctor,"leeching, bleeding, etc.",,service,,
+0319,5/2p,Guide,per day,,service,,
+0320,5/4p,Torchbearer,per night,,service,,
+0321,¼p,Laundry,by load,,service,,
+0322,5/4p,Messenger,per message,,service,,
+0323,3/-,Minstrel,per performance,,service,,
+0324,5/2p,Mourner,per funeral,,service,,
+0325,5/4p,Teamster W/ Wagon,per mile,,service,,
+0326,8Kh,Lawyer,per month,,service,,
+0327,12/-,Armorer,per 10-AC,,service,,
+0328,5gn.,Cleric,per month,,service,,
+0329,3¾p,Horser,per horse per week,,service,,
+0330,varies,Insurance,per month,,service,,
+0331,5/-,Nigh Guard,per night,,service,,
+0332,1/-,Storage,per chest,,service,,
+0333,9/-,Wainwrite,per hp of work,,service,,
+0334,2Kh,Mage,per spell per week,,service,6 spells/day,
+0335,5Kh,Mage,per spell per week,,service,12 spells/day,
+0336,12Kn,Mage,per spell per week,,service,24 spells/day,
+0337,79Kh,Audience,Emperor,,service,,
+0338,39Kh,Audience,King,,service,,
+0339,7Kh,Audience,Baron,,service,,
+0340,4Kh.6gn.,Audience,Lord,,service,,
+0341,800Kh,Title,Ambassador,,service,,
+0342,2000Kh,Title,Lord,,service,,
+0343,4000Kh,Title,Baron,,service,,
+0344,2/-,Backpack,,,misc,,2
+0345,2/-,Barrel,,,misc,,30
+0346,3¾p,Basket,Large,,misc,,1
+0347,¾p,Basket,Small,,misc,,*
+0348,1/-,Bell,,,misc,,
+0349,1/-,Belt Pouch,Large,,misc,,1
+0350,8½p,Belt Pouch,Small,,misc,,0.5
+0351,5/-,Block And Tackle,,,misc,,5
+0352,1/-,Bolt Case,,,misc,,1
+0353,6¼p,Bucket,,,misc,,3
+0354,4/-,Chain,Heavy,,misc,per foot,3
+0355,3/-,Chain,Light,,misc,per foot,1
+0356,2/-,Chest,Large,,misc,,25
+0357,1/-,Chest,Small,,misc,,10
+0358,7/-,Cloth,cheap,,misc,per 10 square yards,10
+0359,2cr.10/-,Cloth,fine,,misc,per 10 square yards,10
+0360,4cr.20/-,Cloth,silk,,misc,per 10 square yards,10
+0361,¼p,Candle,,,misc,,*
+0362,5p,Canvas,,,misc,per sq. yard,1
+0363,¼p,Chalk,,,misc,,*
+0364,4/-,Crampons,,,misc,,2
+0365,5/4p,Fishhook,,,fishing,,**
+0366,6¼p,Flint And Steel,,,misc,,*
+0367,10/-,Glass Bottle,,,misc,,*
+0368,9¾p,Grappling Hook,,,misc,,4
+0369,1cr.5/-,Holy Item,symbol,,misc,,*
+0370,1cr.5/-,Holy Item,water,,misc,,*
+0371,6¼p,Hourglass,,,misc,,1
+0372,¾p,Iron Pot,,,misc,,2
+0373,1H.1cr.10/-,Ladder,,,misc,10 ft,20
+0374,1H.1cr.10/-,Lantern,Beacon,,misc,,50
+0375,12/-,Lantern,Bullseye,,misc,,3
+0376,7/-,Lantern,Hooded,,misc,,2
+0377,1cr.,Padlock,,,misc,,1
+0378,5cr.,Magnifying Glass,,,misc,,*
+0379,9¾p,Map Or Scroll Case,,,misc,,0.5
+0380,2/-,Merchant's Scale,,,misc,,1
+0381,10/-,Mirror,metal,,misc,,*
+0382,varies,Musical Instrument,,,misc,,.5 to 3
+0383,10/-,Oil,Greek fire,,misc,per flask,2
+0384,¾p,Oil,Lamp,,misc,per flask,1
+0385,2/-,Paper,,,misc,per sheet,**
+0386,9¾p,Papyrus,,,misc,per sheet,**
+0387,1/-,Parchment,,,misc,per sheet,**
+0388,5/-,Perfume,,,misc,per vial,*
+0389,½p,Piton,,,misc,,0.5
+0390,9¾p,Quiver,,,misc,,1
+0391,1/-,Rope,Hemp,,misc,per 50 ft,20
+0392,10/-,Rope,Silk,,misc,per 50 ft,8
+0393,5/2p,Sack,Large,,misc,,0.5
+0394,¾p,Sack,Small,,misc,,*
+0395,1/-,Wax,sealing/candle,,misc,,1
+0396,6¼p,Needle,sewing,,misc,,**
+0397,9¾p,Whistle,signal,,misc,,*
+0398,5/-,Signet Ring Or Personal Seal,,,misc,,*
+0399,6¼p,Soap,,,misc,per lb,1
+0400,8H.2cr.,Spyglass,,,misc,,1
+0401,1cr.10/-,Thieve's Picks,,,misc,,1
+0402,¼p,Torchbearer,,,misc,,1
+0403,8H.2cr.,Water Clock,,,misc,,200
+0404,¼p,Whetstone,,,misc,,1
+0405,9¾p,Wineskin,,,misc,,1
+0406,6¼p,Winter Blanket,,,misc,,3
+0407,8/-,Ink,,,misc,per vial,*
+0408,1H.4cr.,Banded Mai,,0,armor,,35
+0409,6cr.,Brigandine,,0,armor,,35
+0410,3H.2cr.,Bronze Plate Mail,,0,armor,,45
+0411,3cr.15/-,Chain Mail,,0,armor,,40
+0412,16H.4cr.,Field Plate,,0,armor,,60
+0413,83H.,Full Plate,,0,armor,,70
+0414,1cr.10/-,Great Helm,,0,armor,,10
+0415,8/-,Basinet,,0,armor,,5
+0416,15/-,Hide,,0,armor,,30
+0417,5/-,Leather,,0,armor,,15
+0418,4/-,Padded,,0,armor,,10
+0419,4H.6cr.,Plate Mail,,0,armor,,50
+0420,5cr.,Ring Mail,,0,armor,,30
+0421,6cr.,Scale Mail,,0,armor,,40
+0422,10/-,Shield,body,0,armor,,15
+0423,1/-,Shield,buckler,0,armor,,3
+0424,7/-,Shield,medium,0,armor,,10
+0425,3/-,Shield,small,0,armor,,5
+0426,4cr.,Splint Mail,,0,armor,,40
+0427,1cr.,Studded Leather,,0,armor,,25
+0428,4H.1cr.,Arquebus,,,weapon,1d10 1d10 p,10
+0429,5/-,Battle Axe,,,weapon,1d8 1d8 s,7
+0430,5/-,Blowgun,,,weapon,-,2
+0431,5/4p,Blowgun,barbed dart,,weapon,1d3 1d2 p,*
+0432,¼p,Blowgun,needle,,weapon,1 1 p,*
+0433,1cr.10/-,Bow,short,,weapon,-,2
+0434,3cr.15s/-,Bow,long,,weapon,-,3
+0435,3cr.15/-,Bow,composite short,,weapon,-,2
+0436,5cr.,Bow,composite long,,weapon,-,3
+0437,½p,Bow,flight arrow,,weapon,1d6 1d6 p,*
+0438,¾p,Bow,sheaf arrow,,weapon,1d8 1d8 p,*
+0439,¼p,Club,,,weapon,1d6 1d3 b,3
+0440,2H.3cr.,Crossbow,hand,,weapon,-,3
+0441,1cr.15/-,Crossbow,light,,weapon,-,7
+0442,2cr.10/-,Crossbow,heavy,,weapon,-,14
+0443,1/-,Crossbow,hand quarrel,,weapon,1d3 1d2 p,*
+0444,5/4p,Crossbow,light quarrel,,weapon,1d4 1d4 p,*
+0445,5/2p,Crossbow,heavy quarrel,,weapon,1d4+1 1d6+1 p,*
+0446,2/-,Dagger Or Dirk,,,weapon,1d4 1d3 p,1
+0447,6¼p,Dart,,,weapon,1d3 1d2 p,0.5
+0448,15/-,Footman's Flail,,,weapon,1d6+1 2d4 b,15
+0449,8/-,Footman's Mace,,,weapon,1d6+1 1d6 b,10
+0450,8/-,Footman's Pick,,,weapon,1d6+1 2d4 b,6
+0451,1/-,Hand Axe,,,weapon,1d6 1d4 s,5
+0452,1cr.,Harpoon,,,weapon,2d4 2d6 p,6
+0453,8/-,Horseman's Flail,,,weapon,1d4+1 1d4+1 b,5
+0454,5/-,Horseman's Mace,,,weapon,1d6 1d4 b,6
+0455,7/-,Horseman's Pick,,,weapon,1d4+1 1d4 p,4
+0456,6¼p,Javelin,,,weapon,1d6 1d6 p,2
+0457,6¼p,Knife,,,weapon,1d6 1d6 p/s,0.5
+0458,15/-,Lance,heavy horse,,weapon,1d8+1 3d6 p,15
+0459,6/-,Lance,light horse,,weapon,1d6 1d8 p,5
+0460,1cr.,Lance,jousting,,weapon,1d3-1 1d2-1 p,20
+0461,10/-,Lance,medium horse,,weapon,1d6+1 2d6,10
+0462,1cr.10/-,Mancatcher,,,weapon,-,8
+0463,10/-,Morning Star,,,weapon,2d4 1d6+1 p/b,12
+0464,5/-,Polearm,awl pike,,weapon,1d6 1d12 p,12
+0465,7/-,Polearm,bardiche,,weapon,2d4 2d6 s,12
+0466,8/-,Polearm,bec de corbin,,weapon,1d8 1d6 p/b,10
+0467,7/-,Polearm,bill-guisarme,,weapon,2d4 1d10 p/s,15
+0468,5/-,Polearm,fauchard,,weapon,1d6 1d8 p/s,7
+0469,8/-,Polearm,fauchard-fork,,weapon,1d8 1d10 p/s,9
+0470,6/-,Polearm,glaive,,weapon,1d6 1d10 s,8
+0471,10/-,Polearm,glaive-guisarme,,weapon,2d4 2d6 p/s,10
+0472,5/-,Polearm,guisarme,,weapon,2d4 1d8 s,8
+0473,8/-,Polearm,guisarme-voulge,,weapon,1d4 1d4 p/s,15
+0474,10/-,Polearm,halberd,,weapon,1d10 2d6 p/s,15
+0475,10/-,Polearm,hook fauchard,,weapon,1d4 1d4 p/s,8
+0476,7/-,Polearm,lucern hammer,,weapon,2d4 1d6 p/b,15
+0477,5/-,Polearm,military fork,,weapon,1d8 2d4 p,7
+0478,10/-,Polearm,partisan,,weapon,1d6 1d6+1 p,8
+0479,6/-,Polearm,ranseur,,weapon,2d4 2d4 p,7
+0480,5/-,Polearm,spetum,,weapon,1d6+1 2d6 p,7
+0481,5/-,Polearm,voulge,,weapon,2d4 2d4 s,12
+0482,¼p,Quarterstaff,,,weapon,1d6 1d6 b,4
+0483,1/-,Scourge,,,weapon,1d4 1d2 -,2
+0484,7¼p,Sickle,,,weapon,1d4+1 1d4 s,3
+0485,¾p,Sling,,,weapon,-,*
+0486,¼p,Sling,bullet,,weapon,1d4+1 1d6+1 b,*
+0487,¼p,Sling,stone,,weapon,1d4 1d4 b,*
+0488,9¾p,Spear,,,weapon,1d6 1d8 p,5
+0489,5/2p,Staff Sling,,,weapon,-,2
+0490,1cr.5/-,Sword,bastard,,weapon,1d8(2d4) 1d12(2d8) s,10
+0491,10/-,Sword,broad,,weapon,2d4 1d6+1 s,4
+0492,10/-,Sword,khopesh,,weapon,2d4 1d6 s,7
+0493,15/-,Sword,long,,weapon,1d8 1d12 s,4
+0494,15/-,Sword,scimitar,,weapon,1d8 1d8 s,4
+0495,10/-,Sword,short,,weapon,1d6 1d8 p,3
+0496,2cr.10/-,Sword,two-handed,,weapon,1d10 3d6 s,15
+0497,15/-,Trident,,,weapon,1d6+1 3d4 p,5
+0498,2/-,Warhammer,,,weapon,1d4+1 1d4 b,6
+0499,5/4p,Whip,,,weapon,1d2 1 -,2
+0500,6¼p,Feed,horse,,feed,,
+0501,¾p,Ale,common,,drink,"1 pint, 1 alcohol",
+0502,1p,Ale,dwarven,,drink,"1 pint, 1.5 alcohol",
+0503,5/4p,Ale,orcish,,drink,"1 pint, 2 alcohol",
+0504,¼p,Beer,light,,drink,"1 pint, .5 alcohol",
+0505,½p,Beer,normal,,drink,"1 pint, 2 alcohol",
+0506,½p,Beer,dark,,drink,"1 pint, 2 alcohol",
+0507,1/-,Cider,common,,drink,"1 pint, 5 alcohol",
+0508,¾p,Coffee,common,,drink,1 gill,
+0509,1s.6p,Coffee,Isle of Dawn,,drink,"1 gill, 3 alcohol",
+0510,¾p,Cacao,,,drink,1 gill,
+0511,½p,Milk,,,drink,1 quart,
+0512,¾p,Yogurt,,,drink,1 pint,
+0513,¼p,Vinegar,white,,drink,1 quart (medicinal),
+0514,½p,Vinegar,red,,drink,1 quart (medicinal),
+0515,5/2p,Thee,common,,drink,1 gill,
+0516,1/-,Thee,yak butter,,drink,1 gill,
+0517,3¾p,Thee,herbal,,drink,1 gill,
+0518,3¾p,Akvavit,Ostlander,,drink,"1 shot, 5 alcohol",
+0519,5/4p,Akvavit,common,,drink,"1 shot, 3 alcohol",
+0520,5p,Arkhi,Hobgoblandish,,drink,"1 shot, 4 alcohl",
+0521,5p,Brandy,Thyatian Imperian,,drink,"1 shot, 4 alcohol",
+0522,3¾p,Brandy,Minrothadian,,drink,"1 shot, 4 alcohol",
+0523,6¼p,Evermead,,,drink,"1 pint, 5 alcohol",
+0524,1s.6p,Fruit Juice,,,drink,1 gill,
+0525,5p,Mezcal,Sindhi,,drink,"1 shot, 7 alcohol",
+0526,3¾p,Mezcal,Savage Coast,,drink,"1 shot, 6 alcohol",
+0527,1s.6p,Kumis,Ethengarian,,drink,"1 gallon, 32 (shake bag before drinking)",
+0528,5/2p,Ouzo,Redstone,,drink,"1 shot, 3 alcohol",
+0529,1/-,Ouzo,Ierendi,,drink,"1 shot, 7 alcohol",
+0530,5p,Rum,Ethengarian,,drink,"1 shot, 5 alcohol",
+0531,5p,Rum,Heldannic,,drink,"1 shot, 6 alcohol",
+0532,6¼p,Rum,Light,,drink,"1 shot, 6 alcohol",
+0533,8½p,Rum,Dark,,drink,"1 shot, 7 alcohol",
+0534,7¼p,Sake,Pearl Islands,,drink,"1 shot, 5 alcohol",
+0535,9¾p,Sake,Alphatian,,drink,"1 shot, 5 alcohol",
+0536,1s.6p,Tequila,Savage coast,,drink,"1 shot + lemon + salt, 8 alcohol",
+0537,6¼p,Tequila,Orcish,,drink,"1 shot + lemon + salt, 8 alcohol",
+0538,2s.6p,Tequila,With Scorpion,,drink,"1 shot + lemon + salt, 9 alcohol",
+0539,3¾p,Uisce,Glantrian,,drink,"1 shot, 5 alcohol",
+0540,5/2p,Uisce,common,,drink,"1 shot, 4 alcohol",
+0541,3¾p,Vodka,Karameikan,,drink,"1 shot, 5 alcohol",
+0542,5/2p,Vodka,Glantrian,,drink,"1 shot, 2 alcohol",
+0543,5/4p,Whisky,Texeiran,,drink,"1 gill, 4 alcohol",
+0544,5/2p,Whisky,common,,drink,"1 gill, 4 alcohol",
+0545,5/2p,Tobacco,,,drug,1 pipe worth,
+0546,10/-,Cigar,,,drug,"6""",
+0547,11p,Beaver,,,pelt,,10
+0548,5p,Bobcat,,,pelt,,10
+0549,5/2p,Cat,,,pelt,,4
+0550,3¾p,Cow,,,pelt,,100
+0551,5/4p,Dog,,,pelt,,4
+0552,3¾p,Horse,,,pelt,,100
+0553,5/2p,Lynx,,,pelt,,10
+0554,5/2p,Otter,,,pelt,,10
+0555,5/4p,Rat,,,pelt,,5
+0556,1/-,Boar,,,pelt,,10
+0557,3/-,Fisher,,,pelt,,5
+0558,3/-,Fox,red,,pelt,,10
+0559,3/-,Marten,,,pelt,,5
+0560,3/-,Otter,sea,,pelt,,10
+0561,1/-,Rabbit,,,pelt,,10
+0562,3/-,Weasel,,,pelt,,10
+0563,1/-,Wolverine,,,pelt,,30
+0564,2cr.10/-,Bear,,,pelt,,125
+0565,2cr.10/-,Bunyip,,,pelt,,10
+0566,3cr.10/-,Caterwaul,,,pelt,,65
+0567,1cr.10/-,Chincilla,,,pelt,,5
+0568,2cr.,Fox,silver,,pelt,,10
+0569,2cr.10/-,Fox,hoar,,pelt,,10
+0570,2cr.10/-,Giraffe,,,pelt,,125
+0571,2cr.10/-,Hell Hound,,,pelt,,80
+0572,2cr.,Ermine,,,pelt,,5
+0573,1cr.10/-,Mink,,,pelt,,5
+0574,3cr.10/-,Nonfel,,,pelt,,5
+0575,2cr.10/-,Owlbear,,,pelt,,125
+0576,3cr.10/-,Panther,,,pelt,,60
+0577,2cr.10/-,Sable,,,pelt,,5
+0578,2cr.10/-,Seal,,,pelt,,10
+0579,4cr.,Snow Leopard,,,pelt,,40
+0580,5cr.,Snow-Owlbear,,,pelt,,250
+0581,2cr.10/-,Spotted Cats,,,pelt,,20
+0582,2cr.10/-,Tiger,,,pelt,,75
+0583,2cr.10/-,Winter Wolf,,,pelt,,150
+0584,2cr.10/-,Yeti,,,pelt,,180
+0585,2cr.10/-,Zebra,,,pelt,,65
+0586,5/4p,Tipster,common knowledge,,illegal service,99%,
+0587,1/-,Tipster,uncommon knowledge,,illegal service,80%,
+0588,5/-,Tipser,specific information,,illegal service,30%,
+0589,10/-,Tipster,exact information,,illegal service,15%,
+0590,10/-,Private Investigator,1 day,,illegal service,improve chance to know by 1 step,
+0591,10/-,Tipster,dangerous information,,illegal service,40% slain in 1d6 days,
+0592,1gn.5/-,Fixer,avoid arrest,,illegal service,,
+0593,2gn.10/-,Fixer,turn minor infraction,,illegal service,,
+0594,5gn.,Fixer,turn major infraction,,illegal service,,
+0595,1Kh.4gn.,Fixer,assist escape,,illegal service,,
+0596,20% take,Fixer,cleanup/dispose,,illegal service,,
+0597,5Kh.,Fixer,escape capital crime,,illegal service,,
+0598,5Kh.,Fixer,"do a  ""personal favor""",,illegal service,,
+0599,8Kh.2gn.,Fixer,cross thieve's guild,,illegal service,,
+0600,1Kh.2gn.,Forgery,royal pardon,,illegal service,5 days,
+0601,2gn.10/-,Forgery,military pass,,illegal service,3 days,
+0602,1gn.5/-,Forgery,city pass,,illegal service,2 days,
+0603,10/-,Forgery,official's signature,,illegal service,1 day,
+0604,25% value,Forgery,counterfeit coins,,illegal service,10 days,
+0605,5% value,Forgery,counterfeit jewelry,,illegal service,2-7 days,
+0606,50% profit,Forgery,money clipping,,illegal service,1 day,
+0607,12/-,Forgery,copy deed or title,,illegal service,4-5 days,
+0608,1gn.,Forgery,copy work of art,,illegal service,2-3 weeks,
+0609,50%,Blackmarket,buy/sell,,illegal service,,
+0610,50%,Blackmarket,buy/sell stolen,,illegal service,,
+0611,3¾p,Whore,basic free,,illegal service,,
+0612,1/-,Whore,exotic free,,illegal service,,
+0613,2/-,Whore,new style free,,illegal service,,
+0614,5p,Whore,basic club,,illegal service,,
+0615,1s.6p,Whore,exotic club,,illegal service,,
+0616,3/-,Whore,new style club,,illegal service,,
+0617,50% / month,Loans,any amount,,illegal service,,
+0618,20% / month,Loans,any amount (guildmember),,illegal service,,
+0619,10/-,Threat,nobody special,,illegal service,,
+0620,1gn.10/-,Threat,known locally,,illegal service,,
+0621,6gn.,Threat,well known locally,,illegal service,,
+0622,3Kh.4gn.10s/-,Threat,petty official,,illegal service,,
+0623,4Kh.6gn.,Threat,minor city official,,illegal service,,
+0624,12Kh.3gn.,Threat,major city official,,illegal service,,
+0625,208Kh.,Threat,very high profile,,illegal service,,
+0626,1gn.,Bone Breaking,nobody special,,illegal service,,
+0627,3gn.,Bone Breaking,known locally,,illegal service,,
+0628,1Kh.4gn.,Bone Breaking,well known locally,,illegal service,,
+0629,6Kh.4gn.,Bone Breaking,petty official,,illegal service,,
+0630,9Kh.5gn.,Bone Breaking,minor city official,,illegal service,,
+0631,25Kh,Bone Breaking,major city official,,illegal service,,
+0632,416Kh.,Bone Breaking,very high profile,,illegal service,,
+0633,5gn.,Elimination,nobody special,,illegal service,,
+0634,5Kh.,Elimination,known locally,,illegal service,,
+0635,8Kh.2gn.,Elimination,well known locally,,illegal service,,
+0636,41Kh.4gn.,Elimination,petty official,,illegal service,,
+0637,83Kh.1gn.,Elimination,minor city official,,illegal service,,
+0638,416Kh.,Elimination,major city official,,illegal service,,
+0639,832Kh.,Elimination,very high profile,,illegal service,,
+0640,1gn.10/-,Kidnapping,nobody special,,illegal service,,
+0641,4gn.9s.11½p,Kidnapping,known locally,,illegal service,,
+0642,2Kh.3gn.,Kidnapping,well known locally,,illegal service,,
+0643,9Kh.6gn.,Kidnapping,petty official,,illegal service,,
+0644,14Kh.6gn.,Kidnapping,minor city official,,illegal service,,
+0645,37Kh.,Kidnapping,major city official,,illegal service,,
+0646,624Kh.,Kidnapping,very high profile,,illegal service,,
+0647,1/-,Shelter,Poor 1 man,0,shelter,"4hp, light moisture",6
+0648,2/-,Shelter,Poor 2 man,0,shelter,"4hp, light moisture",7
+0649,3/-,Shelter,Poor 4 man,0,shelter,"4hp, light moisture",8
+0650,3/-,Shelter,Adequate 1 man,0,shelter,"8hp, moderate moisture",7
+0651,5/-,Shelter,Adequate 2 man,0,shelter,"8hp, moderate moisture",8
+0652,7s.6p,Shelter,Adequate 4 man,0,shelter,"8hp, moderate moisture",9
+0653,7s.6p,Shelter,Good 1 man,5,shelter,"12hp, heavy moisture",8
+0654,12/-,Shelter,Good 2 man,5,shelter,"12hp, heavy moisture",9
+0655,18/-,Shelter,Good 4 man,5,shelter,"12hp, heavy moisture",10
+0656,1cr.,Shelter,Superior 1 man,10,shelter,"24hp, downpour",9
+0657,1cr.10/-,Shelter,Superior 2 man,10,shelter,"24hp, downpour",10
+0658,1cr.20/-,Shelter,Superior 4 man,10,shelter,"24hp, downpour",12
+0659,5/-,Tent,Solo 1 man,10,shelter,"10hp, heavy moisture",10
+0660,5/-,Tent,Wedge 1 man,10,shelter,"10hp, moderate moisture, no floor",10
+0661,1cr.,Tent,Duo 2 man,10,shelter,"20hp, heavy moisture",14
+0662,4/-,Tent,Bell 2 man,10,shelter,"10hp, moderate moisture",10
+0663,1cr.,Tent,Traveling Pavillion 3 man,10,shelter,"20hp, moderatr moisture",16
+0664,5/-,Tent,Group 4 man,15,shelter,"30hp, heavy moisture",22
+0665,5cr.,Tent,Pavillion 6 man,15,shelter,"40hp, heavy moisture",28
+0666,15/-,Tent,Pyramid 6 man,15,shelter,"35hp, heavy moisture",12
+0667,1H.1cr.10/-,Tent,Tournament 6 man,5,shelter,"40hp, moderate moisture",32
+0668,4H.19s.9p,Tent,Sweat lodge 8 man,20,shelter,"40hp, downpour",71
+0669,10s/-,Tent,Warmth Lining,30,shelter,10hp+,3
+0670,5/-,Hammock,,,sleeping,,1
+0671,5/4p,Straw Mat,,,sleeping,,1
+0672,1/-,Bedroll,,5 if dry,sleeping,,3
+0673,3/-,Sleeping Bag,,10 if dry,sleeping,,5
+0674,10/-,Polar Bag,,40 if dry,sleeping,,20
+0675,2H.9s.10½p,Klamboe,,,sleeping,stops insects,1
+0676,5/2p,Twine,100ft,,misc,,0.5
+0677,1/-,Flask,1 qt,,misc,,0.1
+0678,1s.6p,Scroll Case,20 sheets,,alchemy,waterproof,0.01
+0679,5/-,Bellows,common,,alchemy,to heat up fire,2.5
+0680,2H.10/-,Bellows,furnace,,alchemy,to heat up fire,250
+0681,1cr.15/-,Furnace,common,,alchemy,for extra hot fires,4000
+0682,8H.2cr.,Smelter,small,,alchemy,"30'x30', connect to furnace",2000
+0683,16H.4cr.,Smelter,medium,,alchemy,"50'x50', connect to furnace",4000
+0684,41H.3cr.18/-,Smelter,large,,alchemy,"75'x75', connect to furnace",8000
+0685,4/-,Alembic,common,,alchemy,distillation aparatus,2
+0686,10/-,Balance,"small, golden",,alchemy,to weigh material,0.25
+0687,3/-,Beaker,common,,alchemy,heatable container to pour liquids,0.5
+0688,1s.6p,Brazier,small,,alchemy,to make a small fire,0.5
+0689,8½p,Crucible,common,,alchemy,to melt items within,1
+0690,10/-,Decanter,crystal,,alchemy,to hold/pour liquids 1pint,0.5
+0691,¾p,Decanter,ceramic,,alchemy,to hold/pour liquids 1pint,0.5
+0692,4/-,Decanter,silver,,alchemy,to hold/pour liquids 1pint,0.5
+0693,5/2p,Earspoon,common,,alchemy,to clean holes,0.01
+0694,2/-,Merchant Scale,small,,alchemy,with 1 oz weights,0.25
+0695,5/-,Merchant Scale,large,,alchemy,with 1 lb weights,1
+0696,1/-,Needle,Magnetized,,alchemy,,0.01
+0697,4/-,Spinner,brass,,alchemy,to split liquids in 12 vials,1
+0698,2/-,Retort,common,,alchemy,distillation aparatus,0.5
+0699,¼p,Ribbon,common,,alchemy,to suck up liquid,0.01
+0700,1H.1cr.10/-,Test Kit,basic,,alchemy,identify basic potions,10
+0701,8/-,Vellum,common,,alchemy,filter paper,0.01
+0702,5p,Funnel,common,,alchemy,,0.01
+0703,1/-,Glass Bottle,crystal,,alchemy,1 pint,0.1
+0704,5p,Glass Bottle,normal,,alchemy,1 pint,0.25
+0705,1/-,Glass Bottle,gold/silver,,alchemy,1 pint,0.25
+0706,5/4p,Glass Bottle,cheap,,alchemy,1 pint,0.3
+0707,6¼p,Grind Stone,common,,alchemy,to grind material,0.3
+0708,2/-,Morter and Pestle,ceramic,,alchemy,to grind material,2
+0709,2cr.10/-,Morter and Pestle,stone,,alchemy,to grind material,8
+0710,1/-,Punk Pot,common,,alchemy,smolder 2',2
+0711,10/-,Prism,common,,alchemy,,0.5
+0712,5/-,Leeches,jar,,alchemy,to drain blood,0.5
+0713,5/4p,Magnet,small,,alchemy,,0.1
+0714,3¾p,Tubing Glass,per foot,,alchemy,,0.25
+0715,6¼p,Tripod,common,,alchemy,to hold scales/dishes above fire,0.25
+0716,6¼p,Tweezers,common,,alchemy,,0.01
+0717,3¼p,Vial,clay,,alchemy,to hold liquid/powder,0.25
+0718,1/-,Vial,ceramic,,alchemy,to hold liquid/powder,0.25
+0719,3/-,Vial,glass,,alchemy,to hold liquid/powder,0.25
+0720,4/-,Vial,crystal,,alchemy,to hold liquid/powder,0.25
+0721,5/-,Vial,steel,,alchemy,to hold liquid/powder,0.25
+0722,7/-,Vial,silver,,alchemy,to hold liquid/powder,0.25
+0723,x1,Vial,small,,alchemy,"modifier, doubles capacity",x1
+0724,x2,Vial,medium,,alchemy,"modifier, doubles capacity",x2
+0725,x3,Vial,large,,alchemy,"modifier, doubles capacity",x4
+0726,1cr.5/-,Hourglass,many times,,alchemy,measure time,0.25
+0727,10/-,Sundial,common,,alchemy,measure time,16
+0728,5/-,Fishing Rod,common,,fishing,"10'-30' rod, 5% chance of breaking per 10 lb of fish",0.5
+0729,1H.1cr.10/-,Monster Rod,common,,fishing,"10'-30' iron rod, 5% chance of breaking every 50 lb",3
+0730,¼p,Line Lead,common,,fishing,,0.1
+0731,1/-,Net Lead,common,,fishing,,1.5
+0732,¼p,Floating Bob,common,,fishing,,0.01
+0733,5/4p,Net Floaters,1 per sq foot,,fishing,,0.01
+0734,3/-,Monster Hook,common,,fishing,,0.25
+0735,3/-,Fishline,small,,fishing,"50', 5% breakage per 10lb of fish",0.01
+0736,1cr.10/-,Fishline,monster,,fishing,"50', 5% breakage per 50lb of fish",0.25
+0737,1/-,Monsternet,per sq foot,,fishing,,0.1
+0738,5/4p,Fishnet,per sq fot,,fishing,,0.01
+0739,3/-,Sheath,bastard sword,,accessories,,0.5
+0740,2/-,Sheath,long sword,,accessories,,0.25
+0741,1/-,Sheath,short sword,,accessories,,0.1
+0742,4/-,Sheath,back,,accessories,,1
+0743,7¼p,Scabbard,dagger/knife,,accessories,,0.1
+0744,1s.5/2p,Weapon Ring,,,accessories,,0.1
+0745,1s.7¼p,Back Clasp,,,accessories,,0.5
+0746,1/-,License,Glantrian,,license,Serving in a tavern,
+0747,1/-,License,Glantrian,,license,Serving Alcohol,
+0748,5/-,License,Glantrian,,license,Serving magical brews,
+0749,3/-,License,Glantrian,,license,Turn invisible at will,
+0750,10/-,License,Glantrian,,license,Private Spellcasting,
+0751,1cr.,License,Glantrian,,license,Arcane Business,
+0752,1cr.,License,Glantrian,,license,Magical Detection,
+0753,1/-,License,Glantrian,,license,Business less than 5cr./day,
+0754,5/-,License,Glantrian,,license,Business less than 100cr./day,
+0755,1cr.,License,Glantrian,,license,Business over 100cr./day,
+0756,1/-,License,Glantrian,,license,Weapons less than 15 inch,
+0757,10/-,License,Glantrian,,license,Weapons larger than 15inch,
+0758,5/-,License,Glantrian,,license,"Weapons, blunt",
+0759,5/-,License,Glantrian,,license,Shield and Helmet,
+0760,10/-,License,Glantrian,,license,"Armor, Leather",
+0761,1cr.,License,Glantrian,,license,"Armor, metal",
+0762,2cr.10/-,License,Glantrian,,license,Speaking in Public to 10 or more people,
+0763,5cr.,Amber,whole,,gem,,
+0764,2cr.11¾p,Amber,powdered,,gem,,
+0765,1cr.5/-,Amber,rod,,gem,,
+0766,5cr.,Alexandrite,,,gem,,
+0767,5cr.,Amethyst,,,gem,,
+0768,4H.,Aquamarine,,,gem,,
+0769,10/-,Azurite,,,gem,,
+0770,10/-,Banded Agate,,,gem,,
+0771,8H.1cr.,Black Opal,,,gem,,
+0772,41H.3cr.,Black Sapphire,,,gem,,
+0773,2cr.10/-,Bloodstone,,,gem,,
+0774,10/-,Blue Quartz,,,gem,,
+0775,41H.4cr.,Blue Star,,,gem,,
+0776,2cr.10/-,Carnetlian,,,gem,,
+0777,2cr.10/-,Chalcedony,,,gem,,
+0778,5cr.,Chrysoberyl,,,gem,,
+0779,2cr.10/-,Chrysoprase,,,gem,,
+0780,2cr.10/-,Citrine,,,gem,,
+0781,3/-,Crystal Rod,,,gem,,
+0782,41H.4cr.,Diamond,whole,,gem,,
+0783,5cr.,Diamond,dust,,gem,,
+0784,41H.4cr.,Emerald,whole,,gem,,
+0785,2cr.,Emerald,powdered,,gem,,
+0786,10/-,Eye Agate,,,gem,,
+0787,5cr.,Fire Opal,,,gem,,
+0788,4H.,Garnet,,,gem,,
+0789,10/-,Hematite,,,gem,,
+0790,41H.4cr.,Jacinth,,,gem,,
+0791,10/-,Jade,,,gem,,
+0792,2cr.10/-,Jasper,,,gem,,
+0793,5cr.,Jet,,,gem,,
+0794,10/-,Lapis Lazuli,,,gem,,
+0795,10/-,Malachite,,,gem,,
+0796,2cr.10/-,Moonstone,,,gem,,
+0797,10/-,Moss Agate,,,gem,,
+0798,10/-,Obsidian,,,gem,,
+0799,2cr.10/-,Onyx,,,gem,,
+0800,8H.1cr.,Opal,,,gem,,
+0801,8H.1cr.,Oriental Amethyst,,,gem,,
+0802,41H.4cr.,Oriental Emerald,,,gem,,
+0803,8H.1cr.,Oriental Topaz,,,gem,,
+0804,4H.,Pearl,,,gem,,
+0805,4H.,Peridot,,,gem,,
+0806,10/-,Rhodochrosite,,,gem,,
+0807,2cr.10/-,Rock Crystal,,,gem,,
+0808,41H.4cr.,Ruby,whole,,gem,,
+0809,2cr.,Rubey,powdered,,gem,,
+0810,10/-,Sapphire,,,gem,,
+0811,2cr.10/-,Sardonyx,,,gem,,
+0812,2cr.10/-,Smokey Quartz,,,gem,,
+0813,4H.,Spinel,,,gem,,
+0814,2cr.10/-,Star Rose Quartz,,,gem,,
+0815,41H.4cr.,Star Ruby,,,gem,,
+0816,41H.4cr.,Star Sapphire,,,gem,,
+0817,10/-,Tiger Eye,,,gem,,
+0818,4H.,Topaz,,,gem,,
+0819,5cr.,Tourmaline,,,gem,,
+0820,10/-,Turquoise,,,gem,,
+0821,2cr.10/-,Zircon,,,gem,,
+0822,5/4p,Volcanic Ash,,,metal and ore,,
+0823,¾p,Bitumen,,,metal and ore,,
+0824,¾p,Carbon,,,metal and ore,,
+0825,1/-,Cinnabryl,per ounce,,metal and ore,,
+0826,¼p,Clay,per pound,,metal and ore,,
+0827,5cr.,Coral,,,metal and ore,,
+0828,9¾p,Glass,Opaque,,metal and ore,,
+0829,2/-,Glass sheet,,,metal and ore,,
+0830,1/-,Glass rod,,,metal and ore,,
+0831,1/-,Gold,dust,,metal and ore,,
+0832,1cr.,Gold,sheet,,metal and ore,,
+0833,2/-,Granite,black,,metal and ore,,
+0834,¼p,Granite,dust,,metal and ore,,
+0835,¼p,Platinum sheet,,,metal and ore,,
+0836,5/2p,Red Steel,per ounce,,metal and ore,,
+0837,5/-,Silver,powdered,,metal and ore,,
+0838,15/-,Silver,sheet,,metal and ore,,
+0839,40H.,Urthellis Craterdust,,,metal and ore,,
+0840,9¾p,Zinc,,,metal and ore,,
+0841,6¼p,Archer,human,per day,hireling,,
+0842,1/-,Archer,elf,per day,hireling,,
+0843,3¾p,Archer,orc,per day,hireling,,
+0844,5/2p,Archer,goblin,per day,hireling,,
+0845,9¾p,Archer,hobbit,per day,hireling,,
+0846,1s.6p,Bowman,human,per day,hireling,,
+0847,3/-,Bowman,elf,per day,hireling,,
+0848,1/-,Bowman,hobbit,per day,hireling,,
+0849,1s.6p,"Bowman, mounted",human,per day,hireling,,
+0850,3/-,"Bowman, mounted",elf,per day,hireling,,
+0851,1/-,Longbowman,human,per day,hireling,,
+0852,2/-,Longbowman,elf,per day,hireling,,
+0853,6¼p,Longbowman,orc,per day,hireling,,
+0854,5p,Crossbowman,human,per day,hireling,,
+0855,7¼p,Crossbowman,dwarf,per day,hireling,,
+0856,5/2p,Crossbowman,orc,per day,hireling,,
+0857,5/4p,Crossbowman,hobbit,per day,hireling,,
+0858,6¼p,"Crossbowman, mounted",human,per day,hireling,,
+0859,1s.6p,"Crossbowman, mounted",dwarf,per day,hireling,,
+0860,5/2p,"Footman, light",human,per day,hireling,,
+0861,5p,"Footman, light",dwarf,per day,hireling,,
+0862,5p,"Footman, light",elf,per day,hireling,,
+0863,5/4p,"Footman, light",orc,per day,hireling,,
+0864,¾p,"Footman, light",goblin,per day,hireling,,
+0865,5/2p,"Footman, light",hobbit,per day,hireling,,
+0866,2/-,"Footman, light",giant,per day,hireling,,
+0867,3¾p,"Footman, heavy",human,per day,hireling,,
+0868,6¼p,"Footman, heavy",dwarf,per day,hireling,,
+0869,7¼p,"Footman, heavy",elf,per day,hireling,,
+0870,2p,"Footman, heavy",orc,per day,hireling,,
+0871,5/2p,"Footman, heavy",goblin,per day,hireling,,
+0872,4/-,"Footman, heavy",giant,per day,hireling,,
+0873,5/4p,Peasant,human,per day,hireling,,
+0874,5/4p,Peasant,dwarf,per day,hireling,,
+0875,5/4p,Peasant,elf,per day,hireling,,
+0876,5/4p,Peasant,orc,per day,hireling,,
+0877,5/4p,Peasant,goblin,per day,hireling,,
+0878,5/4p,Peasant,hobbit,per day,hireling,,
+0879,2/-,Peasant,giant,per day,hireling,,
+0880,1/-,"Horseman, Light",human,per day,hireling,,
+0881,5/-,"Horseman, Light",elf,per day,hireling,,
+0882,6¼p,"Horseman, Light",goblin,per day,hireling,,
+0883,1s.6p,"Horseman, Medium",human,per day,hireling,,
+0884,2s.6p,"Horseman, Medium",elf,per day,hireling,,
+0885,1/-,"Horseman, Heavy",human,per day,hireling,,
+0886,6¼p,Wolf rider,Goblin,per day,hireling,,
+0887,6¼p,Cook,human,per day,retainer,feed 50,
+0888,5p,Cook,dwarf,per day,retainer,feed 50,
+0889,5/2p,Cook,elf,per day,retainer,feed 50,
+0890,5/4p,Cook,orc,per day,retainer,feed 50,
+0891,5/4p,Cook,goblin,per day,retainer,feed 50,
+0892,5/2p,Cook,hobbit,per day,retainer,feed 50,
+0893,6¼p,Cook,giant,per day,retainer,feed 50,
+0894,6¼p,Armorer,human,per day,retainer,1 armor or 3 shield per month,
+0895,5p,Armorer,dwarf,per day,retainer,1 armor or 3 shield per month,
+0896,5/2p,Armorer,elf,per day,retainer,1 armor or 3 shield per month,
+0897,6¼p,Armorer,orc,per day,retainer,1 armor or 3 shield per month,
+0898,6¼p,Armorer,goblin,per day,retainer,1 armor or 3 shield per month,
+0899,5/2p,Armorer,hobbit,per day,retainer,1 armor or 3 shield per month,
+0900,1/-,Armorer,giant,per day,retainer,1 armor or 3 shield per month,
+0901,2s.6p,Smith,human,per day,retainer,5 weapon or 3 shield per month,
+0902,7s.6p,Smith,dwarf,per day,retainer,5 weapon or 3 shield per month,
+0903,2s.6p,Smith,elf,per day,retainer,5 weapon or 3 shield per month,
+0904,1/-,Smith,orc,per day,retainer,5 weapon or 3 shield per month,
+0905,1s.6p,Smith,goblin,per day,retainer,5 weapon or 3 shield per month,
+0906,1s.7¼p,Smith,hobbit,per day,retainer,5 weapon or 3 shield per month,
+0907,10/-,Smith,giant,per day,retainer,5 weapon or 3 shield per month,
+0908,5/-,Alchemist,human,per day,retainer,,
+0909,2/-,Alchemist,elf,per day,retainer,,
+0910,6¼p,Alchemist,orc,per day,retainer,,
+0911,5/2p,Alchemist,goblin,per day,retainer,,
+0912,1s.6p,Armorer Asssistant,human,per day,retainer,doubles smith/armorer output,
+0913,6¼p,Armorer Asssistant,dwarf,per day,retainer,doubles smith/armorer output,
+0914,9¾p,Armorer Asssistant,elf,per day,retainer,doubles smith/armorer output,
+0915,6¼p,Armorer Asssistant,orc,per day,retainer,doubles smith/armorer output,
+0916,3¾p,Armorer Asssistant,goblin,per day,retainer,doubles smith/armorer output,
+0917,2s.6p,Armorer Asssistant,hobbit,per day,retainer,doubles smith/armorer output,
+0918,6¼p,Artillerist,human,per day,retainer,can man 3 artillery,
+0919,6¼p,Artillerist,dwarf,per day,retainer,can man 3 artillery,
+0920,6¼p,Artillerist,elf,per day,retainer,can man 3 artillery,
+0921,5p,Artillerist,orc,per day,retainer,can man 3 artillery,
+0922,3¾p,Artillerist,goblin,per day,retainer,can man 3 artillery,
+0923,6¼p,Artillerist,hobbit,per day,retainer,can man 3 artillery,
+0924,2s.6p,Artillerist,giant,per day,retainer,can man 3 artillery,
+0925,6¼p,Animal Trainer,"human, dwarf, elf",per day,retainer,,
+0926,3¾p,Animal Trainer,"orc, goblin",per day,retainer,,
+0927,2s.6p,Animal Trainer,giant,per day,retainer,,
+0928,6¼p,Baliff,"human, dwarf, elf",per day,retainer,,
+0929,3¾p,Baliff,"orc, goblin",per day,retainer,,
+0930,2s.6p,Baliff,giant,per day,retainer,,
+0931,6¼p,Chamberlain,"human, dwarf, elf",per day,retainer,,
+0932,3¾p,Chamberlain,"orc, goblin",per day,retainer,,
+0933,2s.6p,Chamerlain,giant,per day,retainer,,
+0934,6¼p,Equerry,"human, dwarf, elf",per day,retainer,,
+0935,3¾p,Equerry,"orc, goblin",per day,retainer,,
+0936,2s.6p,Equerry,giant,per day,retainer,,
+0937,6¼p,Herald,"human, dwarf, elf",per day,retainer,,
+0938,3¾p,Herald,"orc, goblin",per day,retainer,,
+0939,2s.6p,Herald,giant,per day,retainer,,
+0940,6¼p,Lesser Magistrate,"human, dwarf, elf",per day,retainer,,
+0941,3¾p,Lesser Magistrate,"orc, goblin",per day,retainer,,
+0942,2s.6p,Lesser Magistrate,giant,per day,retainer,,
+0943,6¼p,Marshall,"human, dwarf, elf",per day,retainer,,
+0944,3¾p,Marshall,"orc, goblin",per day,retainer,,
+0945,2s.6p,Marshall,giant,per day,retainer,,
+0946,6¼p,Provost,"human, dwarf, elf",per day,retainer,,
+0947,3¾p,Provost,"orc, goblin",per day,retainer,,
+0948,2s.6p,Provost,giant,per day,retainer,,
+0949,6¼p,Sheriff,"human, dwarf, elf",per day,retainer,,
+0950,3¾p,Sheriff,"orc, goblin",per day,retainer,,
+0951,2s.6p,Sheriff,giant,per day,retainer,,
+0952,6¼p,Warden,"human, dwarf, elf",per day,retainer,,
+0953,3¾p,Warden,"orc, goblin",per day,retainer,,
+0954,2s.6p,Warden,giant,per day,retainer,,
+0955,2s.6p,Engineer,human,per day,retainer,1 per 80H. Construction cost,
+0956,2s.6p,Engineer,dwarf,per day,retainer,1 per 80H. Construction cost,
+0957,2s.6p,Engineer,elf,per day,retainer,1 per 80H. Construction cost,
+0958,1/-,Engineer,goblin,per day,retainer,1 per 80H. Construction cost,
+0959,5/-,Engineer,giant,per day,retainer,1 per 80H. Construction cost,
+0960,2s.6p,Castellan,"human, dwarf, elf",per day,retainer,,
+0961,1/-,Castellan,"orc, goblin",per day,retainer,,
+0962,5/-,Castellan,giant,per day,retainer,,
+0963,2s.6p,Chaplain,"human, dwarf, elf",per day,retainer,,
+0964,1/-,Chaplain,"orc, goblin",per day,retainer,,
+0965,5/-,Chaplain,giant,per day,retainer,,
+0966,2s.6p,Guard Captain,"human, dwarf, elf",per day,retainer,,
+0967,1/-,Guard Captain,"orc, goblin",per day,retainer,,
+0968,5/-,Guard Captain,giant,per day,retainer,,
+0969,2s.6p,Magistrate,"human, dwarf, elf",per day,retainer,,
+0970,1/-,Magistrate,"orc, goblin",per day,retainer,,
+0971,5/-,Magistrate,giant,per day,retainer,,
+0972,2s.6p,Reeve,"human, dwarf, elf",per day,retainer,,
+0973,1/-,Reeve,"orc, goblin",per day,retainer,,
+0974,5/-,Reeve,giant,per day,retainer,,
+0975,2s.6p,Chief Steward,"human, dwarf, elf",per day,retainer,,
+0976,1/-,Chief Steward,"orc, goblin",per day,retainer,,
+0977,5/-,Chief Steward,giant,per day,retainer,,
+0978,(I+W+Ch) * 1/-,Sage,,per day,retainer,,
+0979,¼p,Rower,"human, elf, orc, goblin, hobbit",per day,retainer,free if convict,
+0980,6¼p,Rower,giant,per day,retainer,free if convict,
+0981,5/4p,Sailor,"human, elf, orc, goblin, hobbit",per day,retainer,,
+0982,(I+W+Ch) * 1/-,Captain,,per day,retainer,,
+0983,2s.6p,Navigator,,per day,retainer,,
+0984,Int * Level /-,Spy,,per day,retainer,,
+0985,Int * Level * 6/-,Mage,,per day,retainer,,
+0986,Int * 5/2 * Level,Retainer Class,Thief,per day,retainer,,
+0987,Int * 4p * Level,Retainer Class,Warrior,per day,retainer,,
+0988,Int * 5p * Level,Retainer Class,Priest,per day,retainer,,
+0989,1p,Linen,raw,,raw material,makes 1 sq yd,
+0990,1/2p,Wool,raw,,raw material,makes 1 sq yd,
+0991,1/4p,Cotton,raw,,raw material,makes 1 sq yd,
+0992,11p,Beaver,,,pelt,,
+0993,5p,Bobcat,,,pelt,,
+0994,5/2p,Cat,,,pelt,,
+0995,3¾p,Cow,,,pelt,,
+0996,5/4p,Dog,,,pelt,,
+0997,3¾p,Horse,,,pelt,,
+0998,5/2p,Lynx,,,pelt,,
+0999,5/2p,Otter,river,,pelt,,
+1000,5/4p,Rat,,,pelt,,
+1001,1/-,Boar,,,pelt,,
+1002,3/-,Fisher,,,pelt,,
+1003,3/-,Fox,red,,pelt,,
+1004,3/-,Marten,,,pelt,,
+1005,3/-,Otter,sea,,pelt,,
+1006,1/-,Rabbit,,,pelt,,
+1007,3/-,Weasel,,,pelt,,
+1008,1/-,Wolverine,,,pelt,,
+1009,2cr.10/-,Bear,,,pelt,,
+1010,2cr.10/-,Bunyip,,,pelt,,
+1011,2cr.10/-,Caterwaul,,,pelt,,
+1012,1cr.10/-,Chinchila,,,pelt,,
+1013,2cr.,Fox,silver,,pelt,,
+1014,2cr.10/-,Fox,hoar,,pelt,,
+1015,2cr.10/-,Giraffe,,,pelt,,
+1016,2cr.10/-,Hell Hound,,,pelt,,
+1017,2cr.10/-,Ermine,,,pelt,,
+1018,1cr.10/-,Mink,,,pelt,,
+1019,3cr.10/-,Nonfel,,,pelt,,
+1020,2cr.10/-,Owlbear,,,pelt,,
+1021,3cr.10/-,Panther,,,pelt,,
+1022,2cr.10/-,Sable,,,pelt,,
+1023,2cr.10/-,Seal,,,pelt,,
+1024,4cr.,Snow Leopard,,,pelt,,
+1025,5cr.,Snow-Owlbear,,,pelt,,
+1026,3cr.,Spotted cats,,,pelt,,
+1027,2cr.10/-,Tiger,,,pelt,,
+1028,2cr.10/-,Winter Wolf,,,pelt,,
+1029,2cr.10/-,Yeti,,,pelt,,
+1030,2cr.10/-,Zebra,,,pelt,,
