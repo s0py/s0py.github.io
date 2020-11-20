@@ -7,6 +7,7 @@
 * D&D Tables
 These are tables that are used for statistics on characters and creatures.
 
+
 * THAC0
 ** Player
 | Group   | Lvl 1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
@@ -21,6 +22,7 @@ The number of the column indicates the hitdice
 | 1/2 or less | 1-1 | 1+ | 2+ | 3+ | 4+ | 5+ | 6+ | 7+ | 8+ | 9+ | 10+ | 11+ | 12+ | 13+ | 14+ | 15+ | 16+ |
 |-------------+-----+----+----+----+----+----+----+----+----+----+-----+-----+-----+-----+-----+-----+-----|
 |          20 |  20 | 19 | 19 | 17 | 17 | 15 | 15 | 13 | 13 | 11 |  11 |   9 |   9 |   7 |   7 |   5 |   5 |
+
 
 * Turning Undead
 For the purposes of 2e, Paladins turn undead as priests two levels lower
