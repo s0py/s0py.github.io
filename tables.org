@@ -1,0 +1,189 @@
+#+AUTHOR: Joseph Vadella
+#+TITLE: D&D 2e Tables
+* D&D Tables
+This is a list of tables which will be useful to any Dungeon Master who is running a campaign in 2e AD&D.
+
+Not included here is a list of items and prices. Such a list can be found at josephvadella.com/dnd/
+
+Also not included are tables for weather generation. There is a tool available by s0py on github that will generate
+all of the necessary weather attributes completely consistent with the Wilderness Survival Guide.
+
+This webpage serves as a quick reference for any dungeon master who has these tools already and needs to
+referrence other information.
+
+
+* Food Spoilage
+  The Number on the left is how many days there are between checks, the number on the right is the chance of the food spoiling.
+| Food Type       | < 30F | 31-50F | 51-70F | 71-90F | 90+ F |
+|-----------------+-------+--------+--------+---------+-------|
+| Green plants    | never | 6/20   | 4/30   | 2/40    | 1/50  |
+| Fruit/Vegetable | never | 5/30   | 3/40   | 2/50    | 1/60  |
+| Cooked Meat     | never | 3/20   | 2/50   | 1/60    | 1/80  |
+| Raw Meat        | never | 2/50   | 1/70   | 1/80    | 1/90  |
+
+
+* Wind & Combat
+When precipitation is occuring, go down the chart 1 line.
+If the precipitation is heavy or higher, move down 2.
+| Windspeed mph | Missile Combat | Melee Combat | Move v. Wind |
+|---------------+----------------+--------------+--------------|
+| 0 to 10       | -              |            - | -            |
+| 11 to 20      | 0/-1/-2/-3     |            - | -            |
+| 21 to 30      | -1/-2/-3/X     |           -1 | 0.75         |
+| 31 to 45      | -2/-4/X/X      |           -2 | 2/3          |
+| 46 to 79      | -4/-6/X/X      |           -4 | 0.5          |
+| 80+           | X/X/X/X        |           -8 | 0.25         |
+
+
+* Effective Temperature Effects
+Numbers are interpretted as follows:
+
+Str or Dex or Con : nonstrenuous/strenuous
+| Personal Eff Temp | Str   | Dex   | Con   | Move | Attack Roll |
+|-------------------+-------+-------+-------+------+-------------|
+| -40 or lower      | -1/-2 | -4/-5 | -1/-2 |  0.5 |          -4 |
+| -39 to -30        | -1/-2 | -3/-4 | -1/-2 |  0.5 |          -3 |
+| -29 to -20        | 0/-1  | -2/-3 | 0/-1  |  2/3 |          -2 |
+| -19 to -10        | 0/-1  | -1/-2 | 0/-1  |  2/3 |          -1 |
+| -9 to 0           | -     | -1/-2 | -     | 0.75 |          -1 |
+| 1 to 10           | -     | 0/-1  | -     | 0.75 |           - |
+| 11 to 20          | -     | 0/-1  | -     |    - |           - |
+| 21 to 79          | -     | -     | -     |    - |           - |
+| 80 to 89          | -     | -     | 0/-1  | 0.75 |           - |
+| 90 to 99          | 0/-1  | -     | -1/-2 | 0.75 |          -1 |
+| 100 to 109        | -1/-2 | 0/-1  | -2/-3 |  2/3 |          -2 |
+| 110 to 119        | -1/-3 | -1/-2 | -3/-4 |  0.5 |          -3 |
+| 120+              | -2/-4 | -1/-3 | -4/-5 |  0.5 |          -4 |
+
+
+* Temperature Damage to Characters
+Now this is fun. A nice objective and nuanced way of dealing damage from exposure.
+
+To use this, find the appropriate row for effective temperature of the person.
+
+Go to the relevant set of columns depending on whether the character is protected
+or unprotected.
+
+If there is a number listed under Con, they must make a roll with that modifier and if they fail, they take the amount of damage.
+
+To calculate the damage, take the number indicated in the Dmg column as the size die to roll.
+
+If the damage would equal MORE THAN 10% of the character's CURRENT hit points, they take 10% instead.
+
+| Personal Eff Temp | Unprotected Con | Dmg | Protected Con | Dmg |
+|-------------------+-----------------+-----+---------------+-----|
+| -60 or less       |             +14 |   8 |            +9 |   4 |
+| -59 to -50        |             +13 |   8 |            +8 |   4 |
+| -49 to -40        |             +12 |   7 |            +7 |   3 |
+| -39 to -30        |             +11 |   7 |            +6 |   3 |
+| -29 to -25        |             +10 |   6 |            +5 |   3 |
+| -24 to -20        |             +10 |   6 |            +5 |   2 |
+| -19 to -15        |              +9 |   5 |            +4 |   2 |
+| -14 to -10        |              +8 |   5 |            +3 |   2 |
+| -9 to -5          |              +7 |   4 |            +2 |   1 |
+| -4 to 0           |              +6 |   4 |            +1 |   1 |
+| 1 to 5            |              +5 |   3 |             0 |   1 |
+| 6 to 10           |              +4 |   3 |             - |   - |
+| 11 to 15          |              +3 |   2 |             - |   - |
+| 16 to 20          |              +2 |   2 |             - |   - |
+| 21 to 25          |              +1 |   1 |             - |   - |
+| 26 to 30          |               0 |   1 |             - |   - |
+| 31 to 84          |               - |   - |             - |   - |
+| 85 to 89          |               0 |   1 |             - |   - |
+| 90 to 94          |               0 |   1 |             0 |   1 |
+| 95 to 99          |              +1 |   2 |             0 |   1 |
+| 100 to 104        |              +2 |   3 |             0 |   2 |
+| 105 to 109        |              +3 |   3 |             0 |   2 |
+| 110 to 114        |              +4 |   4 |             0 |   3 |
+| 115 to 119        |              +5 |   5 |             0 |   3 |
+| 120+              |              +6 |   6 |            +1 |   4 |
+
+** Adjustments to damage:
+ | Status               | Col      | Hot      |
+ |----------------------+----------+----------|
+ | Inactive             | +1 to +3 | -3 to -1 |
+ | Strenuos Activity    | +1 to +2 | +1 to +4 |
+ | Fatigued/Not Resting | +1 to +6 | +1 to +6 |
+
+ 
+** Constitution Check Modifiers
+ hell yeah dude.
+ | Character Level | Check Modifier Modifier |
+ |-----------------+-------------------------|
+ | 4 to 6          |                      -1 |
+ | 7 to 9          |                      -2 |
+ | 10 to 12        |                      -3 |
+ | 13 to 15        |                      -4 |
+ | 16+             |                      -5 |
+
+ 
+** Frostbite
+ When a chracter takes damage from the cold and the temp is 0 or less
+ and their extremities are not properly covered, they might develop frostbite.
+ Damage is dealt first to these extremities but still counts toward your total hitpoints.
+ A point of damage to your ear is still a point of damage to you.
+ | Body Parts Exposed | Damage Distribution | Damage until Frostbitten |
+ |--------------------+---------------------+--------------------------|
+ | Just Feet          |                 all | 4 pts.                   |
+ | Just Ears          |                 all | 6 pts                    |
+ | Just Hands         |                 all | 8 pts                    |
+ | Hand & Ears        |                 1:1 |                          |
+ | Feet & Ears        |                 2:1 |                          |
+ | Hands & Feet       |                 1:1 |                          |
+ | All Three          |               1:1:1 |                          |
+
+
+* Visibility Range
+At the given distance, the viewer can discern a M sized object on a flat horizon which is not trying to stay hidden.
+Double for L sized objects, halve for S.
+
+Numbers expressed in yards
+| Weather             | Daylight | Twilight | Moonlight | Darkness |
+|---------------------+----------+----------+-----------+----------|
+| Clear               |      500 |      300 |        50 |       25 |
+| Overcast            |      400 |      250 |        50 |       25 |
+| Moderate            |      150 |      100 |        25 |       15 |
+| Heavy Fog/Rain/Snow |       50 |       30 |        15 |       10 |
+| Heavy Snow + Wind   |       35 |       25 |        10 |        5 |
+| Blowing Sand/Dust   |       20 |       20 |        10 |        5 |
+
+
+* Food & Water
+** Lack of Food
+Once beyond this tolerance level, make a Str or Con check (player's choice).
+Each subsequent check after the first has an addition +1 penalty.
+If a character fails the first, they are distressed an suffer an additional +1
+If a character fails the second, they are distressed and suffer an additional +2
+When they fail the third check, they are hours from death.
+
+| Str + Con  | Tolerance |
+|------------+-----------|
+| 15 or less | 4 days    |
+| 16 to 19   | 5 days    |
+| 20 to 24   | 6 days    |
+| 25 to 30   | 7 days    |
+| 31 to 25   | 8 days    |
+| 36+        | 10 days   |
+
+Weakened: -1/day on all attack rolls and saving throws to dodging/reacting
+Distressed: weakened effects + Con check on strenuous actitivy or become exhausted. Must make a successful Con check to remove Distress.
+Incapacitated: character is permenantley exhausted. Distressed + Weakened but all mods from them are -4. Two meals and a successful Con check to remove Incapacitation.
+
+** Daily Min Water
+Numbers are in pints for a M sized human.
+Elves need only 3/4 of the number listed
+Dwarves/Gnomes/Hobbits need 2/3 of the number listed.
+
+| Activity Level | Temp < 50 | 50-70 | 71-90 | 90+ |
+|----------------+-----------+-------+-------+-----|
+| Inactive       |         5 |     6 |     7 |   8 |
+| Light          |         6 |     7 |     8 |  10 |
+| Moderate       |         8 |     9 |    10 |  12 |
+| Heavy          |         9 |    10 |    12 |  16 |
+
+A characters can go 3 days without water by default but there are modifiers
++2 if food eaten has high water content
++1 character weighs more than 200 pounds, or female, or does nothing strenuous
+-1 if effective temp >90 , or character doesn't eat, or Str <8, or Con <8
+
+When tolerance is exceded, do the same for lack of food.

@@ -3,12 +3,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-20 Fri 08:45 -->
+<!-- 2020-11-19 Thu 21:27 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>D&amp;D 2e Tables</title>
+<title>&lrm;</title>
 <meta name="generator" content="Org mode" />
-<meta name="author" content="Joseph Vadella" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -242,58 +241,47 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">D&amp;D 2e Tables</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org68924d5">1. D&amp;D Tables</a></li>
-<li><a href="#org6078831">2. Food Spoilage</a></li>
-<li><a href="#orgad7dfe3">3. Wind &amp; Combat</a></li>
-<li><a href="#org6b83c15">4. Effective Temperature Effects</a></li>
-<li><a href="#org340b0ba">5. Temperature Damage to Characters</a>
+<li><a href="#orga2915e7">1. D&amp;D Tables</a></li>
+<li><a href="#orgd85a418">2. Food Spoilage</a></li>
+<li><a href="#org374c139">3. Wind &amp; Combat</a></li>
+<li><a href="#orgd37bfe1">4. Effective Temperature Effects</a></li>
+<li><a href="#org79b472a">5. Temperature Damage to Characters</a>
 <ul>
-<li><a href="#org5807f1b">5.1. Adjustments to damage:</a></li>
-<li><a href="#org326a9a1">5.2. Constitution Check Modifiers</a></li>
-<li><a href="#org47f77e7">5.3. Frostbite</a></li>
+<li><a href="#orgfa25f71">5.1. Adjustments to damage:</a></li>
+<li><a href="#org928f121">5.2. Constitution Check Modifiers</a></li>
+<li><a href="#org4dc4a01">5.3. Frostbite</a></li>
 </ul>
 </li>
-<li><a href="#org4dfd062">6. Visibility Range</a></li>
-<li><a href="#org37370e7">7. Food &amp; Water</a>
+<li><a href="#orgca94b18">6. Visibility Range</a></li>
+<li><a href="#orgb05b377">7. Food &amp; Water</a>
 <ul>
-<li><a href="#org1cf0438">7.1. Lack of Food</a></li>
-<li><a href="#org8fa91cf">7.2. Daily Min Water</a></li>
+<li><a href="#org30f4213">7.1. Lack of Food</a></li>
+<li><a href="#org9cf95f7">7.2. Daily Min Water</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org68924d5" class="outline-2">
-<h2 id="org68924d5"><span class="section-number-2">1</span> D&amp;D Tables</h2>
+<div id="outline-container-orga2915e7" class="outline-2">
+<h2 id="orga2915e7"><span class="section-number-2">1</span> D&amp;D Tables</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 This is a list of tables which will be useful to any Dungeon Master who is running a campaign in 2e AD&amp;D.
-</p>
-
-<p>
 Not included here is a list of items and prices. Such a list can be found at josephvadella.com/dnd/
-</p>
-
-<p>
 Also not included are tables for weather generation. There is a tool available by s0py on github that will generate
 all of the necessary weather attributes completely consistent with the Wilderness Survival Guide.
-</p>
-
-<p>
 This webpage serves as a quick reference for any dungeon master who has these tools already and needs to
 referrence other information.
 </p>
 </div>
 </div>
 
-
-<div id="outline-container-org6078831" class="outline-2">
-<h2 id="org6078831"><span class="section-number-2">2</span> Food Spoilage</h2>
+<div id="outline-container-orgd85a418" class="outline-2">
+<h2 id="orgd85a418"><span class="section-number-2">2</span> Food Spoilage</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The Number on the left is how many days there are between checks, the number on the right is the chance of the food spoiling.
@@ -365,13 +353,12 @@ The Number on the left is how many days there are between checks, the number on 
 </div>
 </div>
 
-
-<div id="outline-container-orgad7dfe3" class="outline-2">
-<h2 id="orgad7dfe3"><span class="section-number-2">3</span> Wind &amp; Combat</h2>
+<div id="outline-container-org374c139" class="outline-2">
+<h2 id="org374c139"><span class="section-number-2">3</span> Wind &amp; Combat</h2>
 <div class="outline-text-2" id="text-3">
 <p>
-When precipitation is occuring, go down the chart 1 line.
-If the precipitation is heavy or higher, move down 2.
+When precipitation is occuring, go down the chart 1 line
+if the precipitation is heavy or higher, move down 2.
 </p>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -440,16 +427,12 @@ If the precipitation is heavy or higher, move down 2.
 </div>
 </div>
 
-
-<div id="outline-container-org6b83c15" class="outline-2">
-<h2 id="org6b83c15"><span class="section-number-2">4</span> Effective Temperature Effects</h2>
+<div id="outline-container-orgd37bfe1" class="outline-2">
+<h2 id="orgd37bfe1"><span class="section-number-2">4</span> Effective Temperature Effects</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Numbers are interpretted as follows:
-</p>
-
-<p>
-Str or Dex or Con : nonstrenuous/strenuous
+Str/Dex/Con : nonstrenuous/strenuous
 </p>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -599,35 +582,18 @@ Str or Dex or Con : nonstrenuous/strenuous
 </div>
 </div>
 
-
-<div id="outline-container-org340b0ba" class="outline-2">
-<h2 id="org340b0ba"><span class="section-number-2">5</span> Temperature Damage to Characters</h2>
+<div id="outline-container-org79b472a" class="outline-2">
+<h2 id="org79b472a"><span class="section-number-2">5</span> Temperature Damage to Characters</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Now this is fun. A nice objective and nuanced way of dealing damage from exposure.
-</p>
-
-<p>
 To use this, find the appropriate row for effective temperature of the person.
-</p>
-
-<p>
 Go to the relevant set of columns depending on whether the character is protected
 or unprotected.
-</p>
-
-<p>
 If there is a number listed under Con, they must make a roll with that modifier and if they fail, they take the amount of damage.
-</p>
-
-<p>
 To calculate the damage, take the number indicated in the Dmg column as the size die to roll.
-</p>
-
-<p>
 If the damage would equal MORE THAN 10% of the character's CURRENT hit points, they take 10% instead.
 </p>
-
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -855,8 +821,8 @@ If the damage would equal MORE THAN 10% of the character's CURRENT hit points, t
 </table>
 </div>
 
-<div id="outline-container-org5807f1b" class="outline-3">
-<h3 id="org5807f1b"><span class="section-number-3">5.1</span> Adjustments to damage:</h3>
+<div id="outline-container-orgfa25f71" class="outline-3">
+<h3 id="orgfa25f71"><span class="section-number-3">5.1</span> Adjustments to damage:</h3>
 <div class="outline-text-3" id="text-5-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -899,8 +865,8 @@ If the damage would equal MORE THAN 10% of the character's CURRENT hit points, t
 </div>
 
 
-<div id="outline-container-org326a9a1" class="outline-3">
-<h3 id="org326a9a1"><span class="section-number-3">5.2</span> Constitution Check Modifiers</h3>
+<div id="outline-container-org928f121" class="outline-3">
+<h3 id="org928f121"><span class="section-number-3">5.2</span> Constitution Check Modifiers</h3>
 <div class="outline-text-3" id="text-5-2">
 <p>
 hell yeah dude.
@@ -950,8 +916,8 @@ hell yeah dude.
 </div>
 
 
-<div id="outline-container-org47f77e7" class="outline-3">
-<h3 id="org47f77e7"><span class="section-number-3">5.3</span> Frostbite</h3>
+<div id="outline-container-org4dc4a01" class="outline-3">
+<h3 id="org4dc4a01"><span class="section-number-3">5.3</span> Frostbite</h3>
 <div class="outline-text-3" id="text-5-3">
 <p>
 When a chracter takes damage from the cold and the temp is 0 or less
@@ -1024,9 +990,8 @@ A point of damage to your ear is still a point of damage to you.
 </div>
 </div>
 
-
-<div id="outline-container-org4dfd062" class="outline-2">
-<h2 id="org4dfd062"><span class="section-number-2">6</span> Visibility Range</h2>
+<div id="outline-container-orgca94b18" class="outline-2">
+<h2 id="orgca94b18"><span class="section-number-2">6</span> Visibility Range</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 At the given distance, the viewer can discern a M sized object on a flat horizon which is not trying to stay hidden.
@@ -1112,13 +1077,12 @@ Numbers expressed in yards
 </div>
 </div>
 
-
-<div id="outline-container-org37370e7" class="outline-2">
-<h2 id="org37370e7"><span class="section-number-2">7</span> Food &amp; Water</h2>
+<div id="outline-container-orgb05b377" class="outline-2">
+<h2 id="orgb05b377"><span class="section-number-2">7</span> Food &amp; Water</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-org1cf0438" class="outline-3">
-<h3 id="org1cf0438"><span class="section-number-3">7.1</span> Lack of Food</h3>
+<div id="outline-container-org30f4213" class="outline-3">
+<h3 id="org30f4213"><span class="section-number-3">7.1</span> Lack of Food</h3>
 <div class="outline-text-3" id="text-7-1">
 <p>
 Once beyond this tolerance level, make a Str or Con check (player's choice).
@@ -1183,8 +1147,8 @@ Incapacitated: character is permenantley exhausted. Distressed + Weakened but al
 </div>
 </div>
 
-<div id="outline-container-org8fa91cf" class="outline-3">
-<h3 id="org8fa91cf"><span class="section-number-3">7.2</span> Daily Min Water</h3>
+<div id="outline-container-org9cf95f7" class="outline-3">
+<h3 id="org9cf95f7"><span class="section-number-3">7.2</span> Daily Min Water</h3>
 <div class="outline-text-3" id="text-7-2">
 <p>
 Numbers are in pints for a M sized human.
@@ -1265,8 +1229,7 @@ When tolerance is exceded, do the same for lack of food.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: Joseph Vadella</p>
-<p class="date">Created: 2020-11-20 Fri 08:45</p>
+<p class="date">Created: 2020-11-19 Thu 21:27</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
