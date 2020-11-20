@@ -33,7 +33,7 @@ For the purposes of 2e, Paladins turn undead as priests two levels lower
 | Ghoul or 2HD    | 16 | 13 | 10 |  7 |  4 |  T |  T |  D |  D | D*    | D*    | D*  |
 | Shadow of 3-4HD | 19 | 16 | 13 | 13 |  7 |  4 |  T |  T |  D | D     | D*    | D*  |
 | Wight or 5HD    | 20 | 19 | 16 | 16 | 13 |  7 |  4 |  T |  T | D     | D     | D*  |
-| Ghast           | -  | 10 | 19 | 19 | 16 | 10 |  7 |  4 |  T | T     | D     | D   |
+| Ghast           | -  | 20 | 19 | 19 | 16 | 10 |  7 |  4 |  T | T     | D     | D   |
 | Wraith or 6HD   | -  |  - | 20 | 20 | 19 | 13 | 10 |  7 |  4 | T     | T     | D   |
 | Mummy or 7HD    | -  |  - |  - |  - | 20 | 16 | 13 | 10 |  7 | 4     | T     | T   |
 | Spectre or 8HD  | -  |  - |  - |  - |  - | 19 | 16 | 13 | 10 | 7     | 4     | T   |
@@ -41,6 +41,7 @@ For the purposes of 2e, Paladins turn undead as priests two levels lower
 | Ghost or 10HD   | -  |  - |  - |  - |  - |  - | 20 | 19 | 16 | 13    | 10    | 7   |
 | Lich or 11+HD   | -  |  - |  - |  - |  - |  - |  - | 20 | 19 | 16    | 13    | 10  |
  * an additional 2d4 creatures of this type are turned
+
 
 * Modified Movement Rates
 
