@@ -69,6 +69,7 @@ To qualify for a modifier, ALL MEMBERS must qualify.
 | Hindered (tangled, climbing, held) |  +3 |
 | Waiting                            |  +1 |
 
+A Foreign Environment would be something like swimming underwater. This is quite rare. Think of this as a modifer when some fundamental rules about fighting have changed.
 
 * Weapon Type vs Armor
 To use this table: When attacking someone in Chainmail with a Bludgeoning Weapon, add +2 to your Attack Roll
@@ -88,5 +89,3 @@ Leather includes Padded Armor and Hides and Plate includes Bronze Plate.
 | Scale Mail      |     0 |     -1 |        0 |
 | Splint Mail     |     0 |     -1 |       -2 |
 | Studded Leather |    -2 |     -1 |        0 |
-
-A Foreign Environment would be something like swimming underwater. This is quite rare. Think of this as a modifer when some fundamental rules about fighting have changed.
