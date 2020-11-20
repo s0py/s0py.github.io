@@ -3,11 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-19 Thu 21:27 -->
+<!-- 2020-11-20 Fri 09:53 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
+<title>D&amp;D 2e Tables</title>
 <meta name="generator" content="Org mode" />
+<meta name="author" content="Joseph Vadella" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -192,6 +193,7 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
+<style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt}</style>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -241,47 +243,59 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
+<h1 class="title">D&amp;D 2e Tables</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga2915e7">1. D&amp;D Tables</a></li>
-<li><a href="#orgd85a418">2. Food Spoilage</a></li>
-<li><a href="#org374c139">3. Wind &amp; Combat</a></li>
-<li><a href="#orgd37bfe1">4. Effective Temperature Effects</a></li>
-<li><a href="#org79b472a">5. Temperature Damage to Characters</a>
+<li><a href="#org39edff6">1. D&amp;D Tables</a></li>
+<li><a href="#orge08547e">2. Food Spoilage</a></li>
+<li><a href="#orgcd5a26d">3. Wind &amp; Combat</a></li>
+<li><a href="#org23492bf">4. Effective Temperature Effects</a></li>
+<li><a href="#org64a1101">5. Temperature Damage to Characters</a>
 <ul>
-<li><a href="#orgfa25f71">5.1. Adjustments to damage:</a></li>
-<li><a href="#org928f121">5.2. Constitution Check Modifiers</a></li>
-<li><a href="#org4dc4a01">5.3. Frostbite</a></li>
+<li><a href="#orga4a4c2f">5.1. Adjustments to damage:</a></li>
+<li><a href="#org3a899fe">5.2. Constitution Check Modifiers</a></li>
+<li><a href="#org642a0ba">5.3. Frostbite</a></li>
 </ul>
 </li>
-<li><a href="#orgca94b18">6. Visibility Range</a></li>
-<li><a href="#orgb05b377">7. Food &amp; Water</a>
+<li><a href="#org0de490f">6. Visibility Range</a></li>
+<li><a href="#orgb421d02">7. Food &amp; Water</a>
 <ul>
-<li><a href="#org30f4213">7.1. Lack of Food</a></li>
-<li><a href="#org9cf95f7">7.2. Daily Min Water</a></li>
+<li><a href="#org72085b9">7.1. Lack of Food</a></li>
+<li><a href="#org9bd698d">7.2. Daily Min Water</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga2915e7" class="outline-2">
-<h2 id="orga2915e7"><span class="section-number-2">1</span> D&amp;D Tables</h2>
+<div id="outline-container-org39edff6" class="outline-2">
+<h2 id="org39edff6"><span class="section-number-2">1</span> D&amp;D Tables</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 This is a list of tables which will be useful to any Dungeon Master who is running a campaign in 2e AD&amp;D.
+</p>
+
+<p>
 Not included here is a list of items and prices. Such a list can be found at josephvadella.com/dnd/
+</p>
+
+<p>
 Also not included are tables for weather generation. There is a tool available by s0py on github that will generate
 all of the necessary weather attributes completely consistent with the Wilderness Survival Guide.
+</p>
+
+<p>
 This webpage serves as a quick reference for any dungeon master who has these tools already and needs to
 referrence other information.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgd85a418" class="outline-2">
-<h2 id="orgd85a418"><span class="section-number-2">2</span> Food Spoilage</h2>
+
+
+<div id="outline-container-orge08547e" class="outline-2">
+<h2 id="orge08547e"><span class="section-number-2">2</span> Food Spoilage</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The Number on the left is how many days there are between checks, the number on the right is the chance of the food spoiling.
@@ -353,12 +367,14 @@ The Number on the left is how many days there are between checks, the number on 
 </div>
 </div>
 
-<div id="outline-container-org374c139" class="outline-2">
-<h2 id="org374c139"><span class="section-number-2">3</span> Wind &amp; Combat</h2>
+
+
+<div id="outline-container-orgcd5a26d" class="outline-2">
+<h2 id="orgcd5a26d"><span class="section-number-2">3</span> Wind &amp; Combat</h2>
 <div class="outline-text-2" id="text-3">
 <p>
-When precipitation is occuring, go down the chart 1 line
-if the precipitation is heavy or higher, move down 2.
+When precipitation is occuring, go down the chart 1 line.
+If the precipitation is heavy or higher, move down 2.
 </p>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -427,12 +443,17 @@ if the precipitation is heavy or higher, move down 2.
 </div>
 </div>
 
-<div id="outline-container-orgd37bfe1" class="outline-2">
-<h2 id="orgd37bfe1"><span class="section-number-2">4</span> Effective Temperature Effects</h2>
+
+
+<div id="outline-container-org23492bf" class="outline-2">
+<h2 id="org23492bf"><span class="section-number-2">4</span> Effective Temperature Effects</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Numbers are interpretted as follows:
-Str/Dex/Con : nonstrenuous/strenuous
+</p>
+
+<p>
+Str or Dex or Con : nonstrenuous/strenuous
 </p>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -582,18 +603,36 @@ Str/Dex/Con : nonstrenuous/strenuous
 </div>
 </div>
 
-<div id="outline-container-org79b472a" class="outline-2">
-<h2 id="org79b472a"><span class="section-number-2">5</span> Temperature Damage to Characters</h2>
+
+
+<div id="outline-container-org64a1101" class="outline-2">
+<h2 id="org64a1101"><span class="section-number-2">5</span> Temperature Damage to Characters</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Now this is fun. A nice objective and nuanced way of dealing damage from exposure.
+</p>
+
+<p>
 To use this, find the appropriate row for effective temperature of the person.
+</p>
+
+<p>
 Go to the relevant set of columns depending on whether the character is protected
 or unprotected.
+</p>
+
+<p>
 If there is a number listed under Con, they must make a roll with that modifier and if they fail, they take the amount of damage.
+</p>
+
+<p>
 To calculate the damage, take the number indicated in the Dmg column as the size die to roll.
+</p>
+
+<p>
 If the damage would equal MORE THAN 10% of the character's CURRENT hit points, they take 10% instead.
 </p>
+
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -821,8 +860,8 @@ If the damage would equal MORE THAN 10% of the character's CURRENT hit points, t
 </table>
 </div>
 
-<div id="outline-container-orgfa25f71" class="outline-3">
-<h3 id="orgfa25f71"><span class="section-number-3">5.1</span> Adjustments to damage:</h3>
+<div id="outline-container-orga4a4c2f" class="outline-3">
+<h3 id="orga4a4c2f"><span class="section-number-3">5.1</span> Adjustments to damage:</h3>
 <div class="outline-text-3" id="text-5-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -865,8 +904,8 @@ If the damage would equal MORE THAN 10% of the character's CURRENT hit points, t
 </div>
 
 
-<div id="outline-container-org928f121" class="outline-3">
-<h3 id="org928f121"><span class="section-number-3">5.2</span> Constitution Check Modifiers</h3>
+<div id="outline-container-org3a899fe" class="outline-3">
+<h3 id="org3a899fe"><span class="section-number-3">5.2</span> Constitution Check Modifiers</h3>
 <div class="outline-text-3" id="text-5-2">
 <p>
 hell yeah dude.
@@ -916,8 +955,8 @@ hell yeah dude.
 </div>
 
 
-<div id="outline-container-org4dc4a01" class="outline-3">
-<h3 id="org4dc4a01"><span class="section-number-3">5.3</span> Frostbite</h3>
+<div id="outline-container-org642a0ba" class="outline-3">
+<h3 id="org642a0ba"><span class="section-number-3">5.3</span> Frostbite</h3>
 <div class="outline-text-3" id="text-5-3">
 <p>
 When a chracter takes damage from the cold and the temp is 0 or less
@@ -990,8 +1029,10 @@ A point of damage to your ear is still a point of damage to you.
 </div>
 </div>
 
-<div id="outline-container-orgca94b18" class="outline-2">
-<h2 id="orgca94b18"><span class="section-number-2">6</span> Visibility Range</h2>
+
+
+<div id="outline-container-org0de490f" class="outline-2">
+<h2 id="org0de490f"><span class="section-number-2">6</span> Visibility Range</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 At the given distance, the viewer can discern a M sized object on a flat horizon which is not trying to stay hidden.
@@ -1077,12 +1118,14 @@ Numbers expressed in yards
 </div>
 </div>
 
-<div id="outline-container-orgb05b377" class="outline-2">
-<h2 id="orgb05b377"><span class="section-number-2">7</span> Food &amp; Water</h2>
+
+
+<div id="outline-container-orgb421d02" class="outline-2">
+<h2 id="orgb421d02"><span class="section-number-2">7</span> Food &amp; Water</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-org30f4213" class="outline-3">
-<h3 id="org30f4213"><span class="section-number-3">7.1</span> Lack of Food</h3>
+<div id="outline-container-org72085b9" class="outline-3">
+<h3 id="org72085b9"><span class="section-number-3">7.1</span> Lack of Food</h3>
 <div class="outline-text-3" id="text-7-1">
 <p>
 Once beyond this tolerance level, make a Str or Con check (player's choice).
@@ -1147,8 +1190,8 @@ Incapacitated: character is permenantley exhausted. Distressed + Weakened but al
 </div>
 </div>
 
-<div id="outline-container-org9cf95f7" class="outline-3">
-<h3 id="org9cf95f7"><span class="section-number-3">7.2</span> Daily Min Water</h3>
+<div id="outline-container-org9bd698d" class="outline-3">
+<h3 id="org9bd698d"><span class="section-number-3">7.2</span> Daily Min Water</h3>
 <div class="outline-text-3" id="text-7-2">
 <p>
 Numbers are in pints for a M sized human.
@@ -1224,12 +1267,18 @@ A characters can go 3 days without water by default but there are modifiers
 <p>
 When tolerance is exceded, do the same for lack of food.
 </p>
+
+<p>
+if you want to use a different theme:
+HTML<sub>HEAD</sub>: "&lt;meta http-equiv='X-UA-Compatible' content='IE=edge'&gt;&lt;meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'&gt;&lt;style&gt;html{touch-action:manipulation;-webkit-text-size-adjust:100%}body{padding:0;margin:0;background:#f2f6fa;color:#3c495a;font-weight:normal;font-size:15px;font-family:'San Francisco','Roboto','Arial',sans-serif}h2,h3,h4,h5,h6{font-family:'Trebuchet MS',Verdana,sans-serif;color:#586b82;padding:0;margin:20px 0 10px 0;font-size:1.1em}h2{margin:30px 0 10px 0;font-size:1.2em}a{color:#3fa7ba;text-decoration:none}p{margin:6px 0;text-align:justify}ul,ol{margin:0;text-align:justify}ul&gt;li&gt;code{color:#586b82}pre{white-space:pre-wrap}#content{width:96%;max-width:1000px;margin:2% auto 6% auto;background:white;border-radius:2px;border-right:1px solid #e2e9f0;border-bottom:2px solid #e2e9f0;padding:0 115px 150px 115px;box-sizing:border-box}#postamble{display:none}h1.title{background-color:#343C44;color:#fff;margin:0 -115px;padding:60px 0;font-weight:normal;font-size:2em;border-top-left-radius:2px;border-top-right-radius:2px}@media (max-width: 1050px){#content{padding:0 70px 100px 70px}h1.title{margin:0 -70px}}@media (max-width: 800px){#content{width:100%;margin-top:0;margin-bottom:0;padding:0 4% 60px 4%}h1.title{margin:0 -5%;padding:40px 5%}}pre,.verse{box-shadow:none;background-color:#f9fbfd;border:1px solid #e2e9f0;color:#586b82;padding:10px;font-family:monospace;overflow:auto;margin:6px 0}#table-of-contents{margin-bottom:50px;margin-top:50px}#table-of-contents h2{margin-bottom:5px}#text-table-of-contents ul{padding-left:15px}#text-table-of-contents&gt;ul{padding-left:0}#text-table-of-contents li{list-style-type:none}#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}table{border-color:#586b82;font-size:0.95em}table thead{color:#586b82}table tbody tr:nth-child(even){background:#f9f9f9}table tbody tr:hover{background:#586b82!important;color:white}table .left{text-align:left}table .right{text-align:right}.todo{font-family:inherit;color:inherit}.done{color:inherit}.tag{background:initial}.tag&gt;span{background-color:#eee;font-family:monospace;padding-left:7px;padding-right:7px;border-radius:2px;float:right;margin-left:5px}#text-table-of-contents .tag&gt;span{float:none;margin-left:0}.timestamp{color:#7c8ca1}@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}#content{border:none}}&lt;/style&gt;"
+</p>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2020-11-19 Thu 21:27</p>
+<p class="author">Author: Joseph Vadella</p>
+<p class="date">Created: 2020-11-20 Fri 09:53</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

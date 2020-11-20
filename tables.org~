@@ -1,10 +1,16 @@
+#+AUTHOR: Joseph Vadella
+#+TITLE: D&D 2e Tables
 * D&D Tables
 This is a list of tables which will be useful to any Dungeon Master who is running a campaign in 2e AD&D.
+
 Not included here is a list of items and prices. Such a list can be found at josephvadella.com/dnd/
+
 Also not included are tables for weather generation. There is a tool available by s0py on github that will generate
 all of the necessary weather attributes completely consistent with the Wilderness Survival Guide.
+
 This webpage serves as a quick reference for any dungeon master who has these tools already and needs to
 referrence other information.
+
 
 * Food Spoilage
   The Number on the left is how many days there are between checks, the number on the right is the chance of the food spoiling.
@@ -15,9 +21,10 @@ referrence other information.
 | Cooked Meat     | never | 3/20   | 2/50   | 1/60    | 1/80  |
 | Raw Meat        | never | 2/50   | 1/70   | 1/80    | 1/90  |
 
+
 * Wind & Combat
-When precipitation is occuring, go down the chart 1 line
-if the precipitation is heavy or higher, move down 2.
+When precipitation is occuring, go down the chart 1 line.
+If the precipitation is heavy or higher, move down 2.
 | Windspeed mph | Missile Combat | Melee Combat | Move v. Wind |
 |---------------+----------------+--------------+--------------|
 | 0 to 10       | -              |            - | -            |
@@ -27,9 +34,11 @@ if the precipitation is heavy or higher, move down 2.
 | 46 to 79      | -4/-6/X/X      |           -4 | 0.5          |
 | 80+           | X/X/X/X        |           -8 | 0.25         |
 
+
 * Effective Temperature Effects
 Numbers are interpretted as follows:
-Str/Dex/Con : nonstrenuous/strenuous
+
+Str or Dex or Con : nonstrenuous/strenuous
 | Personal Eff Temp | Str   | Dex   | Con   | Move | Attack Roll |
 |-------------------+-------+-------+-------+------+-------------|
 | -40 or lower      | -1/-2 | -4/-5 | -1/-2 |  0.5 |          -4 |
@@ -46,14 +55,21 @@ Str/Dex/Con : nonstrenuous/strenuous
 | 110 to 119        | -1/-3 | -1/-2 | -3/-4 |  0.5 |          -3 |
 | 120+              | -2/-4 | -1/-3 | -4/-5 |  0.5 |          -4 |
 
+
 * Temperature Damage to Characters
 Now this is fun. A nice objective and nuanced way of dealing damage from exposure.
+
 To use this, find the appropriate row for effective temperature of the person.
+
 Go to the relevant set of columns depending on whether the character is protected
 or unprotected.
+
 If there is a number listed under Con, they must make a roll with that modifier and if they fail, they take the amount of damage.
+
 To calculate the damage, take the number indicated in the Dmg column as the size die to roll.
+
 If the damage would equal MORE THAN 10% of the character's CURRENT hit points, they take 10% instead.
+
 | Personal Eff Temp | Unprotected Con | Dmg | Protected Con | Dmg |
 |-------------------+-----------------+-----+---------------+-----|
 | -60 or less       |             +14 |   8 |            +9 |   4 |
@@ -116,6 +132,7 @@ If the damage would equal MORE THAN 10% of the character's CURRENT hit points, t
  | Hands & Feet       |                 1:1 |                          |
  | All Three          |               1:1:1 |                          |
 
+
 * Visibility Range
 At the given distance, the viewer can discern a M sized object on a flat horizon which is not trying to stay hidden.
 Double for L sized objects, halve for S.
@@ -129,6 +146,7 @@ Numbers expressed in yards
 | Heavy Fog/Rain/Snow |       50 |       30 |        15 |       10 |
 | Heavy Snow + Wind   |       35 |       25 |        10 |        5 |
 | Blowing Sand/Dust   |       20 |       20 |        10 |        5 |
+
 
 * Food & Water
 ** Lack of Food
