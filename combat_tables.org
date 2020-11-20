@@ -1,9 +1,9 @@
 #+AUTHOR: Joseph Vadella
 #+TITLE: D&D 2e Tables
 #+HTML_HEAD: <style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt}</style>
-|----------------+---------------|
-| [[http://josephvadella.com/weather_tables][Weather Tables]] | [[http://josephvadella.com/combat_tables][Combat Tables]] |
-|----------------+---------------|
+|----------------+---------------+-------------|
+| [[http://josephvadella.com/weather_tables][Weather Tables]] | [[http://josephvadella.com/combat_tables][Combat Tables]] | [[http://josephvadella.com/stat_tables][Stat Tables]] |
+|----------------+---------------+-------------|
 
 * D&D Tables
 
@@ -39,6 +39,40 @@ These numbers are added to the attack roll.
 | 90% hidden |   -10 |          -4 |
 
 Hiding behind a wall offers cover, hiding in a thicket or bush offers concealment.
+
+
+* Morale
+This is a list of morale modifiers
+remember that to make a morale roll, roll 2d6 and if it's higher than the Morale of the creature, it keeps fighting.
+
+| Situation                        | Mod |
+|----------------------------------+-----|
+| Abandoned by friends             |  -6 |
+| 3/4 Health or Group              |  -2 |
+| 1/2 Health or Group              |  -4 |
+| Creature is Chaotic              |  -1 |
+| Creature is Lawful               |  +1 |
+| Creature fighting hated enemy    |  +4 |
+| Surprised                        |  -2 |
+| Fighting Magic-users             |  -2 |
+| Defending Home                   |  +3 |
+| Defensive Terrain Advantage      |  +1 |
+| Each additional check this round |  -1 |
+| Leader of diff alignment         |  -1 |
+| Most Powerful Ally Killed        |  -4 |
+| NPC has been favored             |  +2 |
+| NPC has been poorly treated      |  -4 |
+| No enemy slain                   |  -2 |
+| Outnumbered 3+ to 1              |  -4 |
+| Outnumber opponent 3+ to 1       |  +2 |
+| Unable to affect opponent        |  -8 |
+| Magic-user on same side          |  +2 |
+|----------------------------------+-----|
+| <1/2HD                           |  -2 |
+| 1/2-1HD                          |  -1 |
+| 4-8+HD                           |  +1 |
+| 9-14+HD                          |  +2 |
+| 15HD or more                     |  +3 |
 
 
 * Wind & Combat

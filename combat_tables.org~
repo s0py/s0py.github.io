@@ -1,9 +1,11 @@
 #+AUTHOR: Joseph Vadella
 #+TITLE: D&D 2e Tables
 #+HTML_HEAD: <style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt}</style>
-* D&D Tables
+|----------------+---------------|
+| [[http://josephvadella.com/weather_tables][Weather Tables]] | [[http://josephvadella.com/combat_tables][Combat Tables]] |
+|----------------+---------------|
 
-[[josephvadella.com/weather_tables][Weather Tables]]  [[josephvadella.com/combat_tables][Combat Tables]]
+* D&D Tables
 
 These are tables that would be useful for combat.
 
@@ -70,6 +72,7 @@ To qualify for a modifier, ALL MEMBERS must qualify.
 | Waiting                            |  +1 |
 
 A Foreign Environment would be something like swimming underwater. This is quite rare. Think of this as a modifer when some fundamental rules about fighting have changed.
+
 
 * Weapon Type vs Armor
 To use this table: When attacking someone in Chainmail with a Bludgeoning Weapon, add +2 to your Attack Roll

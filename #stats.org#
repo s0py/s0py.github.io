@@ -1,0 +1,43 @@
+#+AUTHOR: Joseph Vadella
+#+TITLE: D&D 2e Tables
+#+HTML_HEAD: <style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt}</style>
+|----------------+---------------+-------------|
+| [[http://josephvadella.com/weather_tables][Weather Tables]] | [[http://josephvadella.com/combat_tables][Combat Tables]] | [[http://josephvadella.com/stat_tables][Stat Tables]] |
+|----------------+---------------+-------------|
+* D&D Tables
+These are tables that are used for statistics on characters and creatures.
+
+* THAC0
+** Player
+| Group   | Lvl 1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+|---------+-------+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----|
+| Preist  |    20 | 20 | 20 | 18 | 18 | 18 | 16 | 16 | 16 | 14 | 14 | 14 | 12 | 12 | 12 | 10 | 10 | 10 |  8 |  8 |
+| Rogue   |    20 | 20 | 19 | 19 | 18 | 18 | 17 | 17 | 16 | 16 | 15 | 15 | 14 | 14 | 13 | 13 | 12 | 12 | 11 | 11 |
+| Warrior |    20 | 19 | 18 | 17 | 16 | 15 | 14 | 13 | 12 | 11 | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 |  1 |
+| Wizard  |    20 | 20 | 20 | 19 | 19 | 19 | 18 | 18 | 18 | 17 | 17 | 17 | 16 | 16 | 16 | 15 | 15 | 15 | 14 | 14 |
+
+** Creature
+The number of the column indicates the hitdice
+| 1/2 or less | 1-1 | 1+ | 2+ | 3+ | 4+ | 5+ | 6+ | 7+ | 8+ | 9+ | 10+ | 11+ | 12+ | 13+ | 14+ | 15+ | 16+ |
+|-------------+-----+----+----+----+----+----+----+----+----+----+-----+-----+-----+-----+-----+-----+-----|
+|          20 |  20 | 19 | 19 | 17 | 17 | 15 | 15 | 13 | 13 | 11 |  11 |   9 |   9 |   7 |   7 |   5 |   5 |
+
+* Turning Undead
+For the purposes of 2e, Paladins turn undead as priests two levels lower
+| Type            | 1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10-11 | 12-13 | 14+ |
+|-----------------+----+----+----+----+----+----+----+----+----+-------+-------+-----|
+| Skeleton or 1HD | 10 |  7 |  4 |  T |  T |  D |  D | D* | D* | D*    | D*    | D*  |
+| Zombie          | 13 | 10 |  7 |  4 |  T |  T |  D |  D | D* | D*    | D*    | D*  |
+| Ghoul or 2HD    | 16 | 13 | 10 |  7 |  4 |  T |  T |  D |  D | D*    | D*    | D*  |
+| Shadow of 3-4HD | 19 | 16 | 13 | 13 |  7 |  4 |  T |  T |  D | D     | D*    | D*  |
+| Wight or 5HD    | 20 | 19 | 16 | 16 | 13 |  7 |  4 |  T |  T | D     | D     | D*  |
+| Ghast           | -  | 10 | 19 | 19 | 16 | 10 |  7 |  4 |  T | T     | D     | D   |
+| Wraith or 6HD   | -  |  - | 20 | 20 | 19 | 13 | 10 |  7 |  4 | T     | T     | D   |
+| Mummy or 7HD    | -  |  - |  - |  - | 20 | 16 | 13 | 10 |  7 | 4     | T     | T   |
+| Spectre or 8HD  | -  |  - |  - |  - |  - | 19 | 16 | 13 | 10 | 7     | 4     | T   |
+| Vampire or 9HD  | -  |  - |  - |  - |  - | 20 | 19 | 16 | 13 | 10    | 7     | 4   |
+| Ghost or 10HD   | -  |  - |  - |  - |  - |  - | 20 | 19 | 16 | 13    | 10    | 7   |
+| Lich or 11+HD   | -  |  - |  - |  - |  - |  - |  - | 20 | 19 | 16    | 13    | 10  |
+| Special**       |    |    |    |    |    |    |    |    |    |       |       |     |
+ * an additional 2d4 creatures of this type are turned
+ * special creatures include unique undead, stuff from the outer planes, you know all that weird stuff.
