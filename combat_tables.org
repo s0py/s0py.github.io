@@ -1,9 +1,11 @@
 #+AUTHOR: Joseph Vadella
 #+TITLE: D&D 2e Tables
 #+HTML_HEAD: <style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt}</style>
-* D&D Tables
+|----------------+---------------|
+| [[http://josephvadella.com/weather_tables][Weather Tables]] | [[http://josephvadella.com/combat_tables][Combat Tables]] |
+|----------------+---------------|
 
-[[http://josephvadella.com/weather_tables][Weather Tables]] [[http://josephvadella.com/combat_tables][Combat Tables]]
+* D&D Tables
 
 These are tables that would be useful for combat.
 

@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-11-20 Fri 10:21 -->
+<!-- 2020-11-20 Fri 12:30 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>D&amp;D 2e Tables</title>
@@ -248,18 +248,22 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd403285">1. D&amp;D Tables</a></li>
-<li><a href="#org5a2508e">2. Combat Modifiers</a></li>
-<li><a href="#org5b0bb4c">3. Cover &amp; Concealment</a></li>
-<li><a href="#orgde09b8e">4. Wind &amp; Combat</a></li>
-<li><a href="#org013a070">5. Initiative Modifiers</a></li>
-<li><a href="#org7fc6af0">6. Weapon Type vs Armor</a></li>
+<li><a href="#org8232626">1. D&amp;D Tables</a></li>
+<li><a href="#org9f993e5">2. Combat Modifiers</a></li>
+<li><a href="#orga8d398e">3. Cover &amp; Concealment</a></li>
+<li><a href="#orgdd748f9">4. Wind &amp; Combat</a></li>
+<li><a href="#org5829000">5. Initiative Modifiers</a></li>
+<li><a href="#org83a1a84">6. Weapon Type vs Armor</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd403285" class="outline-2">
-<h2 id="orgd403285"><span class="section-number-2">1</span> D&amp;D Tables</h2>
+<div id="outline-container-org8232626" class="outline-2">
+<h2 id="org8232626"><span class="section-number-2">1</span> D&amp;D Tables</h2>
 <div class="outline-text-2" id="text-1">
+<p>
+<a href="http://josephvadella.com/weather_tables">Weather Tables</a> <a href="http://josephvadella.com/combat_tables">Combat Tables</a>
+</p>
+
 <p>
 These are tables that would be useful for combat.
 </p>
@@ -270,8 +274,9 @@ I have tried to put the ones which will be referrenced most frequently at the to
 </div>
 </div>
 
-<div id="outline-container-org5a2508e" class="outline-2">
-<h2 id="org5a2508e"><span class="section-number-2">2</span> Combat Modifiers</h2>
+
+<div id="outline-container-org9f993e5" class="outline-2">
+<h2 id="org9f993e5"><span class="section-number-2">2</span> Combat Modifiers</h2>
 <div class="outline-text-2" id="text-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -340,8 +345,8 @@ I have tried to put the ones which will be referrenced most frequently at the to
 </div>
 
 
-<div id="outline-container-org5b0bb4c" class="outline-2">
-<h2 id="org5b0bb4c"><span class="section-number-2">3</span> Cover &amp; Concealment</h2>
+<div id="outline-container-orga8d398e" class="outline-2">
+<h2 id="orga8d398e"><span class="section-number-2">3</span> Cover &amp; Concealment</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 These numbers are added to the attack roll.
@@ -397,8 +402,9 @@ Hiding behind a wall offers cover, hiding in a thicket or bush offers concealmen
 </div>
 </div>
 
-<div id="outline-container-orgde09b8e" class="outline-2">
-<h2 id="orgde09b8e"><span class="section-number-2">4</span> Wind &amp; Combat</h2>
+
+<div id="outline-container-orgdd748f9" class="outline-2">
+<h2 id="orgdd748f9"><span class="section-number-2">4</span> Wind &amp; Combat</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 When precipitation is occuring, go down the chart 1 line.
@@ -471,8 +477,9 @@ If the precipitation is heavy or higher, move down 2.
 </div>
 </div>
 
-<div id="outline-container-org013a070" class="outline-2">
-<h2 id="org013a070"><span class="section-number-2">5</span> Initiative Modifiers</h2>
+
+<div id="outline-container-org5829000" class="outline-2">
+<h2 id="org5829000"><span class="section-number-2">5</span> Initiative Modifiers</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 Use these numbers whenever initiative is determined.
@@ -543,11 +550,16 @@ To qualify for a modifier, ALL MEMBERS must qualify.
 </tr>
 </tbody>
 </table>
+
+<p>
+A Foreign Environment would be something like swimming underwater. This is quite rare. Think of this as a modifer when some fundamental rules about fighting have changed.
+</p>
 </div>
 </div>
 
-<div id="outline-container-org7fc6af0" class="outline-2">
-<h2 id="org7fc6af0"><span class="section-number-2">6</span> Weapon Type vs Armor</h2>
+
+<div id="outline-container-org83a1a84" class="outline-2">
+<h2 id="org83a1a84"><span class="section-number-2">6</span> Weapon Type vs Armor</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 To use this table: When attacking someone in Chainmail with a Bludgeoning Weapon, add +2 to your Attack Roll
@@ -656,16 +668,12 @@ Leather includes Padded Armor and Hides and Plate includes Bronze Plate.
 </tr>
 </tbody>
 </table>
-
-<p>
-A Foreign Environment would be something like swimming underwater. This is quite rare. Think of this as a modifer when some fundamental rules about fighting have changed.
-</p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Joseph Vadella</p>
-<p class="date">Created: 2020-11-20 Fri 10:21</p>
+<p class="date">Created: 2020-11-20 Fri 12:30</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
