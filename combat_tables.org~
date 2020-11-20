@@ -1,0 +1,91 @@
+#+AUTHOR: Joseph Vadella
+#+TITLE: D&D 2e Tables
+#+HTML_HEAD: <style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt}</style>
+* D&D Tables
+
+[[josephvadella.com/weather_tables][Weather Tables]]  [[josephvadella.com/combat_tables][Combat Tables]]
+
+These are tables that would be useful for combat.
+
+I have tried to put the ones which will be referrenced most frequently at the top.
+
+
+* Combat Modifiers
+| Situation                 | Attack Roll Mod |
+|---------------------------+-----------------|
+| Attacker on high ground   |              +1 |
+| Defender Invisible        |              -4 |
+| Defender Off-balance      |              +2 |
+| Defender Sleeping or Held |       Automatic |
+| Defender Stunned or Prone |              +4 |
+| Defender Surprised        |              +1 |
+|---------------------------+-----------------|
+| Missile fire, LONG        |              -5 |
+| Missile fire, MEDIUM      |              +2 |
+|---------------------------+-----------------|
+| Rear Attack               |              +2 |
+
+
+* Cover & Concealment
+These numbers are added to the attack roll.
+
+| Target is  | Cover | Concealment |
+|------------+-------+-------------|
+| 25% hidden |    -2 |          -1 |
+| 50% hidden |    -4 |          -2 |
+| 75% hidden |    -7 |          -3 |
+| 90% hidden |   -10 |          -4 |
+
+Hiding behind a wall offers cover, hiding in a thicket or bush offers concealment.
+
+
+* Wind & Combat
+When precipitation is occuring, go down the chart 1 line.
+If the precipitation is heavy or higher, move down 2.
+| Windspeed mph | Missile Combat | Melee Combat | Move v. Wind |
+|---------------+----------------+--------------+--------------|
+| 0 to 10       | -              |            - | -            |
+| 11 to 20      | 0/-1/-2/-3     |            - | -            |
+| 21 to 30      | -1/-2/-3/X     |           -1 | 0.75         |
+| 31 to 45      | -2/-4/X/X      |           -2 | 2/3          |
+| 46 to 79      | -4/-6/X/X      |           -4 | 0.5          |
+| 80+           | X/X/X/X        |           -8 | 0.25         |
+
+
+* Initiative Modifiers
+Use these numbers whenever initiative is determined.
+
+To qualify for a modifier, ALL MEMBERS must qualify.
+
+| Situation                          | Mod |
+|------------------------------------+-----|
+| Hastened                           |  -2 |
+| Slowed                             |  +2 |
+| On High Ground                     |  -1 |
+| Set to receive a charge            |  -2 |
+| Wading/Slippery Footing            |  +2 |
+| Wadding in deep water              |  +4 |
+| Foreign Environment                |  +6 |
+| Hindered (tangled, climbing, held) |  +3 |
+| Waiting                            |  +1 |
+
+A Foreign Environment would be something like swimming underwater. This is quite rare. Think of this as a modifer when some fundamental rules about fighting have changed.
+
+* Weapon Type vs Armor
+To use this table: When attacking someone in Chainmail with a Bludgeoning Weapon, add +2 to your Attack Roll
+
+Leather includes Padded Armor and Hides and Plate includes Bronze Plate.
+
+| Armor           | Slash | Pierce | Bludgeon |
+|-----------------+-------+--------+----------|
+| Banded mail     |    -2 |      0 |       -1 |
+| Brigandine      |    -1 |     -1 |        0 |
+| Chainmail       |    -2 |      0 |       +2 |
+| Field Plate     |    -3 |     -1 |        0 |
+| Full Plate      |    -4 |     -3 |        0 |
+| Leather         |     0 |     +2 |        0 |
+| Plate           |    -3 |      0 |        0 |
+| Ring mail       |    -1 |     -1 |        0 |
+| Scale Mail      |     0 |     -1 |        0 |
+| Splint Mail     |     0 |     -1 |       -2 |
+| Studded Leather |    -2 |     -1 |        0 |

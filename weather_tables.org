@@ -4,7 +4,7 @@
 
 * D&D Tables
 
-[[josephvadella.com/weather_tables][Weather Tables]]  [[josephvadella.com/combat_tables][Combat Tables]]
+[[http://josephvadella.com/weather_tables][Weather Tables]] [[http://josephvadella.com/combat_tables][Combat Tables]]
 
 This is a list of tables which will be useful to any Dungeon Master who is running a campaign in 2e AD&D.
 
