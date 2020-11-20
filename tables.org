@@ -1,6 +1,6 @@
 #+AUTHOR: Joseph Vadella
 #+TITLE: D&D 2e Tables
-#+HTML_HEAD: <style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt};h1{ margin-top: 12pt}</style>
+#+HTML_HEAD: <style type="text/css">body{ margin-bottom: 100pt;  margin-right: 300pt;  margin-left: 300pt}</style>
 * D&D Tables
 This is a list of tables which will be useful to any Dungeon Master who is running a campaign in 2e AD&D.
 
@@ -12,7 +12,8 @@ all of the necessary weather attributes completely consistent with the Wildernes
 This webpage serves as a quick reference for any dungeon master who has these tools already and needs to
 referrence other information.
 
-
+   
+   
 * Food Spoilage
   The Number on the left is how many days there are between checks, the number on the right is the chance of the food spoiling.
 | Food Type       | < 30F | 31-50F | 51-70F | 71-90F | 90+ F |
@@ -22,7 +23,8 @@ referrence other information.
 | Cooked Meat     | never | 3/20   | 2/50   | 1/60    | 1/80  |
 | Raw Meat        | never | 2/50   | 1/70   | 1/80    | 1/90  |
 
-
+   
+   
 * Wind & Combat
 When precipitation is occuring, go down the chart 1 line.
 If the precipitation is heavy or higher, move down 2.
@@ -35,7 +37,8 @@ If the precipitation is heavy or higher, move down 2.
 | 46 to 79      | -4/-6/X/X      |           -4 | 0.5          |
 | 80+           | X/X/X/X        |           -8 | 0.25         |
 
-
+   
+   
 * Effective Temperature Effects
 Numbers are interpretted as follows:
 
@@ -56,7 +59,8 @@ Str or Dex or Con : nonstrenuous/strenuous
 | 110 to 119        | -1/-3 | -1/-2 | -3/-4 |  0.5 |          -3 |
 | 120+              | -2/-4 | -1/-3 | -4/-5 |  0.5 |          -4 |
 
-
+   
+   
 * Temperature Damage to Characters
 Now this is fun. A nice objective and nuanced way of dealing damage from exposure.
 
@@ -133,7 +137,8 @@ If the damage would equal MORE THAN 10% of the character's CURRENT hit points, t
  | Hands & Feet       |                 1:1 |                          |
  | All Three          |               1:1:1 |                          |
 
-
+   
+   
 * Visibility Range
 At the given distance, the viewer can discern a M sized object on a flat horizon which is not trying to stay hidden.
 Double for L sized objects, halve for S.
@@ -148,7 +153,8 @@ Numbers expressed in yards
 | Heavy Snow + Wind   |       35 |       25 |        10 |        5 |
 | Blowing Sand/Dust   |       20 |       20 |        10 |        5 |
 
-
+   
+   
 * Food & Water
 ** Lack of Food
 Once beyond this tolerance level, make a Str or Con check (player's choice).
@@ -188,6 +194,7 @@ A characters can go 3 days without water by default but there are modifiers
 -1 if effective temp >90 , or character doesn't eat, or Str <8, or Con <8
 
 When tolerance is exceded, do the same for lack of food.
-
+   
+* Footer
 if you want to use a different theme:
 HTML_HEAD: "<meta http-equiv='X-UA-Compatible' content='IE=edge'><meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'><style>html{touch-action:manipulation;-webkit-text-size-adjust:100%}body{padding:0;margin:0;background:#f2f6fa;color:#3c495a;font-weight:normal;font-size:15px;font-family:'San Francisco','Roboto','Arial',sans-serif}h2,h3,h4,h5,h6{font-family:'Trebuchet MS',Verdana,sans-serif;color:#586b82;padding:0;margin:20px 0 10px 0;font-size:1.1em}h2{margin:30px 0 10px 0;font-size:1.2em}a{color:#3fa7ba;text-decoration:none}p{margin:6px 0;text-align:justify}ul,ol{margin:0;text-align:justify}ul>li>code{color:#586b82}pre{white-space:pre-wrap}#content{width:96%;max-width:1000px;margin:2% auto 6% auto;background:white;border-radius:2px;border-right:1px solid #e2e9f0;border-bottom:2px solid #e2e9f0;padding:0 115px 150px 115px;box-sizing:border-box}#postamble{display:none}h1.title{background-color:#343C44;color:#fff;margin:0 -115px;padding:60px 0;font-weight:normal;font-size:2em;border-top-left-radius:2px;border-top-right-radius:2px}@media (max-width: 1050px){#content{padding:0 70px 100px 70px}h1.title{margin:0 -70px}}@media (max-width: 800px){#content{width:100%;margin-top:0;margin-bottom:0;padding:0 4% 60px 4%}h1.title{margin:0 -5%;padding:40px 5%}}pre,.verse{box-shadow:none;background-color:#f9fbfd;border:1px solid #e2e9f0;color:#586b82;padding:10px;font-family:monospace;overflow:auto;margin:6px 0}#table-of-contents{margin-bottom:50px;margin-top:50px}#table-of-contents h2{margin-bottom:5px}#text-table-of-contents ul{padding-left:15px}#text-table-of-contents>ul{padding-left:0}#text-table-of-contents li{list-style-type:none}#text-table-of-contents a{color:#7c8ca1;font-size:0.95em;text-decoration:none}table{border-color:#586b82;font-size:0.95em}table thead{color:#586b82}table tbody tr:nth-child(even){background:#f9f9f9}table tbody tr:hover{background:#586b82!important;color:white}table .left{text-align:left}table .right{text-align:right}.todo{font-family:inherit;color:inherit}.done{color:inherit}.tag{background:initial}.tag>span{background-color:#eee;font-family:monospace;padding-left:7px;padding-right:7px;border-radius:2px;float:right;margin-left:5px}#text-table-of-contents .tag>span{float:none;margin-left:0}.timestamp{color:#7c8ca1}@media print{@page{margin-bottom:3cm;margin-top:3cm;margin-left:2cm;margin-right:2cm;font-size:10px}#content{border:none}}</style>"
