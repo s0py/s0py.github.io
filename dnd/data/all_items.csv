@@ -1317,33 +1317,35 @@
 1316,4,Wool,woven,,spell,yard,,
 1317,180,Wytchwood,,,spell,piece,,
 1318,36,Yellow glass,,,spell,sq in,,
-1318,4,Candle,standard,,light,"1 Hr, 10' Radius, seen 500yd",,0.1
-1318,8,Candle,honey,,light,"1 Hr, 10' Radius, seen 500yd, smells sweet",,0.1
-1318,19,Candle,herbal,,light,"1 Hr, 10' Radius, seen 500yd, smells herbal",,0.1
-1318,0,Candles,common color,,light,"white, red, yellow, pink, green",,
-1318,0,Candles,rare color,,light,"blue, purple, black",,
-1318,0,Candles,custom color,,light,"silver, gold, etc",,
-1318,0,Candle,small,,light,"0.5 Hr, 5' radius, seend 300yd",,x0.5
-1318,0,Candle,large,,light,2 more hours,,x2
-1318,0,Candle,great,,light,4 more hours,,x4
-1318,0,Candle,huge,,light,6 more hours,,x6
-1318,0,Candle,thick,,light,"1 more hour, +10' radius, +100 yds",,z2
-1318,0,Candle,very thick,,light,"2 more hours, +15' radius, +150 yds",,x3
-1318,0,Candle,giant,,light,"3 more hours, +20' radius, +200yds",,x4
-1318,360,Lantern,normal,,light,"4 Hr, 30', 500yds",,1
-1318,720,Lantern,bullseye,,light,"4 Hr, 100' long, 20' base, 150yds",,1
-1318,1440,Lantern,beacon,,light,"10 turns, 240' long, 90's at base, 5 miles",,20
-1318,107928,Lantern,giant beacon,,light,"10 turns, 1 mile long, 180' base, 24 miles",,1000
-1318,36,Lantern,paper,,light,"1 Hr, 30', 200yds",,0.5
-1318,252,Lantern,hooded,,light,"4 Hr, 30', 200yds",,1
-1318,19,Lantern,sconce,,light,,,1
-1318,252,Lantern,shuttered,,light,"4 Hr, 30' 200yds, with 1 flag",,2
-1318,7200,Lantern,signal,,light,"1 Hr, 5' radius, 1000yds, color filters",,5
-1318,10800,Lantern,street,,light,"8 Hr, 50' (6x oil), 10'-20' pole, 500yds",,3
-1318,1800,Lantern,waterproofing,,light,,,5
-1318,180000,Lantern,magic street,,light,"continuous, 60', 1000yds",,300
-1318,719611,Lantern,magic longburn,,light,"continuous, 30', 1000yds, can't become wet",,3
-1318,1439221,Lantern,magic hurricane,,light,"continuous, 30', 500yds, can't get wet, opening unleashed hurricane",,3
-1318,4,Torch,normal,,light,"6 turns, 15', 1000yds",,0.5
-1318,8,Torch,large,,light,"6 turns, 30', 1500yds",,1
-1318,1,Torch,small,,light,"1 turn, 10', 800yds",,0.1
+1319,4,Candle,standard,,light,"1 Hr, 10' Radius, seen 500yd",,0.1
+1320,8,Candle,honey,,light,"1 Hr, 10' Radius, seen 500yd, smells sweet",,0.1
+1321,19,Candle,herbal,,light,"1 Hr, 10' Radius, seen 500yd, smells herbal",,0.1
+1322,0,Candles,common color,,light,"white, red, yellow, pink, green",,
+1323,0,Candles,rare color,,light,"blue, purple, black",,
+1324,0,Candles,custom color,,light,"silver, gold, etc",,
+1325,0,Candle,small,,light,"0.5 Hr, 5' radius, seend 300yd",,x0.5
+1326,0,Candle,large,,light,2 more hours,,x2
+1327,0,Candle,great,,light,4 more hours,,x4
+1328,0,Candle,huge,,light,6 more hours,,x6
+1329,0,Candle,thick,,light,"1 more hour, +10' radius, +100 yds",,z2
+1330,0,Candle,very thick,,light,"2 more hours, +15' radius, +150 yds",,x3
+1331,0,Candle,giant,,light,"3 more hours, +20' radius, +200yds",,x4
+1332,360,Lantern,normal,,light,"4 Hr, 30', 500yds",,1
+1333,720,Lantern,bullseye,,light,"4 Hr, 100' long, 20' base, 150yds",,1
+1334,1440,Lantern,beacon,,light,"10 turns, 240' long, 90's at base, 5 miles",,20
+1335,107928,Lantern,giant beacon,,light,"10 turns, 1 mile long, 180' base, 24 miles",,1000
+1336,36,Lantern,paper,,light,"1 Hr, 30', 200yds",,0.5
+1337,252,Lantern,hooded,,light,"4 Hr, 30', 200yds",,1
+1338,19,Lantern,sconce,,light,,,1
+1339,252,Lantern,shuttered,,light,"4 Hr, 30' 200yds, with 1 flag",,2
+1340,7200,Lantern,signal,,light,"1 Hr, 5' radius, 1000yds, color filters",,5
+1341,10800,Lantern,street,,light,"8 Hr, 50' (6x oil), 10'-20' pole, 500yds",,3
+1342,1800,Lantern,waterproofing,,light,,,5
+1343,180000,Lantern,magic street,,light,"continuous, 60', 1000yds",,300
+1344,719611,Lantern,magic longburn,,light,"continuous, 30', 1000yds, can't become wet",,3
+1345,1439221,Lantern,magic hurricane,,light,"continuous, 30', 500yds, can't get wet, opening unleashed hurricane",,3
+1346,4,Torch,normal,,light,"6 turns, 15', 1000yds",,0.5
+1347,8,Torch,large,,light,"6 turns, 30', 1500yds",,1
+1348,1,Torch,small,,light,"1 turn, 10', 800yds",,0.1
+1349,180,Rations,Standard,,,lasts 1 week; fresh for 1 week,,7
+1350,300,Rations,Iron,,,lasts 1 week; fresh for 2 months; canned,,
