@@ -1,0 +1,1351 @@
+﻿Index,Grains,Item,Type,Temp,Category,Notes,Weight,,Gold
+1,4,Apron,common,0,clothing,,,,0.066666667
+2,36,Breeches,linen,0,clothing,,,,0.60
+3,19,Breeches,sack cloth,0,clothing,,,,0.32
+4,72,Breeches,wollen,0,clothing,,,,1.20
+5,144,Breeches,velvet,0,clothing,,,,2.40
+6,288,Breeches,silk,0,clothing,,,,4.80
+7,2,Dress,linen,0,clothing,,,,0.03
+8,4,Dress,elf,5,clothing,,,,0.07
+9,3,Dress,halfling,5,clothing,,,,0.05
+10,44,Gown,common,5,clothing,,,,0.73
+11,180,Gown,silk,0,clothing,,,,3.00
+12,252,Gown,elf,0,clothing,,,,4.20
+13,72,Pants,human,0,clothing,,,,1.20
+14,8,Pants,gnome,0,clothing,,,,0.13
+15,15,Pants,halfling,0,clothing,,,,0.25
+16,180,Pants,elf,0,clothing,,,,3.00
+17,2880,Jacket,silk,5,clothing,,,,48.00
+18,29,Jerkins,linen,0,clothing,,,,0.48
+19,36,Jerkins,woolen,5,clothing,,,,0.60
+20,360,Jerkins,leather,0,clothing,,,,6.00
+21,108,Jerkins,cotton,5,clothing,,,,1.80
+22,108,Jester,hat with bells,0,clothing,,,,1.80
+23,36,Jester,collar,0,clothing,,,,0.60
+24,360,Jester,satin shirt,0,clothing,,,,6.00
+25,26,Jester,white gloves,0,clothing,,,,0.43
+26,288,Jester,bunch pants,0,clothing,,,,4.80
+27,29,Jester,bright stockings,0,clothing,,,,0.48
+28,33,Robe,Aba (desert robe),-30,clothing,,,,0.55
+29,720,Robe,Aba embroidered,-30,clothing,,,,12.00
+30,33,Robe,embroidered,5,clothing,,,,0.55
+31,720,Robe,fur trimmed,5,clothing,,,,12.00
+32,108,Robe,common,5,clothing,,,,1.80
+33,342,Robe,embroidered silk,0,clothing,,,,5.70
+34,1080,Robe,noble silk,0,clothing,,,,18.00
+35,15,Shirt,common,0,clothing,,,,0.25
+36,36,Trousers,wool,0,clothing,,,,0.60
+37,11,Trousers,cotton,0,clothing,,,,0.18
+38,29,Tunic,uniform coat,5,clothing,,,,0.48
+39,22,Tunic,cloth sweater,15,clothing,,,,0.37
+40,36,Tunic,fur trimmed,20,clothing,,,,0.60
+41,26,Tunic,leather,0,clothing,,,,0.43
+42,36,Tunic,silk,0,clothing,,,,0.60
+43,180,Boots,Riding,0,"clothing, appendages",,,,3.00
+44,36,Boots,High soft leather,5 if furred,"clothing, appendages",,,,0.60
+45,72,Boots,High hard leather,5 if furred,"clothing, appendages",,,,1.20
+46,36,Boots,Low soft leather,5 if furred,"clothing, appendages",,,,0.60
+47,29,Boots,Low hard leather,5 if furred,"clothing, appendages",,,,0.48
+48,144,Boots,Waterproof,0,"clothing, appendages",,,,2.40
+49,180,Boots,High healed,-5,"clothing, appendages",,,,3.00
+50,19,Shoes,Basic,0,"clothing, appendages",,,,0.32
+51,54,Shoes,Dancing,0,"clothing, appendages",,,,0.90
+52,1620,Shoes,Elven,0,"clothing, appendages",,,,27.00
+53,72,Shoes,Moccasins,0,"clothing, appendages",,,,1.20
+54,36,Shoes,High heeled,0,"clothing, appendages",,,,0.60
+55,432,Jester,clumsy bright,0,"clothing, appendages",,,,7.20
+56,8,Sandals,common,0,"clothing, appendages",,,,0.13
+57,19,Sandals,high heeled,0,"clothing, appendages",,,,0.32
+58,54,Slipper,linen,0,"clothing, appendages",,,,0.90
+59,1260,Slipper,quilted silk,0,"clothing, appendages",,,,21.00
+60,36,Slipper,wool,0,"clothing, appendages",,,,0.60
+61,4,Socks,common,5,"clothing, appendages",,,,0.07
+62,180,Panties,silk,0,"clothing, appendages",,,,3.00
+63,360,Panties,embroidered,0,"clothing, appendages",,,,6.00
+64,72,Snowshoes,common,10,"clothing, appendages",,,,1.20
+65,360,Gauntlet,Swordsman,0,"clothing, appendages",,,,6.00
+66,19,Gauntlet,Perch Glove,0,"clothing, appendages",,,,0.32
+67,180,Gloves,Thieve's,0,"clothing, appendages",,,,3.00
+68,180,Gloves,Spiked,0,"clothing, appendages",,,,3.00
+69,19,Gloves,Heavy leather,0,"clothing, appendages",,,,0.32
+70,36,Gloves,Soft linen,0,"clothing, appendages",,,,0.60
+71,144,Gloves,Soft Archery,5,"clothing, appendages",,,,2.40
+72,144,Gloves,Sloth and fur,0,"clothing, appendages",,,,2.40
+73,540,Gloves,Silk,0,"clothing, appendages",,,,9.00
+74,576,Gloves,Snakeskin,0,"clothing, appendages",,,,9.60
+75,11,Mittens,Normal,10,"clothing, appendages",,,,0.18
+76,270,Mittens,Arctic,40,"clothing, appendages",,,,4.50
+77,26,Hat,cloth,5,"clothing, appendages",,,,0.43
+78,72,Hat,fur,15,"clothing, appendages",,,,1.20
+79,8,Hat,straw,0,"clothing, appendages",,,,0.13
+80,8,Hat,leather,0,"clothing, appendages",,,,0.13
+81,19,Hat,fancy,0,"clothing, appendages",,,,0.32
+82,8,Hat,wool,10,"clothing, appendages",,,,0.13
+83,22,Bra,common,0,smallclothing,,,,0.37
+84,94,Bra,push-up,0,smallclothing,,,,1.57
+85,180,Bustle,side,0,smallclothing,,,,3.00
+86,324,Bustle,rear,0,smallclothing,,,,5.40
+87,54,Corest,X,0,smallclothing,"Dx-1, Ch + 1",,,0.90
+88,44,Corset,V,0,smallclothing,"dDx -1, Ch + 1",,,0.73
+89,19,Suspenders,Leather,0,smallclothing,,,,0.32
+90,216,Nightshirt,common,0,smallclothing,,,,3.60
+91,44,Waistcincer,common,0,smallclothing,"Dx -1, Ch +1",,,0.73
+92,360,Arctic Coat,common,30,outer clothing,,,,6.00
+93,8,Cape,straw,0,outer clothing,,,,0.13
+94,15,Cape,half,0,outer clothing,,,,0.25
+95,26,Cape,full,0,outer clothing,,,,0.43
+96,180,Cloak,short,0,outer clothing,,,,3.00
+97,360,Cloak,long,0,outer clothing,,,,6.00
+98,1800,Camo,night,0,outer clothing,,,,30.00
+99,1800,Camo,desert,0,outer clothing,,,,30.00
+100,1800,Camo,snow,0,outer clothing,,,,30.00
+101,1800,Camo,grasslands,0,outer clothing,,,,30.00
+102,1800,Cmao,growth,0,outer clothing,,,,30.00
+103,1800,Camo,aquatic,0,outer clothing,,,,30.00
+104,1800,Camo,rocky,0,outer clothing,,,,30.00
+105,2160,Camo,fur,10,outer clothing,,,,36.00
+106,180,Tarcloak,long,0,outer clothing,,,,3.00
+107,180,Parka,common,15,outer clothing,,,,3.00
+108,216,Poncho,rain,5,outer clothing,,,,3.60
+109,2880,Silk Jacket,common,0,outer clothing,,,,48.00
+110,22,Surcoat,linen,0,outer clothing,,,,0.37
+111,22,Tabard,heraldic,0,outer clothing,,,,0.37
+112,216,Tabard,cleric,0,outer clothing,,,,3.60
+113,2160,Tabard,embroidered,0,outer clothing,,,,36.00
+114,36,Tattoo,Black,0,accessories,,,,0.60
+115,72,Tattoo,Colored,0,accessories,,,,1.20
+116,8,Belt,common,0,accessories,,,,0.13
+117,1,Condom,sheep bladder,0,accessories,,,,0.02
+118,1,Handkerchief,cloth,0,accessories,,,,0.02
+119,8,Handkerchief,silk,0,accessories,,,,0.13
+120,180,Insect Repellant,citrus,0,accessories,,,,3.00
+121,11,Umbrella,common,0,accessories,,,,0.18
+122,11,Purse,common,0,accessories,,,,0.18
+123,36,Sewing Kit,,0,accessories,,,,0.60
+124,11,Cane,,0,accessories,,,,0.18
+125,72,Weapon Black,,0,accessories,,,,1.20
+126,2,Egg,chicken,,food,,,,0.03
+127,2,Egg,goose,,food,,,,0.03
+128,40,Egg,duck,,food,,,,0.67
+129,4,Egg,ostrich,,food,,,,0.07
+130,4,Egg,rare,,food,,,,0.07
+131,2,Egg,snake,,food,,,,0.03
+132,252,Egg,turtle/lizard,,food,,,,4.20
+133,19,Haggis,common,,food,,,,0.32
+134,144,Pork,Bacon,,food,,,,2.40
+135,180,Pork,Ham,,food,,,,3.00
+136,108,Pork,Salted,,food,,,,1.80
+137,8,Pork,Sausage,,food,,,,0.13
+138,11,Pork,Brotwurst,,food,,,,0.18
+139,108,Beef,Corned,,food,,,,1.80
+140,180,Beef,Dried,,food,,,,3.00
+141,252,Beef,Jerked,,food,,,,4.20
+142,72,Beef,Sausage,,food,,,,1.20
+143,19,Smoked,Beef,,food,,,,0.32
+144,26,Smoked,Ham,,food,,,,0.43
+145,72,Smoked,Bear,,food,,,,1.20
+146,62,Smoked,Venison,,food,,,,1.03
+147,72,Steak,Lizard,,food,,,,1.20
+148,36,Steak,Beef,,food,,,,0.60
+149,144,Steak,Eel,,food,,,,2.40
+150,216,Steak,Venison,,food,,,,3.60
+151,2,Stew,Snake,,food,,,,0.03
+152,6,Stew,Otter,,food,,,,0.10
+153,2,Stew,Beef,,food,,,,0.03
+154,2,Stew,Rabbit,,food,,,,0.03
+155,3,Stew,Wolf,,food,,,,0.05
+156,36,Special,Frog legs,,food,,,,0.60
+157,19,Special,Beavertails,,food,,,,0.32
+158,11,Special,Fried Snake,,food,,,,0.18
+159,94,Special,Snails,,food,,,,1.57
+160,22,Special,Fish & Rice,,food,,,,0.37
+161,11,Special,Bean chilly,,food,,,,0.18
+162,8,Special,Rice,,food,,,,0.13
+163,19,Special,Rice cake,,food,,,,0.32
+164,2,Special,Noodles,,food,,,,0.03
+165,4,Special,Mushrooms,,food,,,,0.07
+166,19,Roast,chicken,,food,,,,0.32
+167,29,Roast,duck,,food,,,,0.48
+168,108,Roast,turkey,,food,,,,1.80
+169,180,Roast,pheasant,,food,,,,3.00
+170,216,Roast,venison,,food,,,,3.60
+171,15,Roast,mutton,,food,,,,0.25
+172,29,Roast,beef ribs,,food,,,,0.48
+173,252,Roast,goose,,food,,,,4.20
+174,17991,Roast,ostrich,,food,,,,299.85
+175,180000,Roast,Roc,,food,,,,3000.00
+176,2,Soup,Bouillon,,food,,,,0.03
+177,4,Soup,Veg/Mush/Chicken,,food,,,,0.07
+178,6,Soup,Tomato,,food,,,,0.10
+179,4,Fish,River,,food,,,,0.07
+180,54,Fish,Smoked Shark,,food,,,,0.90
+181,108,Roast,Fish,,food,,,,1.80
+182,108,Fish,Crab,,food,,,,1.80
+183,22,Fish,Caviar,,food,,,,0.37
+184,360,Fish,Whale Blubber,,food,,,,6.00
+185,8,Fish,Lobster,,food,,,,0.13
+186,108,Fish,Crab,,food,,,,1.80
+187,108,Fish,Herring picked,,food,,,,1.80
+188,180,Fish,Herring salted,,food,,,,3.00
+189,8,Fish,Lobster tail,,food,,,,0.13
+190,108,Fish,Picked fish,,food,,,,1.80
+191,36,Fish,Salmon salted,,food,,,,0.60
+192,540,Fish,Salmon smoked,,food,,,,9.00
+193,144,Fish,Sardines,,food,,,,2.40
+194,108,Fish,Shark,,food,,,,1.80
+195,1,Fat,Animal,,food,,,,0.02
+196,19,Fat,Applebutter,,food,,,,0.32
+197,26,Fat,Blackberrybutter,,food,,,,0.43
+198,22,Fat,Pearbutter,,food,,,,0.37
+199,4,Fat,Butter,,food,,,,0.07
+200,19,Fat,Milkfat,,food,,,,0.32
+201,72,Fat,Veg Oil,,food,,,,1.20
+202,2,Bread,Common,,food,,,,0.03
+203,1,Bread,Small Common,,food,,,,0.02
+204,1,Bread,Rye,,food,,,,0.02
+205,1,Bread,Flatbread,,food,,,,0.02
+206,1,Bread,Wheat,,food,,,,0.02
+207,1,Bread,Sourdough,,food,,,,0.02
+208,1,Bread,Corned,,food,,,,0.02
+209,4,Bread,Ginger,,food,,,,0.07
+210,180,Bread,Elven Waybread,,food,,,,3.00
+211,1,Bread,Hardtack,,food,,,,0.02
+212,4,Cheese,Poor,,food,,,,0.07
+213,15,Cheese,Common,,food,,,,0.25
+214,1260,Cheese,Cheddar wheel,,food,,,,21.00
+215,15,Cheese,Cheddar whey,,food,,,,0.25
+216,1800,Cheese,Nut wheel,,food,,,,30.00
+217,36,Cheese,Nut whey,,food,,,,0.60
+218,1620,Cheese,Pepper wheel,,food,,,,27.00
+219,19,Cheese,Pepper whey,,food,,,,0.32
+220,2,Vegetable,scraps,,food,,,,0.03
+221,8,Vegetable,cabbage,,food,,,,0.13
+222,2,Vegetable,turnip,,food,,,,0.03
+223,2,Vegetable,carrots,,food,,,,0.03
+224,8,Vegetable,beets,,food,,,,0.13
+225,2,Vegetable,salad,,food,,,,0.03
+226,720,Vegetable,artichokes,,food,,,,12.00
+227,8,Vegetable,green beans,,food,,,,0.13
+228,8,Vegetable,small peas,,food,,,,0.13
+229,72,Fruit,onions/potatos,,food,,,,1.20
+230,1,Fruit,common,,food,,,,0.02
+231,8,Fruit,rare,,food,,,,0.13
+232,36,Fruit,very rare,,food,,,,0.60
+233,36,Fruit,soft,,food,,,,0.60
+234,540,Fruit,apricots,,food,,,,9.00
+235,72,Fruit,strawberries,,food,,,,1.20
+236,540,Fruit,peaches,,food,,,,9.00
+237,180,Fruit,pears,,food,,,,3.00
+238,108,Fruit,prunes,,food,,,,1.80
+239,19,Fruit,cherries,,food,,,,0.32
+240,4,Fruit,elderberries,,food,,,,0.07
+241,36,Fruit,mixed,,food,,,,0.60
+242,108,Fruit,raspberries,,food,,,,1.80
+243,11,Fruit,figs,,food,,,,0.18
+244,144,Fruit,spiced pears,,food,,,,2.40
+245,108,Fruit,spiced plums,,food,,,,1.80
+246,180,Fruit,dates,,food,,,,3.00
+247,1080,Fruit,pumpklin seeds,,food,,,,18.00
+248,8,Fruit,raisins,,food,,,,0.13
+249,15,Preserves,cherry,,food,,,,0.25
+250,19,Preserves,raspberry,,food,,,,0.32
+251,15,Preserves,apricots,,food,,,,0.25
+252,15,Preserves,apple,,food,,,,0.25
+253,15,Preserves,plum,,food,,,,0.25
+254,19,Preserves,strawberry,,food,,,,0.32
+255,36,Sweets,Caramel,,food,,,,0.60
+256,90,Sweets,Milk Chocolate,,food,,,,1.50
+257,83,Sweets,Cocoa,,food,,,,1.38
+258,2,Sweets,Sugarcane,,food,,,,0.03
+259,8,Sweets,Flavored Figurines,,food,,,,0.13
+260,4,Sweets,Jellybeans,,food,,,,0.07
+261,36,Sweets,Gum,,food,,,,0.60
+262,26,Sweets,Rice,,food,,,,0.43
+263,360,Boar,,,animal,,,,6.00
+264,720,Bull,,,animal,,,,12.00
+265,180,Calf,,,animal,,,,3.00
+266,1800,Camel,,,animal,,,,30.00
+267,2,Capon,,,animal,,,,0.03
+268,4,Cat,,,animal,,,,0.07
+269,1,Chicken,,,animal,,,,0.02
+270,360,Cow,,,animal,,,,6.00
+271,900,"Dog, Guard",,,animal,,,,15.00
+272,612,"Dog, Hunting",,,animal,,,,10.20
+273,720,"Dog, War",,,animal,,,,12.00
+274,288,Donkey,,,animal,,,,4.80
+275,7200,"Elephant, Labor",,,animal,,,,120.00
+276,18000,"Elephant, War",,,animal,,,,300.00
+277,3600,Falcon (Trained),,,animal,,,,60.00
+278,36,Goat,,,animal,,,,0.60
+279,2,Goose,,,animal,,,,0.03
+280,1,Guinea Hen,,,animal,,,,0.02
+281,7200,Horse Draft,,,animal,,,,120.00
+282,14400,Horse Heavy War,,,animal,,,,240.00
+283,5400,Horse Light War,,,animal,,,,90.00
+284,8100,Horse Medium War,,,animal,,,,135.00
+285,2700,Horse Riding,,,animal,,,,45.00
+286,180000,Hunting Cat,,,animal,,,,3000.00
+287,540,Ox,,,animal,,,,9.00
+288,2,Partridge,,,animal,,,,0.03
+289,19,Peacock,,,animal,,,,0.32
+290,108,Pig,,,animal,,,,1.80
+291,1,Pigeon,,,animal,,,,0.02
+292,3600,Pigeon Homing,,,animal,,,,60.00
+293,1080,Pony,,,animal,,,,18.00
+294,144,Ram,,,animal,,,,2.40
+295,72,Sheep,,,animal,,,,1.20
+296,36,Songbird,,,animal,,,,0.60
+297,19,Swan,,,animal,,,,0.32
+298,18000,Barding,Chain,,tackle,,70,,300.00
+299,71280,Barding,Full plate,,tackle,,85,,1188.00
+300,36000,Barding,Full scale,,tackle,,75,,600.00
+301,18000,Barding,Half brigandine,,tackle,,45,,300.00
+302,3600,Barding,Half padded,,tackle,,25,,60.00
+303,18000,Barding,Half scale,,tackle,,50,,300.00
+304,5400,Barding,Leather or padded,,tackle,,60,,90.00
+305,54,Barding,Bit and bridle,,tackle,,3,,0.90
+306,72,Barding,Cart harness,,tackle,,10,,1.20
+307,2,Barding,Halter,,tackle,,*,,0.03
+308,36,Barding,Horseshoes & shoeing,,tackle,,10,,0.60
+309,180,Saddle,Pack,,tackle,,15,,3.00
+310,360,Saddle,Riding,,tackle,,35,,6.00
+311,144,Saddle Bag,Large,,tackle,,8,,2.40
+312,108,Saddle Bag,Small,,tackle,,5,,1.80
+313,11,Saddle Bag,Saddle blanket,,tackle,,4,,0.18
+314,180,Yoke,Horse,,tackle,,15,,3.00
+315,108,Yoke,Ox,,tackle,,20,,1.80
+316,2,Bath,,,service,,,,0.03
+317,8,Clerk,per letter,,service,,,,0.13
+318,108,Doctor,"leeching, bleeding, etc.",,service,,,,1.80
+319,8,Guide,per day,,service,,,,0.13
+320,4,Torchbearer,per night,,service,,,,0.07
+321,1,Laundry,by load,,service,,,,0.02
+322,4,Messenger,per message,,service,,,,0.07
+323,108,Minstrel,per performance,,service,,,,1.80
+324,8,Mourner,per funeral,,service,,,,0.13
+325,4,Teamster W/ Wagon,per mile,,service,,,,0.07
+326,42336,Lawyer,per month,,service,,,,705.60
+327,432,Armorer,per 10-AC,,service,,,,7.20
+328,3780,Cleric,per month,,service,,,,63.00
+329,11,Horser,per horse per week,,service,,,,0.18
+330,0,Insurance,per month,,service,,,,0.00
+331,180,Nigh Guard,per night,,service,,,,3.00
+332,36,Storage,per chest,,service,,,,0.60
+333,324,Wainwrite,per hp of work,,service,,,,5.40
+334,10584,Mage,per spell per week,,service,6 spells/day,,,176.40
+335,26460,Mage,per spell per week,,service,12 spells/day,,,441.00
+336,63504,Mage,per spell per week,,service,24 spells/day,,,1058.40
+337,418068,Audience,Emperor,,service,,,,6967.80
+338,206388,Audience,King,,service,,,,3439.80
+339,37044,Audience,Baron,,service,,,,617.40
+340,25704,Audience,Lord,,service,,,,428.40
+341,4233600,Title,Ambassador,,service,,,,70560.00
+342,10584000,Title,Lord,,service,,,,176400.00
+343,21168000,Title,Baron,,service,,,,352800.00
+344,72,Backpack,,,misc,,2,,1.20
+345,72,Barrel,,,misc,,30,,1.20
+346,11,Basket,Large,,misc,,1,,0.18
+347,2,Basket,Small,,misc,,*,,0.03
+348,36,Bell,,,misc,,,,0.60
+349,36,Belt Pouch,Large,,misc,,1,,0.60
+350,26,Belt Pouch,Small,,misc,,0.5,,0.43
+351,180,Block And Tackle,,,misc,,5,,3.00
+352,36,Bolt Case,,,misc,,1,,0.60
+353,19,Bucket,,,misc,,3,,0.32
+354,144,Chain,Heavy,,misc,per foot,3,,2.40
+355,108,Chain,Light,,misc,per foot,1,,1.80
+356,72,Chest,Large,,misc,,25,,1.20
+357,36,Chest,Small,,misc,,10,,0.60
+358,252,Cloth,cheap,,misc,per 10 square yards,10,,4.20
+359,1800,Cloth,fine,,misc,per 10 square yards,10,,30.00
+360,3600,Cloth,silk,,misc,per 10 square yards,10,,60.00
+361,1,Candle,,,misc,,*,,0.02
+362,15,Canvas,,,misc,per sq. yard,1,,0.25
+363,1,Chalk,,,misc,,*,,0.02
+364,144,Crampons,,,misc,,2,,2.40
+365,4,Fishhook,,,fishing,,**,,0.07
+366,19,Flint And Steel,,,misc,,*,,0.32
+367,360,Glass Bottle,,,misc,,*,,6.00
+368,29,Grappling Hook,,,misc,,4,,0.48
+369,900,Holy Item,symbol,,misc,,*,,15.00
+370,900,Holy Item,water,,misc,,*,,15.00
+371,19,Hourglass,,,misc,,1,,0.32
+372,2,Iron Pot,,,misc,,2,,0.03
+373,5400,Ladder,,,misc,10 ft,20,,90.00
+374,5400,Lantern,Beacon,,misc,,50,,90.00
+375,432,Lantern,Bullseye,,misc,,3,,7.20
+376,252,Lantern,Hooded,,misc,,2,,4.20
+377,720,Padlock,,,misc,,1,,12.00
+378,3600,Magnifying Glass,,,misc,,*,,60.00
+379,29,Map Or Scroll Case,,,misc,,0.5,,0.48
+380,72,Merchant's Scale,,,misc,,1,,1.20
+381,360,Mirror,metal,,misc,,*,,6.00
+382,0,Musical Instrument,,,misc,,.5 to 3,,0.00
+383,360,Oil,Greek fire,,misc,per flask,2,,6.00
+384,2,Oil,Lamp,,misc,per flask,1,,0.03
+385,72,Paper,,,misc,per sheet,**,,1.20
+386,29,Papyrus,,,misc,per sheet,**,,0.48
+387,36,Parchment,,,misc,per sheet,**,,0.60
+388,180,Perfume,,,misc,per vial,*,,3.00
+389,2,Piton,,,misc,,0.5,,0.03
+390,29,Quiver,,,misc,,1,,0.48
+391,36,Rope,Hemp,,misc,per 50 ft,20,,0.60
+392,360,Rope,Silk,,misc,per 50 ft,8,,6.00
+393,8,Sack,Large,,misc,,0.5,,0.13
+394,2,Sack,Small,,misc,,*,,0.03
+395,36,Wax,sealing/candle,,misc,,1,,0.60
+396,19,Needle,sewing,,misc,,**,,0.32
+397,29,Whistle,signal,,misc,,*,,0.48
+398,180,Signet Ring Or Personal Seal,,,misc,,*,,3.00
+399,19,Soap,,,misc,per lb,1,,0.32
+400,36000,Spyglass,,,misc,,1,,600.00
+401,1080,Thieve's Picks,,,misc,,1,,18.00
+402,1,Torch,,,misc,,1,,0.02
+403,36000,Water Clock,,,misc,,200,,600.00
+404,1,Whetstone,,,misc,,1,,0.02
+405,29,Wineskin,,,misc,,1,,0.48
+406,19,Winter Blanket,,,misc,,3,,0.32
+407,288,Ink,,,misc,per vial,*,,4.80
+408,7200,Banded Mai,,0,armor,,35,,120.00
+409,4320,Brigandine,,0,armor,,35,,72.00
+410,14400,Bronze Plate Mail,,0,armor,,45,,240.00
+411,2700,Chain Mail,,0,armor,,40,,45.00
+412,72000,Field Plate,,0,armor,,60,,1200.00
+413,358560,Full Plate,,0,armor,,70,,5976.00
+414,1080,Great Helm,,0,armor,,10,,18.00
+415,288,Basinet,,0,armor,,5,,4.80
+416,540,Hide,,0,armor,,30,,9.00
+417,180,Leather,,0,armor,,15,,3.00
+418,144,Padded,,0,armor,,10,,2.40
+419,21600,Plate Mail,,0,armor,,50,,360.00
+420,3600,Ring Mail,,0,armor,,30,,60.00
+421,4320,Scale Mail,,0,armor,,40,,72.00
+422,360,Shield,body,0,armor,,15,,6.00
+423,36,Shield,buckler,0,armor,,3,,0.60
+424,252,Shield,medium,0,armor,,10,,4.20
+425,108,Shield,small,0,armor,,5,,1.80
+426,2880,Splint Mail,,0,armor,,40,,48.00
+427,720,Studded Leather,,0,armor,,25,,12.00
+428,18000,Arquebus,,,weapon,1d10 1d10 p,10,,300.00
+429,180,Battle Axe,,,weapon,1d8 1d8 s,7,,3.00
+430,180,Blowgun,,,weapon,-,2,,3.00
+431,4,Blowgun,barbed dart,,weapon,1d3 1d2 p,*,,0.07
+432,1,Blowgun,needle,,weapon,1 1 p,*,,0.02
+433,1080,Bow,short,,weapon,-,2,,18.00
+434,2700,Bow,long,,weapon,-,3,,45.00
+435,2700,Bow,composite short,,weapon,-,2,,45.00
+436,3600,Bow,composite long,,weapon,-,3,,60.00
+437,2,Bow,flight arrow,,weapon,1d6 1d6 p,*,,0.03
+438,2,Bow,sheaf arrow,,weapon,1d8 1d8 p,*,,0.03
+439,1,Club,,,weapon,1d6 1d3 b,3,,0.02
+440,10800,Crossbow,hand,,weapon,-,3,,180.00
+441,1260,Crossbow,light,,weapon,-,7,,21.00
+442,1800,Crossbow,heavy,,weapon,-,14,,30.00
+443,36,Crossbow,hand quarrel,,weapon,1d3 1d2 p,*,,0.60
+444,4,Crossbow,light quarrel,,weapon,1d4 1d4 p,*,,0.07
+445,8,Crossbow,heavy quarrel,,weapon,1d4+1 1d6+1 p,*,,0.13
+446,72,Dagger Or Dirk,,,weapon,1d4 1d3 p,1,,1.20
+447,19,Dart,,,weapon,1d3 1d2 p,0.5,,0.32
+448,540,Footman's Flail,,,weapon,1d6+1 2d4 b,15,,9.00
+449,288,Footman's Mace,,,weapon,1d6+1 1d6 b,10,,4.80
+450,288,Footman's Pick,,,weapon,1d6+1 2d4 b,6,,4.80
+451,36,Hand Axe,,,weapon,1d6 1d4 s,5,,0.60
+452,720,Harpoon,,,weapon,2d4 2d6 p,6,,12.00
+453,288,Horseman's Flail,,,weapon,1d4+1 1d4+1 b,5,,4.80
+454,180,Horseman's Mace,,,weapon,1d6 1d4 b,6,,3.00
+455,252,Horseman's Pick,,,weapon,1d4+1 1d4 p,4,,4.20
+456,19,Javelin,,,weapon,1d6 1d6 p,2,,0.32
+457,19,Knife,,,weapon,1d6 1d6 p/s,0.5,,0.32
+458,540,Lance,heavy horse,,weapon,1d8+1 3d6 p,15,,9.00
+459,216,Lance,light horse,,weapon,1d6 1d8 p,5,,3.60
+460,720,Lance,jousting,,weapon,1d3-1 1d2-1 p,20,,12.00
+461,360,Lance,medium horse,,weapon,1d6+1 2d6,10,,6.00
+462,1080,Mancatcher,,,weapon,-,8,,18.00
+463,360,Morning Star,,,weapon,2d4 1d6+1 p/b,12,,6.00
+464,180,Polearm,awl pike,,weapon,1d6 1d12 p,12,,3.00
+465,252,Polearm,bardiche,,weapon,2d4 2d6 s,12,,4.20
+466,288,Polearm,bec de corbin,,weapon,1d8 1d6 p/b,10,,4.80
+467,252,Polearm,bill-guisarme,,weapon,2d4 1d10 p/s,15,,4.20
+468,180,Polearm,fauchard,,weapon,1d6 1d8 p/s,7,,3.00
+469,288,Polearm,fauchard-fork,,weapon,1d8 1d10 p/s,9,,4.80
+470,216,Polearm,glaive,,weapon,1d6 1d10 s,8,,3.60
+471,360,Polearm,glaive-guisarme,,weapon,2d4 2d6 p/s,10,,6.00
+472,180,Polearm,guisarme,,weapon,2d4 1d8 s,8,,3.00
+473,288,Polearm,guisarme-voulge,,weapon,1d4 1d4 p/s,15,,4.80
+474,360,Polearm,halberd,,weapon,1d10 2d6 p/s,15,,6.00
+475,360,Polearm,hook fauchard,,weapon,1d4 1d4 p/s,8,,6.00
+476,252,Polearm,lucern hammer,,weapon,2d4 1d6 p/b,15,,4.20
+477,180,Polearm,military fork,,weapon,1d8 2d4 p,7,,3.00
+478,360,Polearm,partisan,,weapon,1d6 1d6+1 p,8,,6.00
+479,216,Polearm,ranseur,,weapon,2d4 2d4 p,7,,3.60
+480,180,Polearm,spetum,,weapon,1d6+1 2d6 p,7,,3.00
+481,180,Polearm,voulge,,weapon,2d4 2d4 s,12,,3.00
+482,1,Quarterstaff,,,weapon,1d6 1d6 b,4,,0.02
+483,36,Scourge,,,weapon,1d4 1d2 -,2,,0.60
+484,22,Sickle,,,weapon,1d4+1 1d4 s,3,,0.37
+485,2,Sling,,,weapon,-,*,,0.03
+486,1,Sling,bullet,,weapon,1d4+1 1d6+1 b,*,,0.02
+487,1,Sling,stone,,weapon,1d4 1d4 b,*,,0.02
+488,29,Spear,,,weapon,1d6 1d8 p,5,,0.48
+489,8,Staff Sling,,,weapon,-,2,,0.13
+490,900,Sword,bastard,,weapon,1d8(2d4) 1d12(2d8) s,10,,15.00
+491,360,Sword,broad,,weapon,2d4 1d6+1 s,4,,6.00
+492,360,Sword,khopesh,,weapon,2d4 1d6 s,7,,6.00
+493,540,Sword,long,,weapon,1d8 1d12 s,4,,9.00
+494,540,Sword,scimitar,,weapon,1d8 1d8 s,4,,9.00
+495,360,Sword,short,,weapon,1d6 1d8 p,3,,6.00
+496,1800,Sword,two-handed,,weapon,1d10 3d6 s,15,,30.00
+497,540,Trident,,,weapon,1d6+1 3d4 p,5,,9.00
+498,72,Warhammer,,,weapon,1d4+1 1d4 b,6,,1.20
+499,4,Whip,,,weapon,1d2 1 -,2,,0.07
+500,19,Feed,horse,,feed,,,,0.32
+501,2,Ale,common,,drink,"1 pint, 1 alcohol",,,0.03
+502,3,Ale,dwarven,,drink,"1 pint, 1.5 alcohol",,,0.05
+503,4,Ale,orcish,,drink,"1 pint, 2 alcohol",,,0.07
+504,1,Beer,light,,drink,"1 pint, .5 alcohol",,,0.02
+505,2,Beer,normal,,drink,"1 pint, 2 alcohol",,,0.03
+506,2,Beer,dark,,drink,"1 pint, 2 alcohol",,,0.03
+507,36,Cider,common,,drink,"1 pint, 5 alcohol",,,0.60
+508,2,Coffee,common,,drink,1 gill,,,0.03
+509,54,Coffee,Isle of Dawn,,drink,"1 gill, 3 alcohol",,,0.90
+510,2,Cacao,,,drink,1 gill,,,0.03
+511,2,Milk,,,drink,1 quart,,,0.03
+512,2,Yogurt,,,drink,1 pint,,,0.03
+513,1,Vinegar,white,,drink,1 quart (medicinal),,,0.02
+514,2,Vinegar,red,,drink,1 quart (medicinal),,,0.03
+515,8,Thee,common,,drink,1 gill,,,0.13
+516,36,Thee,yak butter,,drink,1 gill,,,0.60
+517,11,Thee,herbal,,drink,1 gill,,,0.18
+518,11,Akvavit,Ostlander,,drink,"1 shot, 5 alcohol",,,0.18
+519,4,Akvavit,common,,drink,"1 shot, 3 alcohol",,,0.07
+520,15,Arkhi,Hobgoblandish,,drink,"1 shot, 4 alcohl",,,0.25
+521,15,Brandy,Thyatian Imperian,,drink,"1 shot, 4 alcohol",,,0.25
+522,11,Brandy,Minrothadian,,drink,"1 shot, 4 alcohol",,,0.18
+523,19,Evermead,,,drink,"1 pint, 5 alcohol",,,0.32
+524,54,Fruit Juice,,,drink,1 gill,,,0.90
+525,15,Mezcal,Sindhi,,drink,"1 shot, 7 alcohol",,,0.25
+526,11,Mezcal,Savage Coast,,drink,"1 shot, 6 alcohol",,,0.18
+527,54,Kumis,Ethengarian,,drink,"1 gallon, 32 (shake bag before drinking)",,,0.90
+528,8,Ouzo,Redstone,,drink,"1 shot, 3 alcohol",,,0.13
+529,36,Ouzo,Ierendi,,drink,"1 shot, 7 alcohol",,,0.60
+530,15,Rum,Ethengarian,,drink,"1 shot, 5 alcohol",,,0.25
+531,15,Rum,Heldannic,,drink,"1 shot, 6 alcohol",,,0.25
+532,19,Rum,Light,,drink,"1 shot, 6 alcohol",,,0.32
+533,26,Rum,Dark,,drink,"1 shot, 7 alcohol",,,0.43
+534,22,Sake,Pearl Islands,,drink,"1 shot, 5 alcohol",,,0.37
+535,29,Sake,Alphatian,,drink,"1 shot, 5 alcohol",,,0.48
+536,54,Tequila,Savage coast,,drink,"1 shot + lemon + salt, 8 alcohol",,,0.90
+537,19,Tequila,Orcish,,drink,"1 shot + lemon + salt, 8 alcohol",,,0.32
+538,90,Tequila,With Scorpion,,drink,"1 shot + lemon + salt, 9 alcohol",,,1.50
+539,11,Uisce,Glantrian,,drink,"1 shot, 5 alcohol",,,0.18
+540,8,Uisce,common,,drink,"1 shot, 4 alcohol",,,0.13
+541,11,Vodka,Karameikan,,drink,"1 shot, 5 alcohol",,,0.18
+542,8,Vodka,Glantrian,,drink,"1 shot, 2 alcohol",,,0.13
+543,4,Whisky,Texeiran,,drink,"1 gill, 4 alcohol",,,0.07
+544,8,Whisky,common,,drink,"1 gill, 4 alcohol",,,0.13
+545,8,Tobacco,,,drug,1 pipe worth,,,0.13
+546,360,Cigar,,,drug,"6""",,,6.00
+547,33,Beaver,,,pelt,,10,,0.55
+548,15,Bobcat,,,pelt,,10,,0.25
+549,8,Cat,,,pelt,,4,,0.13
+550,11,Cow,,,pelt,,100,,0.18
+551,4,Dog,,,pelt,,4,,0.07
+552,11,Horse,,,pelt,,100,,0.18
+553,8,Lynx,,,pelt,,10,,0.13
+554,8,Otter,,,pelt,,10,,0.13
+555,4,Rat,,,pelt,,5,,0.07
+556,36,Boar,,,pelt,,10,,0.60
+557,108,Fisher,,,pelt,,5,,1.80
+558,108,Fox,red,,pelt,,10,,1.80
+559,108,Marten,,,pelt,,5,,1.80
+560,108,Otter,sea,,pelt,,10,,1.80
+561,36,Rabbit,,,pelt,,10,,0.60
+562,108,Weasel,,,pelt,,10,,1.80
+563,36,Wolverine,,,pelt,,30,,0.60
+564,1800,Bear,,,pelt,,125,,30.00
+565,1800,Bunyip,,,pelt,,10,,30.00
+566,2520,Caterwaul,,,pelt,,65,,42.00
+567,1080,Chincilla,,,pelt,,5,,18.00
+568,1440,Fox,silver,,pelt,,10,,24.00
+569,1800,Fox,hoar,,pelt,,10,,30.00
+570,1800,Giraffe,,,pelt,,125,,30.00
+571,1800,Hell Hound,,,pelt,,80,,30.00
+572,1440,Ermine,,,pelt,,5,,24.00
+573,1080,Mink,,,pelt,,5,,18.00
+574,2520,Nonfel,,,pelt,,5,,42.00
+575,1800,Owlbear,,,pelt,,125,,30.00
+576,2520,Panther,,,pelt,,60,,42.00
+577,1800,Sable,,,pelt,,5,,30.00
+578,1800,Seal,,,pelt,,10,,30.00
+579,2880,Snow Leopard,,,pelt,,40,,48.00
+580,3600,Snow-Owlbear,,,pelt,,250,,60.00
+581,1800,Spotted Cats,,,pelt,,20,,30.00
+582,1800,Tiger,,,pelt,,75,,30.00
+583,1800,Winter Wolf,,,pelt,,150,,30.00
+584,1800,Yeti,,,pelt,,180,,30.00
+585,1800,Zebra,,,pelt,,65,,30.00
+586,4,Tipster,common knowledge,,illegal service,99%,,,0.07
+587,36,Tipster,uncommon knowledge,,illegal service,80%,,,0.60
+588,180,Tipser,specific information,,illegal service,30%,,,3.00
+589,360,Tipster,exact information,,illegal service,15%,,,6.00
+590,360,Private Investigator,1 day,,illegal service,improve chance to know by 1 step,,,6.00
+591,360,Tipster,dangerous information,,illegal service,40% slain in 1d6 days,,,6.00
+592,936,Fixer,avoid arrest,,illegal service,,,,15.60
+593,1872,Fixer,turn minor infraction,,illegal service,,,,31.20
+594,3780,Fixer,turn major infraction,,illegal service,,,,63.00
+595,8316,Fixer,assist escape,,illegal service,,,,138.60
+596,0,Fixer,cleanup/dispose,,illegal service,,,,0.00
+597,26460,Fixer,escape capital crime,,illegal service,,,,441.00
+598,26460,Fixer,"do a  ""personal favor""",,illegal service,,,,441.00
+599,43848,Fixer,cross thieve's guild,,illegal service,,,,730.80
+600,6804,Forgery,royal pardon,,illegal service,5 days,,,113.40
+601,1872,Forgery,military pass,,illegal service,3 days,,,31.20
+602,936,Forgery,city pass,,illegal service,2 days,,,15.60
+603,360,Forgery,official's signature,,illegal service,1 day,,,6.00
+604,0,Forgery,counterfeit coins,,illegal service,10 days,,,0.00
+605,0,Forgery,counterfeit jewelry,,illegal service,2-7 days,,,0.00
+606,0,Forgery,money clipping,,illegal service,1 day,,,0.00
+607,432,Forgery,copy deed or title,,illegal service,4-5 days,,,7.20
+608,756,Forgery,copy work of art,,illegal service,2-3 weeks,,,12.60
+609,2,Blackmarket,buy/sell,,illegal service,,,,0.03
+610,2,Blackmarket,buy/sell stolen,,illegal service,,,,0.03
+611,11,Whore,basic free,,illegal service,,,,0.18
+612,36,Whore,exotic free,,illegal service,,,,0.60
+613,72,Whore,new style free,,illegal service,,,,1.20
+614,15,Whore,basic club,,illegal service,,,,0.25
+615,54,Whore,exotic club,,illegal service,,,,0.90
+616,108,Whore,new style club,,illegal service,,,,1.80
+617,0,Loans,any amount,,illegal service,,,,0.00
+618,0,Loans,any amount (guildmember),,illegal service,,,,0.00
+619,360,Threat,nobody special,,illegal service,,,,6.00
+620,1116,Threat,known locally,,illegal service,,,,18.60
+621,4536,Threat,well known locally,,illegal service,,,,75.60
+622,19260,Threat,petty official,,illegal service,,,,321.00
+623,25704,Threat,minor city official,,illegal service,,,,428.40
+624,65772,Threat,major city official,,illegal service,,,,1096.20
+625,1100736,Threat,very high profile,,illegal service,,,,18345.60
+626,756,Bone Breaking,nobody special,,illegal service,,,,12.60
+627,2268,Bone Breaking,known locally,,illegal service,,,,37.80
+628,8316,Bone Breaking,well known locally,,illegal service,,,,138.60
+629,34776,Bone Breaking,petty official,,illegal service,,,,579.60
+630,51408,Bone Breaking,minor city official,,illegal service,,,,856.80
+631,132300,Bone Breaking,major city official,,illegal service,,,,2205.00
+632,2201472,Bone Breaking,very high profile,,illegal service,,,,36691.20
+633,3780,Elimination,nobody special,,illegal service,,,,63.00
+634,26460,Elimination,known locally,,illegal service,,,,441.00
+635,43848,Elimination,well known locally,,illegal service,,,,730.80
+636,219996,Elimination,petty official,,illegal service,,,,3666.60
+637,439992,Elimination,minor city official,,illegal service,,,,7333.20
+638,2201472,Elimination,major city official,,illegal service,,,,36691.20
+639,4402944,Elimination,very high profile,,illegal service,,,,73382.40
+640,1116,Kidnapping,nobody special,,illegal service,,,,18.60
+641,3383,Kidnapping,known locally,,illegal service,,,,56.38
+642,12852,Kidnapping,well known locally,,illegal service,,,,214.20
+643,52164,Kidnapping,petty official,,illegal service,,,,869.40
+644,78624,Kidnapping,minor city official,,illegal service,,,,1310.40
+645,195804,Kidnapping,major city official,,illegal service,,,,3263.40
+646,3302208,Kidnapping,very high profile,,illegal service,,,,55036.80
+647,36,Shelter,Poor 1 man,0,shelter,"4hp, light moisture",6,,0.60
+648,72,Shelter,Poor 2 man,0,shelter,"4hp, light moisture",7,,1.20
+649,108,Shelter,Poor 4 man,0,shelter,"4hp, light moisture",8,,1.80
+650,108,Shelter,Adequate 1 man,0,shelter,"8hp, moderate moisture",7,,1.80
+651,180,Shelter,Adequate 2 man,0,shelter,"8hp, moderate moisture",8,,3.00
+652,270,Shelter,Adequate 4 man,0,shelter,"8hp, moderate moisture",9,,4.50
+653,270,Shelter,Good 1 man,5,shelter,"12hp, heavy moisture",8,,4.50
+654,432,Shelter,Good 2 man,5,shelter,"12hp, heavy moisture",9,,7.20
+655,648,Shelter,Good 4 man,5,shelter,"12hp, heavy moisture",10,,10.80
+656,720,Shelter,Superior 1 man,10,shelter,"24hp, downpour",9,,12.00
+657,1080,Shelter,Superior 2 man,10,shelter,"24hp, downpour",10,,18.00
+658,1440,Shelter,Superior 4 man,10,shelter,"24hp, downpour",12,,24.00
+659,180,Tent,Solo 1 man,10,shelter,"10hp, heavy moisture",10,,3.00
+660,180,Tent,Wedge 1 man,10,shelter,"10hp, moderate moisture, no floor",10,,3.00
+661,720,Tent,Duo 2 man,10,shelter,"20hp, heavy moisture",14,,12.00
+662,144,Tent,Bell 2 man,10,shelter,"10hp, moderate moisture",10,,2.40
+663,720,Tent,Traveling Pavillion 3 man,10,shelter,"20hp, moderatr moisture",16,,12.00
+664,180,Tent,Group 4 man,15,shelter,"30hp, heavy moisture",22,,3.00
+665,3600,Tent,Pavillion 6 man,15,shelter,"40hp, heavy moisture",28,,60.00
+666,540,Tent,Pyramid 6 man,15,shelter,"35hp, heavy moisture",12,,9.00
+667,5400,Tent,Tournament 6 man,5,shelter,"40hp, moderate moisture",32,,90.00
+668,17991,Tent,Sweat lodge 8 man,20,shelter,"40hp, downpour",71,,299.85
+669,360,Tent,Warmth Lining,30,shelter,10hp+,3,,6.00
+670,180,Hammock,,,sleeping,,1,,3.00
+671,4,Straw Mat,,,sleeping,,1,,0.07
+672,36,Bedroll,,5 if dry,sleeping,,3,,0.60
+673,108,Sleeping Bag,,10 if dry,sleeping,,5,,1.80
+674,360,Polar Bag,,40 if dry,sleeping,,20,,6.00
+675,8996,Klamboe,,,sleeping,stops insects,1,,149.93
+676,8,Twine,100ft,,misc,,0.5,,0.13
+677,36,Flask,1 qt,,misc,,0.1,,0.60
+678,54,Scroll Case,20 sheets,,alchemy,waterproof,0.01,,0.90
+679,180,Bellows,common,,alchemy,to heat up fire,2.5,,3.00
+680,9000,Bellows,furnace,,alchemy,to heat up fire,250,,150.00
+681,1260,Furnace,common,,alchemy,for extra hot fires,4000,,21.00
+682,36000,Smelter,small,,alchemy,"30'x30', connect to furnace",2000,,600.00
+683,72000,Smelter,medium,,alchemy,"50'x50', connect to furnace",4000,,1200.00
+684,179928,Smelter,large,,alchemy,"75'x75', connect to furnace",8000,,2998.80
+685,144,Alembic,common,,alchemy,distillation aparatus,2,,2.40
+686,360,Balance,"small, golden",,alchemy,to weigh material,0.25,,6.00
+687,108,Beaker,common,,alchemy,heatable container to pour liquids,0.5,,1.80
+688,54,Brazier,small,,alchemy,to make a small fire,0.5,,0.90
+689,26,Crucible,common,,alchemy,to melt items within,1,,0.43
+690,360,Decanter,crystal,,alchemy,to hold/pour liquids 1pint,0.5,,6.00
+691,2,Decanter,ceramic,,alchemy,to hold/pour liquids 1pint,0.5,,0.03
+692,144,Decanter,silver,,alchemy,to hold/pour liquids 1pint,0.5,,2.40
+693,8,Earspoon,common,,alchemy,to clean holes,0.01,,0.13
+694,72,Merchant Scale,small,,alchemy,with 1 oz weights,0.25,,1.20
+695,180,Merchant Scale,large,,alchemy,with 1 lb weights,1,,3.00
+696,36,Needle,Magnetized,,alchemy,,0.01,,0.60
+697,144,Spinner,brass,,alchemy,to split liquids in 12 vials,1,,2.40
+698,72,Retort,common,,alchemy,distillation aparatus,0.5,,1.20
+699,1,Ribbon,common,,alchemy,to suck up liquid,0.01,,0.02
+700,5400,Test Kit,basic,,alchemy,identify basic potions,10,,90.00
+701,288,Vellum,common,,alchemy,filter paper,0.01,,4.80
+702,15,Funnel,common,,alchemy,,0.01,,0.25
+703,36,Glass Bottle,crystal,,alchemy,1 pint,0.1,,0.60
+704,15,Glass Bottle,normal,,alchemy,1 pint,0.25,,0.25
+705,36,Glass Bottle,gold/silver,,alchemy,1 pint,0.25,,0.60
+706,4,Glass Bottle,cheap,,alchemy,1 pint,0.3,,0.07
+707,19,Grind Stone,common,,alchemy,to grind material,0.3,,0.32
+708,72,Morter and Pestle,ceramic,,alchemy,to grind material,2,,1.20
+709,1800,Morter and Pestle,stone,,alchemy,to grind material,8,,30.00
+710,36,Punk Pot,common,,alchemy,smolder 2',2,,0.60
+711,360,Prism,common,,alchemy,,0.5,,6.00
+712,180,Leeches,jar,,alchemy,to drain blood,0.5,,3.00
+713,4,Magnet,small,,alchemy,,0.1,,0.07
+714,11,Tubing Glass,per foot,,alchemy,,0.25,,0.18
+715,19,Tripod,common,,alchemy,to hold scales/dishes above fire,0.25,,0.32
+716,19,Tweezers,common,,alchemy,,0.01,,0.32
+717,10,Vial,clay,,alchemy,to hold liquid/powder,0.25,,0.17
+718,36,Vial,ceramic,,alchemy,to hold liquid/powder,0.25,,0.60
+719,108,Vial,glass,,alchemy,to hold liquid/powder,0.25,,1.80
+720,144,Vial,crystal,,alchemy,to hold liquid/powder,0.25,,2.40
+721,180,Vial,steel,,alchemy,to hold liquid/powder,0.25,,3.00
+722,252,Vial,silver,,alchemy,to hold liquid/powder,0.25,,4.20
+723,0,Vial,small,,alchemy,"modifier, doubles capacity",x1,,0.00
+724,0,Vial,medium,,alchemy,"modifier, doubles capacity",x2,,0.00
+725,0,Vial,large,,alchemy,"modifier, doubles capacity",x4,,0.00
+726,900,Hourglass,many times,,alchemy,measure time,0.25,,15.00
+727,360,Sundial,common,,alchemy,measure time,16,,6.00
+728,180,Fishing Rod,common,,fishing,"10'-30' rod, 5% chance of breaking per 10 lb of fish",0.5,,3.00
+729,5400,Monster Rod,common,,fishing,"10'-30' iron rod, 5% chance of breaking every 50 lb",3,,90.00
+730,1,Line Lead,common,,fishing,,0.1,,0.02
+731,36,Net Lead,common,,fishing,,1.5,,0.60
+732,1,Floating Bob,common,,fishing,,0.01,,0.02
+733,4,Net Floaters,1 per sq foot,,fishing,,0.01,,0.07
+734,108,Monster Hook,common,,fishing,,0.25,,1.80
+735,108,Fishline,small,,fishing,"50', 5% breakage per 10lb of fish",0.01,,1.80
+736,1080,Fishline,monster,,fishing,"50', 5% breakage per 50lb of fish",0.25,,18.00
+737,36,Monsternet,per sq foot,,fishing,,0.1,,0.60
+738,4,Fishnet,per sq fot,,fishing,,0.01,,0.07
+739,108,Sheath,bastard sword,,accessories,,0.5,,1.80
+740,72,Sheath,long sword,,accessories,,0.25,,1.20
+741,36,Sheath,short sword,,accessories,,0.1,,0.60
+742,144,Sheath,back,,accessories,,1,,2.40
+743,22,Scabbard,dagger/knife,,accessories,,0.1,,0.37
+744,44,Weapon Ring,,,accessories,,0.1,,0.73
+745,58,Back Clasp,,,accessories,,0.5,,0.97
+746,36,License,Glantrian,,license,Serving in a tavern,,,0.60
+747,36,License,Glantrian,,license,Serving Alcohol,,,0.60
+748,180,License,Glantrian,,license,Serving magical brews,,,3.00
+749,108,License,Glantrian,,license,Turn invisible at will,,,1.80
+750,360,License,Glantrian,,license,Private Spellcasting,,,6.00
+751,720,License,Glantrian,,license,Arcane Business,,,12.00
+752,720,License,Glantrian,,license,Magical Detection,,,12.00
+753,36,License,Glantrian,,license,Business less than 5cr./day,,,0.60
+754,180,License,Glantrian,,license,Business less than 100cr./day,,,3.00
+755,720,License,Glantrian,,license,Business over 100cr./day,,,12.00
+756,36,License,Glantrian,,license,Weapons less than 15 inch,,,0.60
+757,360,License,Glantrian,,license,Weapons larger than 15inch,,,6.00
+758,180,License,Glantrian,,license,"Weapons, blunt",,,3.00
+759,180,License,Glantrian,,license,Shield and Helmet,,,3.00
+760,360,License,Glantrian,,license,"Armor, Leather",,,6.00
+761,720,License,Glantrian,,license,"Armor, metal",,,12.00
+762,1800,License,Glantrian,,license,Speaking in Public to 10 or more people,,,30.00
+763,3600,Amber,whole,,gem,,,,60.00
+764,1475,Amber,powdered,,gem,,,,24.58
+765,900,Amber,rod,,gem,,,,15.00
+766,3600,Alexandrite,,,gem,,,,60.00
+767,3600,Amethyst,,,gem,,,,60.00
+768,17280,Aquamarine,,,gem,,,,288.00
+769,360,Azurite,,,gem,,,,6.00
+770,360,Banded Agate,,,gem,,,,6.00
+771,35280,Black Opal,,,gem,,,,588.00
+772,179280,Black Sapphire,,,gem,,,,2988.00
+773,1800,Bloodstone,,,gem,,,,30.00
+774,360,Blue Quartz,,,gem,,,,6.00
+775,180000,Blue Star,,,gem,,,,3000.00
+776,1800,Carnetlian,,,gem,,,,30.00
+777,1800,Chalcedony,,,gem,,,,30.00
+778,3600,Chrysoberyl,,,gem,,,,60.00
+779,1800,Chrysoprase,,,gem,,,,30.00
+780,1800,Citrine,,,gem,,,,30.00
+781,108,Crystal Rod,,,gem,,,,1.80
+782,180000,Diamond,whole,,gem,,,,3000.00
+783,3600,Diamond,dust,,gem,,,,60.00
+784,180000,Emerald,whole,,gem,,,,3000.00
+785,1440,Emerald,powdered,,gem,,,,24.00
+786,360,Eye Agate,,,gem,,,,6.00
+787,3600,Fire Opal,,,gem,,,,60.00
+788,17280,Garnet,,,gem,,,,288.00
+789,360,Hematite,,,gem,,,,6.00
+790,180000,Jacinth,,,gem,,,,3000.00
+791,360,Jade,,,gem,,,,6.00
+792,1800,Jasper,,,gem,,,,30.00
+793,3600,Jet,,,gem,,,,60.00
+794,360,Lapis Lazuli,,,gem,,,,6.00
+795,360,Malachite,,,gem,,,,6.00
+796,1800,Moonstone,,,gem,,,,30.00
+797,360,Moss Agate,,,gem,,,,6.00
+798,360,Obsidian,,,gem,,,,6.00
+799,1800,Onyx,,,gem,,,,30.00
+800,35280,Opal,,,gem,,,,588.00
+801,35280,Oriental Amethyst,,,gem,,,,588.00
+802,180000,Oriental Emerald,,,gem,,,,3000.00
+803,35280,Oriental Topaz,,,gem,,,,588.00
+804,17280,Pearl,,,gem,,,,288.00
+805,17280,Peridot,,,gem,,,,288.00
+806,360,Rhodochrosite,,,gem,,,,6.00
+807,1800,Rock Crystal,,,gem,,,,30.00
+808,180000,Ruby,whole,,gem,,,,3000.00
+809,1440,Rubey,powdered,,gem,,,,24.00
+810,360,Sapphire,,,gem,,,,6.00
+811,1800,Sardonyx,,,gem,,,,30.00
+812,1800,Smokey Quartz,,,gem,,,,30.00
+813,17280,Spinel,,,gem,,,,288.00
+814,1800,Star Rose Quartz,,,gem,,,,30.00
+815,180000,Star Ruby,,,gem,,,,3000.00
+816,180000,Star Sapphire,,,gem,,,,3000.00
+817,360,Tiger Eye,,,gem,,,,6.00
+818,17280,Topaz,,,gem,,,,288.00
+819,3600,Tourmaline,,,gem,,,,60.00
+820,360,Turquoise,,,gem,,,,6.00
+821,1800,Zircon,,,gem,,,,30.00
+822,4,Volcanic Ash,,,metal and ore,,,,0.07
+823,2,Bitumen,,,metal and ore,,,,0.03
+824,2,Carbon,,,metal and ore,,,,0.03
+825,36,Cinnabryl,per ounce,,metal and ore,,,,0.60
+826,1,Clay,per pound,,metal and ore,,,,0.02
+827,3600,Coral,,,metal and ore,,,,60.00
+828,29,Glass,Opaque,,metal and ore,,,,0.48
+829,72,Glass sheet,,,metal and ore,,,,1.20
+830,36,Glass rod,,,metal and ore,,,,0.60
+831,36,Gold,dust,,metal and ore,,,,0.60
+832,720,Gold,sheet,,metal and ore,,,,12.00
+833,72,Granite,black,,metal and ore,,,,1.20
+834,1,Granite,dust,,metal and ore,,,,0.02
+835,1,Platinum sheet,,,metal and ore,,,,0.02
+836,8,Red Steel,per ounce,,metal and ore,,,,0.13
+837,180,Silver,powdered,,metal and ore,,,,3.00
+838,540,Silver,sheet,,metal and ore,,,,9.00
+839,172800,Urthellis Craterdust,,,metal and ore,,,,2880.00
+840,29,Zinc,,,metal and ore,,,,0.48
+841,19,Archer,human,per day,hireling,,,,0.32
+842,36,Archer,elf,per day,hireling,,,,0.60
+843,11,Archer,orc,per day,hireling,,,,0.18
+844,8,Archer,goblin,per day,hireling,,,,0.13
+845,29,Archer,hobbit,per day,hireling,,,,0.48
+846,54,Bowman,human,per day,hireling,,,,0.90
+847,108,Bowman,elf,per day,hireling,,,,1.80
+848,36,Bowman,hobbit,per day,hireling,,,,0.60
+849,54,"Bowman, mounted",human,per day,hireling,,,,0.90
+850,108,"Bowman, mounted",elf,per day,hireling,,,,1.80
+851,36,Longbowman,human,per day,hireling,,,,0.60
+852,72,Longbowman,elf,per day,hireling,,,,1.20
+853,19,Longbowman,orc,per day,hireling,,,,0.32
+854,15,Crossbowman,human,per day,hireling,,,,0.25
+855,22,Crossbowman,dwarf,per day,hireling,,,,0.37
+856,8,Crossbowman,orc,per day,hireling,,,,0.13
+857,4,Crossbowman,hobbit,per day,hireling,,,,0.07
+858,19,"Crossbowman, mounted",human,per day,hireling,,,,0.32
+859,54,"Crossbowman, mounted",dwarf,per day,hireling,,,,0.90
+860,8,"Footman, light",human,per day,hireling,,,,0.13
+861,15,"Footman, light",dwarf,per day,hireling,,,,0.25
+862,15,"Footman, light",elf,per day,hireling,,,,0.25
+863,4,"Footman, light",orc,per day,hireling,,,,0.07
+864,2,"Footman, light",goblin,per day,hireling,,,,0.03
+865,8,"Footman, light",hobbit,per day,hireling,,,,0.13
+866,72,"Footman, light",giant,per day,hireling,,,,1.20
+867,11,"Footman, heavy",human,per day,hireling,,,,0.18
+868,19,"Footman, heavy",dwarf,per day,hireling,,,,0.32
+869,22,"Footman, heavy",elf,per day,hireling,,,,0.37
+870,6,"Footman, heavy",orc,per day,hireling,,,,0.10
+871,8,"Footman, heavy",goblin,per day,hireling,,,,0.13
+872,144,"Footman, heavy",giant,per day,hireling,,,,2.40
+873,4,Peasant,human,per day,hireling,,,,0.07
+874,4,Peasant,dwarf,per day,hireling,,,,0.07
+875,4,Peasant,elf,per day,hireling,,,,0.07
+876,4,Peasant,orc,per day,hireling,,,,0.07
+877,4,Peasant,goblin,per day,hireling,,,,0.07
+878,4,Peasant,hobbit,per day,hireling,,,,0.07
+879,72,Peasant,giant,per day,hireling,,,,1.20
+880,36,"Horseman, Light",human,per day,hireling,,,,0.60
+881,180,"Horseman, Light",elf,per day,hireling,,,,3.00
+882,19,"Horseman, Light",goblin,per day,hireling,,,,0.32
+883,54,"Horseman, Medium",human,per day,hireling,,,,0.90
+884,90,"Horseman, Medium",elf,per day,hireling,,,,1.50
+885,36,"Horseman, Heavy",human,per day,hireling,,,,0.60
+886,19,Wolf rider,Goblin,per day,hireling,,,,0.32
+887,19,Cook,human,per day,retainer,feed 50,,,0.32
+888,15,Cook,dwarf,per day,retainer,feed 50,,,0.25
+889,8,Cook,elf,per day,retainer,feed 50,,,0.13
+890,4,Cook,orc,per day,retainer,feed 50,,,0.07
+891,4,Cook,goblin,per day,retainer,feed 50,,,0.07
+892,8,Cook,hobbit,per day,retainer,feed 50,,,0.13
+893,19,Cook,giant,per day,retainer,feed 50,,,0.32
+894,19,Armorer,human,per day,retainer,1 armor or 3 shield per month,,,0.32
+895,15,Armorer,dwarf,per day,retainer,1 armor or 3 shield per month,,,0.25
+896,8,Armorer,elf,per day,retainer,1 armor or 3 shield per month,,,0.13
+897,19,Armorer,orc,per day,retainer,1 armor or 3 shield per month,,,0.32
+898,19,Armorer,goblin,per day,retainer,1 armor or 3 shield per month,,,0.32
+899,8,Armorer,hobbit,per day,retainer,1 armor or 3 shield per month,,,0.13
+900,36,Armorer,giant,per day,retainer,1 armor or 3 shield per month,,,0.60
+901,90,Smith,human,per day,retainer,5 weapon or 3 shield per month,,,1.50
+902,270,Smith,dwarf,per day,retainer,5 weapon or 3 shield per month,,,4.50
+903,90,Smith,elf,per day,retainer,5 weapon or 3 shield per month,,,1.50
+904,36,Smith,orc,per day,retainer,5 weapon or 3 shield per month,,,0.60
+905,54,Smith,goblin,per day,retainer,5 weapon or 3 shield per month,,,0.90
+906,58,Smith,hobbit,per day,retainer,5 weapon or 3 shield per month,,,0.97
+907,360,Smith,giant,per day,retainer,5 weapon or 3 shield per month,,,6.00
+908,180,Alchemist,human,per day,retainer,,,,3.00
+909,72,Alchemist,elf,per day,retainer,,,,1.20
+910,19,Alchemist,orc,per day,retainer,,,,0.32
+911,8,Alchemist,goblin,per day,retainer,,,,0.13
+912,54,Armorer Asssistant,human,per day,retainer,doubles smith/armorer output,,,0.90
+913,19,Armorer Asssistant,dwarf,per day,retainer,doubles smith/armorer output,,,0.32
+914,29,Armorer Asssistant,elf,per day,retainer,doubles smith/armorer output,,,0.48
+915,19,Armorer Asssistant,orc,per day,retainer,doubles smith/armorer output,,,0.32
+916,11,Armorer Asssistant,goblin,per day,retainer,doubles smith/armorer output,,,0.18
+917,90,Armorer Asssistant,hobbit,per day,retainer,doubles smith/armorer output,,,1.50
+918,19,Artillerist,human,per day,retainer,can man 3 artillery,,,0.32
+919,19,Artillerist,dwarf,per day,retainer,can man 3 artillery,,,0.32
+920,19,Artillerist,elf,per day,retainer,can man 3 artillery,,,0.32
+921,15,Artillerist,orc,per day,retainer,can man 3 artillery,,,0.25
+922,11,Artillerist,goblin,per day,retainer,can man 3 artillery,,,0.18
+923,19,Artillerist,hobbit,per day,retainer,can man 3 artillery,,,0.32
+924,90,Artillerist,giant,per day,retainer,can man 3 artillery,,,1.50
+925,19,Animal Trainer,"human, dwarf, elf",per day,retainer,,,,0.32
+926,11,Animal Trainer,"orc, goblin",per day,retainer,,,,0.18
+927,90,Animal Trainer,giant,per day,retainer,,,,1.50
+928,19,Baliff,"human, dwarf, elf",per day,retainer,,,,0.32
+929,11,Baliff,"orc, goblin",per day,retainer,,,,0.18
+930,90,Baliff,giant,per day,retainer,,,,1.50
+931,19,Chamberlain,"human, dwarf, elf",per day,retainer,,,,0.32
+932,11,Chamberlain,"orc, goblin",per day,retainer,,,,0.18
+933,90,Chamerlain,giant,per day,retainer,,,,1.50
+934,19,Equerry,"human, dwarf, elf",per day,retainer,,,,0.32
+935,11,Equerry,"orc, goblin",per day,retainer,,,,0.18
+936,90,Equerry,giant,per day,retainer,,,,1.50
+937,19,Herald,"human, dwarf, elf",per day,retainer,,,,0.32
+938,11,Herald,"orc, goblin",per day,retainer,,,,0.18
+939,90,Herald,giant,per day,retainer,,,,1.50
+940,19,Lesser Magistrate,"human, dwarf, elf",per day,retainer,,,,0.32
+941,11,Lesser Magistrate,"orc, goblin",per day,retainer,,,,0.18
+942,90,Lesser Magistrate,giant,per day,retainer,,,,1.50
+943,19,Marshall,"human, dwarf, elf",per day,retainer,,,,0.32
+944,11,Marshall,"orc, goblin",per day,retainer,,,,0.18
+945,90,Marshall,giant,per day,retainer,,,,1.50
+946,19,Provost,"human, dwarf, elf",per day,retainer,,,,0.32
+947,11,Provost,"orc, goblin",per day,retainer,,,,0.18
+948,90,Provost,giant,per day,retainer,,,,1.50
+949,19,Sheriff,"human, dwarf, elf",per day,retainer,,,,0.32
+950,11,Sheriff,"orc, goblin",per day,retainer,,,,0.18
+951,90,Sheriff,giant,per day,retainer,,,,1.50
+952,19,Warden,"human, dwarf, elf",per day,retainer,,,,0.32
+953,11,Warden,"orc, goblin",per day,retainer,,,,0.18
+954,90,Warden,giant,per day,retainer,,,,1.50
+955,90,Engineer,human,per day,retainer,1 per 80H. Construction cost,,,1.50
+956,90,Engineer,dwarf,per day,retainer,1 per 80H. Construction cost,,,1.50
+957,90,Engineer,elf,per day,retainer,1 per 80H. Construction cost,,,1.50
+958,36,Engineer,goblin,per day,retainer,1 per 80H. Construction cost,,,0.60
+959,180,Engineer,giant,per day,retainer,1 per 80H. Construction cost,,,3.00
+960,90,Castellan,"human, dwarf, elf",per day,retainer,,,,1.50
+961,36,Castellan,"orc, goblin",per day,retainer,,,,0.60
+962,180,Castellan,giant,per day,retainer,,,,3.00
+963,90,Chaplain,"human, dwarf, elf",per day,retainer,,,,1.50
+964,36,Chaplain,"orc, goblin",per day,retainer,,,,0.60
+965,180,Chaplain,giant,per day,retainer,,,,3.00
+966,90,Guard Captain,"human, dwarf, elf",per day,retainer,,,,1.50
+967,36,Guard Captain,"orc, goblin",per day,retainer,,,,0.60
+968,180,Guard Captain,giant,per day,retainer,,,,3.00
+969,90,Magistrate,"human, dwarf, elf",per day,retainer,,,,1.50
+970,36,Magistrate,"orc, goblin",per day,retainer,,,,0.60
+971,180,Magistrate,giant,per day,retainer,,,,3.00
+972,90,Reeve,"human, dwarf, elf",per day,retainer,,,,1.50
+973,36,Reeve,"orc, goblin",per day,retainer,,,,0.60
+974,180,Reeve,giant,per day,retainer,,,,3.00
+975,90,Chief Steward,"human, dwarf, elf",per day,retainer,,,,1.50
+976,36,Chief Steward,"orc, goblin",per day,retainer,,,,0.60
+977,180,Chief Steward,giant,per day,retainer,,,,3.00
+978,0,Sage,,per day,retainer,,,,0.00
+979,1,Rower,"human, elf, orc, goblin, hobbit",per day,retainer,free if convict,,,0.02
+980,19,Rower,giant,per day,retainer,free if convict,,,0.32
+981,4,Sailor,"human, elf, orc, goblin, hobbit",per day,retainer,,,,0.07
+982,0,Captain,,per day,retainer,,,,0.00
+983,90,Navigator,,per day,retainer,,,,1.50
+984,0,Spy,,per day,retainer,,,,0.00
+985,0,Mage,,per day,retainer,,,,0.00
+986,0,Retainer Class,Thief,per day,retainer,,,,0.00
+987,0,Retainer Class,Warrior,per day,retainer,,,,0.00
+988,0,Retainer Class,Priest,per day,retainer,,,,0.00
+989,3,Linen,raw,,raw material,makes 1 sq yd,,,0.05
+990,2,Wool,raw,,raw material,makes 1 sq yd,,,0.03
+991,1,Cotton,raw,,raw material,makes 1 sq yd,,,0.02
+992,33,Beaver,,,pelt,,,,0.55
+993,15,Bobcat,,,pelt,,,,0.25
+994,8,Cat,,,pelt,,,,0.13
+995,11,Cow,,,pelt,,,,0.18
+996,4,Dog,,,pelt,,,,0.07
+997,11,Horse,,,pelt,,,,0.18
+998,8,Lynx,,,pelt,,,,0.13
+999,8,Otter,river,,pelt,,,,0.13
+1000,4,Rat,,,pelt,,,,0.07
+1001,36,Boar,,,pelt,,,,0.60
+1002,108,Fisher,,,pelt,,,,1.80
+1003,108,Fox,red,,pelt,,,,1.80
+1004,108,Marten,,,pelt,,,,1.80
+1005,108,Otter,sea,,pelt,,,,1.80
+1006,36,Rabbit,,,pelt,,,,0.60
+1007,108,Weasel,,,pelt,,,,1.80
+1008,36,Wolverine,,,pelt,,,,0.60
+1009,1800,Bear,,,pelt,,,,30.00
+1010,1800,Bunyip,,,pelt,,,,30.00
+1011,1800,Caterwaul,,,pelt,,,,30.00
+1012,1080,Chinchila,,,pelt,,,,18.00
+1013,1440,Fox,silver,,pelt,,,,24.00
+1014,1800,Fox,hoar,,pelt,,,,30.00
+1015,1800,Giraffe,,,pelt,,,,30.00
+1016,1800,Hell Hound,,,pelt,,,,30.00
+1017,1800,Ermine,,,pelt,,,,30.00
+1018,1080,Mink,,,pelt,,,,18.00
+1019,2520,Nonfel,,,pelt,,,,42.00
+1020,1800,Owlbear,,,pelt,,,,30.00
+1021,2520,Panther,,,pelt,,,,42.00
+1022,1800,Sable,,,pelt,,,,30.00
+1023,1800,Seal,,,pelt,,,,30.00
+1024,2880,Snow Leopard,,,pelt,,,,48.00
+1025,3600,Snow-Owlbear,,,pelt,,,,60.00
+1026,2160,Spotted cats,,,pelt,,,,36.00
+1027,1800,Tiger,,,pelt,,,,30.00
+1028,1800,Winter Wolf,,,pelt,,,,30.00
+1029,1800,Yeti,,,pelt,,,,30.00
+1030,1800,Zebra,,,pelt,,,,30.00
+1031,2,Common Room,low class,,room,per night,,,0.03
+1032,36,Common Room,copper class,,room,per night,,,0.60
+1033,180,Common Room,silver class,,room,per night,,,3.00
+1034,720,Common Room,gold class,,room,per night,,,12.00
+1035,7200,Common Room,platinum class,,room,per night,,,120.00
+1036,8,Private Room,low class,,room,per night,,,0.13
+1037,72,Private Room,copper class,,room,per night,,,1.20
+1038,180,Private Room,silver class,,room,per night,,,3.00
+1039,1800,Private Room,gold class,,room,per night,,,30.00
+1040,17991,Private Room,platinum class,,room,per night,,,299.85
+1041,11,Double Room,low class,,room,per night,,,0.18
+1042,108,Double Room,copper class,,room,per night,,,1.80
+1043,270,Double Room,silver class,,room,per night,,,4.50
+1044,2700,Double Room,gold class,,room,per night,,,45.00
+1045,27000,Double Room,platinum class,,room,per night,,,450.00
+1046,19,Stabling,low class,,room,per night,,,0.32
+1047,36,Stabling,copper class,,room,per night,,,0.60
+1048,72,Stabling,silver class,,room,per night,,,1.20
+1049,360,Stabling,gold class,,room,per night,,,6.00
+1050,900,Stabling,platinum class,,room,per night,,,15.00
+1051,54,Common Room,low class,,room,per month,,,0.90
+1052,900,Common Room,copper class,,room,per month,,,15.00
+1053,4320,Common Room,silver class,,room,per month,,,72.00
+1054,36000,Common Room,gold class,,room,per month,,,600.00
+1055,360000,Common Room,platinum class,,room,per month,,,6000.00
+1056,198,Double Room,low class,,room,per month,,,3.30
+1057,396,Double Room,copper class,,room,per month,,,6.60
+1058,9000,Double Room,silver class,,room,per month,,,150.00
+1059,72000,Double Room,gold class,,room,per month,,,1200.00
+1060,717120,Double Room,platinum class,,room,per month,,,11952.00
+1061,360,Quarter Room,low class,,room,per month,,,6.00
+1062,1800,Quarter Room,copper class,,room,per month,,,30.00
+1063,3600,Quarter Room,silver class,,room,per month,,,60.00
+1064,18000,Quarter Room,gold class,,room,per month,,,300.00
+1065,180000,Quarter Room,platinum class,,room,per month,,,3000.00
+1066,1800,Office,low class,,room,per month,,,30.00
+1067,3600,Office,copper class,,room,per month,,,60.00
+1068,7200,Office,silver class,,room,per month,,,120.00
+1069,18000,Office,gold class,,room,per month,,,300.00
+1070,180000,Office,platinum class,,room,per month,,,3000.00
+1071,1800,Shop,low class,,room,per month,,,30.00
+1072,3600,Shop,copper class,,room,per month,,,60.00
+1073,5400,Shop,silver class,,room,per month,,,90.00
+1074,14400,Shop,gold class,,room,per month,,,240.00
+1075,36000,Shop,platinum class,,room,per month,,,600.00
+1076,72,Latrine,separate,,room,emptied daily,,,1.20
+1077,1,Bath,cold w/ soap,,hygiene,,,,0.02
+1078,2,Bath,warm w/ soap,,hygiene,,,,0.03
+1079,2,Barber,,,hygiene,,,,0.03
+1080,2,Massage,,,hygiene,,,,0.03
+1081,1,Laundry,,,hygiene,,,,0.02
+1082,108,Doctor,leeching,,hygiene,,,,1.80
+1083,19,Haircut,,,beauty,,,,0.32
+1084,11,Hairwash,,,beauty,,,,0.18
+1085,15,Shave,,,beauty,,,,0.25
+1086,180,Hair removal,,,beauty,,,,3.00
+1087,72,Hair Coloring,temporary,,beauty,,,,1.20
+1088,144,Hair Coloring,permanent,,beauty,,,,2.40
+1089,180,Skin Coloring,temporary,,beauty,,,,3.00
+1090,252,Skin Coloring,permanent,,beauty,,,,4.20
+1091,72,Facial,,,beauty,,,,1.20
+1092,108,Make-Over,,,beauty,,,,1.80
+1093,108,Manicure,,,beauty,,,,1.80
+1094,108,Pedicure,,,beauty,,,,1.80
+1095,180,Manicure,w/ glitter,,beauty,,,,3.00
+1096,180,Pedicure,w/ glitter,,beauty,,,,3.00
+1097,108,Trap,"enclosing, rabbit",,trap,,2,,1.80
+1098,252,Trap,"enclosing, wolf",,trap,,0.5,,4.20
+1099,360,Trap,"enclosing, bear",,trap,,9,,6.00
+1100,72,Trap,"killing, rabbit",,trap,,3,,1.20
+1101,180,Trap,"killing, wolf",,trap,,6,,3.00
+1102,360,Trap,"killing, bear",,trap,,12,,6.00
+1103,900,Trap,"damaging, bear",,trap,3d4 + 25% severe foot,18,,15.00
+1104,47,Trap,"damaging, rat",,trap,1d4 + 10% severe toes,1,,0.78
+1105,19,Trap,"damaging, mouse",,trap,1d3,0.5,,0.32
+1106,72,Trap,"damaging, mole",,trap,1d3+10% severe toes,0.5,,1.20
+1107,720,Trap,"damaging, man",,trap,2d6,12,,12.00
+1108,30,Acid,,,spell,oz,,,0.50
+1109,2,Acorn,,,spell,lb,,,0.03
+1110,150,Adder stomach,,,spell,each,,,2.50
+1111,150,Alkaline Salts,,,spell,oz,,,2.50
+1112,30,Alum,,,spell,oz,,,0.50
+1113,60,Amaryllis Stalks,,,spell,each,,,1.00
+1114,30,"Animal Hoof, Powdered",,,spell,oz,,,0.50
+1115,0,Bark,,,spell,lb,,,0.00
+1116,0,Bark Chips,,,spell,lb,,,0.00
+1117,300,Bat Fur/Guano,,,spell,oz,,,5.00
+1118,0,Beeswax,,,spell,oz,,,0.00
+1119,60,Belladonna Lilies,,,spell,each,,,1.00
+1120,600,Belladonna Venom,,,spell,each,,,10.00
+1121,3,Berries,,,spell,lb,,,0.05
+1122,450,Berries,out of season,,spell,lb,,,7.50
+1123,150,Bitumen,,,spell,oz,,,2.50
+1124,15000,"Blood, Draconic",,,spell,oz,,,250.00
+1125,3000,"Blood, humanoid",,,spell,oz,,,50.00
+1126,30,"Blood, mammal",,,spell,oz,,,0.50
+1127,30,"Bone, power/shards",,,spell,lb,,,0.50
+1128,1500,"Bone, undead",,,spell,each,,,25.00
+1129,0,Branch broken by strong wind,,,spell,each,,,0.00
+1130,450,Brass ear trumpet,,,spell,each,,,7.50
+1131,15,Brass dust,,,spell,oz,,,0.25
+1132,750,Brazier,,,spell,each,,,12.50
+1133,150,Bromine salts,,,spell,oz,,,2.50
+1134,30,Bull's horn,,,spell,each,,,0.50
+1135,0,Burrs,,,spell,oz,,,0.00
+1136,0,Carbon,,,spell,oz,,,0.00
+1137,3,"Carp, live, minaiture",,,spell,each,,,0.05
+1138,3,"Carrot, dried/powdered",,,spell,oz,,,0.05
+1139,300,Castor Beans,,,spell,oz,,,5.00
+1140,15,Caterpillar cocoon,,,spell,oz,,,0.25
+1141,3,Chalk,,,spell,each,,,0.05
+1142,0,Charcoal,,,spell,stick,,,0.00
+1143,30,Citric Acid,,,spell,oz,,,0.50
+1144,30,Clay,,,spell,pint,,,0.50
+1145,3,Coal,,,spell,lb,,,0.05
+1146,300,"Cone, crystal/glass",,,spell,lb,,,5.00
+1147,3,"Copperwire, fine",,,spell,each,,,0.05
+1148,6,Corn extract,,,spell,ft,,,0.10
+1149,30,"Cricket, live",,,spell,lb,,,0.50
+1150,300,Crystal,,,spell,each,,,5.00
+1151,15000,Demon Ichor,Type 1,,spell,each,,,250.00
+1152,225000,Demon Ichor,Type 2,,spell,oz,,,3750.00
+1153,30000,Demon Ichor,Type 3,,spell,oz,,,500.00
+1154,450000,Demon Ichor,Type 4,,spell,oz,,,7500.00
+1155,90000,Demon Ichor,Type 5,,spell,oz,,,1500.00
+1156,180000,Demon Ichor,Type 6,,spell,oz,,,3000.00
+1157,360000,Demon Ichor,Type 7,,spell,oz,,,6000.00
+1158,0,Dirt,,,spell,,,,0.00
+1159,36,"Dirt, graveyard",,,spell,oz,,,0.60
+1160,4,Down,,,spell,lb,,,0.07
+1161,18000,Dragon bones,,,spell,set,,,300.00
+1162,360,"Drum, small",,,spell,each,,,6.00
+1163,36,"Dung, packaged",,,spell,lb,,,0.60
+1164,0,Dust,,,spell,,,,0.00
+1165,720,Eagle Eye,,,spell,each,,,12.00
+1166,0,"Egg, Rotten",,,spell,each,,,0.00
+1167,1,Eggshell,,,spell,each,,,0.02
+1168,1800,Elixir,,,spell,oz,,,30.00
+1169,4,Evergreen,,,spell,lb,,,0.07
+1170,0,"Eyelash, normal",,,spell,,,,0.00
+1171,3600,"Eyelash, Basilisk",,,spell,each,,,60.00
+1172,3600,"Eyelash, Ki-rin",,,spell,each,,,60.00
+1173,3600,"Eyelash, Ocgre mage",,,spell,each,,,60.00
+1174,3600,"Eyelash, other",,,spell,each,,,60.00
+1175,36,Fan,,,spell,each,,,0.60
+1176,360,Feather,exotic,,spell,each,,,6.00
+1177,36,Feather,wing,,spell,each,,,0.60
+1178,90,Feather,white,,spell,each,,,1.50
+1179,108,Feather,Owl,,spell,each,,,1.80
+1180,4,Firefly,live,,spell,each,,,0.07
+1181,19,Firefly,tail,,spell,each,,,0.32
+1182,36,Fleece,,,spell,lb,,,0.60
+1183,1800,Flesh,humanoid,,spell,bit,,,30.00
+1184,1,Flower petal,,,spell,each,,,0.02
+1185,180,Fool's Gold,,,spell,lb,,,3.00
+1186,4,Gauze,,,spell,yard,,,0.07
+1187,720,Gold,,,spell,1 coin,,,12.00
+1188,4,Granite,dust/block,,spell,oz,,,0.07
+1189,19,Grasshopper hind legs,,,spell,each,,,0.32
+1190,72,Gum Arabic,,,spell,oz,,,1.20
+1191,36,Guy,,,spell,each,,,0.60
+1192,180,Hair from Giant,,,spell,bunch,,,3.00
+1193,1,Hairs from Strong Animal,,,spell,bunch,,,0.02
+1194,540,Hawkeye,,,spell,each,,,9.00
+1195,4,Heart of a Hen,,,spell,each,,,0.07
+1196,72,Herbs,various,,spell,oz,,,1.20
+1197,72,Herring Scales,powdered,,spell,oz,,,1.20
+1198,19,Holly,,,spell,oz,,,0.32
+1199,36,Horn,carved,,spell,each,,,0.60
+1200,1,Humus,,,spell,lb,,,0.02
+1201,1,Ice,,,spell,pint,,,0.02
+1202,36,Incense,,,spell,stick,,,0.60
+1203,36,Iron,shapes/sizes,,spell,each,,,0.60
+1204,180,Iron Pyrite,,,spell,lb,,,3.00
+1205,180000,Jade circlet,,,spell,each,,,3000.00
+1206,2,Lampblack,,,spell,oz,,,0.03
+1207,1,Lard,,,spell,lb,,,0.02
+1208,0,Leaf,,,spell,,,,0.00
+1209,4,Leaf,poison ivy,,spell,plant,,,0.07
+1210,4,Leaf,oak,,spell,bunch,,,0.07
+1211,4,Leaf,sumac,,spell,bunch,,,0.07
+1212,4,Leather loop,,,spell,each,,,0.07
+1213,2,Leek,crushed,,spell,each,,,0.03
+1214,54,Licorice root,shaving,,spell,oz,,,0.90
+1215,36,Lime,powdered/crushed,,spell,lb,,,0.60
+1216,36,Loam,,,spell,lb,,,0.60
+1217,540,Mandrake root,,,spell,each,,,9.00
+1218,1,Marigold,,,spell,plant,,,0.02
+1219,54,Memory moss,,,spell,cu in,,,0.90
+1220,1800,Mercury-Nitrate,crystals,,spell,oz,,,30.00
+1221,900,Mercury/Quicksilver,,,spell,oz,,,15.00
+1222,1,Metal bar/rod/nail,,,spell,each,,,0.02
+1223,36,Mica,,,spell,cu in,,,0.60
+1224,19,Milk fat,solid,,spell,pint,,,0.32
+1225,1800,Mithral Plate,,,spell,cu in,,,30.00
+1226,180,Moonseed plant,,,spell,plant,,,3.00
+1227,0,Mud,,,spell,,,,0.00
+1228,8,Muslin,,,spell,cu in,,,0.13
+1229,1800,Mushroom spores,,,spell,oz,,,30.00
+1230,360,Nettle leave,,,spell,plant,,,6.00
+1231,36,Nitre/Saltpeter,,,spell,oz,,,0.60
+1232,4,Oak bark/leaves,,,spell,lb,,,0.07
+1233,1800,Octopus tentacle,giant,,spell,tentacle,,,30.00
+1234,180,Oil,hickory/walnut,,spell,pint,,,3.00
+1235,5400,Ointment of oil,common,,spell,oz,,,90.00
+1236,18000,Ointment of oil,rare,,spell,oz,,,300.00
+1237,4,Paddle Wooden,,,spell,each,,,0.07
+1238,2,Peas,,,spell,lb,,,0.03
+1239,180,Phosphorus,,,spell,oz,,,3.00
+1240,1,Pine cone,,,spell,cone,,,0.02
+1241,19,Pine tar,,,spell,pint,,,0.32
+1242,9000,Pineal gland,humanoid,,spell,gland,,,150.00
+1243,4,"Pins, silver",,,spell,pint,,,0.07
+1244,19,Pitch,,,spell,pint,,,0.32
+1245,0,Plant,green,,spell,,,,0.00
+1246,1,"Plums, dried",,,spell,dozen,,,0.02
+1247,2,Pork rind,,,spell,lbs,,,0.03
+1248,18000,Potion,super heroism,,spell,each,,,300.00
+1249,180,Prism,mineral,,spell,prism,,,3.00
+1250,2,Quil,,,spell,quil,,,0.03
+1251,900,Quicksilver,,,spell,oz,,,15.00
+1252,36,Quartz,,,spell,each,,,0.60
+1253,36,Rock Crystal,,,spell,each,,,0.60
+1254,54,Rams Horn,,,spell,horn,,,0.90
+1255,1,Reed,,,spell,lb,,,0.02
+1256,36,Resin,common,,spell,oz,,,0.60
+1257,180,Resin,Camphor Tree,,spell,oz,,,3.00
+1258,19,Rhubarb Leaf,powdered,,spell,oz,,,0.32
+1259,18000,Roc eye,,,spell,eye,,,300.00
+1260,0,Rock,,,spell,,,,0.00
+1261,540,Rod of Amber,,,spell,rod,,,9.00
+1262,540,Rod of Crystal,,,spell,rod,,,9.00
+1263,540,Rod of Glass,,,spell,rod,,,9.00
+1264,4,Rose petals,,,spell,rose,,,0.07
+1265,36,Saltpeter,,,spell,oz,,,0.60
+1266,360,Saltpeter,,,spell,lb,,,6.00
+1267,36,Sand,fine/colored,,spell,lb,,,0.60
+1268,4,Seashell,,,spell,shell,,,0.07
+1269,72,Sesame seeds,,,spell,lb,,,1.20
+1270,19,Shamroick leaf,,,spell,leaf,,,0.32
+1271,36,Smokey Quartz,,,spell,each,,,0.60
+1272,4,Silver,,,spell,1 coin,,,0.07
+1273,36,Sinew,strong animal,,spell,sinew,,,0.60
+1274,36,Skunk Cabbage,,,spell,each,,,0.60
+1275,1800,Slug digestive juie,giant,,spell,pint,,,30.00
+1276,0,Smoke,,,spell,,,,0.00
+1277,216,Snake Scales,,,spell,snake,,,3.60
+1278,360,Snake Tongue,,,spell,each,,,6.00
+1279,432,Snake Skin,,,spell,each,,,7.20
+1280,0,Snow,,,spell,ball,,,0.00
+1281,2,Soot,,,spell,oz,,,0.03
+1282,27000,Spectre Essence,,,spell,oz,,,450.00
+1283,36,Spider,live,,spell,each,,,0.60
+1284,1,Spiderweb,,,spell,web,,,0.02
+1285,1800,"Quid, giant",tentacle,,spell,tentacle,,,30.00
+1286,1800,Squid ink,,,spell,pint,,,30.00
+1287,180,Stalactites,,,spell,each,,,3.00
+1288,360,Steel,,,spell,sq yard,,,6.00
+1289,0,Stone,small,,spell,,,,0.00
+1290,1,Stone,square chip,,spell,chip,,,0.02
+1291,19,Straw,,,spell,bale,,,0.32
+1292,1,String,piece,,spell,yard,,,0.02
+1293,36,Stylus,,,spell,each,,,0.60
+1294,900,Sundial,miniature,,spell,each,,,15.00
+1295,36,Suphur,,,spell,oz,,,0.60
+1296,36,Sumac,,,spell,oz,,,0.60
+1297,180,Sweat,running humanoid,,spell,oz,,,3.00
+1298,36,Talc,,,spell,oz,,,0.60
+1299,1,Tallow,,,spell,lb,,,0.02
+1300,36,Tea,,,spell,lb,,,0.60
+1301,4,Thread,,,spell,spool,,,0.07
+1302,5400,Thongs,miniature,,spell,set,,,90.00
+1303,4,Thorns,,,spell,lb,,,0.07
+1304,11,Tort,minute,,spell,each,,,0.18
+1305,11,Tortoise/Turtle,shell,,spell,each,,,0.18
+1306,19,Treacle,,,spell,pint,,,0.32
+1307,0,Twigs,,,spell,,,,0.00
+1308,27000,Umber hulk blood,,,spell,pint,,,450.00
+1309,3600,Vampire Dust,,,spell,oz,,,60.00
+1310,360,Vermillion,,,spell,oz,,,6.00
+1311,0,Water,,,spell,,,,0.00
+1312,4,Whitewash,,,spell,lb,,,0.07
+1313,1,Willow,,,spell,yard,,,0.02
+1314,0,Wood,small piece,,spell,,,,0.00
+1315,1,Wool,unwoven,,spell,oz,,,0.02
+1316,4,Wool,woven,,spell,yard,,,0.07
+1317,180,Wytchwood,,,spell,piece,,,3.00
+1318,36,Yellow glass,,,spell,sq in,,,0.60
+1319,4,Candle,standard,,light,"1 Hr, 10' Radius, seen 500yd",,0.1,0.07
+1320,8,Candle,honey,,light,"1 Hr, 10' Radius, seen 500yd, smells sweet",,0.1,0.13
+1321,19,Candle,herbal,,light,"1 Hr, 10' Radius, seen 500yd, smells herbal",,0.1,0.32
+1322,0,Candles,common color,,light,"white, red, yellow, pink, green",,,0.00
+1323,0,Candles,rare color,,light,"blue, purple, black",,,0.00
+1324,0,Candles,custom color,,light,"silver, gold, etc",,,0.00
+1325,0,Candle,small,,light,"0.5 Hr, 5' radius, seend 300yd",,x0.5,0.00
+1326,0,Candle,large,,light,2 more hours,,x2,0.00
+1327,0,Candle,great,,light,4 more hours,,x4,0.00
+1328,0,Candle,huge,,light,6 more hours,,x6,0.00
+1329,0,Candle,thick,,light,"1 more hour, +10' radius, +100 yds",,z2,0.00
+1330,0,Candle,very thick,,light,"2 more hours, +15' radius, +150 yds",,x3,0.00
+1331,0,Candle,giant,,light,"3 more hours, +20' radius, +200yds",,x4,0.00
+1332,360,Lantern,normal,,light,"4 Hr, 30', 500yds",,1,6.00
+1333,720,Lantern,bullseye,,light,"4 Hr, 100' long, 20' base, 150yds",,1,12.00
+1334,1440,Lantern,beacon,,light,"10 turns, 240' long, 90's at base, 5 miles",,20,24.00
+1335,107928,Lantern,giant beacon,,light,"10 turns, 1 mile long, 180' base, 24 miles",,1000,1798.80
+1336,36,Lantern,paper,,light,"1 Hr, 30', 200yds",,0.5,0.60
+1337,252,Lantern,hooded,,light,"4 Hr, 30', 200yds",,1,4.20
+1338,19,Lantern,sconce,,light,,,1,0.32
+1339,252,Lantern,shuttered,,light,"4 Hr, 30' 200yds, with 1 flag",,2,4.20
+1340,7200,Lantern,signal,,light,"1 Hr, 5' radius, 1000yds, color filters",,5,120.00
+1341,10800,Lantern,street,,light,"8 Hr, 50' (6x oil), 10'-20' pole, 500yds",,3,180.00
+1342,1800,Lantern,waterproofing,,light,,,5,30.00
+1343,180000,Lantern,magic street,,light,"continuous, 60', 1000yds",,300,3000.00
+1344,719611,Lantern,magic longburn,,light,"continuous, 30', 1000yds, can't become wet",,3,11993.52
+1345,1439221,Lantern,magic hurricane,,light,"continuous, 30', 500yds, can't get wet, opening unleashed hurricane",,3,23987.02
+1346,4,Torch,normal,,light,"6 turns, 15', 1000yds",,0.5,0.07
+1347,8,Torch,large,,light,"6 turns, 30', 1500yds",,1,0.13
+1348,1,Torch,small,,light,"1 turn, 10', 800yds",,0.1,0.02
+1349,180,Rations,Standard,,,lasts 1 week; fresh for 1 week,,7,3.00
+1350,300,Rations,Iron,,,lasts 1 week; fresh for 2 months; canned,,,5.00
