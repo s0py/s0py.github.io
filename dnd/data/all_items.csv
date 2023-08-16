@@ -1914,7 +1914,7 @@ index,item,type,description/notes,temp if worn,cost,encumbrance (1/10th of lb),c
 1913,canary,,"upkeep/month, 6sp",,2 sp,,live animal
 1914,capon,,"upkeep/month, 10sp",,5 cp,,live animal
 1915,chicken/rooster,,"upkeep/month, 1sp",,1 cp,,live animal
-1916,crowbar,,"upkeep/month, 2sp",,2 sp,,live animal
+1916,crow,,"upkeep/month, 2sp",,2 sp,,live animal
 1917,dove,,"upkeep/month, 2sp",,2 sp,,live animal
 1918,"falcon, trained",,"upkeep/month, 100sp",,10000 sp,,live animal
 1919,goose,,"upkeep/month, 10sp",,5 cp,,live animal
