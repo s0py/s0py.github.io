@@ -2,10 +2,10 @@ library(data.table)
 library(ggplot2)
 
 data <- data.table(p=c(0:20)/20)
-w = 12.03385765	
-l =	22.10199584
+w = 11.45256
+l =	22.02113
 
-
+date <- "2023-11-17"
 
 
 data$density <- data$p**w*(1-data$p)**l# * factorial(w+l+1)/(factorial(w)*factorial(l))
@@ -36,6 +36,6 @@ ggplot(data, aes(x=as.integer(p*100), y=density))+
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         panel.border = element_blank())+
-  labs(title="Popular Vote", subtitles="As of 2023-11-16")
+  labs(title="Popular Vote", subtitles=date)
 
-ggsave("popular vote 2023-11-16.png")
+ggsave(paste0("popular vote ", date, ".png"))

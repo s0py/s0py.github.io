@@ -38,29 +38,29 @@ state_plots <- function(state, date, data, w, l){
   g
 }
 
-date <- "2023-11-16"
+date <- "2023-11-17"
 data <- data.table(p=c(0:20)/20)
 
-state_plots(       "Arizona", date, data, 0.88, 4.29)
+state_plots(       "Arizona", date, data, 0.84, 4.08)
 ggsave(paste("Arizona", date, ".png"))
 
-state_plots(       "Georgia", date, data, 0.00, 6.64)
+state_plots(       "Georgia", date, data, 0.00, 6.32)
 ggsave(paste("Georgia", date, ".png"))
 
-state_plots(       "Florida", date, data, 0.00, 0.43)
+state_plots(       "Florida", date, data, 0.00, 1.24)
 ggsave(paste("Florida", date, ".png"))
 
-state_plots(     "Michigan", date, data, 3.66, 1.20)
+state_plots(     "Michigan", date, data, 3.48, 1.14)
 ggsave(paste("Michigan", date, ".png"))
 
-state_plots(        "Nevada", date, data, 0.56, 4.23)
+state_plots(        "Nevada", date, data, 0.54, 4.03)
 ggsave(paste("Nevada", date, ".png"))
 
-state_plots("North Carolina", date, data, 0.48, 1.78)
+state_plots("North Carolina", date, data, 0.46, 1.69)
 ggsave(paste("North Carolina", date, ".png"))
 
-state_plots(  "Pennsylvania", date, data, 1.34, 3.58)
+state_plots(  "Pennsylvania", date, data, 1.27, 3.41)
 ggsave(paste("Pennsylvania", date, ".png"))
 
-state_plots(     "Wisconsin", date, data, 2.98, 1.74)
+state_plots(     "Wisconsin", date, data, 2.84, 1.66)
 ggsave(paste("Wisconsin", date, ".png"))
