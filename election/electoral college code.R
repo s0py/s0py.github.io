@@ -31,4 +31,4 @@ ggplot(dt, aes(x=`Biden Electoral Votes`, y=`Relative Likelihood`, fill=category
         panel.grid.minor = element_blank(),
         panel.border = element_blank())
 
-ggsave("electoral college 2023-11-22.png")
+ggsave("electoral college 2023-11-27.png")
