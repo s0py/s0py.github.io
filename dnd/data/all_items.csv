@@ -1,278 +1,278 @@
 index,item,type,description/notes,temp if worn,cost,encumbrance (1/10th of lb),category
-1,apron,common,,0,1 cp,5,basic clothing
-2,breeches,linen,riding pants,0,10 sp,10,basic clothing
-3,breeches,sack cloth,riding pants,0,5 sp,10,basic clothing
-4,breeches,woolen,riding pants,0,20 sp,10,basic clothing
-5,breeches,velvet,riding pants,0,40 sp,20,basic clothing
-6,breeches,silk,riding pants,0,80 sp,5,basic clothing
-7,clothes set,cheapp,tunic+pants / blouse+skirt / robe+dress (rags),5,1 sp,20,basic clothing
-8,clothes set,plain,tunic+pants / blouse+skirt / robe+dress,5,5 sp,20,basic clothing
-9,clothes set,middle class,tunic+pants / blouse+skirt / robe+dress (including vestments),5,50 sp,20,basic clothing
-10,clothes set,fine,tunic+pants / blouse+skirt / robe+dress,5,200 sp,20,basic clothing
-11,clothes set,extravagant,tunic+pants / blouse+skirt / robe+dress,5,500 sp,30,basic clothing
-12,clothes set,cold,tunic+pants / blouse+skirt / robe+dress (wool/fur),20,70 more sp,200 more,basic clothing
-13,clothes set,very cold,tunic+pants / blouse+skirt / robe+dress (heavy wool/fur),30,150 more sp,400 more,basic clothing
-14,dress,linen,,0,7 cp,20,basic clothing
-15,dress,elf,,5,1 sp,20,basic clothing
-16,dress,halfling,,5,8 cp,15,basic clothing
-17,gown,common,,5,12 sp,10,basic clothing
-18,gown,silk,,0,50 sp,10,basic clothing
-19,gown,elf,,0,70 more sp,10,basic clothing
-20,hose/pants,human,,0,20 sp,10,basic clothing
-21,hose/pants,gnome,,0,2 sp,10,basic clothing
-22,hose/pants,halfling,,0,4 sp,10,basic clothing
-23,hose/pants,ellk,,0,50 sp,10,basic clothing
-24,jacket,silk,,5,800 sp,5,basic clothing
-25,jerkins,linen,,0,8 sp,4,basic clothing
-26,jerkins,woolen,,5,10 sp,6,basic clothing
-27,jerkins,leather,,0,100 sp,15,basic clothing
-28,jerkins,cotton,,5,30 sp,15,basic clothing
-29,jester,hat with bells,,0,30 sp,5,basic clothing
-30,jester,collar,,0,10 sp,1,basic clothing
-31,jester,"shirt, satin",,0,100 sp,2,basic clothing
-32,jester,"gloves, white",,0,70 more sp,1,basic clothing
-33,jester,"pantalon, bunchy",,0,80 sp,15,basic clothing
-34,jester,"stockings, bright",,0,8 sp,1,basic clothing
-35,kilt,common,,0,20 sp,10,basic clothing
-36,robe,"aba, desert robe","whole body, -3 heatstroke if drinking water",0,9 sp,30,basic clothing
-37,robe,"aba, embroiddered","god, black, white, cloth",0,200 sp,30,basic clothing
-38,robe,cloth,"embroidered, official clothing",5,9 sp,15,basic clothing
-39,robe,cloth,"fur trimmed, official clothing",5,200 sp,15,basic clothing
-40,robe,cloth,"common, official clothing",5,30 sp,20,basic clothing
-41,robe,silk,"embroidered, official clothing",0,95 sp,15,basic clothing
-42,robe,silk,official clothing,0,300 sp,15,basic clothing
-43,shirt/blouse,common,,0,4 sp,3,basic clothing
-44,tabi,woolen,,5,450 sp,20,basic clothing
-45,tabi,silk,,0,1000 sp,10,basic clothing
-46,toga,common,,0,8 cp,15,basic clothing
-47,toga,embroidered,,0,60 sp,16,basic clothing
-48,trousers,woolen,,0,10 sp,8,basic clothing
-49,trousers,cotton,,0,3 sp,6,basic clothing
-50,skirt,woolen,,0,10 sp,8,basic clothing
-51,skirt,cotton,,0,3 sp,6,basic clothing
-52,tunic/vest,uniform coat,with 5cn pockets,5,8 +1/pocket sp,15,basic clothing
-53,tunic/vest,"sweater, cloth",,15,6 +1/pocket sp,12,basic clothing
-54,tunic/vest,fur,,20,10 +1/pocket sp,20,basic clothing
-55,tunic/vest,leather,,0,7 +1/pocket sp,20,basic clothing
-56,tunic/vest,silk,,0,10 +1/pocket sp,5,basic clothing
-57,pants,human,,0,12 sp,,basic clothing
-58,pants,gnome,,0,1.3 sp,,basic clothing
-59,pants,halfling,,0,2.5 sp,,basic clothing
-60,pants,elf,,0,3 gp,,basic clothing
-61,shirt,common,,0,2.5 sp,,basic clothing
-62,tunic,uniform coat,,5,4.8 sp,,basic clothing
-63,tunic,cloth sweater,,15,3.7 sp,,basic clothing
-64,tunic,fur trimmed,,20,6 sp,,basic clothing
-65,tunic,leather,,0,4.3 sp,,basic clothing
-66,tunic,silk,,0,6 sp,,basic clothing
-67,slipper,linen,,0,9 sp,,footware
-68,slipper,quilted silk,,0,21 gp,,footware
-69,slipper,wool,,0,6 sp,,footware
-70,snowshoes,common,,10,12 sp,,footware
-71,tarcloak,long,,0,3 gp,,outerwear
-72,umbrella,common,,0,1.8 sp,,outerwear
-73,cane,,,0,1.8 sp,,outerwear
-74,boots,riding,,0 or 5,50 sp,15,footware
-75,boots,high soft leather,"also swash topped, AV2",0 or 5,10 sp,10,footware
-76,boots,high hard leather,AV2,0 or 5,20 sp,15,footware
-77,boots,low soft leather,AV2,0 or 5,10 sp,10,footware
-78,boots,low hard leather,AV2,0 or 5,8 sp,7,footware
-79,boots,waterproof,AV2,0 or 5,40 sp,20,footware
-80,boots,high heeled,"AV2, ½ movement, 1d4 kick",0 or 5,50+1/inch sp,15,footware
-81,boots,fur covering,,, sp,,footware
-82,shoes,basic,AV1,0,5 sp,10,footware
-83,shoes,dancing,AV1,0,15 sp,10,footware
-84,shoes,elven,AV1,0,450 sp,10,footware
-85,shoes,moccasins,AV0,0,20 sp,10,footware
-86,shoes,high heeled,"AV1, ½ movement, 1d4 kick",0,50+1/inch sp,10,footware
-87,shoes,"jester, clumsy, bright","AV1, ½ movement",0,120 sp,20,footware
-88,sandals,common,AV0,0,2 sp,2,footware
-89,sandals,high heeled,AV1,0,5+1/inch sp,3,footware
-90,slippers,linen,AV0,0,15 sp,2,footware
-91,slippers,quilted silk,AV0,0,350 sp,5,footware
-92,slippers,wool,AV0,0,10 sp,5,footware
-93,socks,wool,,5,1 sp,1,footware
-94,stockings,wool,,5,2 sp,2,footware
-95,panties,"silk, embroidered",,0,50 sp,1,footware
-96,snow shoes,common,-25% movement,0,20 sp,10,footware
-97,bra,common,holds breasts,0,6 to 5 sp,5,underwear
-98,bra,Push-up,"holds breats, improve figure, +1 Cha",0,26 – 55 sp,6,underwear
-99,bustle,side,"shape artificial hips, ½ movement",0,50 sp,20,underwear
-100,busle,rear,"shape artificial ass, ½ movement",0,90 sp,20,underwear
-101,corset,cheap x-shape,"shapes figure, cloth+leather, dex-1, cha+1",0,15 sp,25,underwear
-102,corset,cheap v-shape,"shapes figure, cloth+leather, dex-1, cha+1",0,12 sp,20,underwear
-103,corset,normal x-shape,"shapes figure, cloth+leather+wood boning, dex-1, cha+2",0,125 sp,35,underwear
-104,corset,normal v-shape,"shapes figure, cloth+leather+wood boning, dex-1, cha+1",0,150 sp,35,underwear
-105,corset,expensive x-shape,"shapes figure, cloth+leather+whale boning, dex-1, cha+3",0,1200 sp,65,underwear
-106,corset,expensive v-shape,"shapes figure, cloth+leather+whale boning, dex-1, cha+2",0,600 sp,50,underwear
-107,jarretels,common,"hold up panties, lace with bone clasps",0,12 sp,21,underwear
-108,suspenders,canvas,,0,3 sp,5,underwear
-109,suspendes,leather,,0,5 sp,5,underwear
-110,nightshirt,common,,0,60 sp,5,underwear
-111,waistcincer,common,"shapes figure, cloth+leather, dex -1, cha +1",0,12 sp,18,underwear
-112,arctic coat,common,"wool or fur padding inside, completely sealable",30,100 sp,50,outerwear
-113,cape,straw,partial rail protection,0,2 sp,2,outerwear
-114,cape,half,partial rail protection,0,4 sp,4,outerwear
-115,cape,full,partial rail protection,0,7 sp,8,outerwear
-116,cloak,short,partial rail protection,0,50 sp,10,outerwear
-117,cloak,long,partial rail protection,0,10 sp,15,outerwear
-118,camo,night,"+25% HiS in night/darkness, else --5%",0,500 sp,12,outerwear
-119,camo,desert,"+20% HiS in sand/desert, else -5%",0,500 sp,12,outerwear
-120,camo,snow,"+20% HiS in snow/ice, else -20%",0,500 sp,12,outerwear
-121,camo,open fields,+5% HiS in open fieds,0,500 sp,12,outerwear
-122,camo,growth,+10% HiS in plant growth,0,500 sp,12,outerwear
-123,camo,aquatic,+10% HiS watter,0,500 sp,12,outerwear
-124,camo,rocky,+10% HiS rocky/stone,0,500 sp,12,outerwear
-125,camo,fancy,Com +1,0,250 sp,10,outerwear
-126,camo,with fur rims,Com +1,0,350 sp,12,outerwear
-127,camo,fur,,10,500 sp,25,outerwear
-128,oil cloak,long,protects against water but strong smell (esp if wet),,50 sp,50,outerwear
-129,parka,common,,15,50 sp,40,outerwear
-130,poncho,rain,"one piece, oiled canvas, protection against heavy moisture",5,60 sp,20,outerwear
-131,silk jacket,common,,0,800 sp,20,outerwear
-132,surcoat,linen,to dress over armor,0,6 sp,25,outerwear
-133,surcoat,quilted,to dress over armor,0,20 sp,30,outerwear
-134,tabard,heraldic,"cloak, with heraldry symbol worn over armor",0,6 sp,25,outerwear
-135,tabard,clerical,"cloak, with holy symbols",0,60 sp,15,outerwear
-136,tabard,embroidered,"cloak, with holy symbols",0,600 sp,20,outerwear
-137,tabard,velvet,"cloak, with holy symbols",5,200 sp,50,outerwear
-138,tabard,"velvet, embroidered","cloak, with holy symbols",5,2000 sp,50,outerwear
-139,gauntlet,swordsman’s,"prevents disarming in combat but if sword is stuck, 1d4 to free",0,100 sp,25,handware
-140,gauntlet,falconer,"arm length glove, thick leather, with strings",0,5 sp,10,handware
-141,gloves,theves,"fingertipless gloves, small pockets. Protect against scraping, splinters, rope bburns, cts",0,50 sp,5,handware
-142,gloves,spiked,Punch + 1d4,0,50 sp,5,handware
-143,gloves,"heavy, leather","prevents rop burns, better grip on slippery items, protects against contact poisons incl needle traps",0,5 sp,10,handware
-144,gloves,"soft, linen",protects exposed skin vs contract poisons (not needle),0,10 sp,5,handware
-145,gloves,"soft, archery","prevents rope burns, better grip",0,40 sp,5,handware
-146,gloves,"cloth, fur lined",protects fingers from cold,5,40 sp,5,handware
-147,gloves,silk,no protection,0,150 sp,2,handware
-148,gloves,snakeskin,no protection,0,160 sp,4,handware
-149,mittens,normal,protects fingers from cold,10,3 sp,5,handware
-150,mittens,arctic,protects fingers from cold,40,75 sp,15,handware
-151,anklet,simple,"also beads, bracelets, brooch, buckle, cameo, chain, claps, locket, pin",0,10 to 300 sp,5,jewelry
-152,anklet,good,"also beads, bracelets, brooch, buckle, cameo, chain, claps, locket, pin",0,100 to 30000 sp,5,jewelry
-153,armband,simple,"also belt, collar, earring, 4leaf clover, heart, leaf, necklace, pendant, rabbits foot",0,400 to 1000 sp,10,jewelry
-154,armband,good,"also belt, collar, earring, 4leaf clover, heart, leaf, necklace, pendant, rabbits foot",0,40000 to 100000 sp,10,jewelry
-155,amulet,simple,"also crown, diadem, medallion, orb, ring, scarab, scepter, talisman, tiara",0,1500 to 5000 sp,25,jewelry
-156,amulet,good,"also crown, diadem, medallion, orb, ring, scarab, scepter, talisman, tiara",0,15000 to 50000 sp,25,jewelry
-157,locket,common,to hold small 1cn object,0,250 sp,10,jewelry
-158,ring,slash,"brass mostly, else iron, copper+steel",0,50 sp,1,jewelry
-159,ring,spike,"tiny, hidden, poison spike",0,250 to 2000 sp,1,jewelry
-160,ring,compartment,can hold 1 dose of poison and be encoded to open,0,100 to 1000 sp,2,jewelry
-161,ring,assassins,"2 rings with wire, 40% to come loose, to strangle victims",0,750 sp,1,jewelry
-162,ring,magical,enchanted,0,100000 to 2500000 sp,1,jewelry
-163,artificial teeth,,made by dentist usually,,500/tooth sp,1/tooth,face and head
-164,beard,small,glue or hooks around ears,,20 to 50 sp,5,face and head
-165,beard,large,glue or hooks around ears,,35 to 100 sp,8 to 12,face and head
-166,cap,cloth,heat exhaustion effect roll 1,,7 sp,1,face and head
-167,cap,fur,heat exhaustion effect roll 1,,20 sp,5,face and head
-168,cap,straw,heat exhaustion effect roll 1,,2 sp,22,face and head
-169,cap,leather,"if oiled, can hold 1 quart of liquid, heat exhaustion effect roll 1",,2 sp,2,face and head
-170,cap,fancy,heat exhaustion effect roll 1,,5 sp,4,face and head
-171,cap,wool or linen,heat exhaustion effect roll 1,,2 sp,4,face and head
-172,hat,cloth,heat exhaustion effect roll 1,,7 sp,1,face and head
-173,hat,fur,heat exhaustion effect roll 1,,20 sp,5,face and head
-174,hat,straw,heat exhaustion effect roll 1,,2 sp,22,face and head
-175,hat,leather,"if oiled, can hold 1 quart of liquid, heat exhaustion effect roll 1",,2 sp,2,face and head
-176,hat,fancy,heat exhaustion effect roll 1,,5 sp,4,face and head
-177,hat,wool or linen,heat exhaustion effect roll 1,,2 sp,4,face and head
-178,hood,cloth,heat exhaustion effect roll 1,,7 sp,1,face and head
-179,hood,fur,heat exhaustion effect roll 1,,20 sp,5,face and head
-180,hood,straw,heat exhaustion effect roll 1,,2 sp,22,face and head
-181,hood,leather,"if oiled, can hold 1 quart of liquid, heat exhaustion effect roll 1",,2 sp,2,face and head
-182,hood,fancy,heat exhaustion effect roll 1,,5 sp,4,face and head
-183,hood,wool or linen,heat exhaustion effect roll 1,,2 sp,4,face and head
-184,fan,silk,can be used to speak fan court laguage,-5,10 sp,1 to 5,face and head
-185,fan,tiny paper,can be used to speak fan court laguage,-5,2 sp,1,face and head
-186,fan,large paper,can be used to speak fan court laguage,-5,8 sp,1,face and head
-187,sight,chained monocle,"improves sight, made by eye doctor only in large cities",,100 to 500 sp,5 to 10,face and head
-188,sight,stick spectacles,"improves sight, made by eye doctor only in large cities",,200 to 1000 sp,5 to 15,face and head
-189,sight,snow or sun goggles,Prevents +2 surprise detriment to snow/sun blindness,,10 sp,5,face and head
-190,sight,glasses,"improves sight, made by eye doctor only in large cities",,250 to 1000 sp,5 to 20,face and head
-191,mask,cheap,,,15 sp,5,face and head
-192,mask,whole,,,25 sp,10,face and head
-193,veil,silk,,,10 sp,1,face and head
-194,vei,"silk, embroidered",,,20 sp,2,face and head
-195,veil,"silk, decorated","makes, sounds",,50 sp,5,face and head
-196,wig,cheap,straw or other plant material,,15 sp,10,face and head
-197,wig,standard,horse or animal hair,,30 sp,10,face and head
-198,wig,fine,human or elven hair,,100 sp,10,face and head
-199,wig,exclusive,human or elven or other special beast air,,250 sp,15,face and head
-200,camo kit,paint,12 uses improves camo clothing,,500 sp,10,cosmetics
-201,disguise kits,,"1 small box, 25 uses, dye, makeup, real hair",,150 sp,60,cosmetics
-202,hair coloring,temporary,1 cup lass until washed,,10 to 30 sp,15,cosmetics
-203,hair coloring,permanent,1 up lasts until grown out,,30 to 50 sp,15,cosmetics
-204,skin coloring,temporary,4 cups lasts until washed or 1d3 weeks,,30 to 50 sp,60,cosmetics
-205,skin coloring,permanent,4 cups lasts about 1d12+12 weeks,,50 too 70 sp,60,cosmetics
-206,face paint,,"1 oz, make-up",,10 to 100 sp,5,cosmetics
-207,nail paint,,"1 oz, lasts 1d6 days",,2 to 10 sp,5,cosmetics
-208,temporary tattoo,,"1 picture, lasts until washed or 1d3 days",,2 to 25 sp,1,cosmetics
-209,perfume/cologne,,"1-2 oz strong sweet scent, 25 uses, 1 vial, evaporates in 4-10 hours",,50 to 5000 sp,5,cosmetics
-210,fake body parts,elven ears,,,3 sp,1,cosmetics
-211,fake body parts,orc sout,,,3 sp,1,cosmetics
-212,fake body parts,orc teeth,,,5 sp,2,cosmetics
-213,fake body parts,moustache,,,12 to 20 sp,3,cosmetics
-214,cream,hair removal,"removes hair, 4 oz",,10 cp,10,cosmetics
-215,cream,ageless,"removes wrinkles 36 hourz, 4 oz",,12 cp,10,cosmetics
-216,kohl kayal,,protect eyes from direct sun and beautify eyes,,20/stick sp,2,cosmetics
-217,Make-up,,"complete set w/o perfume, 25 uses",,150 sp,25,cosmetics
-218,talcum powder,,1 jar,,25 sp,60,cosmetics
-219,deodorant,,1 jar,,35 sp,10,cosmetics
-220,borgadern's,gray away,dark lquidd hair dye 1 jar,,25 sp,10,cosmetics
-221,borgadern's,foot powder,"prevents smelly feet, 1 jar",,25 sp,10,cosmetics
-222,borgadern's,skunkoil healer,"50% cure light wounds, 1 jar, STINKS",,50 sp,10,cosmetics
-223,tattoo,black,2 square inches,,10 sp,0,cosmetics
-224,tattoo,colored,2 square inches,,20 sp,0,cosmetics
-225,wax,,1 jar,,45 sp,5,cosmetics
-226,air bladder,,"flotation device up to 2000cn, holds 1 turn of breathable air",,150 sp,20,other
-227,bath oil,,"scented oil, relaxes",,10 sp,10,other
-228,belt,,,,2 sp,5,other
-229,brush,gold,pig or horsehair brush,,120 sp,15,other
-230,brush,silver,pig or horsehair brush,,20 sp,15,other
-231,brush,tortoise shell,pig or horsehair brush,,20 sp,15,other
-232,brush,hardwood,pig or horsehair brush,,1 sp,15,other
-233,brush,bone,pig or horsehair brush,,1 sp,15,other
-234,comb,gold,,,120 sp,15,other
-235,comb,silver,,,20 spsp,15,other
-236,comb,tortoise shell,,,20 sp,15,other
-237,comb,hardwood,,,1 sp,15,other
-238,comb,bone,,,1 sp,15,other
-239,bumberchute,,"back worn, open to possibly prevent deadly fall below 100ft with dex check",,60 sp,10,other
-240,cloth barding,common,for mounts,,20 sp,75,other
-241,cloth barding,expensive,"for mounts, adorned with symbols",,200 sp,75,other
-242,condom,sheep bladder,protection vs disease/pregnancy,,2 cp,0,other
-243,girdle,weapon,to hold weapons,,30 sp,5,other
-244,girdle,broad,to hold up pants,,2 sp,5,other
-245,girdle,normal,to hold up pants,,1 sp,5,other
-246,handkerchief,cloth,,,1 cp,1,other
-247,handkerchief,silk,,,2 sp,1,other
-248,insect repellant,,"minty cream vs all insects 0-1HD, 8 hours, 12 uses",,50 sp,5,other
-249,knife sheath,,,,3 cp,2,other
-250,money belt,,hold 50 coins hidden,,40 sp,15,other
-251,umbrella/parasol,,,,3 sp,15,other
-252,purse,linen + locket clasp,hold 150 coins,,3 sp,5,other
-253,purse,leather +_ locket clasp,holds 150 coins,,20 sp,10,other
-254,sash,wool,,,1 sp,3,other
-255,sash,linen,,,2 sp,3,other
-256,sash,silk,,,10 sp,2,other
-257,shawl,wool,,,1 sp,3,other
-258,shawl,linen,,,2 sp,3,other
-259,shawl,silk,,,10 sp,2,other
-260,sheath,leather,for dagger or knife,,10 sp,5,other
-261,sheath,wood,for dagger or knife,,7 sp,5,other
-262,sheath,metal,for dagger or knife,,15 sp,5,other
-263,sewing kit,5 needles,,,10 sp,10,other
-264,soap,,1lb,,5 sp,1,other
-265,skates,"gnome, halfling",x2 movement on ice,,80 sp,10,other
-266,skates,"elf, human",x2 movement on ice,,100 sp,10,other
-267,skis,,"x2 movement on snow, x6 downhill",,15 sp,25,other
-268,sunburn ointment,14 uses,prevents 1hp of sunburn damage on exposed skin for 1 day,,20 sp,5,other
-269,swimming flippers,,x1.5 swim movement,,120 sp,30,other
-270,thread,,"50', holds 10cn",,6 cp,1,other
-271,walking staff,wood,,,3 sp,5,other
-272,walking staff,carved ash,,,80 sp,5,other
-273,weapon black,1 use,HiS +5%,,20 sp,10,other
-274,wilderness harness,belt + straps,100cn storange in 6 pouches incl. fold knife 1d3,,20 sp,10,other
+1,apron,common,,0,1 cp,5,"basic clothing, full body"
+2,breeches,linen,riding pants,0,10 sp,10,"basic clothing, legs"
+3,breeches,sack cloth,riding pants,0,5 sp,10,"basic clothing, legs"
+4,breeches,woolen,riding pants,0,20 sp,10,"basic clothing, legs"
+5,breeches,velvet,riding pants,0,40 sp,20,"basic clothing, legs"
+6,breeches,silk,riding pants,0,80 sp,5,"basic clothing, legs"
+7,clothes set,cheap,tunic+pants / blouse+skirt / robe+dress (rags),5,1 sp,20,"basic clothing, full body"
+8,clothes set,plain,tunic+pants / blouse+skirt / robe+dress,5,5 sp,20,"basic clothing, full body"
+9,clothes set,middle class,tunic+pants / blouse+skirt / robe+dress (including vestments),5,50 sp,20,"basic clothing, full body"
+10,clothes set,fine,tunic+pants / blouse+skirt / robe+dress,5,200 sp,20,"basic clothing, full body"
+11,clothes set,extravagant,tunic+pants / blouse+skirt / robe+dress,5,500 sp,30,"basic clothing, full body"
+12,clothes set,cold,tunic+pants / blouse+skirt / robe+dress (wool/fur),20,70 more sp,200 more,"basic clothing, full body"
+13,clothes set,very cold,tunic+pants / blouse+skirt / robe+dress (heavy wool/fur),30,150 more sp,400 more,"basic clothing, full body"
+14,dress,linen,,0,7 cp,20,"basic clothing, full body"
+15,dress,elf,,5,1 sp,20,"basic clothing, full body"
+16,dress,halfling,,5,8 cp,15,"basic clothing, full body"
+17,gown,common,,5,12 sp,10,"basic clothing, full body"
+18,gown,silk,,0,50 sp,10,"basic clothing, full body"
+19,gown,elf,,0,70 more sp,10,"basic clothing, full body"
+20,hose/pants,human,,0,20 sp,10,"basic clothing, legs"
+21,hose/pants,gnome,,0,2 sp,10,"basic clothing, legs"
+22,hose/pants,halfling,,0,4 sp,10,"basic clothing, legs"
+23,hose/pants,ellk,,0,50 sp,10,"basic clothing, legs"
+24,jacket,silk,,5,800 sp,5,"basic clothing, torso"
+25,jerkins,linen,,0,8 sp,4,"basic clothing, torso"
+26,jerkins,woolen,,5,10 sp,6,"basic clothing, torso"
+27,jerkins,leather,,0,100 sp,15,"basic clothing, torso"
+28,jerkins,cotton,,5,30 sp,15,"basic clothing, torso"
+29,jester,hat with bells,,0,30 sp,5,"basic clothing, head"
+30,jester,collar,,0,10 sp,1,"basic clothing, neck"
+31,jester,"shirt, satin",,0,100 sp,2,"basic clothing, torso"
+32,jester,"gloves, white",,0,70 more sp,1,"basic clothing, hands"
+33,jester,"pantalon, bunchy",,0,80 sp,15,"basic clothing, legs"
+34,jester,"stockings, bright",,0,8 sp,1,"basic clothing, legs"
+35,kilt,common,,0,20 sp,10,"basic clothing, legs"
+36,robe,"aba, desert robe","whole body, -3 heatstroke if drinking water",0,9 sp,30,"basic clothing, full body"
+37,robe,"aba, embroiddered","god, black, white, cloth",0,200 sp,30,"basic clothing, full body"
+38,robe,cloth,"embroidered, official clothing",5,9 sp,15,"basic clothing, full body"
+39,robe,cloth,"fur trimmed, official clothing",5,200 sp,15,"basic clothing, full body"
+40,robe,cloth,"common, official clothing",5,30 sp,20,"basic clothing, full body"
+41,robe,silk,"embroidered, official clothing",0,95 sp,15,"basic clothing, full body"
+42,robe,silk,official clothing,0,300 sp,15,"basic clothing, full body"
+43,shirt/blouse,common,,0,4 sp,3,"basic clothing, torso"
+44,tabi,woolen,,5,450 sp,20,"basic clothing, full body"
+45,tabi,silk,,0,1000 sp,10,"basic clothing, full body"
+46,toga,common,,0,8 cp,15,"basic clothing, full body"
+47,toga,embroidered,,0,60 sp,16,"basic clothing, full body"
+48,trousers,woolen,,0,10 sp,8,"basic clothing, legs"
+49,trousers,cotton,,0,3 sp,6,"basic clothing, legs"
+50,skirt,woolen,,0,10 sp,8,"basic clothing, legs"
+51,skirt,cotton,,0,3 sp,6,"basic clothing, legs"
+52,tunic/vest,uniform coat,with 5cn pockets,5,8 +1/pocket sp,15,"basic clothing, torso"
+53,tunic/vest,"sweater, cloth",,15,6 +1/pocket sp,12,"basic clothing, torso"
+54,tunic/vest,fur,,20,10 +1/pocket sp,20,"basic clothing, torso"
+55,tunic/vest,leather,,0,7 +1/pocket sp,20,"basic clothing, torso"
+56,tunic/vest,silk,,0,10 +1/pocket sp,5,"basic clothing, torso"
+57,pants,human,,0,12 sp,,"basic clothing, legs"
+58,pants,gnome,,0,1.3 sp,,"basic clothing, legs"
+59,pants,halfling,,0,2.5 sp,,"basic clothing, legs"
+60,pants,elf,,0,3 gp,,"basic clothing, legs"
+61,shirt,common,,0,2.5 sp,,"basic clothing, torso"
+62,tunic,uniform coat,,5,4.8 sp,,"basic clothing, torso"
+63,tunic,cloth sweater,,15,3.7 sp,,"basic clothing, torso"
+64,tunic,fur trimmed,,20,6 sp,,"basic clothing, torso"
+65,tunic,leather,,0,4.3 sp,,"basic clothing, torso"
+66,tunic,silk,,0,6 sp,,"basic clothing, torso"
+67,slipper,linen,,0,9 sp,,"footware clothing, feet"
+68,slipper,quilted silk,,0,21 gp,,"footware clothing, feet"
+69,slipper,wool,,0,6 sp,,"footware clothing, feet"
+70,snowshoes,common,,10,12 sp,,"footware clothing, feet"
+71,tarcloak,long,,0,3 gp,,"outerwear clothing, full body"
+72,umbrella,common,,0,1.8 sp,,"outerwear clothing, accessory"
+73,cane,,,0,1.8 sp,,"outerwear clothing, feet"
+74,boots,riding,,0 or 5,50 sp,15,"footware clothing, feet"
+75,boots,high soft leather,"also swash topped, AV2",0 or 5,10 sp,10,"footware clothing, feet"
+76,boots,high hard leather,AV2,0 or 5,20 sp,15,"footware clothing, feet"
+77,boots,low soft leather,AV2,0 or 5,10 sp,10,"footware clothing, feet"
+78,boots,low hard leather,AV2,0 or 5,8 sp,7,"footware clothing, feet"
+79,boots,waterproof,AV2,0 or 5,40 sp,20,"footware clothing, feet"
+80,boots,high heeled,"AV2, ½ movement, 1d4 kick",0 or 5,50+1/inch sp,15,"footware clothing, feet"
+81,boots,fur covering,,, sp,,"footware clothing, feet"
+82,shoes,basic,AV1,0,5 sp,10,"footware clothing, feet"
+83,shoes,dancing,AV1,0,15 sp,10,"footware clothing, feet"
+84,shoes,elven,AV1,0,450 sp,10,"footware clothing, feet"
+85,shoes,moccasins,AV0,0,20 sp,10,"footware clothing, feet"
+86,shoes,high heeled,"AV1, ½ movement, 1d4 kick",0,50+1/inch sp,10,"footware clothing, feet"
+87,shoes,"jester, clumsy, bright","AV1, ½ movement",0,120 sp,20,"footware clothing, feet"
+88,sandals,common,AV0,0,2 sp,2,"footware clothing, feet"
+89,sandals,high heeled,AV1,0,5+1/inch sp,3,"footware clothing, feet"
+90,slippers,linen,AV0,0,15 sp,2,"footware clothing, feet"
+91,slippers,quilted silk,AV0,0,350 sp,5,"footware clothing, feet"
+92,slippers,wool,AV0,0,10 sp,5,"footware clothing, feet"
+93,socks,wool,,5,1 sp,1,"footware clothing, feet"
+94,stockings,wool,,5,2 sp,2,"footware clothing, feet"
+95,panties,"silk, embroidered",,0,50 sp,1,"footware clothing, legs"
+96,snow shoes,common,-25% movement,0,20 sp,10,"footware clothing, feet"
+97,bra,common,holds breasts,0,6 to 5 sp,5,"underwear clothing, torso"
+98,bra,Push-up,"holds breats, improve figure, +1 Cha",0,26 – 55 sp,6,"underwear clothing, torso"
+99,bustle,side,"shape artificial hips, ½ movement",0,50 sp,20,"underwear clothing, torso"
+100,busle,rear,"shape artificial ass, ½ movement",0,90 sp,20,"underwear clothing, torso"
+101,corset,cheap x-shape,"shapes figure, cloth+leather, dex-1, cha+1",0,15 sp,25,"underwear clothing, torso"
+102,corset,cheap v-shape,"shapes figure, cloth+leather, dex-1, cha+1",0,12 sp,20,"underwear clothing, torso"
+103,corset,normal x-shape,"shapes figure, cloth+leather+wood boning, dex-1, cha+2",0,125 sp,35,"underwear clothing, torso"
+104,corset,normal v-shape,"shapes figure, cloth+leather+wood boning, dex-1, cha+1",0,150 sp,35,"underwear clothing, torso"
+105,corset,expensive x-shape,"shapes figure, cloth+leather+whale boning, dex-1, cha+3",0,1200 sp,65,"underwear clothing, torso"
+106,corset,expensive v-shape,"shapes figure, cloth+leather+whale boning, dex-1, cha+2",0,600 sp,50,"underwear clothing, torso"
+107,jarretels,common,"hold up panties, lace with bone clasps",0,12 sp,21,"underwear clothing, legs"
+108,suspenders,canvas,,0,3 sp,5,"underwear clothing, legs"
+109,suspenders,leather,,0,5 sp,5,"underwear clothing, legs"
+110,nightshirt,common,,0,60 sp,5,"underwear clothing, torso"
+111,waistcincer,common,"shapes figure, cloth+leather, dex -1, cha +1",0,12 sp,18,"underwear clothing, torso"
+112,arctic coat,common,"wool or fur padding inside, completely sealable",30,100 sp,50,"outerwear clothing, full body"
+113,cape,straw,partial rail protection,0,2 sp,2,"outerwear clothing, torso"
+114,cape,half,partial rail protection,0,4 sp,4,"outerwear clothing, torso"
+115,cape,full,partial rail protection,0,7 sp,8,"outerwear clothing, torso"
+116,cloak,short,partial rail protection,0,50 sp,10,"outerwear clothing, full body"
+117,cloak,long,partial rail protection,0,10 sp,15,"outerwear clothing, full body"
+118,camo,night,"+25% HiS in night/darkness, else --5%",0,500 sp,12,"outerwear clothing, full body"
+119,camo,desert,"+20% HiS in sand/desert, else -5%",0,500 sp,12,"outerwear clothing, full body"
+120,camo,snow,"+20% HiS in snow/ice, else -20%",0,500 sp,12,"outerwear clothing, full body"
+121,camo,open fields,+5% HiS in open fieds,0,500 sp,12,"outerwear clothing, full body"
+122,camo,growth,+10% HiS in plant growth,0,500 sp,12,"outerwear clothing, full body"
+123,camo,aquatic,+10% HiS watter,0,500 sp,12,"outerwear clothing, full body"
+124,camo,rocky,+10% HiS rocky/stone,0,500 sp,12,"outerwear clothing, full body"
+125,camo,fancy,Com +1,0,250 sp,10,"outerwear clothing, full body"
+126,camo,with fur rims,Com +1,0,350 sp,12,"outerwear clothing, full body"
+127,camo,fur,,10,500 sp,25,"outerwear clothing, full body"
+128,oil cloak,long,protects against water but strong smell (esp if wet),,50 sp,50,"outerwear clothing, full body"
+129,parka,common,,15,50 sp,40,"outerwear clothing, torso"
+130,poncho,rain,"one piece, oiled canvas, protection against heavy moisture",5,60 sp,20,"outerwear clothing, full body"
+131,silk jacket,common,,0,800 sp,20,"outerwear clothing, torso"
+132,surcoat,linen,to dress over armor,0,6 sp,25,"outerwear clothing, torso"
+133,surcoat,quilted,to dress over armor,0,20 sp,30,"outerwear clothing, torso"
+134,tabard,heraldic,"cloak, with heraldry symbol worn over armor",0,6 sp,25,"outerwear clothing, torso"
+135,tabard,clerical,"cloak, with holy symbols",0,60 sp,15,"outerwear clothing, torso"
+136,tabard,embroidered,"cloak, with holy symbols",0,600 sp,20,"outerwear clothing, torso"
+137,tabard,velvet,"cloak, with holy symbols",5,200 sp,50,"outerwear clothing, torso"
+138,tabard,"velvet, embroidered","cloak, with holy symbols",5,2000 sp,50,"outerwear clothing, torso"
+139,gauntlet,swordsman’s,"prevents disarming in combat but if sword is stuck, 1d4 to free",0,100 sp,25,"handware clothing, hands"
+140,gauntlet,falconer,"arm length glove, thick leather, with strings",0,5 sp,10,"handware clothing, hands"
+141,gloves,theves,"fingertipless gloves, small pockets. Protect against scraping, splinters, rope bburns, cts",0,50 sp,5,"handware clothing, hands"
+142,gloves,spiked,Punch + 1d4,0,50 sp,5,"handware clothing, hands"
+143,gloves,"heavy, leather","prevents rop burns, better grip on slippery items, protects against contact poisons incl needle traps",0,5 sp,10,"handware clothing, hands"
+144,gloves,"soft, linen",protects exposed skin vs contract poisons (not needle),0,10 sp,5,"handware clothing, hands"
+145,gloves,"soft, archery","prevents rope burns, better grip",0,40 sp,5,"handware clothing, hands"
+146,gloves,"cloth, fur lined",protects fingers from cold,5,40 sp,5,"handware clothing, hands"
+147,gloves,silk,no protection,0,150 sp,2,"handware clothing, hands"
+148,gloves,snakeskin,no protection,0,160 sp,4,"handware clothing, hands"
+149,mittens,normal,protects fingers from cold,10,3 sp,5,"handware clothing, hands"
+150,mittens,arctic,protects fingers from cold,40,75 sp,15,"handware clothing, hands"
+151,anklet,simple,"also beads, bracelets, brooch, buckle, cameo, chain, claps, locket, pin",0,10 to 300 sp,5,"jewelry clothing, feet, accessory"
+152,anklet,good,"also beads, bracelets, brooch, buckle, cameo, chain, claps, locket, pin",0,100 to 30000 sp,5,"jewelry clothing, feet, accessory"
+153,armband,simple,"also belt, collar, earring, 4leaf clover, heart, leaf, necklace, pendant, rabbits foot",0,400 to 1000 sp,10,"jewelry clothing, hands, accessory"
+154,armband,good,"also belt, collar, earring, 4leaf clover, heart, leaf, necklace, pendant, rabbits foot",0,40000 to 100000 sp,10,"jewelry clothing, hands, accessory"
+155,amulet,simple,"also crown, diadem, medallion, orb, ring, scarab, scepter, talisman, tiara",0,1500 to 5000 sp,25,"jewelry clothing, accessory"
+156,amulet,good,"also crown, diadem, medallion, orb, ring, scarab, scepter, talisman, tiara",0,15000 to 50000 sp,25,"jewelry clothing, accessory"
+157,locket,common,to hold small 1cn object,0,250 sp,10,"jewelry clothing, accessory"
+158,ring,slash,"brass mostly, else iron, copper+steel",0,50 sp,1,"jewelry clothing, hands, accessory"
+159,ring,spike,"tiny, hidden, poison spike",0,250 to 2000 sp,1,"jewelry clothing, hands, accessory"
+160,ring,compartment,can hold 1 dose of poison and be encoded to open,0,100 to 1000 sp,2,"jewelry clothing, hands, accessory"
+161,ring,assassins,"2 rings with wire, 40% to come loose, to strangle victims",0,750 sp,1,"jewelry clothing, hands, accessory"
+162,ring,magical,enchanted,0,100000 to 2500000 sp,1,"jewelry clothing, hands, accessory"
+163,artificial teeth,,made by dentist usually,,500/tooth sp,1/tooth,"face and head clothing, head, accessory"
+164,beard,small,glue or hooks around ears,,20 to 50 sp,5,"face and head clothing, head, accessory"
+165,beard,large,glue or hooks around ears,,35 to 100 sp,8 to 12,"face and head clothing, head, accessory"
+166,cap,cloth,heat exhaustion effect roll 1,,7 sp,1,"face and head clothing, head"
+167,cap,fur,heat exhaustion effect roll 1,,20 sp,5,"face and head clothing, head"
+168,cap,straw,heat exhaustion effect roll 1,,2 sp,22,"face and head clothing, head"
+169,cap,leather,"if oiled, can hold 1 quart of liquid, heat exhaustion effect roll 1",,2 sp,2,"face and head clothing, head"
+170,cap,fancy,heat exhaustion effect roll 1,,5 sp,4,"face and head clothing, head"
+171,cap,wool or linen,heat exhaustion effect roll 1,,2 sp,4,"face and head clothing, head"
+172,hat,cloth,heat exhaustion effect roll 1,,7 sp,1,"face and head clothing, head"
+173,hat,fur,heat exhaustion effect roll 1,,20 sp,5,"face and head clothing, head"
+174,hat,straw,heat exhaustion effect roll 1,,2 sp,22,"face and head clothing, head"
+175,hat,leather,"if oiled, can hold 1 quart of liquid, heat exhaustion effect roll 1",,2 sp,2,"face and head clothing, head"
+176,hat,fancy,heat exhaustion effect roll 1,,5 sp,4,"face and head clothing, head"
+177,hat,wool or linen,heat exhaustion effect roll 1,,2 sp,4,"face and head clothing, head"
+178,hood,cloth,heat exhaustion effect roll 1,,7 sp,1,"face and head clothing, head"
+179,hood,fur,heat exhaustion effect roll 1,,20 sp,5,"face and head clothing, head"
+180,hood,straw,heat exhaustion effect roll 1,,2 sp,22,"face and head clothing, head"
+181,hood,leather,"if oiled, can hold 1 quart of liquid, heat exhaustion effect roll 1",,2 sp,2,"face and head clothing, head"
+182,hood,fancy,heat exhaustion effect roll 1,,5 sp,4,"face and head clothing, head"
+183,hood,wool or linen,heat exhaustion effect roll 1,,2 sp,4,"face and head clothing, head"
+184,fan,silk,can be used to speak fan court laguage,-5,10 sp,1 to 5,"face and head clothing, hands, accessory"
+185,fan,tiny paper,can be used to speak fan court laguage,-5,2 sp,1,"face and head clothing, hands, accessory"
+186,fan,large paper,can be used to speak fan court laguage,-5,8 sp,1,"face and head clothing, hands, accessory"
+187,sight,chained monocle,"improves sight, made by eye doctor only in large cities",,100 to 500 sp,5 to 10,"face and head clothing, head, accessory"
+188,sight,stick spectacles,"improves sight, made by eye doctor only in large cities",,200 to 1000 sp,5 to 15,"face and head clothing, head, accessory"
+189,sight,snow or sun goggles,Prevents +2 surprise detriment to snow/sun blindness,,10 sp,5,"face and head clothing, head, accessory"
+190,sight,glasses,"improves sight, made by eye doctor only in large cities",,250 to 1000 sp,5 to 20,"face and head clothing, head, accessory"
+191,mask,cheap,,,15 sp,5,"face and head clothing, head, accessory"
+192,mask,whole,,,25 sp,10,"face and head clothing, head, accessory"
+193,veil,silk,,,10 sp,1,"face and head clothing, head, accessory"
+194,veil,"silk, embroidered",,,20 sp,2,"face and head clothing, head, accessory"
+195,veil,"silk, decorated","makes, sounds",,50 sp,5,"face and head clothing, head, accessory"
+196,wig,cheap,straw or other plant material,,15 sp,10,"face and head clothing, head, accessory"
+197,wig,standard,horse or animal hair,,30 sp,10,"face and head clothing, head, accessory"
+198,wig,fine,human or elven hair,,100 sp,10,"face and head clothing, head, accessory"
+199,wig,exclusive,human or elven or other special beast air,,250 sp,15,"face and head clothing, head, accessory"
+200,camo kit,paint,12 uses improves camo clothing,,500 sp,10,"cosmetics clothing, accessory"
+201,disguise kits,,"1 small box, 25 uses, dye, makeup, real hair",,150 sp,60,"cosmetics clothing, accessory"
+202,hair coloring,temporary,1 cup lass until washed,,10 to 30 sp,15,"cosmetics clothing, head, accessory"
+203,hair coloring,permanent,1 up lasts until grown out,,30 to 50 sp,15,"cosmetics clothing, head, accessory"
+204,skin coloring,temporary,4 cups lasts until washed or 1d3 weeks,,30 to 50 sp,60,"cosmetics clothing, accessory"
+205,skin coloring,permanent,4 cups lasts about 1d12+12 weeks,,50 too 70 sp,60,"cosmetics clothing, accessory"
+206,face paint,,"1 oz, make-up",,10 to 100 sp,5,"cosmetics clothing, head, accessory"
+207,nail paint,,"1 oz, lasts 1d6 days",,2 to 10 sp,5,"cosmetics clothing, hands, accessory"
+208,temporary tattoo,,"1 picture, lasts until washed or 1d3 days",,2 to 25 sp,1,"cosmetics clothing, accessory"
+209,perfume/cologne,,"1-2 oz strong sweet scent, 25 uses, 1 vial, evaporates in 4-10 hours",,50 to 5000 sp,5,"cosmetics clothing, accessory"
+210,fake body parts,elven ears,,,3 sp,1,"cosmetics clothing, accessory"
+211,fake body parts,orc sout,,,3 sp,1,"cosmetics clothing, accessory"
+212,fake body parts,orc teeth,,,5 sp,2,"cosmetics clothing, accessory"
+213,fake body parts,moustache,,,12 to 20 sp,3,"cosmetics clothing, accessory"
+214,cream,hair removal,"removes hair, 4 oz",,10 cp,10,"cosmetics clothing, head, accessory"
+215,cream,ageless,"removes wrinkles 36 hourz, 4 oz",,12 cp,10,"cosmetics clothing, head, accessory"
+216,kohl kayal,,protect eyes from direct sun and beautify eyes,,20/stick sp,2,"cosmetics clothing, head, accessory"
+217,Make-up,,"complete set w/o perfume, 25 uses",,150 sp,25,"cosmetics clothing, head, accessory"
+218,talcum powder,,1 jar,,25 sp,60,"cosmetics clothing, head, accessory"
+219,deodorant,,1 jar,,35 sp,10,"cosmetics clothing, accessory"
+220,borgadern's,gray away,dark lquidd hair dye 1 jar,,25 sp,10,"cosmetics clothing, head, accessory"
+221,borgadern's,foot powder,"prevents smelly feet, 1 jar",,25 sp,10,"cosmetics clothing, feet, accessory"
+222,borgadern's,skunkoil healer,"50% cure light wounds, 1 jar, STINKS",,50 sp,10,"cosmetics clothing, accessory"
+223,tattoo,black,2 square inches,,10 sp,0,"cosmetics clothing, accessory"
+224,tattoo,colored,2 square inches,,20 sp,0,"cosmetics clothing, accessory"
+225,wax,,1 jar,,45 sp,5,"cosmetics clothing, accessory"
+226,air bladder,,"flotation device up to 2000cn, holds 1 turn of breathable air",,150 sp,20,"other clothing, accessory"
+227,bath oil,,"scented oil, relaxes",,10 sp,10,"other clothing, accessory"
+228,belt,,,,2 sp,5,"other clothing, torso, legs, accessory"
+229,brush,gold,pig or horsehair brush,,120 sp,15,"other clothing, head, accessory"
+230,brush,silver,pig or horsehair brush,,20 sp,15,"other clothing, head, accessory"
+231,brush,tortoise shell,pig or horsehair brush,,20 sp,15,"other clothing, head, accessory"
+232,brush,hardwood,pig or horsehair brush,,1 sp,15,"other clothing, head, accessory"
+233,brush,bone,pig or horsehair brush,,1 sp,15,"other clothing, head, accessory"
+234,comb,gold,,,120 sp,15,"other clothing, head, accessory"
+235,comb,silver,,,20 spsp,15,"other clothing, head, accessory"
+236,comb,tortoise shell,,,20 sp,15,"other clothing, head, accessory"
+237,comb,hardwood,,,1 sp,15,"other clothing, head, accessory"
+238,comb,bone,,,1 sp,15,"other clothing, head, accessory"
+239,bumberchute,,"back worn, open to possibly prevent deadly fall below 100ft with dex check",,60 sp,10,"other clothing, accessory"
+240,cloth barding,common,for mounts,,20 sp,75,"other clothing, animal"
+241,cloth barding,expensive,"for mounts, adorned with symbols",,200 sp,75,"other clothing, animal"
+242,condom,sheep bladder,protection vs disease/pregnancy,,2 cp,0,"other clothing, accessory"
+243,girdle,weapon,to hold weapons,,30 sp,5,"other clothing, torso, legs, accessory"
+244,girdle,broad,to hold up pants,,2 sp,5,"other clothing, torso ,legs, accessory"
+245,girdle,normal,to hold up pants,,1 sp,5,"other clothing, torso ,legs, accessory"
+246,handkerchief,cloth,,,1 cp,1,"other clothing, hands, accessory"
+247,handkerchief,silk,,,2 sp,1,"other clothing, hands, accessory"
+248,insect repellant,,"minty cream vs all insects 0-1HD, 8 hours, 12 uses",,50 sp,5,"other clothing, accessory"
+249,knife sheath,,,,3 cp,2,"other clothing, torso, legs, accessory"
+250,money belt,,hold 50 coins hidden,,40 sp,15,"other clothing, torso, legs, accessory"
+251,umbrella/parasol,,,,3 sp,15,"other clothing, accessory"
+252,purse,linen + locket clasp,hold 150 coins,,3 sp,5,"other clothing, torso, arms, accessory"
+253,purse,leather +_ locket clasp,holds 150 coins,,20 sp,10,"other clothing, torso, arms, accessory"
+254,sash,wool,,,1 sp,3,"other clothing, torso, accessory"
+255,sash,linen,,,2 sp,3,"other clothing, torso, accessory"
+256,sash,silk,,,10 sp,2,"other clothing, torso, accessory"
+257,shawl,wool,,,1 sp,3,"other clothing, torso, accessory"
+258,shawl,linen,,,2 sp,3,"other clothing, torso, accessory"
+259,shawl,silk,,,10 sp,2,"other clothing, torso, accessory"
+260,sheath,leather,for dagger or knife,,10 sp,5,"other clothing, torso, legs, accessory"
+261,sheath,wood,for dagger or knife,,7 sp,5,"other clothing, torso, legs, accessory"
+262,sheath,metal,for dagger or knife,,15 sp,5,"other clothing, torso, legs, accessory"
+263,sewing kit,5 needles,,,10 sp,10,"other clothing, accessory"
+264,soap,,1lb,,5 sp,1,"other clothing, accessory"
+265,skates,"gnome, halfling",x2 movement on ice,,80 sp,10,"other clothing, feet, accessory"
+266,skates,"elf, human",x2 movement on ice,,100 sp,10,"other clothing, feet, accessory"
+267,skis,,"x2 movement on snow, x6 downhill",,15 sp,25,"other clothing, feet, accessory"
+268,sunburn ointment,14 uses,prevents 1hp of sunburn damage on exposed skin for 1 day,,20 sp,5,"other clothing, accessory"
+269,swimming flippers,,x1.5 swim movement,,120 sp,30,"other clothing, feet, accessory"
+270,thread,,"50', holds 10cn",,6 cp,1,"other clothing, accessory"
+271,walking staff,wood,,,3 sp,5,"other clothing, accessory"
+272,walking staff,carved ash,,,80 sp,5,"other clothing, accessory"
+273,weapon black,1 use,HiS +5%,,20 sp,10,"other clothing, accessory"
+274,wilderness harness,belt + straps,100cn storange in 6 pouches incl. fold knife 1d3,,20 sp,10,"other clothing, torso, legs, accessory"
 275,cloth roll,cheap,3' wide 40' long,,50 sp,400,raw material
 276,cloth roll,normal,3' wide 40' long,,100 sp,400,raw material
 277,cloth roll,expensive,3' wide 40' long,,200 sp,400,raw material
