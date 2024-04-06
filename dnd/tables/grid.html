@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Irregular Grid Gallery</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f0f0;
+  }
+  .image {
+    margin: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+</style>
+</head>
+<body>
+
+<div id="gallery">
+  <!-- JavaScript will populate this div with images -->
+</div>
+
+<script>
+  // Function to fetch images from the table_images folder and create gallery
+  function createGallery() {
+    const galleryDiv = document.getElementById('gallery');
+    fetch('table_images.json') // JSON file containing image filenames
+      .then(response => response.json())
+      .then(images => {
+        images.forEach(image => {
+          const imgDiv = document.createElement('div');
+          imgDiv.classList.add('image');
+          imgDiv.innerHTML = `<img src="table_images/${image}" alt="Image" onclick="enlargeImage(this)">`;
+          galleryDiv.appendChild(imgDiv);
+        });
+      })
+      .catch(error => console.error('Error fetching images:', error));
+  }
+
+  // Function to enlarge image when clicked
+  function enlargeImage(img) {
+    img.style.transform = 'scale(2)';
+  }
+
+  // Call the function to create the gallery when the page loads
+  window.onload = createGallery;
+</script>
+
+</body>
+</html>
