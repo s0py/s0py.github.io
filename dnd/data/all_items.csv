@@ -3393,256 +3393,256 @@ index,item,type,description/notes,temp if worn,cost,encumbrance (1/10th of lb),c
 3392,shield,body,,0,6 gp,15,armor
 3393,armor,splint mail,,0,48 gp,40,armor
 3394,armor,studded leather,,0,12 gp,25,armor
-3395,Alhulak,,"size:M, dmg:B, dmg:1d6, 1d6",,9 gp,90,weapon
-3396,Ankus (Elephant Goad),,"size:M, dmg:P/B, dmg:1d4, 1d4",,3 gp,40,weapon
-3397,Arquebus,,"size:M, dmg:P, dmg:1d10, 1d10",,500 gp,100,weapon
-3398,"Arrow, Daikyu",,"size:M, dmg:P, dmg:1d8, 1d6",,3 sp/6,10,weapon
-3399,"Arrow, Flight",,"size:S, dmg:P, dmg:1d6, 1d6",,3 sp/12,1,weapon
-3400,"Arrow, Forget",,"size:T, dmg:P, dmg:**, **",,100 gp,1,weapon
-3401,"Arrow, Giant-kin",,"size:G, dmg:P, dmg:1d8, 1d8",,1 gp/12,1,weapon
-3402,"Arrow, Kenyan",,"size:S, dmg:P, dmg:1d10, 1d10",,1 gp/20,1,weapon
-3403,"Arrow, Mail-Piercer",,"size:S, dmg:P, dmg:1d6, 1d6",,1 gp/20,1,weapon
-3404,"Arrow, Sheaf",,"size:S, dmg:P, dmg:1d8, 1d8",,3 sp/6,1,weapon
-3405,"Arrow, Sleep",,"size:T, dmg:P, dmg:**, **",,10 gp/6,1,weapon
-3406,"Arrow, Stone Flight",,"size:M, dmg:P, dmg:1d4, 1d4",,3 cp/12,1,weapon
-3407,"Arrow, War",,"size:T, dmg:P, dmg:1d4+1, 1d4+1",,1 gp/2,1,weapon
-3408,Assegai,,"size:M, dmg:P/S, dmg:1d8, 1d10",,2 gp,10,weapon
-3409,"Axe, Battle",,"size:M, dmg:S, dmg:1d8, 1d8",,5 gp,70,weapon
-3410,"Axe, Forearm",,"size:S, dmg:P/S, dmg:1d6, 1d6",,1 gp,40,weapon
-3411,"Axe, Hand/Throwing",,"size:M, dmg:S, dmg:1d6, 1d4",,1 gp,50,weapon
-3412,"Axe, Two-Handed Battle",,"size:M, dmg:S, dmg:1d10, 2d8",,10 gp,100,weapon
-3413,Bagh Nakh (Tiger Claws),,"size:S, dmg:P, dmg:1d2, 1d2",,4 sp,10,weapon
-3414,Bard's Friend,,"size:S, dmg:P/S, dmg:1d4+1, 1d3",,10 gp,30,weapon
-3415,Basilard,,"size:S, dmg:P/S, dmg:1d4+1, 1d6+1",,7 gp,30,weapon
-3416,Belaying Pin,,"size:S, dmg:B, dmg:1d3, 1d3",,2 cp,20,weapon
-3417,Blowgun,,"size:L, dmg:—, dmg:—, —",,5 gp,20,weapon
-3418,Barbed Dart,,"size:S, dmg:P, dmg:1d3, 1d2",,1 sp,1,weapon
-3419,Needle,,"size:S, dmg:P, dmg:1, 1",,2 cp,1,weapon
-3420,Blunderbus,,"size:M, dmg:P, dmg:1d4, 1d4",,500 gp,120,weapon
-3421,Bo Stick,,"size:L, dmg:B, dmg:1d6, 1d4",,2 cp,40,weapon
-3422,Bola,,"size:M, dmg:B, dmg:1d3, 1d2",,5 sp,20,weapon
-3423,"Bow, Composite Long",,"size:L, dmg:—, dmg:—, —",,100 gp,30,weapon
-3424,"Bow, Composite Short",,"size:M, dmg:—, dmg:—, —",,75 gp,20,weapon
-3425,"Bow, Elven",,"size:L, dmg:B, dmg:1d6, 1d3",,150 gp,30,weapon
-3426,"Bow, Folding Short",,"size:M, dmg:—, dmg:—, —",,45 gp,20,weapon
-3427,"Bow, Giant-kin Long",,"size:G, dmg:—, dmg:—, —",,125 gp,80,weapon
-3428,"Bow, Kenyan Long",,"size:L, dmg:—, dmg:—, —",,60 gp,40,weapon
-3429,"Bow, Long",,"size:L, dmg:—, dmg:—, —",,75 gp,30,weapon
-3430,"Bow, Pixie",,"size:T, dmg:—, dmg:—, —",,50 gp,10,weapon
-3431,"Bow, Short",,"size:M, dmg:—, dmg:—, —",,30 gp,20,weapon
-3432,"Buckler, Spiked",,"size:M, dmg:P, dmg:1d3, 1d2",,3 gp,30,weapon
-3433,Cahulaks,,"size:M, dmg:P/B, dmg:1d6, 1d6",,12 gp,120,weapon
-3434,Caltrop,,"size:S, dmg:P, dmg:1, 1d2",,2 sp,2,weapon
-3435,Carrikal,,"size:M, dmg:S, dmg:1d6+1, 1d8",,8 gp,60,weapon
-3436,Caviler,,"size:M, dmg:P, dmg:1d8, 1d8",,450 gp,110,weapon
-3437,Cestus,,"size:S, dmg:S, dmg:1d4, 1d3",,1 gp,20,weapon
-3438,Chain,,"size:L, dmg:B, dmg:1d4+1, 1d4",,5 sp,30,weapon
-3439,Chakram,,"size:S, dmg:S, dmg:1d4, 1d3",,1 gp,5,weapon
-3440,Chatkcha,,"size:S, dmg:S, dmg:1d6+2, 1d4+1",,1 cp,5,weapon
-3441,Club,,"size:M, dmg:B, dmg:1d6, 1d3",,—,30,weapon
-3442,"Club, Datchi",,"size:L, dmg:B, dmg:1d6, 1d4",,12 gp,100,weapon
-3443,"Club, Dwarven War",,"size:M, dmg:B, dmg:2d4, 1d6+1",,**,120,weapon
-3444,"Club, Great",,"size:M, dmg:B, dmg:2d4, 1d6+1",,8 gp,120,weapon
-3445,"Club, Rim",,"size:L, dmg:B, dmg:1d6, 1d6",,2 sp,120,weapon
-3446,"Crossbow, Disk",,"size:M, dmg:—, dmg:—, —",,175 gp,100,weapon
-3447,"Crossbow, Doubled",,"size:M, dmg:—, dmg:—, —",,60 gp,80,weapon
-3448,"Crossbow, Hand",,"size:S, dmg:—, dmg:—, —",,300 gp,30,weapon
-3449,"Crossbow, Heavy",,"size:M, dmg:—, dmg:—, —",,50 gp,140,weapon
-3450,"Crossbow, Light",,"size:M, dmg:—, dmg:—, —",,35 gp,70,weapon
-3451,Dagger,,"size:S, dmg:P, dmg:1d4, 1d3",,2 gp,10,weapon
-3452,"Dagger, Bone",,"size:S, dmg:P, dmg:1d2, 1d2",,1 sp,10,weapon
-3453,"Dagger, Climbing",,"size:S, dmg:P, dmg:1d3, 1d2",,5 gp,10,weapon
-3454,"Dagger, Giant-kin",,"size:G, dmg:P, dmg:1d6, 1d8",,5 gp,30,weapon
-3455,"Dagger, Parrying",,"size:S, dmg:P, dmg:1d3, 1d3",,5 gp,10,weapon
-3456,"Dagger, Stone",,"size:S, dmg:P, dmg:1d3, 1d2",,2 sp,10,weapon
-3457,Daikyu,,"size:L, dmg:—, dmg:—, —",,100 gp,30,weapon
-3458,Dart,,"size:S, dmg:P, dmg:1d3, 1d2",,5 sp,5,weapon
-3459,"Dart, Barbed",,"size:S, dmg:P, dmg:1d4, 1d4",,—,50,weapon
-3460,Dejada,,"size:M, dmg:P/B, dmg:1d8, 1d6",,6 gp,80,weapon
-3461,Dejada Cestus,,"size:M, dmg:P/S/B, dmg:1d6/1d6, 1d8/1d6",,10 gp,90,weapon
-3462,Dirk,,"size:S, dmg:P, dmg:1d4, 1d3",,2 gp,10,weapon
-3463,"Disk, Crossbow",,"size:S, dmg:P, dmg:1d6+1, 1d6",,5 gp,3,weapon
-3464,Dragon's Paw,,"size:L, dmg:P, dmg:1d6, 1d6+1",,15 gp,90,weapon
-3465,"Flail, Bladeback",,"size:L, dmg:B, dmg:1d8+1, 2d6",,20 gp,250,weapon
-3466,"Flail, Chain",,"size:L, dmg:B, dmg:1d4+2, 1d4+1",,1 gp,50,weapon
-3467,"Flail, Footman's",,"size:M, dmg:B, dmg:1d6+1, 2d4",,15 gp,150,weapon
-3468,"Flail, Grain",,"size:M, dmg:B, dmg:1d4+1, 1d4",,3 gp,30,weapon
-3469,"Flail, Horseman's",,"size:M, dmg:B, dmg:1d4+1, 1d4+1",,8 gp,50,weapon
-3470,Flindbar,,"size:M, dmg:B, dmg:1d4, 1d4",,8,60,weapon
-3471,Gada,,"size:M, dmg:B, dmg:1d8, 1d4",,1 gp,60,weapon
-3472,"Gaff/Hook, Attached",,"size:S, dmg:P, dmg:1d4, 1d3",,2 gp,20,weapon
-3473,"Gaff/Hook, Held",,"size:S, dmg:P, dmg:1d4, 1d3",,5 cp,20,weapon
-3474,"Gladiator's Friend, Footman's",,"size:L, dmg:P/S/B, dmg:1d6/1d8, 1d6+1/1d6",,15 gp,150,weapon
-3475,"Gladiator's Friend, Horseman's",,"size:M, dmg:P/S/B, dmg:1d6/1d4, 1d4/1d4",,10 gp,70,weapon
-3476,Glove Nail,,"size:S, dmg:P, dmg:1d4+1, 1d4",,2 gp,20,weapon
-3477,Gouge,,"size:L, dmg:P/S, dmg:1d8, 1d10",,6 gp,120,weapon
-3478,"Harpoon, One-Handed",,"size:L, dmg:P, dmg:1d4+1, 1d6+1",,20 gp,60,weapon
-3479,"Harpoon, Two-Handed",,"size:L, dmg:P, dmg:2d4, 2d6",,20 gp,60,weapon
-3480,Hatchet,,"size:S, dmg:S, dmg:1d4+1, 1d4+1",,2 gp,30,weapon
-3481,"Hatchet, Hawk",,"size:M, dmg:P/S, dmg:1d6+1/1d4+1, 1d4/1d4",,2 gp,60,weapon
-3482,Hora,,"size:S, dmg:B, dmg:1d3, 1d3",,1 gp,5,weapon
-3483,Impaler,,"size:M, dmg:P, dmg:1d8, 1d8",,4 cp,50,weapon
-3484,Iuak (Snow Blade),,"size:M, dmg:S, dmg:1d4, 1d6",,10 gp,30,weapon
-3485,Jambiya,,"size:S, dmg:P/S, dmg:1d4, 1d4",,4 gp,10,weapon
-3486,"Javelin, One-Handed",,"size:M, dmg:P, dmg:1d4, 1d4",,5 sp,20,weapon
-3487,"Javelin, Two-Handed",,"size:M, dmg:P, dmg:1d6, 1d6",,5 sp,20,weapon
-3488,"Javenlin, Stone, One-Handed",,"size:L, dmg:P, dmg:1d4, 1d4",,5 cp,20,weapon
-3489,"Javenlin, Stone, Two-Handed",,"size:L, dmg:P, dmg:1d4+1, 1d6",,5 cp,20,weapon
-3490,Katar (Punch Dagger),,"size:S, dmg:P, dmg:1d3+1, 1d3",,3 gp,10,weapon
-3491,Kick-slasher,,"size:S, dmg:S, dmg:1d4+1, 1d6+1",,7 gp,30,weapon
-3492,Knife,,"size:S, dmg:P/S, dmg:1d3, 1d2",,5 sp,5,weapon
-3493,"Knife, Bone",,"size:S, dmg:P/S, dmg:1d2, 1d2",,3 cp,5,weapon
-3494,"Knife, Harness",,"size:S, dmg:P/S, dmg:1d2, 1",,**,1,weapon
-3495,"Knife, Stone",,"size:S, dmg:P/S, dmg:1d2, 1d2",,5 cp,5,weapon
-3496,"Knife, Throwing",,"size:M, dmg:P/S, dmg:1d4+1, 1d4+1",,3 gp,30,weapon
-3497,"Knife, Widow's",,"size:M, dmg:P/S, dmg:1d4, 1d4",,5 gp,40,weapon
-3498,Knobkerrie,,"size:M, dmg:B, dmg:1d6, 1d4+1",,10 sp,40,weapon
-3499,Kora,,"size:M, dmg:S, dmg:1d6+1, 1d6+1",,11 gp,40,weapon
-3500,Kukri,,"size:S, dmg:S, dmg:1d4+1, 1d4+1",,3 gp,20,weapon
-3501,"Lance, Flight",,"size:L, dmg:P, dmg:1d6+1, 2d6",,6 gp,50,weapon
-3502,"Lance, Heavy Horse",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d8+1, 3d6",,15 gp,150,weapon
-3503,"Lance, Light Horse",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d6, 1d8",,6 gp,50,weapon
-3504,"Lance, Jousting",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d3-1, 1d2-1",,20 gp,200,weapon
-3505,"Lance, Medium Horse",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d6+1, 2d6",,10 gp,100,weapon
-3506,Lasso,,"size:L, dmg:—, dmg:—, —",,5 sp,30,weapon
-3507,Lotulis,,"size:L, dmg:P/S/B, dmg:1d10, 1d12",,15 gp,100,weapon
-3508,Maca,,"size:M, dmg:S, dmg:1d8, 1d6",,25 gp,60,weapon
-3509,"Mace, Bladeback",,"size:L, dmg:B, dmg:1d8+1, 1d8",,15 gp,160,weapon
-3510,"Mace, Footman's",,"size:M, dmg:B, dmg:1d6+1, 1d6",,8 gp,100,weapon
-3511,"Mace, Footman's Whistling",,"size:M, dmg:B, dmg:1d6, 1d4",,12 gp,60,weapon
-3512,"Mace, Giant-kin",,"size:G, dmg:B, dmg:1d8x2, 1d6x2",,11 gp,120,weapon
-3513,"Mace, Great",,"size:M, dmg:B, dmg:1d8+1, 2d4",,20 gp,200,weapon
-3514,"Mace, Horseman's",,"size:M, dmg:B, dmg:1d6, 1d4",,5 gp,60,weapon
-3515,"Mace, Horseman's Whistling",,"size:M, dmg:B, dmg:1d4+1, 1d2+1",,9 gp,30,weapon
-3516,Machete,,"size:M, dmg:S, dmg:1d8, 1d8",,30 gp,40,weapon
-3517,Madu,,"size:M, dmg:P, dmg:1d4, 1d3",,6 gp,50,weapon
-3518,Main-Gauche,,"size:S, dmg:P/S, dmg:1d4, 1d3",,3 gp,20,weapon
-3519,Mancatcher,can dismount a rider on a successful hit,"size:L, dmg:—, dmg:—, —",,30 gp,80,weapon
-3520,Morning Star,,"size:M, dmg:B, dmg:2d4, 1d6+1",,10 gp,120,weapon
-3521,"Morning Star, Double-Ball",,"size:M, dmg:B, dmg:1d4+1x2, 1d4x2",,35 gp,160,weapon
-3522,Musket,,"size:M, dmg:P, dmg:1d12, 1d12",,800 gp,200,weapon
-3523,Net,,"size:M, dmg:—, dmg:—, —",,5 gp,100,weapon
-3524,Nunchaku,,"size:M, dmg:B, dmg:1d6, 1d6",,1 gp,30,weapon
-3525,Nyek-ple-nen-toh,,"size:L, dmg:S, dmg:1d8+1, 1d8",,40 gp,100,weapon
-3526,Pata,double damage when used from the back of a charging mount. ,"size:M, dmg:P/S, dmg:1d8, 1d12",,30 gp,60,weapon
-3527,Peshkabz,,"size:S, dmg:P, dmg:1d4, 1d3",,3 gp,10,weapon
-3528,"Pick, Footman's",,"size:M, dmg:P, dmg:1d6+1, 2d4",,8 gp,60,weapon
-3529,"Pick, Horseman's",,"size:M, dmg:P, dmg:1d4+1, 1d4",,7 gp,40,weapon
-3530,"Pick, Ice",,"size:S, dmg:P, dmg:1d4, 1d3",,1 gp,5,weapon
-3531,"Pike, Weighted",,"size:L, dmg:P/B, dmg:1d6/1d6, 1d12/1d4",,6 gp,150,weapon
-3532,"Pistol, Starwheel",,"size:S, dmg:P, dmg:1d4, 1d4",,"1,000 gp",50,weapon
-3533,"Polearm, Awl Pike",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d6, 1d12",,5 gp,120,weapon
-3534,"Polearm, Bardiche",,"size:L, dmg:S, dmg:2d4, 2d6",,7 gp,120,weapon
-3535,"Polearm, Bec De Corbin",,"size:L, dmg:P/B, dmg:1d8, 1d6",,8 gp,100,weapon
-3536,"Polearm, Bill-Guisarme",,"size:L, dmg:P/S, dmg:2d4, 1d10",,7 gp,150,weapon
-3537,"Polearm, Crusher",,"size:L, dmg:B, dmg:1d4, 1d3",,24 gp,90,weapon
-3538,"Polearm, Fauchard",,"size:L, dmg:P/S, dmg:1d6, 1d8",,5 gp,70,weapon
-3539,"Polearm, Fauchard-Fork",,"size:L, dmg:P/S, dmg:1d8, 1d10",,8 gp,90,weapon
-3540,"Polearm, Giant-kin Halberd",,"size:G, dmg:P/S, dmg:1d12, 2d8",,25 gp,350,weapon
-3541,"Polearm, Glaive",double damage against charging creatures of L or greater size,"size:L, dmg:S, dmg:1d6, 1d10",,6 gp,80,weapon
-3542,"Polearm, Glaive-Guisarme",double damage against charging creatures of L or greater size,"size:L, dmg:P/S, dmg:2d4, 2d6",,10 gp,100,weapon
-3543,"Polearm, Guisarme",,"size:L, dmg:S, dmg:2d4, 1d8",,5 gp,80,weapon
-3544,"Polearm, Guisarme-Voulge",,"size:L, dmg:P/S, dmg:2d4, 2d4",,8 gp,150,weapon
-3545,"Polearm, Gythka",,"size:L, dmg:P/B, dmg:2d4, 1d10",,6 cp,120,weapon
-3546,"Polearm, Halberd",,"size:L, dmg:P/S, dmg:1d10, 2d6",,10 gp,150,weapon
-3547,"Polearm, Hook Fauchard",,"size:L, dmg:P/S, dmg:1d4, 1d4",,10 gp,80,weapon
-3548,"Polearm, Lucern Hammer",double damage when firmly set to receive a charge,"size:L, dmg:P/B, dmg:2d4, 1d6",,7 gp,150,weapon
-3549,"Polearm, Military Fork",double damage against charging creatures of L or greater size,"size:L, dmg:P, dmg:1d8, 2d4",,5 gp,70,weapon
-3550,"Polearm, Naginata",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d8, 1d10",,8 gp,100,weapon
-3551,"Polearm, Partisan",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d6, 1d6+1",,10 gp,80,weapon
-3552,"Polearm, Quad Fauchard",,"size:L, dmg:S, dmg:1d6, 1d8",,20 gp,200,weapon
-3553,"Polearm, Ranseur",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:2d4, 2d4",,6 gp,70,weapon
-3554,"Polearm, Spetum",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d6+1, 2d6",,5 gp,70,weapon
-3555,"Polearm, Tetsubo",,"size:L, dmg:B, dmg:1d8, 1d8",,2 gp,70,weapon
-3556,"Polearm, Trikal",,"size:L, dmg:S/B, dmg:1d10, 1d10",,12 gp,80,weapon
-3557,"Polearm, Voulge",,"size:L, dmg:S, dmg:2d4, 2d4",,5 gp,120,weapon
-3558,Puchik,,"size:S, dmg:P/S, dmg:1d4+1, 1d4+1",,6 gp,10,weapon
-3559,Punch-cutter,,"size:S, dmg:S, dmg:1d4, 1d3",,6 gp,10,weapon
-3560,Quabone,,"size:M, dmg:P/S, dmg:1d4, 1d3",,1 cp,40,weapon
-3561,"Quarrel, Hand",,"size:S, dmg:P, dmg:1d3, 1d2",,1 gp,1,weapon
-3562,"Quarrel, Heavy",,"size:S, dmg:P, dmg:1d4+1, 1d6+1",,2 sp,1,weapon
-3563,"Quarrel, Light",,"size:S, dmg:P, dmg:1d4, 1d4",,1 sp,1,weapon
-3564,Quarterstaff,,"size:L, dmg:B, dmg:1d6, 1d6",,—,40,weapon
-3565,Razor,,"size:S, dmg:S, dmg:1d2, 1d2",,4 sp,10,weapon
-3566,Ritiik,,"size:L, dmg:P, dmg:1d6+1, 1d8+1",,10 gp,60,weapon
-3567,Sai,,"size:S, dmg:P/B, dmg:1d4, 1d2",,5 sp,20,weapon
-3568,Sap,,"size:S, dmg:B, dmg:1d2, 1d2",,1 gp,1,weapon
-3569,Scourge,,"size:S, dmg:—, dmg:1d4, 1d2",,1 gp,20,weapon
-3570,Scythe,,"size:L, dmg:S, dmg:1d10+2, 2d6",,10 gp,150,weapon
-3571,"Shield, Spike",,"size:L, dmg:P, dmg:1d8, 1d6",,15 gp,180,weapon
-3572,Shoka,,"size:M, dmg:S, dmg:1d6+1, 1d6+1",,6 gp,70,weapon
-3573,Shotel,,"size:M, dmg:S, dmg:1d6, 1d6",,3 gp,40,weapon
-3574,Shuriken,,"size:S, dmg:P, dmg:1d4, 1d4",,3 sp,10,weapon
-3575,Sickle,,"size:S, dmg:S, dmg:1d4+1, 1d4",,6 sp,30,weapon
-3576,Sling,,"size:S, dmg:—, dmg:—, —",,5 cp,1,weapon
-3577,Bullet,,"size:S, dmg:B, dmg:1d4+1, 1d6+1",,1 cp,5,weapon
-3578,Stone,,"size:S, dmg:B, dmg:1d4, 1d4",,—,5,weapon
-3579,Spear,,"size:, dmg:, dmg:dmg:",,,0,weapon
-3580,"Spear, One-Handed",,"size:M, dmg:P, dmg:1d6, 1d8",,8 sp,50,weapon
-3581,"Spear, Two-Handed",double damage when firmly set to receive a charge,"size:M, dmg:P, dmg:1d8+1, 2d6",,8 sp,50,weapon
-3582,"Spear, Double-Bladed",,"size:M, dmg:P, dmg:1d8, 1d8",,2 gp,60,weapon
-3583,"Spear, Heavy, One-Handed",,"size:L, dmg:P, dmg:1d8, 1d10",,3 gp,70,weapon
-3584,"Spear, Heavy, Two-Handed",,"size:L, dmg:P, dmg:2d6, 2d8",,3 gp,70,weapon
-3585,"Spear, Hook-Tailed",,"size:L, dmg:P/S, dmg:1d6, 1d8",,8 gp,70,weapon
-3586,"Spear, Long",,"size:, dmg:, dmg:dmg:",,,0,weapon
-3587,"Spear, Long, One-Handed",,"size:L, dmg:P, dmg:1d8, 1d8+1",,5 gp,80,weapon
-3588,"Spear, Long, Two-Handed",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:2d6, 3d6",,5 gp,80,weapon
-3589,"Spear, Paddle",,"size:M, dmg:P, dmg:1d4+1, 1d6+1",,10 sp,30,weapon
-3590,"Spear, Stone, One-Handed",,"size:M, dmg:P, dmg:1d4, 1d6",,8 cp,50,weapon
-3591,"Spear, Stone, Two-Handed",,"size:M, dmg:P, dmg:1d6, 2d4",,8 cp,50,weapon
-3592,"Spear, Throwing",,"size:M, dmg:P, dmg:1d6, 1d8",,1 gp,30,weapon
-3593,Spear Caster,,"size:M, dmg:—, dmg:—, —",,10 gp,30,weapon
-3594,"Spikes, Body",,"size:S, dmg:P, dmg:**, **",,—,1,weapon
-3595,"Spike, Elbow",,"size:S, dmg:S, dmg:1d4, 1d4",,1 gp,20,weapon
-3596,"Spike, Head",,"size:M, dmg:P, dmg:1d6, 1d8",,10 gp,100,weapon
-3597,"Spike, Knee",,"size:S, dmg:P, dmg:1d4, 1d4",,3 gp,20,weapon
-3598,"Staff, Hamanu's",,"size:L, dmg:B, dmg:1d8, 1d8",,10 gp,50,weapon
-3599,"Staff, Hornhead",,"size:L, dmg:B, dmg:2d6, 2d6",,5 gp,200,weapon
-3600,Staff Sling,,"size:M, dmg:—, dmg:—, —",,2 sp,20,weapon
-3601,Stinkpot,,"size:S, dmg:B, dmg:1d3, 1d3",,1 sp,20,weapon
-3602,"Stick, Goblin",,"size:L, dmg:P, dmg:1d4, 1d6",,5 gp,80,weapon
-3603,"Sticks, Singing",,"size:S, dmg:B, dmg:1d6, 1d4",,5 sp,10,weapon
-3604,Stiletto,,"size:S, dmg:P, dmg:1d3, 1d2",,5 sp,5,weapon
-3605,"Sword, Bastard, One-Handed",,"size:M, dmg:S, dmg:1d8, 1d12",,25 gp,100,weapon
-3606,"Sword, Bastard, Two-Handed",,"size:M, dmg:S, dmg:2d4, 2d8",,25 gp,100,weapon
-3607,"Sword, Broad",,"size:M, dmg:S, dmg:2d4, 1d6+1",,10 gp,40,weapon
-3608,"Sword, Claymore",,"size:M, dmg:S, dmg:2d4, 2d8",,25 gp,100,weapon
-3609,"Sword, Cutlass",,"size:M, dmg:S, dmg:1d6, 1d8",,12 gp,40,weapon
-3610,"Sword, Drusus",,"size:M, dmg:S, dmg:1d6+1, 1d8+1",,50 gp,30,weapon
-3611,"Sword, Dwarven Claymore",,"size:M, dmg:S, dmg:2d4, 2d6",,**,110,weapon
-3612,"Sword, Falchion",,"size:M, dmg:S, dmg:1d6+1, 2d4",,17 gp,80,weapon
-3613,"Sword, Flamberge",,"size:L, dmg:S, dmg:1d8+1, 2d8",,30 gp,210,weapon
-3614,"Sword, Giant-kin Two-Handed",,"size:G, dmg:S, dmg:1d10x2, 3d6x2",,100 gp,350,weapon
-3615,"Sword, Great Scimitar",,"size:L, dmg:S, dmg:2d8, 4d4",,60 gp,160,weapon
-3616,"Sword, Hook",,"size:M, dmg:S, dmg:1d8+1, 1d8",,15 gp,40,weapon
-3617,"Sword, Katana, One-Handed",,"size:M, dmg:S/P, dmg:1d10, 1d12",,100 gp,60,weapon
-3618,"Sword, Katana, Two-Handed",,"size:M, dmg:S/P, dmg:2d6, 2d6",,100 gp,60,weapon
-3619,"Sword, Khandar, One-Handed",,"size:M, dmg:S, dmg:1d8, 1d8",,25 gp,100,weapon
-3620,"Sword, Khandar, Two-Handed",,"size:M, dmg:S, dmg:1d10, 1d10",,25 gp,100,weapon
-3621,"Sword, Khopesh",,"size:M, dmg:S, dmg:2d4, 1d6",,10 gp,70,weapon
-3622,"Sword, Long",,"size:M, dmg:S, dmg:1d8, 1d12",,15 gp,40,weapon
-3623,"Sword, Mandible",,"size:M, dmg:P, dmg:1d8/1d6, 1d6/1d4",,6 gp,30,weapon
-3624,"Sword, Mariner's",,"size:M, dmg:S, dmg:1d8, 1d8",,9 gp,50,weapon
-3625,"Sword, Piercer",,"size:M, dmg:P, dmg:1d6+1, 1d8",,12 gp,30,weapon
-3626,"Sword, Pixie",,"size:T, dmg:S, dmg:1d4, 1d3",,30 gp,10,weapon
-3627,"Sword, Rapier",,"size:M, dmg:P, dmg:1d6+1, 1d8+1",,15 gp,40,weapon
-3628,"Sword, Sabre",,"size:M, dmg:S, dmg:1d6+1, 1d8+1",,17 gp,50,weapon
-3629,"Sword, Scimitar",,"size:M, dmg:S, dmg:1d8, 1d8",,15 gp,40,weapon
-3630,"Sword, Short",,"size:S, dmg:P, dmg:1d6, 1d8",,10 gp,30,weapon
-3631,"Sword, Talwar",,"size:M, dmg:S, dmg:2d4, 2d4",,15 gp,50,weapon
-3632,"Sword, Two-Handed",,"size:L, dmg:S, dmg:1d10, 3d6",,50 gp,150,weapon
-3633,"Sword, Wakizashi",,"size:M, dmg:S/P, dmg:1d8, 1d8",,50 gp,30,weapon
-3634,Swordlet,,"size:S, dmg:S, dmg:1d4+1, 1d4+1",,8 gp,20,weapon
-3635,Talid,,"size:S, dmg:P/S/B, dmg:1d6, 1d6-1",,4 gp,10,weapon
-3636,Tortoise Blades,,"size:M, dmg:P/S, dmg:1d6, 1d6+1",,9 gp,50,weapon
-3637,"trident, one handed",,"size:L, dmg:P, dmg:1d6+1, 3d4",,15 gp,50,weapon
-3638,triden two handed,,"size:L, dmg:P, dmg:1d8+1, 3d4",,15 gp,50,weapon
-3639,"trombash, held",,"size:S, dmg:B, dmg:1d4, 1d2",,10 sp,20,weapon
-3640,"trombash, thrown",,"size:S, dmg:B, dmg:1d6, 1d4",,10 sp,20,weapon
-3641,Tufenk,,"size:L, dmg:—, dmg:**, **",,14 gp,50,weapon
-3642,Warhammer,,"size:M, dmg:B, dmg:1d4+1, 1d4",,2 gp,60,weapon
-3643,Whip,,"size:M, dmg:—, dmg:1d2, 1",,1 sp,20,weapon
-3644,"Whip, Chain",,"size:M, dmg:—, dmg:1d3, 1d2",,21 gp,35,weapon
-3645,"Whip, Master's",,"size:M, dmg:P, dmg:1d3, 1d2",,6 gp,30,weapon
-3646,Wrist Razor,,"size:S, dmg:S, dmg:1d6+1, 1d4+1",,1 sp,10,weapon
-3647,Zaghnal,,"size:S, dmg:P, dmg:1d4+1, 1d6+1",,14 gp,50,weapon
+3395,Alhulak,,"size:M, dmg:B, dmg:1d6, 1d6, knock: ",,9 gp,90,weapon
+3396,Ankus (Elephant Goad),,"size:M, dmg:P/B, dmg:1d4, 1d4, knock: d8",,3 gp,40,weapon
+3397,Arquebus,,"size:M, dmg:P, dmg:1d10, 1d10, knock: ",,500 gp,100,weapon
+3398,"Arrow, Daikyu",,"size:M, dmg:P, dmg:1d8, 1d6, knock: ",,3 sp/6,10,weapon
+3399,"Arrow, Flight",,"size:S, dmg:P, dmg:1d6, 1d6, knock: ",,3 sp/12,1,weapon
+3400,"Arrow, Forget",,"size:T, dmg:P, dmg:**, **, knock: ",,100 gp,1,weapon
+3401,"Arrow, Giant-kin",,"size:G, dmg:P, dmg:1d8, 1d8, knock: ",,1 gp/12,1,weapon
+3402,"Arrow, Kenyan",,"size:S, dmg:P, dmg:1d10, 1d10, knock: ",,1 gp/20,1,weapon
+3403,"Arrow, Mail-Piercer",,"size:S, dmg:P, dmg:1d6, 1d6, knock: ",,1 gp/20,1,weapon
+3404,"Arrow, Sheaf",,"size:S, dmg:P, dmg:1d8, 1d8, knock: ",,3 sp/6,1,weapon
+3405,"Arrow, Sleep",,"size:T, dmg:P, dmg:**, **, knock: ",,10 gp/6,1,weapon
+3406,"Arrow, Stone Flight",,"size:M, dmg:P, dmg:1d4, 1d4, knock: ",,3 cp/12,1,weapon
+3407,"Arrow, War",,"size:T, dmg:P, dmg:1d4+1, 1d4+1, knock: ",,1 gp/2,1,weapon
+3408,Assegai,,"size:M, dmg:P/S, dmg:1d8, 1d10, knock: ",,2 gp,10,weapon
+3409,"Axe, Battle",,"size:M, dmg:S, dmg:1d8, 1d8, knock: d10",,5 gp,70,weapon
+3410,"Axe, Forearm",,"size:S, dmg:P/S, dmg:1d6, 1d6, knock: ",,1 gp,40,weapon
+3411,"Axe, Hand/Throwing",,"size:M, dmg:S, dmg:1d6, 1d4, knock: d8",,1 gp,50,weapon
+3412,"Axe, Two-Handed Battle",,"size:M, dmg:S, dmg:1d10, 2d8, knock: d12",,10 gp,100,weapon
+3413,Bagh Nakh (Tiger Claws),,"size:S, dmg:P, dmg:1d2, 1d2, knock: d4",,4 sp,10,weapon
+3414,Bard's Friend,,"size:S, dmg:P/S, dmg:1d4+1, 1d3, knock: ",,10 gp,30,weapon
+3415,Basilard,,"size:S, dmg:P/S, dmg:1d4+1, 1d6+1, knock: ",,7 gp,30,weapon
+3416,Belaying Pin,,"size:S, dmg:B, dmg:1d3, 1d3, knock: d6",,2 cp,20,weapon
+3417,Blowgun,,"size:L, dmg:—, dmg:—, —, knock: ",,5 gp,20,weapon
+3418,Barbed Dart,,"size:S, dmg:P, dmg:1d3, 1d2, knock: d4",,1 sp,1,weapon
+3419,Needle,,"size:S, dmg:P, dmg:1, 1, knock: ",,2 cp,1,weapon
+3420,Blunderbus,,"size:M, dmg:P, dmg:1d4, 1d4, knock: ",,500 gp,120,weapon
+3421,Bo Stick,,"size:L, dmg:B, dmg:1d6, 1d4, knock: d8",,2 cp,40,weapon
+3422,Bola,,"size:M, dmg:B, dmg:1d3, 1d2, knock: d6",,5 sp,20,weapon
+3423,"Bow, Composite Long",,"size:L, dmg:—, dmg:—, —, knock: d6",,100 gp,30,weapon
+3424,"Bow, Composite Short",,"size:M, dmg:—, dmg:—, —, knock: d6",,75 gp,20,weapon
+3425,"Bow, Elven",,"size:L, dmg:B, dmg:1d6, 1d3, knock: d6",,150 gp,30,weapon
+3426,"Bow, Folding Short",,"size:M, dmg:—, dmg:—, —, knock: d6",,45 gp,20,weapon
+3427,"Bow, Giant-kin Long",,"size:G, dmg:—, dmg:—, —, knock: d6",,125 gp,80,weapon
+3428,"Bow, Kenyan Long",,"size:L, dmg:—, dmg:—, —, knock: d6",,60 gp,40,weapon
+3429,"Bow, Long",,"size:L, dmg:—, dmg:—, —, knock: d6",,75 gp,30,weapon
+3430,"Bow, Pixie",,"size:T, dmg:—, dmg:—, —, knock: ",,50 gp,10,weapon
+3431,"Bow, Short",,"size:M, dmg:—, dmg:—, —, knock: d6",,30 gp,20,weapon
+3432,"Buckler, Spiked",,"size:M, dmg:P, dmg:1d3, 1d2, knock: ",,3 gp,30,weapon
+3433,Cahulaks,,"size:M, dmg:P/B, dmg:1d6, 1d6, knock: ",,12 gp,120,weapon
+3434,Caltrop,,"size:S, dmg:P, dmg:1, 1d2, knock: ",,2 sp,2,weapon
+3435,Carrikal,,"size:M, dmg:S, dmg:1d6+1, 1d8, knock: ",,8 gp,60,weapon
+3436,Caviler,,"size:M, dmg:P, dmg:1d8, 1d8, knock: ",,450 gp,110,weapon
+3437,Cestus,,"size:S, dmg:S, dmg:1d4, 1d3, knock: d6",,1 gp,20,weapon
+3438,Chain,,"size:L, dmg:B, dmg:1d4+1, 1d4, knock: d6",,5 sp,30,weapon
+3439,Chakram,,"size:S, dmg:S, dmg:1d4, 1d3, knock: d4",,1 gp,5,weapon
+3440,Chatkcha,,"size:S, dmg:S, dmg:1d6+2, 1d4+1, knock: ",,1 cp,5,weapon
+3441,Club,,"size:M, dmg:B, dmg:1d6, 1d3, knock: d8",,—,30,weapon
+3442,"Club, Datchi",,"size:L, dmg:B, dmg:1d6, 1d4, knock: ",,12 gp,100,weapon
+3443,"Club, Dwarven War",,"size:M, dmg:B, dmg:2d4, 1d6+1, knock: d10",,**,120,weapon
+3444,"Club, Great",,"size:M, dmg:B, dmg:2d4, 1d6+1, knock: d12",,8 gp,120,weapon
+3445,"Club, Rim",,"size:L, dmg:B, dmg:1d6, 1d6, knock: ",,2 sp,120,weapon
+3446,"Crossbow, Disk",,"size:M, dmg:—, dmg:—, —, knock: ",,175 gp,100,weapon
+3447,"Crossbow, Doubled",,"size:M, dmg:—, dmg:—, —, knock: ",,60 gp,80,weapon
+3448,"Crossbow, Hand",,"size:S, dmg:—, dmg:—, —, knock: d4",,300 gp,30,weapon
+3449,"Crossbow, Heavy",,"size:M, dmg:—, dmg:—, —, knock: d6",,50 gp,140,weapon
+3450,"Crossbow, Light",,"size:M, dmg:—, dmg:—, —, knock: d6",,35 gp,70,weapon
+3451,Dagger,,"size:S, dmg:P, dmg:1d4, 1d3, knock: d4",,2 gp,10,weapon
+3452,"Dagger, Bone",,"size:S, dmg:P, dmg:1d2, 1d2, knock: d6",,1 sp,10,weapon
+3453,"Dagger, Climbing",,"size:S, dmg:P, dmg:1d3, 1d2, knock: d6",,5 gp,10,weapon
+3454,"Dagger, Giant-kin",,"size:G, dmg:P, dmg:1d6, 1d8, knock: d6",,5 gp,30,weapon
+3455,"Dagger, Parrying",,"size:S, dmg:P, dmg:1d3, 1d3, knock: d6",,5 gp,10,weapon
+3456,"Dagger, Stone",,"size:S, dmg:P, dmg:1d3, 1d2, knock: d6",,2 sp,10,weapon
+3457,Daikyu,,"size:L, dmg:—, dmg:—, —, knock: ",,100 gp,30,weapon
+3458,Dart,,"size:S, dmg:P, dmg:1d3, 1d2, knock: d4",,5 sp,5,weapon
+3459,"Dart, Barbed",,"size:S, dmg:P, dmg:1d4, 1d4, knock: ",,—,50,weapon
+3460,Dejada,,"size:M, dmg:P/B, dmg:1d8, 1d6, knock: ",,6 gp,80,weapon
+3461,Dejada Cestus,,"size:M, dmg:P/S/B, dmg:1d6/1d6, 1d8/1d6, knock: ",,10 gp,90,weapon
+3462,Dirk,,"size:S, dmg:P, dmg:1d4, 1d3, knock: ",,2 gp,10,weapon
+3463,"Disk, Crossbow",,"size:S, dmg:P, dmg:1d6+1, 1d6, knock: ",,5 gp,3,weapon
+3464,Dragon's Paw,,"size:L, dmg:P, dmg:1d6, 1d6+1, knock: ",,15 gp,90,weapon
+3465,"Flail, Bladeback",,"size:L, dmg:B, dmg:1d8+1, 2d6, knock: d8",,20 gp,250,weapon
+3466,"Flail, Chain",,"size:L, dmg:B, dmg:1d4+2, 1d4+1, knock: d8",,1 gp,50,weapon
+3467,"Flail, Footman's",,"size:M, dmg:B, dmg:1d6+1, 2d4, knock: d12",,15 gp,150,weapon
+3468,"Flail, Grain",,"size:M, dmg:B, dmg:1d4+1, 1d4, knock: d8",,3 gp,30,weapon
+3469,"Flail, Horseman's",,"size:M, dmg:B, dmg:1d4+1, 1d4+1, knock: d10",,8 gp,50,weapon
+3470,Flindbar,,"size:M, dmg:B, dmg:1d4, 1d4, knock: ",,8,60,weapon
+3471,Gada,,"size:M, dmg:B, dmg:1d8, 1d4, knock: ",,1 gp,60,weapon
+3472,"Gaff/Hook, Attached",,"size:S, dmg:P, dmg:1d4, 1d3, knock: d6",,2 gp,20,weapon
+3473,"Gaff/Hook, Held",,"size:S, dmg:P, dmg:1d4, 1d3, knock: d6",,5 cp,20,weapon
+3474,"Gladiator's Friend, Footman's",,"size:L, dmg:P/S/B, dmg:1d6/1d8, 1d6+1/1d6, knock: ",,15 gp,150,weapon
+3475,"Gladiator's Friend, Horseman's",,"size:M, dmg:P/S/B, dmg:1d6/1d4, 1d4/1d4, knock: ",,10 gp,70,weapon
+3476,Glove Nail,,"size:S, dmg:P, dmg:1d4+1, 1d4, knock: ",,2 gp,20,weapon
+3477,Gouge,,"size:L, dmg:P/S, dmg:1d8, 1d10, knock: ",,6 gp,120,weapon
+3478,"Harpoon, One-Handed",,"size:L, dmg:P, dmg:1d4+1, 1d6+1, knock: d8",,20 gp,60,weapon
+3479,"Harpoon, Two-Handed",,"size:L, dmg:P, dmg:2d4, 2d6, knock: d8",,20 gp,60,weapon
+3480,Hatchet,,"size:S, dmg:S, dmg:1d4+1, 1d4+1, knock: d6",,2 gp,30,weapon
+3481,"Hatchet, Hawk",,"size:M, dmg:P/S, dmg:1d6+1/1d4+1, 1d4/1d4, knock: d6",,2 gp,60,weapon
+3482,Hora,,"size:S, dmg:B, dmg:1d3, 1d3, knock: ",,1 gp,5,weapon
+3483,Impaler,,"size:M, dmg:P, dmg:1d8, 1d8, knock: ",,4 cp,50,weapon
+3484,Iuak (Snow Blade),,"size:M, dmg:S, dmg:1d4, 1d6, knock: ",,10 gp,30,weapon
+3485,Jambiya,,"size:S, dmg:P/S, dmg:1d4, 1d4, knock: ",,4 gp,10,weapon
+3486,"Javelin, One-Handed",,"size:M, dmg:P, dmg:1d4, 1d4, knock: d6",,5 sp,20,weapon
+3487,"Javelin, Two-Handed",,"size:M, dmg:P, dmg:1d6, 1d6, knock: d6",,5 sp,20,weapon
+3488,"Javenlin, Stone, One-Handed",,"size:L, dmg:P, dmg:1d4, 1d4, knock: d6",,5 cp,20,weapon
+3489,"Javenlin, Stone, Two-Handed",,"size:L, dmg:P, dmg:1d4+1, 1d6, knock: d6",,5 cp,20,weapon
+3490,Katar (Punch Dagger),,"size:S, dmg:P, dmg:1d3+1, 1d3, knock: ",,3 gp,10,weapon
+3491,Kick-slasher,,"size:S, dmg:S, dmg:1d4+1, 1d6+1, knock: ",,7 gp,30,weapon
+3492,Knife,,"size:S, dmg:P/S, dmg:1d3, 1d2, knock: d4",,5 sp,5,weapon
+3493,"Knife, Bone",,"size:S, dmg:P/S, dmg:1d2, 1d2, knock: d4",,3 cp,5,weapon
+3494,"Knife, Harness",,"size:S, dmg:P/S, dmg:1d2, 1, knock: d4",,**,1,weapon
+3495,"Knife, Stone",,"size:S, dmg:P/S, dmg:1d2, 1d2, knock: d4",,5 cp,5,weapon
+3496,"Knife, Throwing",,"size:M, dmg:P/S, dmg:1d4+1, 1d4+1, knock: d4",,3 gp,30,weapon
+3497,"Knife, Widow's",,"size:M, dmg:P/S, dmg:1d4, 1d4, knock: d4",,5 gp,40,weapon
+3498,Knobkerrie,,"size:M, dmg:B, dmg:1d6, 1d4+1, knock: ",,10 sp,40,weapon
+3499,Kora,,"size:M, dmg:S, dmg:1d6+1, 1d6+1, knock: ",,11 gp,40,weapon
+3500,Kukri,,"size:S, dmg:S, dmg:1d4+1, 1d4+1, knock: ",,3 gp,20,weapon
+3501,"Lance, Flight",,"size:L, dmg:P, dmg:1d6+1, 2d6, knock: ",,6 gp,50,weapon
+3502,"Lance, Heavy Horse",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d8+1, 3d6, knock: d12",,15 gp,150,weapon
+3503,"Lance, Light Horse",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d6, 1d8, knock: d8",,6 gp,50,weapon
+3504,"Lance, Jousting",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d3-1, 1d2-1, knock: d6",,20 gp,200,weapon
+3505,"Lance, Medium Horse",double damage when used from the back of a charging mount. ,"size:L, dmg:P, dmg:1d6+1, 2d6, knock: d10",,10 gp,100,weapon
+3506,Lasso,,"size:L, dmg:—, dmg:—, —, knock: ",,5 sp,30,weapon
+3507,Lotulis,,"size:L, dmg:P/S/B, dmg:1d10, 1d12, knock: ",,15 gp,100,weapon
+3508,Maca,,"size:M, dmg:S, dmg:1d8, 1d6, knock: ",,25 gp,60,weapon
+3509,"Mace, Bladeback",,"size:L, dmg:B, dmg:1d8+1, 1d8, knock: d10",,15 gp,160,weapon
+3510,"Mace, Footman's",,"size:M, dmg:B, dmg:1d6+1, 1d6, knock: d10",,8 gp,100,weapon
+3511,"Mace, Footman's Whistling",,"size:M, dmg:B, dmg:1d6, 1d4, knock: ",,12 gp,60,weapon
+3512,"Mace, Giant-kin",,"size:G, dmg:B, dmg:1d8x2, 1d6x2, knock: ",,11 gp,120,weapon
+3513,"Mace, Great",,"size:M, dmg:B, dmg:1d8+1, 2d4, knock: ",,20 gp,200,weapon
+3514,"Mace, Horseman's",,"size:M, dmg:B, dmg:1d6, 1d4, knock: d8",,5 gp,60,weapon
+3515,"Mace, Horseman's Whistling",,"size:M, dmg:B, dmg:1d4+1, 1d2+1, knock: ",,9 gp,30,weapon
+3516,Machete,,"size:M, dmg:S, dmg:1d8, 1d8, knock: d6",,30 gp,40,weapon
+3517,Madu,,"size:M, dmg:P, dmg:1d4, 1d3, knock: ",,6 gp,50,weapon
+3518,Main-Gauche,,"size:S, dmg:P/S, dmg:1d4, 1d3, knock: ",,3 gp,20,weapon
+3519,Mancatcher,can dismount a rider on a successful hit,"size:L, dmg:—, dmg:—, —, knock: d6",,30 gp,80,weapon
+3520,Morning Star,,"size:M, dmg:B, dmg:2d4, 1d6+1, knock: d10",,10 gp,120,weapon
+3521,"Morning Star, Double-Ball",,"size:M, dmg:B, dmg:1d4+1x2, 1d4x2, knock: d10",,35 gp,160,weapon
+3522,Musket,,"size:M, dmg:P, dmg:1d12, 1d12, knock: ",,800 gp,200,weapon
+3523,Net,,"size:M, dmg:—, dmg:—, —, knock: ",,5 gp,100,weapon
+3524,Nunchaku,,"size:M, dmg:B, dmg:1d6, 1d6, knock: d8",,1 gp,30,weapon
+3525,Nyek-ple-nen-toh,,"size:L, dmg:S, dmg:1d8+1, 1d8, knock: ",,40 gp,100,weapon
+3526,Pata,double damage when used from the back of a charging mount. ,"size:M, dmg:P/S, dmg:1d8, 1d12, knock: ",,30 gp,60,weapon
+3527,Peshkabz,,"size:S, dmg:P, dmg:1d4, 1d3, knock: ",,3 gp,10,weapon
+3528,"Pick, Footman's",,"size:M, dmg:P, dmg:1d6+1, 2d4, knock: d8",,8 gp,60,weapon
+3529,"Pick, Horseman's",,"size:M, dmg:P, dmg:1d4+1, 1d4, knock: d6",,7 gp,40,weapon
+3530,"Pick, Ice",,"size:S, dmg:P, dmg:1d4, 1d3, knock: d8",,1 gp,5,weapon
+3531,"Pike, Weighted",,"size:L, dmg:P/B, dmg:1d6/1d6, 1d12/1d4, knock: d8",,6 gp,150,weapon
+3532,"Pistol, Starwheel",,"size:S, dmg:P, dmg:1d4, 1d4, knock: ",,"1,000 gp",50,weapon
+3533,"Polearm, Awl Pike",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d6, 1d12, knock: d8",,5 gp,120,weapon
+3534,"Polearm, Bardiche",,"size:L, dmg:S, dmg:2d4, 2d6, knock: d12",,7 gp,120,weapon
+3535,"Polearm, Bec De Corbin",,"size:L, dmg:P/B, dmg:1d8, 1d6, knock: d10",,8 gp,100,weapon
+3536,"Polearm, Bill-Guisarme",,"size:L, dmg:P/S, dmg:2d4, 1d10, knock: d10",,7 gp,150,weapon
+3537,"Polearm, Crusher",,"size:L, dmg:B, dmg:1d4, 1d3, knock: d10",,24 gp,90,weapon
+3538,"Polearm, Fauchard",,"size:L, dmg:P/S, dmg:1d6, 1d8, knock: d8",,5 gp,70,weapon
+3539,"Polearm, Fauchard-Fork",,"size:L, dmg:P/S, dmg:1d8, 1d10, knock: d8",,8 gp,90,weapon
+3540,"Polearm, Giant-kin Halberd",,"size:G, dmg:P/S, dmg:1d12, 2d8, knock: d8",,25 gp,350,weapon
+3541,"Polearm, Glaive",double damage against charging creatures of L or greater size,"size:L, dmg:S, dmg:1d6, 1d10, knock: d8",,6 gp,80,weapon
+3542,"Polearm, Glaive-Guisarme",double damage against charging creatures of L or greater size,"size:L, dmg:P/S, dmg:2d4, 2d6, knock: d8",,10 gp,100,weapon
+3543,"Polearm, Guisarme",,"size:L, dmg:S, dmg:2d4, 1d8, knock: d8",,5 gp,80,weapon
+3544,"Polearm, Guisarme-Voulge",,"size:L, dmg:P/S, dmg:2d4, 2d4, knock: d8",,8 gp,150,weapon
+3545,"Polearm, Gythka",,"size:L, dmg:P/B, dmg:2d4, 1d10, knock: d8",,6 cp,120,weapon
+3546,"Polearm, Halberd",,"size:L, dmg:P/S, dmg:1d10, 2d6, knock: d8",,10 gp,150,weapon
+3547,"Polearm, Hook Fauchard",,"size:L, dmg:P/S, dmg:1d4, 1d4, knock: d8",,10 gp,80,weapon
+3548,"Polearm, Lucern Hammer",double damage when firmly set to receive a charge,"size:L, dmg:P/B, dmg:2d4, 1d6, knock: d8",,7 gp,150,weapon
+3549,"Polearm, Military Fork",double damage against charging creatures of L or greater size,"size:L, dmg:P, dmg:1d8, 2d4, knock: d8",,5 gp,70,weapon
+3550,"Polearm, Naginata",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d8, 1d10, knock: d8",,8 gp,100,weapon
+3551,"Polearm, Partisan",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d6, 1d6+1, knock: d8",,10 gp,80,weapon
+3552,"Polearm, Quad Fauchard",,"size:L, dmg:S, dmg:1d6, 1d8, knock: d8",,20 gp,200,weapon
+3553,"Polearm, Ranseur",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:2d4, 2d4, knock: d8",,6 gp,70,weapon
+3554,"Polearm, Spetum",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:1d6+1, 2d6, knock: d8",,5 gp,70,weapon
+3555,"Polearm, Tetsubo",,"size:L, dmg:B, dmg:1d8, 1d8, knock: d8",,2 gp,70,weapon
+3556,"Polearm, Trikal",,"size:L, dmg:S/B, dmg:1d10, 1d10, knock: d12",,12 gp,80,weapon
+3557,"Polearm, Voulge",,"size:L, dmg:S, dmg:2d4, 2d4, knock: d12",,5 gp,120,weapon
+3558,Puchik,,"size:S, dmg:P/S, dmg:1d4+1, 1d4+1, knock: ",,6 gp,10,weapon
+3559,Punch-cutter,,"size:S, dmg:S, dmg:1d4, 1d3, knock: ",,6 gp,10,weapon
+3560,Quabone,,"size:M, dmg:P/S, dmg:1d4, 1d3, knock: ",,1 cp,40,weapon
+3561,"Quarrel, Hand",,"size:S, dmg:P, dmg:1d3, 1d2, knock: ",,1 gp,1,weapon
+3562,"Quarrel, Heavy",,"size:S, dmg:P, dmg:1d4+1, 1d6+1, knock: ",,2 sp,1,weapon
+3563,"Quarrel, Light",,"size:S, dmg:P, dmg:1d4, 1d4, knock: ",,1 sp,1,weapon
+3564,Quarterstaff,,"size:L, dmg:B, dmg:1d6, 1d6, knock: d10",,—,40,weapon
+3565,Razor,,"size:S, dmg:S, dmg:1d2, 1d2, knock: ",,4 sp,10,weapon
+3566,Ritiik,,"size:L, dmg:P, dmg:1d6+1, 1d8+1, knock: ",,10 gp,60,weapon
+3567,Sai,,"size:S, dmg:P/B, dmg:1d4, 1d2, knock: d6",,5 sp,20,weapon
+3568,Sap,,"size:S, dmg:B, dmg:1d2, 1d2, knock: d4",,1 gp,1,weapon
+3569,Scourge,,"size:S, dmg:—, dmg:1d4, 1d2, knock: d4",,1 gp,20,weapon
+3570,Scythe,,"size:L, dmg:S, dmg:1d10+2, 2d6, knock: d8",,10 gp,150,weapon
+3571,"Shield, Spike",,"size:L, dmg:P, dmg:1d8, 1d6, knock: ",,15 gp,180,weapon
+3572,Shoka,,"size:M, dmg:S, dmg:1d6+1, 1d6+1, knock: ",,6 gp,70,weapon
+3573,Shotel,,"size:M, dmg:S, dmg:1d6, 1d6, knock: ",,3 gp,40,weapon
+3574,Shuriken,,"size:S, dmg:P, dmg:1d4, 1d4, knock: ",,3 sp,10,weapon
+3575,Sickle,,"size:S, dmg:S, dmg:1d4+1, 1d4, knock: d4",,6 sp,30,weapon
+3576,Sling,,"size:S, dmg:—, dmg:—, —, knock: d4",,5 cp,1,weapon
+3577,Bullet,,"size:S, dmg:B, dmg:1d4+1, 1d6+1, knock: d4",,1 cp,5,weapon
+3578,Stone,,"size:S, dmg:B, dmg:1d4, 1d4, knock: d4",,—,5,weapon
+3579,Spear,,"size:, dmg:, dmg:dmg:, knock: d6",,,0,weapon
+3580,"Spear, One-Handed",,"size:M, dmg:P, dmg:1d6, 1d8, knock: d6",,8 sp,50,weapon
+3581,"Spear, Two-Handed",double damage when firmly set to receive a charge,"size:M, dmg:P, dmg:1d8+1, 2d6, knock: d8",,8 sp,50,weapon
+3582,"Spear, Double-Bladed",,"size:M, dmg:P, dmg:1d8, 1d8, knock: d8",,2 gp,60,weapon
+3583,"Spear, Heavy, One-Handed",,"size:L, dmg:P, dmg:1d8, 1d10, knock: d6",,3 gp,70,weapon
+3584,"Spear, Heavy, Two-Handed",,"size:L, dmg:P, dmg:2d6, 2d8, knock: d8",,3 gp,70,weapon
+3585,"Spear, Hook-Tailed",,"size:L, dmg:P/S, dmg:1d6, 1d8, knock: d8",,8 gp,70,weapon
+3586,"Spear, Long",,"size:, dmg:, dmg:dmg:, knock: d6",,,0,weapon
+3587,"Spear, Long, One-Handed",,"size:L, dmg:P, dmg:1d8, 1d8+1, knock: d6",,5 gp,80,weapon
+3588,"Spear, Long, Two-Handed",double damage when firmly set to receive a charge,"size:L, dmg:P, dmg:2d6, 3d6, knock: d6",,5 gp,80,weapon
+3589,"Spear, Paddle",,"size:M, dmg:P, dmg:1d4+1, 1d6+1, knock: d6",,10 sp,30,weapon
+3590,"Spear, Stone, One-Handed",,"size:M, dmg:P, dmg:1d4, 1d6, knock: ",,8 cp,50,weapon
+3591,"Spear, Stone, Two-Handed",,"size:M, dmg:P, dmg:1d6, 2d4, knock: ",,8 cp,50,weapon
+3592,"Spear, Throwing",,"size:M, dmg:P, dmg:1d6, 1d8, knock: ",,1 gp,30,weapon
+3593,Spear Caster,,"size:M, dmg:—, dmg:—, —, knock: ",,10 gp,30,weapon
+3594,"Spikes, Body",,"size:S, dmg:P, dmg:**, **, knock: ",,—,1,weapon
+3595,"Spike, Elbow",,"size:S, dmg:S, dmg:1d4, 1d4, knock: ",,1 gp,20,weapon
+3596,"Spike, Head",,"size:M, dmg:P, dmg:1d6, 1d8, knock: ",,10 gp,100,weapon
+3597,"Spike, Knee",,"size:S, dmg:P, dmg:1d4, 1d4, knock: ",,3 gp,20,weapon
+3598,"Staff, Hamanu's",,"size:L, dmg:B, dmg:1d8, 1d8, knock: ",,10 gp,50,weapon
+3599,"Staff, Hornhead",,"size:L, dmg:B, dmg:2d6, 2d6, knock: ",,5 gp,200,weapon
+3600,Staff Sling,,"size:M, dmg:—, dmg:—, —, knock: d6",,2 sp,20,weapon
+3601,Stinkpot,,"size:S, dmg:B, dmg:1d3, 1d3, knock: ",,1 sp,20,weapon
+3602,"Stick, Goblin",,"size:L, dmg:P, dmg:1d4, 1d6, knock: ",,5 gp,80,weapon
+3603,"Sticks, Singing",,"size:S, dmg:B, dmg:1d6, 1d4, knock: ",,5 sp,10,weapon
+3604,Stiletto,,"size:S, dmg:P, dmg:1d3, 1d2, knock: ",,5 sp,5,weapon
+3605,"Sword, Bastard, One-Handed",,"size:M, dmg:S, dmg:1d8, 1d12, knock: d8",,25 gp,100,weapon
+3606,"Sword, Bastard, Two-Handed",,"size:M, dmg:S, dmg:2d4, 2d8, knock: d10",,25 gp,100,weapon
+3607,"Sword, Broad",,"size:M, dmg:S, dmg:2d4, 1d6+1, knock: d8",,10 gp,40,weapon
+3608,"Sword, Claymore",,"size:M, dmg:S, dmg:2d4, 2d8, knock: d10",,25 gp,100,weapon
+3609,"Sword, Cutlass",,"size:M, dmg:S, dmg:1d6, 1d8, knock: d8",,12 gp,40,weapon
+3610,"Sword, Drusus",,"size:M, dmg:S, dmg:1d6+1, 1d8+1, knock: d6",,50 gp,30,weapon
+3611,"Sword, Dwarven Claymore",,"size:M, dmg:S, dmg:2d4, 2d6, knock: d6",,**,110,weapon
+3612,"Sword, Falchion",,"size:M, dmg:S, dmg:1d6+1, 2d4, knock: d8",,17 gp,80,weapon
+3613,"Sword, Flamberge",,"size:L, dmg:S, dmg:1d8+1, 2d8, knock: ",,30 gp,210,weapon
+3614,"Sword, Giant-kin Two-Handed",,"size:G, dmg:S, dmg:1d10x2, 3d6x2, knock: ",,100 gp,350,weapon
+3615,"Sword, Great Scimitar",,"size:L, dmg:S, dmg:2d8, 4d4, knock: d10",,60 gp,160,weapon
+3616,"Sword, Hook",,"size:M, dmg:S, dmg:1d8+1, 1d8, knock: ",,15 gp,40,weapon
+3617,"Sword, Katana, One-Handed",,"size:M, dmg:S/P, dmg:1d10, 1d12, knock: d6",,100 gp,60,weapon
+3618,"Sword, Katana, Two-Handed",,"size:M, dmg:S/P, dmg:2d6, 2d6, knock: d8",,100 gp,60,weapon
+3619,"Sword, Khandar, One-Handed",,"size:M, dmg:S, dmg:1d8, 1d8, knock: ",,25 gp,100,weapon
+3620,"Sword, Khandar, Two-Handed",,"size:M, dmg:S, dmg:1d10, 1d10, knock: ",,25 gp,100,weapon
+3621,"Sword, Khopesh",,"size:M, dmg:S, dmg:2d4, 1d6, knock: d8",,10 gp,70,weapon
+3622,"Sword, Long",,"size:M, dmg:S, dmg:1d8, 1d12, knock: d8",,15 gp,40,weapon
+3623,"Sword, Mandible",,"size:M, dmg:P, dmg:1d8/1d6, 1d6/1d4, knock: ",,6 gp,30,weapon
+3624,"Sword, Mariner's",,"size:M, dmg:S, dmg:1d8, 1d8, knock: ",,9 gp,50,weapon
+3625,"Sword, Piercer",,"size:M, dmg:P, dmg:1d6+1, 1d8, knock: ",,12 gp,30,weapon
+3626,"Sword, Pixie",,"size:T, dmg:S, dmg:1d4, 1d3, knock: ",,30 gp,10,weapon
+3627,"Sword, Rapier",,"size:M, dmg:P, dmg:1d6+1, 1d8+1, knock: d6",,15 gp,40,weapon
+3628,"Sword, Sabre",,"size:M, dmg:S, dmg:1d6+1, 1d8+1, knock: d8",,17 gp,50,weapon
+3629,"Sword, Scimitar",,"size:M, dmg:S, dmg:1d8, 1d8, knock: d8",,15 gp,40,weapon
+3630,"Sword, Short",,"size:S, dmg:P, dmg:1d6, 1d8, knock: d6",,10 gp,30,weapon
+3631,"Sword, Talwar",,"size:M, dmg:S, dmg:2d4, 2d4, knock: d8",,15 gp,50,weapon
+3632,"Sword, Two-Handed",,"size:L, dmg:S, dmg:1d10, 3d6, knock: ",,50 gp,150,weapon
+3633,"Sword, Wakizashi",,"size:M, dmg:S/P, dmg:1d8, 1d8, knock: ",,50 gp,30,weapon
+3634,Swordlet,,"size:S, dmg:S, dmg:1d4+1, 1d4+1, knock: ",,8 gp,20,weapon
+3635,Talid,,"size:S, dmg:P/S/B, dmg:1d6, 1d6-1, knock: ",,4 gp,10,weapon
+3636,Tortoise Blades,,"size:M, dmg:P/S, dmg:1d6, 1d6+1, knock: ",,9 gp,50,weapon
+3637,"trident, one handed",,"size:L, dmg:P, dmg:1d6+1, 3d4, knock: d6",,15 gp,50,weapon
+3638,triden two handed,,"size:L, dmg:P, dmg:1d8+1, 3d4, knock: d8",,15 gp,50,weapon
+3639,"trombash, held",,"size:S, dmg:B, dmg:1d4, 1d2, knock: ",,10 sp,20,weapon
+3640,"trombash, thrown",,"size:S, dmg:B, dmg:1d6, 1d4, knock: ",,10 sp,20,weapon
+3641,Tufenk,,"size:L, dmg:—, dmg:**, **, knock: ",,14 gp,50,weapon
+3642,Warhammer,,"size:M, dmg:B, dmg:1d4+1, 1d4, knock: d8",,2 gp,60,weapon
+3643,Whip,,"size:M, dmg:—, dmg:1d2, 1, knock: ",,1 sp,20,weapon
+3644,"Whip, Chain",,"size:M, dmg:—, dmg:1d3, 1d2, knock: ",,21 gp,35,weapon
+3645,"Whip, Master's",,"size:M, dmg:P, dmg:1d3, 1d2, knock: ",,6 gp,30,weapon
+3646,Wrist Razor,,"size:S, dmg:S, dmg:1d6+1, 1d4+1, knock: ",,1 sp,10,weapon
+3647,Zaghnal,,"size:S, dmg:P, dmg:1d4+1, 1d6+1, knock: ",,14 gp,50,weapon
