@@ -53,7 +53,7 @@ ggsave(paste("Florida", date, ".png"))
 state_plots(     "Michigan", date, data, 0.34, 5.48)
 ggsave(paste("Michigan", date, ".png"))
 
-state_plots(        "Nevada", date, data, 0, 1.18)
+state_plots(        "Nevada", date, data, 0, 1.96)
 ggsave(paste("Nevada", date, ".png"))
 
 state_plots("North Carolina", date, data, 0, 4.36)

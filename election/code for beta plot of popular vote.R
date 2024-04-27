@@ -3,7 +3,7 @@ library(ggplot2)
 library(ggthemes)
 
 data <- data.table(p=c(0:20)/20)
-w = 15.54921
+w = 16.94902	
 l =	21.67305
 
 
