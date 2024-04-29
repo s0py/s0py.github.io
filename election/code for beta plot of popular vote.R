@@ -3,12 +3,12 @@ library(ggplot2)
 library(ggthemes)
 
 data <- data.table(p=c(0:20)/20)
-w = 16.94902	
-l =	21.67305
+w = 15.35113	
+l =	20.95947
 
 
 
-date <- "2024-04-27"
+date <- "2024-04-29"
 
 
 data$density <- data$p**w*(1-data$p)**l# * factorial(w+l+1)/(factorial(w)*factorial(l))
