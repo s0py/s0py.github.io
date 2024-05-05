@@ -3,8 +3,8 @@ library(ggplot2)
 library(ggthemes)
 
 data <- data.table(p=c(0:20)/20)
-w = 13.90388	
-l =	21.95463
+w = 11.40584	
+l =	22.85330
 
 
 date <- Sys.Date()

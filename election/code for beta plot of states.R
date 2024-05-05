@@ -42,26 +42,26 @@ date <- Sys.Date()
 
 data <- data.table(p=c(0:20)/20)
 
-state_plots(       "Arizona", date, data, 0, 5.38)
+state_plots(       "Arizona", date, data, 0, 4.41)
 ggsave(paste("Arizona", date, ".png"))
 
-state_plots(       "Georgia", date, data, 0.00, 5.08)
+state_plots(       "Georgia", date, data, 0.00, 4.17)
 ggsave(paste("Georgia", date, ".png"))
 
-state_plots(       "Florida", date, data, 0.00, 3.32)
+state_plots(       "Florida", date, data, 0.00, 2.73)
 ggsave(paste("Florida", date, ".png"))
 
-state_plots(     "Michigan", date, data, 2.36, 6.25)
+state_plots(     "Michigan", date, data, 1.93, 5.13)
 ggsave(paste("Michigan", date, ".png"))
 
-state_plots(        "Nevada", date, data, 0, 3.42)
+state_plots(        "Nevada", date, data, 0, 2.80)
 ggsave(paste("Nevada", date, ".png"))
 
-state_plots("North Carolina", date, data, 0, 6.35)
+state_plots("North Carolina", date, data, 0, 5.21)
 ggsave(paste("North Carolina", date, ".png"))
 
-state_plots(  "Pennsylvania", date, data, 1.28, 5.03)
+state_plots(  "Pennsylvania", date, data, 1.05, 4.13)
 ggsave(paste("Pennsylvania", date, ".png"))
 
-state_plots(     "Wisconsin", date, data, 2.79, 5.91)
+state_plots(     "Wisconsin", date, data, 2.28, 4.85)
 ggsave(paste("Wisconsin", date, ".png"))
