@@ -3,8 +3,9 @@ library(ggplot2)
 library(ggthemes)
 
 data <- data.table(p=c(0:20)/20)
-w = 18.94891	
-l =	22.70024
+pv <- fread("pv_export.csv")
+w = as.numeric(pv[1,2])	
+l = as.numeric(pv[2,2])
 
 
 date <- Sys.Date()
