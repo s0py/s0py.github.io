@@ -33,7 +33,7 @@ ggplot(data, aes(x=as.integer(p*100), y=density))+
   ylab("Relative Density of that Probability being true")+
   theme(legend.position = "bottom")+
   scale_x_continuous(breaks=seq(0,100,5),expand = c(0,0), limits=c(0,101))+
-  scale_y_continuous(expand=c(0,0), limits=c(0,0.3))+
+  scale_y_continuous(expand=c(0,0), limits=c(0,0.4))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.major = element_blank(),
