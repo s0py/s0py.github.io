@@ -424,3 +424,35 @@ ggplot(dt, aes(x=`Biden Electoral Votes`, y=`Relative Likelihood`, fill=category
 
 date <- Sys.Date()
 ggsave(paste0("electoral college ", date, ".png"))
+
+
+#####################################################
+#
+# CHANCE TRUMP WINS ELECTION USING STATES DATA
+#
+#####################################################
+dem <- 226
+rep <- 189
+
+az_v <- 11
+ge_v <- 16
+fl_v <- 30
+mi_v <- 15
+nv_v <- 6
+nc_v <- 16
+pa_v <- 19
+wi_v <- 10
+
+b$votes <- b$az * az_v +
+  b$ge * ge_v +
+  b$fl * fl_v +
+  b$mi * mi_v +
+  b$nv * nv_v +
+  b$nc * nc_v +
+  b$pa * pa_v +
+  b$wi * wi_v
+
+b$trump_votes <- b$votes + rep
+b$trump_win <- ifelse(b$trump_votes >= 270, 1, 0)
+chance_of_trump_winning <- sum(b$trump_win * b$Likelihood)
+chance_of_trump_winning
