@@ -7,8 +7,8 @@ data <- fread("popular_vote_polls.csv")
   
 # set up the variables
 n <- data$sample_size[1]
-x <- as.integer(data$sample_size * data$Biden/100)[1]
-probabilities <- seq(0, 0.99, by = 0.01)
+x <- as.integer(data$sample_size * data$Biden/(data$Biden + data$Trump))[1]
+probabilities <- seq(0.3, 0.7, by = 0.002)
 
 # Calculate binomial probabilities
 binom_probabilities <- dbinom(600, size = 1000, prob = probabilities)
@@ -23,10 +23,13 @@ result_table <- result_table[-1, ]
 output_table <- result_table
 
 for (i in c(2:nrow(data))) {
+  if (i%%10 == 0) {
+    print(paste(i, "/", nrow(data)))
+  }
   # set up the variables
   n <- data$sample_size[i]
-  x <- as.integer(data$sample_size * data$Biden/100)[i]
-  probabilities <- seq(0, 0.99, by = 0.01)
+  x <- as.integer(data$sample_size * data$Biden/(data$Biden + data$Trump))[i]
+  probabilities <- seq(0.3, 0.7, by = 0.002)
   
   # Calculate binomial probabilities
   binom_probabilities <- dbinom(x, size = n, prob = probabilities)
@@ -45,18 +48,13 @@ d <- data.table(colsums = colSums(output_table))
 d$vote_share <- colnames(output_table)
 d
 
-biden_plot <- ggplot(d, aes(y=colsums/sum(colsums), x=as.numeric(vote_share)))+
-  geom_col(alpha=0.5, fill="blue")+
-  theme_bw()
-
-
 
 
 
 # set up the variables
 n <- data$sample_size[1]
-x <- as.integer(data$sample_size * data$Trump/100)[1]
-probabilities <- seq(0, 0.99, by = 0.01)
+x <- as.integer(data$sample_size * data$Trump/(data$Biden + data$Trump))[1]
+probabilities <- seq(0.3, 0.7, by = 0.002)
 
 # Calculate binomial probabilities
 binom_probabilities <- dbinom(600, size = 1000, prob = probabilities)
@@ -71,10 +69,13 @@ result_table <- result_table[-1, ]
 trump_output_table <- result_table
 
 for (i in c(2:nrow(data))) {
+  if (i%%10 == 0) {
+    print(paste(i, "/", nrow(data)))
+  }
   # set up the variables
   n <- data$sample_size[i]
-  x <- as.integer(data$sample_size * data$Trump/100)[i]
-  probabilities <- seq(0, 0.99, by = 0.01)
+  x <- as.integer(data$sample_size * data$Trump/(data$Biden + data$Trump))[i]
+  probabilities <- seq(0.3, 0.7, by = 0.002)
   
   # Calculate binomial probabilities
   binom_probabilities <- dbinom(x, size = n, prob = probabilities)
@@ -110,6 +111,7 @@ ggplot()+
   ylab("Relative Likelihood")+
   labs(title="Relative Likelihood of Biden and Trump Vote Share in Popular Vote",
        subtitle="Biden is in Blue, Trump is in Red, vertical lines indicate the highest probability")+
-  theme_bw()
+  theme_bw()+
+  xlim(c(30,70))
 
-ggsave(filename = paste(Sys.Date(),"binomial plot.png"))
+#ggsave(filename = paste(Sys.Date(),"binomial plot.png"))

@@ -234,6 +234,8 @@ ggsave(paste("Wisconsin", date, ".png"))
 # BINOMIAL PLOT
 #
 ######################
+library(data.table)
+library(ggplot2)
 
 data <- fread("popular_vote_polls.csv")
 
@@ -241,8 +243,8 @@ data <- fread("popular_vote_polls.csv")
 
 # set up the variables
 n <- data$sample_size[1]
-x <- as.integer(data$sample_size * data$Biden/100)[1]
-probabilities <- seq(0, 0.99, by = 0.01)
+x <- as.integer(data$sample_size * data$Biden/(data$Biden + data$Trump))[1]
+probabilities <- seq(0.3, 0.7, by = 0.002)
 
 # Calculate binomial probabilities
 binom_probabilities <- dbinom(600, size = 1000, prob = probabilities)
@@ -257,10 +259,13 @@ result_table <- result_table[-1, ]
 output_table <- result_table
 
 for (i in c(2:nrow(data))) {
+  if (i%%10 == 0) {
+    print(paste(i, "/", nrow(data)))
+  }
   # set up the variables
   n <- data$sample_size[i]
-  x <- as.integer(data$sample_size * data$Biden/100)[i]
-  probabilities <- seq(0, 0.99, by = 0.01)
+  x <- as.integer(data$sample_size * data$Biden/(data$Biden + data$Trump))[i]
+  probabilities <- seq(0.3, 0.7, by = 0.002)
   
   # Calculate binomial probabilities
   binom_probabilities <- dbinom(x, size = n, prob = probabilities)
@@ -279,18 +284,13 @@ d <- data.table(colsums = colSums(output_table))
 d$vote_share <- colnames(output_table)
 d
 
-biden_plot <- ggplot(d, aes(y=colsums/sum(colsums), x=as.numeric(vote_share)))+
-  geom_col(alpha=0.5, fill="blue")+
-  theme_bw()
-
-
 
 
 
 # set up the variables
 n <- data$sample_size[1]
-x <- as.integer(data$sample_size * data$Trump/100)[1]
-probabilities <- seq(0, 0.99, by = 0.01)
+x <- as.integer(data$sample_size * data$Trump/(data$Biden + data$Trump))[1]
+probabilities <- seq(0.3, 0.7, by = 0.002)
 
 # Calculate binomial probabilities
 binom_probabilities <- dbinom(600, size = 1000, prob = probabilities)
@@ -305,10 +305,13 @@ result_table <- result_table[-1, ]
 trump_output_table <- result_table
 
 for (i in c(2:nrow(data))) {
+  if (i%%10 == 0) {
+    print(paste(i, "/", nrow(data)))
+  }
   # set up the variables
   n <- data$sample_size[i]
-  x <- as.integer(data$sample_size * data$Trump/100)[i]
-  probabilities <- seq(0, 0.99, by = 0.01)
+  x <- as.integer(data$sample_size * data$Trump/(data$Biden + data$Trump))[i]
+  probabilities <- seq(0.3, 0.7, by = 0.002)
   
   # Calculate binomial probabilities
   binom_probabilities <- dbinom(x, size = n, prob = probabilities)
@@ -338,16 +341,16 @@ ggplot()+
   scale_x_continuous(breaks = seq(0, 100, by = 10))+
   geom_area(data=d, aes(x=as.numeric(`Vote Share`)*100, y=Biden), fill="#0077ee", alpha=0.9)+
   geom_area(data=trump_d, aes(x=as.numeric(`Vote Share`)*100, y=Trump), fill="#ee4444", alpha=0.9)+
-  geom_vline(xintercept = as.numeric(bmax[1,2])*100, color="#0000aa", alpha=0.9)+
-  geom_vline(xintercept = as.numeric(tmax[1,2])*100, color="#aa0000", alpha=0.9)+
+  geom_vline(xintercept = as.numeric(bmax[1,2])*100, color="#0000bb", alpha=0.9, linewidth = 0.9)+
+  geom_vline(xintercept = as.numeric(tmax[1,2])*100, color="#990000", alpha=0.9, linewidth = 0.9)+
   xlab("Percentage of Vote")+
   ylab("Relative Likelihood")+
   labs(title="Relative Likelihood of Biden and Trump Vote Share in Popular Vote",
        subtitle="Biden is in Blue, Trump is in Red, vertical lines indicate the highest probability")+
-  theme_bw()
+  theme_bw()+
+  xlim(c(30,70))
 
 ggsave(filename = paste(Sys.Date(),"binomial plot.png"))
-
 
 
 #########################
@@ -377,14 +380,14 @@ b <- data.table(az=c(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 
 # read in the states
 states <- fread("states.csv")
-pBETA(c(0.5), as.numeric(states[1,2])+0.1, as.numeric(states[1,3])+0.1)
-pBETA(c(0.5), as.numeric(states[2,2])+0.1, as.numeric(states[2,3])+0.1)
-pBETA(c(0.5), as.numeric(states[3,2])+0.1, as.numeric(states[3,3])+0.1)
-pBETA(c(0.5), as.numeric(states[4,2])+0.1, as.numeric(states[4,3])+0.1)
-pBETA(c(0.5), as.numeric(states[5,2])+0.1, as.numeric(states[5,3])+0.1)
-pBETA(c(0.5), as.numeric(states[6,2])+0.1, as.numeric(states[6,3])+0.1)
-pBETA(c(0.5), as.numeric(states[7,2])+0.1, as.numeric(states[7,3])+0.1)
-pBETA(c(0.5), as.numeric(states[8,2])+0.1, as.numeric(states[8,3])+0.1)
+az <- pBETA(c(0.5), as.numeric(states[1,2])+1, as.numeric(states[1,3])+1)
+ge <- pBETA(c(0.5), as.numeric(states[2,2])+1, as.numeric(states[2,3])+1)
+fl <- pBETA(c(0.5), as.numeric(states[3,2])+1, as.numeric(states[3,3])+1)
+mi <- pBETA(c(0.5), as.numeric(states[4,2])+1, as.numeric(states[4,3])+1)
+nv <- pBETA(c(0.5), as.numeric(states[5,2])+1, as.numeric(states[5,3])+1)
+nc <- pBETA(c(0.5), as.numeric(states[6,2])+1, as.numeric(states[6,3])+1)
+pa <- pBETA(c(0.5), as.numeric(states[7,2])+1, as.numeric(states[7,3])+1)
+wi <- pBETA(c(0.5), as.numeric(states[8,2])+1, as.numeric(states[8,3])+1)
 
 b$az_p <- ifelse(b$az == 0, 1-az, az)
 b$ge_p <- ifelse(b$ge == 0, 1-ge, ge)
@@ -424,7 +427,6 @@ ggplot(dt, aes(x=`Biden Electoral Votes`, y=`Relative Likelihood`, fill=category
 
 date <- Sys.Date()
 ggsave(paste0("electoral college ", date, ".png"))
-
 
 #####################################################
 #
