@@ -339,8 +339,8 @@ tmax <- trump_d[order(-Trump)]
 
 ggplot()+
   scale_x_continuous(breaks = seq(0, 100, by = 10))+
-  geom_area(data=d, aes(x=as.numeric(`Vote Share`)*100, y=Biden), fill="#0077ee", alpha=0.9)+
-  geom_area(data=trump_d, aes(x=as.numeric(`Vote Share`)*100, y=Trump), fill="#ee4444", alpha=0.9)+
+  geom_area(data=d, aes(x=as.numeric(`Vote Share`)*100, y=Biden), fill="#0077ee", alpha=0.8)+
+  geom_area(data=trump_d, aes(x=as.numeric(`Vote Share`)*100, y=Trump), fill="#ee4444", alpha=0.8)+
   geom_vline(xintercept = as.numeric(bmax[1,2])*100, color="#0000bb", alpha=0.9, linewidth = 0.9)+
   geom_vline(xintercept = as.numeric(tmax[1,2])*100, color="#990000", alpha=0.9, linewidth = 0.9)+
   xlab("Percentage of Vote")+
@@ -348,7 +348,8 @@ ggplot()+
   labs(title="Relative Likelihood of Biden and Trump Vote Share in Popular Vote",
        subtitle="Biden is in Blue, Trump is in Red, vertical lines indicate the highest probability")+
   theme_bw()+
-  xlim(c(30,70))
+  xlim(c(30,70))+
+  ylim(c(0,20))
 
 ggsave(filename = paste(Sys.Date(),"binomial plot.png"))
 
