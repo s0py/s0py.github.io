@@ -419,7 +419,7 @@ ggplot(dt, aes(x=`Biden Electoral Votes`, y=`Relative Likelihood`, fill=category
   theme_bw()+
   theme(legend.position = "bottom")+
   scale_x_continuous(breaks=seq(0,400,5),expand = c(0,0), limits=c(min(dt$`Biden Electoral Votes`),max(dt$`Biden Electoral Votes`)))+
-  scale_y_continuous(expand=c(0,0), limits=c(0,0.25))+
+  scale_y_continuous(expand=c(0,0), limits=c(0,0.30))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.major = element_blank(),
