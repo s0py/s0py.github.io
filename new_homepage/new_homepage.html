@@ -5,7 +5,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>DAGTG (direct action gets the goods)</title>
 </head>
-<body style="font-size:14pt;">
+<style>
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<body style="font-size:14pt;" class="main">
 	<div style="text-align: center; margin: 20px 50px;">
 		Website of DAGTG (direct action gets the goods).<br>
 		Yes, I know this is basic and old-fashioned but it's exactly how I like it. No javascript to invade your privacy, no css to break. Just text and the occasional image. 
@@ -14,7 +52,7 @@
 	<div style="margin-left: 50px; margin-right: 50px;">
 		<i><b>
 		Pages you might want:
-		<a href="/dnd/">ADnD Item List</a>
+		<a href="https://josephvadella.com/election/polls.html">2024 Election Prediction</a>
 		//
 		<a href="/stat_tables.html">ADnD Stat Tables</a>
 		//
@@ -26,7 +64,7 @@
 		//
 		<a href="https://github.com/s0py/City-Generator-3">City Generator</a>
 		//
-		<a href="https://github.com/s0py/Hex-Map">Not a Hexmap Generator</a>
+		<a href="https://josephvadella.com/dnd/">ADnD Item List</a>
 		</b></i>
 	</div>
 	<hr>
