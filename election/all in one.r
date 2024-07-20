@@ -147,7 +147,7 @@ ggplot(data, aes(x=as.integer(p*100), y=density))+
   ylab("Relative Density of that Probability being true")+
   theme(legend.position = "bottom")+
   scale_x_continuous(breaks=seq(0,100,5),expand = c(0,0), limits=c(0,101))+
-  scale_y_continuous(expand=c(0,0), limits=c(0,0.4))+
+  scale_y_continuous(expand=c(0,0), limits=c(0,0.5))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.major = element_blank(),
@@ -190,7 +190,7 @@ state_plots <- function(state, date, data, w, l){
     ylab("Relative Density of that Probability being true")+
     theme(legend.position = "bottom")+
     scale_x_continuous(breaks=seq(0,100,5),expand = c(0,0), limits=c(0,101))+
-    scale_y_continuous(expand=c(0,0), limits=c(0,0.25))+
+    scale_y_continuous(expand=c(0,0), limits=c(0,0.5))+
     theme(axis.line = element_line(color='black'),
           plot.background = element_blank(),
           panel.grid.major = element_blank(),
@@ -424,7 +424,7 @@ ggplot(dt, aes(x=`Biden Electoral Votes`, y=`Relative Likelihood`, fill=category
   #geom_vline(xintercept = as.numeric(data[order(-density)][1,1]), linetype="dotted", color="#666666", size=1)+
   theme_bw()+
   theme(legend.position = "bottom")+
-  scale_x_continuous(breaks=seq(0,400,5),expand = c(0,0), limits=c(min(dt$`Biden Electoral Votes`),max(dt$`Biden Electoral Votes`)))+
+  scale_x_continuous(breaks=seq(0,400,5),expand = c(0,0), limits=c(min(dt$`Biden Electoral Votes`)-1,max(dt$`Biden Electoral Votes`)+1))+
   scale_y_continuous(expand=c(0,0), limits=c(0,max(dt$`Relative Likelihood`)+0.025))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
