@@ -36,7 +36,7 @@ bt_data <- bt_data[,c("poll_id", "end_date", "sample_size", "population", "state
 bt_data
 
 # skewing for a test
-bt_data$Biden <- bt_data$Biden
+bt_data$Biden <- bt_data$Biden #+ 3.6
 
 bt_data <- bt_data[bt_data$sample_size > 0]
 # bt_data <- bt_data[bt_data$DeSantis == 0]
