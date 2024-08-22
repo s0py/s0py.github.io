@@ -35,11 +35,11 @@ bt_data <- bt_data[,c("poll_id", "end_date", "sample_size", "population", "state
 bt_data
 
 # skewing for a test
-bt_data$Harris <- bt_data$Harris# + 2
+bt_data$Harris <- bt_data$Harris# + 1
 
 bt_data <- bt_data[bt_data$sample_size > 0]
 # bt_data <- bt_data[bt_data$DeSantis == 0]
-# bt_data <- bt_data[bt_data$Kennedy == 0]
+# bt_data <- bt_data[bt_data$Kennedy == 0] 
 # bt_data <- bt_data[bt_data$West == 0]
 # bt_data <- bt_data[bt_data$Haley == 0]
 # bt_data <- bt_data[bt_data$Mapstead == 0]
