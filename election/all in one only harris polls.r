@@ -423,7 +423,7 @@ ggplot(dt, aes(x=`Harris Electoral Votes`, y=`Relative Likelihood`, fill=categor
   theme_bw()+
   theme(legend.position = "bottom")+
   scale_x_continuous(breaks=seq(0,400,5),expand = c(0,0), limits=c(min(dt$`Harris Electoral Votes`)-1,max(dt$`Harris Electoral Votes`)+1))+
-  scale_y_continuous(expand=c(0,0), limits=c(0,max(dt$`Relative Likelihood`)+0.025))+
+  scale_y_continuous(expand=c(0,0), limits=c(0,max(dt$`Relative Likelihood`)+0.05))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.major = element_blank(),
