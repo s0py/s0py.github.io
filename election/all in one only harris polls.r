@@ -14,7 +14,6 @@ download.file("https://projects.fivethirtyeight.com/polls/data/president_polls.c
               destfile = basename("presidential_polls_for_use.csv"))
 data <- fread("presidential_polls_for_use.csv")
 
-
 ######################
 #
 # PROCESS THE DATA
@@ -26,22 +25,21 @@ length(unique(data$poll_id))
 candidate_data <- dcast(data, poll_id+sample_size+population+end_date+state~answer, mean, value.var = "pct")
 candidate_data[is.na(candidate_data)] <- 0
 
-bt_data <- candidate_data[candidate_data$Biden > 0]
+bt_data <- candidate_data[candidate_data$Harris > 0]
 bt_data <- bt_data[bt_data$Trump > 0]
 bt_data <- bt_data[,c("poll_id", "end_date", "sample_size", "population", "state",
-                      "Biden", "Trump", "DeSantis", "Harris", "Kennedy", "West", 
+                      "Harris", "Trump", "DeSantis", "Kennedy", "West", 
                       "Haley", "Mapstead", "Manchin", "Newsom", "Pence", "Scott",
                       "Ramaswamy", "Cheney", "Christie", "Clinton", "Whitmer", 
                       "Sanders")]
 bt_data
 
 # skewing for a test
-bt_data$Biden <- bt_data$Biden #+ 3.6
+bt_data$Harris <- bt_data$Harris #- 1
 
 bt_data <- bt_data[bt_data$sample_size > 0]
 # bt_data <- bt_data[bt_data$DeSantis == 0]
-# bt_data <- bt_data[bt_data$Harris == 0]
-# bt_data <- bt_data[bt_data$Kennedy == 0]
+# bt_data <- bt_data[bt_data$Kennedy == 0] 
 # bt_data <- bt_data[bt_data$West == 0]
 # bt_data <- bt_data[bt_data$Haley == 0]
 # bt_data <- bt_data[bt_data$Mapstead == 0]
@@ -56,9 +54,9 @@ bt_data <- bt_data[bt_data$sample_size > 0]
 # bt_data <- bt_data[bt_data$Whitmer == 0]
 # bt_data <- bt_data[bt_data$Sanders == 0]
 
-bt_data$BT_total <- bt_data$Biden + bt_data$Trump
+bt_data$BT_total <- bt_data$Harris + bt_data$Trump
 bt_data <- bt_data[,c("poll_id", "end_date", "sample_size", "population", "state",
-                      "Biden", "Trump")]
+                      "Harris", "Trump")]
 bt_data
 bt_data <- bt_data[bt_data$population != "v"]
 bt_data$population_weight <- ifelse(bt_data$population == "a", 0.628, bt_data$population)
@@ -69,14 +67,14 @@ bt_data$population_weight <- as.numeric(bt_data$population_weight)
 bt_data$end_date <- mdy(bt_data$end_date)
 bt_data$date_weight <- 0.5**as.numeric((Sys.Date()-bt_data$end_date)/14)
 bt_data$sample_weight <- 1+log10(bt_data$sample_size/1000)
-bt_data$Biden_Win <- ifelse(bt_data$Biden >= bt_data$Trump, 1, 0)
-bt_data$Trump_win <- ifelse(bt_data$Biden < bt_data$Trump, 1, 0)
+bt_data$Harris_Win <- ifelse(bt_data$Harris >= bt_data$Trump, 1, 0)
+bt_data$Trump_win <- ifelse(bt_data$Harris < bt_data$Trump, 1, 0)
 
 
 bt <- bt_data
 bt
 
-bt$wbw <- bt$Biden_Win
+bt$wbw <- bt$Harris_Win
 bt$wbw <- bt$wbw * bt$population_weight * bt$sample_weight * bt$date_weight
 bt$wtw <- bt$Trump_win
 bt$wtw <- bt$wtw * bt$population_weight * bt$sample_weight * bt$date_weight
@@ -104,7 +102,7 @@ states
 
 fwrite(states, file="states.csv")
 
-pv_export <- data.table(cand = c("Biden", "Trump"), wins=c(sum(pv$wbw), sum(pv$wtw)))
+pv_export <- data.table(cand = c("Harris", "Trump"), wins=c(sum(pv$wbw), sum(pv$wtw)))
 pv_export
 fwrite(pv_export, "pv_export.csv")
 
@@ -127,7 +125,7 @@ date <- Sys.Date()
 
 data$density <- data$p**w*(1-data$p)**l# * factorial(w+l+1)/(factorial(w)*factorial(l))
 data$density <- data$density / sum(data$density)
-data$category <- fifelse(data$p < 0.5, "Trump Win More Likely", "Biden Win More Likely")
+data$category <- fifelse(data$p < 0.5, "Trump Win More Likely", "Harris Win More Likely")
 data$category <- as.character(data$category)
 
 # max value
@@ -138,16 +136,16 @@ ggplot(data, aes(x=as.integer(p*100), y=density))+
   geom_col(aes(fill=category), size=1.5)+
   scale_fill_manual(values=c(
     "Trump Win More Likely"="#ee4444",
-    "Biden Win More Likely"="#0077ee"
+    "Harris Win More Likely"="#0077ee"
   ))+
   #geom_vline(xintercept = as.numeric(data[order(-density)][1,1]), linetype="dotted", color="#666666", size=1)+
   geom_vline(xintercept = 50, color="#000000", size=1, linetype="dotted")+
   theme_bw()+
-  xlab("Probability that Biden Wins Popular Vote")+
+  xlab("Probability that Harris Wins Popular Vote")+
   ylab("Relative Density of that Probability being true")+
   theme(legend.position = "bottom")+
   scale_x_continuous(breaks=seq(0,100,5),expand = c(0,0), limits=c(0,101))+
-  scale_y_continuous(expand=c(0,0), limits=c(0,0.5))+
+  scale_y_continuous(expand=c(0,0), limits=c(0,0.6))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.major = element_blank(),
@@ -169,7 +167,7 @@ state_plots <- function(state, date, data, w, l){
   
   data$density <- data$p**w*(1-data$p)**l# * factorial(w+l+1)/(factorial(w)*factorial(l))
   data$density <- data$density / sum(data$density)
-  data$category <- fifelse(data$p < 0.5, "Trump Win More Likely", "Biden Win More Likely")
+  data$category <- fifelse(data$p < 0.5, "Trump Win More Likely", "Harris Win More Likely")
   data$category <- as.character(data$category)
   
   # max value
@@ -181,12 +179,12 @@ state_plots <- function(state, date, data, w, l){
     geom_col(aes(fill=category), size=1.5)+
     scale_fill_manual(values=c(
       "Trump Win More Likely"="#ee4444",
-      "Biden Win More Likely"="#0077ee"
+      "Harris Win More Likely"="#0077ee"
     ))+
     #geom_vline(xintercept = as.numeric(data[order(-density)][1,1]), linetype="dotted", color="#666666", size=1)+
     geom_vline(xintercept = 50, color="#000000", size=1, linetype="dotted")+
     theme_bw()+
-    xlab("Probability that Biden Wins Popular Vote")+
+    xlab("Probability that Harris Wins Popular Vote")+
     ylab("Relative Density of that Probability being true")+
     theme(legend.position = "bottom")+
     scale_x_continuous(breaks=seq(0,100,5),expand = c(0,0), limits=c(0,101))+
@@ -249,7 +247,7 @@ ggsave(paste("Wisconsin", date, ".png"))
 #
 ## set up the variables
 #n <- data$sample_size[1]
-#x <- as.integer(data$sample_size * data$Biden/(data$Biden + data$Trump))[1]
+#x <- as.integer(data$sample_size * data$Harris/(data$Harris + data$Trump))[1]
 #probabilities <- seq(0.3, 0.7, by = 0.002)
 #
 ## Calculate binomial probabilities
@@ -270,7 +268,7 @@ ggsave(paste("Wisconsin", date, ".png"))
 #  }
 #  # set up the variables
 #  n <- data$sample_size[i]
-#  x <- as.integer(data$sample_size * data$Biden/(data$Biden + data$Trump))[i]
+#  x <- as.integer(data$sample_size * data$Harris/(data$Harris + data$Trump))[i]
 #  probabilities <- seq(0.3, 0.7, by = 0.002)
 #  
 #  # Calculate binomial probabilities
@@ -295,7 +293,7 @@ ggsave(paste("Wisconsin", date, ".png"))
 #
 ## set up the variables
 #n <- data$sample_size[1]
-#x <- as.integer(data$sample_size * data$Trump/(data$Biden + data$Trump))[1]
+#x <- as.integer(data$sample_size * data$Trump/(data$Harris + data$Trump))[1]
 #probabilities <- seq(0.3, 0.7, by = 0.002)
 #
 ## Calculate binomial probabilities
@@ -316,7 +314,7 @@ ggsave(paste("Wisconsin", date, ".png"))
 #  }
 #  # set up the variables
 #  n <- data$sample_size[i]
-#  x <- as.integer(data$sample_size * data$Trump/(data$Biden + data$Trump))[i]
+#  x <- as.integer(data$sample_size * data$Trump/(data$Harris + data$Trump))[i]
 #  probabilities <- seq(0.3, 0.7, by = 0.002)
 #  
 #  # Calculate binomial probabilities
@@ -336,23 +334,23 @@ ggsave(paste("Wisconsin", date, ".png"))
 #trump_d$vote_share <- colnames(trump_output_table)
 #trump_d
 #
-#colnames(d) <- c("Biden", "Vote Share")
+#colnames(d) <- c("Harris", "Vote Share")
 #colnames(trump_d) <- c("Trump", "Vote Share")
 #
-##get the max for biden
-#bmax <- d[order(-Biden)]
+##get the max for Harris
+#bmax <- d[order(-Harris)]
 #tmax <- trump_d[order(-Trump)]
 #
 #ggplot()+
 #  scale_x_continuous(breaks = seq(0, 100, by = 10))+
-#  geom_area(data=d, aes(x=as.numeric(`Vote Share`)*100, y=Biden), fill="#0077ee", alpha=0.8)+
+#  geom_area(data=d, aes(x=as.numeric(`Vote Share`)*100, y=Harris), fill="#0077ee", alpha=0.8)+
 #  geom_area(data=trump_d, aes(x=as.numeric(`Vote Share`)*100, y=Trump), fill="#ee4444", alpha=0.8)+
 #  geom_vline(xintercept = as.numeric(bmax[1,2])*100, color="#0000bb", alpha=0.9, linewidth = 0.9)+
 #  geom_vline(xintercept = as.numeric(tmax[1,2])*100, color="#990000", alpha=0.9, linewidth = 0.9)+
 #  xlab("Percentage of Vote")+
 #  ylab("Relative Likelihood")+
-#  labs(title="Relative Likelihood of Biden and Trump Vote Share in Popular Vote",
-#       subtitle="Biden is in Blue, Trump is in Red, vertical lines indicate the highest probability")+
+#  labs(title="Relative Likelihood of Harris and Trump Vote Share in Popular Vote",
+#       subtitle="Harris is in Blue, Trump is in Red, vertical lines indicate the highest probability")+
 #  theme_bw()+
 #  xlim(c(30,70))+
 #  ylim(c(0,20))
@@ -371,8 +369,8 @@ library(ggdist)
 library(fitODBOD)
 
 data <- data.table(Trump = c(199, 208, 218, 205, 215, 224, 234, 195, 205, 214, 224, 211, 221, 230, 240, 199, 209, 218, 228, 215, 225, 234, 244, 205, 215, 224, 234, 221, 231, 240, 250, 219, 229, 238, 248, 235, 245, 254, 264, 225, 235, 244, 254, 241, 251, 260, 270, 229, 239, 248, 258, 245, 255, 264, 274, 235, 245, 254, 264, 251, 261, 270, 280, 205, 215, 224, 234, 221, 231, 240, 250, 211, 221, 230, 240, 227, 237, 246, 256, 215, 225, 234, 244, 231, 241, 250, 260, 221, 231, 240, 250, 237, 247, 256, 266, 235, 245, 254, 264, 251, 261, 270, 280, 241, 251, 260, 270, 257, 267, 276, 286, 245, 255, 264, 274, 261, 271, 280, 290, 251, 261, 270, 280, 267, 277, 286, 296, 210, 219, 229, 216, 226, 235, 245, 206, 216, 225, 235, 222, 232, 241, 251, 210, 220, 229, 239, 226, 236, 245, 255, 216, 226, 235, 245, 232, 242, 251, 261, 230, 240, 249, 259, 246, 256, 265, 275, 236, 246, 255, 265, 252, 262, 271, 281, 240, 250, 259, 269, 256, 266, 275, 285, 246, 256, 265, 275, 262, 272, 281, 291, 216, 226, 235, 245, 232, 242, 251, 261, 222, 232, 241, 251, 238, 248, 257, 267, 226, 236, 245, 255, 242, 252, 261, 271, 232, 242, 251, 261, 248, 258, 267, 277, 246, 256, 265, 275, 262, 272, 281, 291, 252, 262, 271, 281, 268, 278, 287, 297, 256, 266, 275, 285, 272, 282, 291, 301, 262, 272, 281, 291, 278, 288, 297, 307))
-data$Biden <- 538 - data$Trump
-data$category <- fifelse(data$Biden > 270, "Biden Win", "Trump Win")
+data$Harris <- 538 - data$Trump
+data$category <- fifelse(data$Harris > 270, "Harris Win", "Trump Win")
 
 
 # get the likelihood of each possible election outcome
@@ -410,22 +408,22 @@ b$Likelihood <- b$az_p * b$ge_p * b$fl_p * b$mi_p * b$nv_p * b$nc_p * b$pa_p * b
 
 data$Likelihood <- b$Likelihood
 
-dt <- dcast(data, Biden~., sum, value.var = "Likelihood")
-colnames(dt) <- c("Biden Electoral Votes", "Relative Likelihood")
+dt <- dcast(data, Harris~., sum, value.var = "Likelihood")
+colnames(dt) <- c("Harris Electoral Votes", "Relative Likelihood")
 dt$`Relative Likelihood` <- dt$`Relative Likelihood`
-dt$category <- fifelse(dt$`Biden Electoral Votes` > 270, "Biden Win", "Trump Win")
+dt$category <- fifelse(dt$`Harris Electoral Votes` > 270, "Harris Win", "Trump Win")
 
-ggplot(dt, aes(x=`Biden Electoral Votes`, y=`Relative Likelihood`, fill=category))+
+ggplot(dt, aes(x=`Harris Electoral Votes`, y=`Relative Likelihood`, fill=category))+
   geom_col()+
   scale_fill_manual(values=c(
     "Trump Win"="#ee4444",
-    "Biden Win"="#0077ee"
+    "Harris Win"="#0077ee"
   ))+
   #geom_vline(xintercept = as.numeric(data[order(-density)][1,1]), linetype="dotted", color="#666666", size=1)+
   theme_bw()+
   theme(legend.position = "bottom")+
-  scale_x_continuous(breaks=seq(0,400,5),expand = c(0,0), limits=c(min(dt$`Biden Electoral Votes`)-1,max(dt$`Biden Electoral Votes`)+1))+
-  scale_y_continuous(expand=c(0,0), limits=c(0,max(dt$`Relative Likelihood`)+0.025))+
+  scale_x_continuous(breaks=seq(0,400,5),expand = c(0,0), limits=c(min(dt$`Harris Electoral Votes`)-1,max(dt$`Harris Electoral Votes`)+1))+
+  scale_y_continuous(expand=c(0,0), limits=c(0,max(dt$`Relative Likelihood`)+0.05))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.major = element_blank(),
