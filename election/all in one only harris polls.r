@@ -22,7 +22,7 @@ data <- fread("presidential_polls_for_use.csv")
 length(unique(data$poll_id))
 
 
-candidate_data <- dcast(data, poll_id+sample_size+population+end_date+state~answer, mean, value.var = "pct")
+candidate_data <- dcast(data, poll_id+sample_size+population+end_date+state+numeric_grade~answer, mean, value.var = "pct")
 candidate_data[is.na(candidate_data)] <- 0
 
 bt_data <- candidate_data[candidate_data$Harris > 0]
@@ -144,8 +144,8 @@ ggplot(data, aes(x=as.integer(p*100), y=density))+
   xlab("Probability that Harris Wins Popular Vote")+
   ylab("Relative Density of that Probability being true")+
   theme(legend.position = "bottom")+
-  scale_x_continuous(breaks=seq(0,100,5),expand = c(0,0), limits=c(0,101))+
-  scale_y_continuous(expand=c(0,0), limits=c(0,0.6))+
+  scale_x_continuous(breaks=seq(0,100,5),expand = c(0,0), limits=c(0,104.99999))+
+  scale_y_continuous(expand=c(0,0), limits=c(0,1))+
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.major = element_blank(),
