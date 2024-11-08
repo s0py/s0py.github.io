@@ -1,0 +1,2 @@
+# Maggotmen
+The **Maggotmen** are a species of sentient creatures originally from the mountains of [[Serica]]. They are a eusocial species with flat heads, insectoid features, tawny wrinkled bodies, a short and stout stature, and 6 limbs. They have a queen, warriors, and workers. They reproduce via eggs, go through a larval stage, and are around 4 feet tall as workers, 6 feet tall as warriors, and much larger as queens.
