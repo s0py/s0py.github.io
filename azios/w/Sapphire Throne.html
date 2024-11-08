@@ -16,7 +16,7 @@
                 background-color: #1a1d22;
                 border-left: 1px solid #F9CFF2;
                 border-right: 1px solid #F9CFF2;
-                margin: 0% 12%;
+                margin: 0% 9% 0% 3%;
                 padding: 1% 6% 2.5% 6%;
                 box-shadow: 10px 0 15px -10px #97a09f, 
                            -10px 0 15px -10px #97a09f;
@@ -55,9 +55,40 @@
             b {
                 font-weight: 800;
             }
+            .nav {
+                text-align: center;
+                padding: 1em 2em 1em 2em;
+                margin: 0em 0em 0em 1em;
+                background-color: rgba(26,29,34,0.5);
+                font-family: Roboto;
+                width: 10%;
+                line-height: 24px;
+                min-width: 100px;
+            }
+            .a_nav {
+                color: #ffffff;
+            }
+            .a_nav:hover {
+                color: #F9CFF2;
+            }
+            .row {
+                display: flex;
+            }
         </style>
     </head>
     <body>
+        <div class="row">
+            <div class="nav">
+                <a class="a_nav" href="map.html">World Map</a>
+                <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
+                <h4>Categories</h4>
+                <a class="a_nav" href="societies.html">Societies</a><br style="line-height: 0px">
+                <a class="a_nav" href="magic.html">Magic</a><br style="line-height: 0px">
+                <a class="a_nav" href="moon.html">Moon</a><br style="line-height: 0px">
+                <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
+                <h4>Popular</h4>
+                <a class="a_nav" href="vichmeister.html">Vichmeister</a><br style="line-height: 0px">
+            </div>
         <div class="container">
         <div class="container-banner">
             <div>
