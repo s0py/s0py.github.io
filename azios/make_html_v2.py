@@ -299,7 +299,8 @@ for file_name in os.listdir(html_folder):
 markdown_content = "# All Pages\n"
 for file_name in html_files:
     if file_name != "pages":
-        markdown_content += f"[[{file_name}]]\n"
+        if file_name != "dead_links":
+            markdown_content += f"[[{file_name}]]\n"
 
 # Specify the path to save the markdown file
 output_folder = 'md'
@@ -360,6 +361,7 @@ output_file_path = os.path.join(output_folder, 'pages.md')
 
 # only get unique
 missing_files = list(set(missing_files))
+missing_files.sort()
 
 
 # Ensure the output folder exists
