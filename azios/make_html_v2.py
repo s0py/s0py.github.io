@@ -4,6 +4,30 @@ import os
 md_folder = 'md'
 html_folder = 'w'
 
+def process_markdown_line(line):
+    """Helper function to process markdown in a single line"""
+    html_line = line
+    while '**' in html_line:
+        start = html_line.index('**')
+        end = html_line.index('**', start + 2)
+        html_line = html_line[:start] + f'<b>{html_line[start+2:end]}</b>' + html_line[end+2:]
+    while '*' in html_line:
+        start = html_line.index('*')
+        end = html_line.index('*', start + 1)
+        html_line = html_line[:start] + f'<i>{html_line[start+1:end]}</i>' + html_line[end+1:]
+    while '[[' in html_line:
+        start = html_line.index('[[')
+        end = html_line.index(']]', start)
+        link_text = html_line[start+2:end]
+        
+        # Check if the corresponding HTML file exists
+        html_file_path = os.path.join(html_folder, f"{link_text}.html")
+        if os.path.exists(html_file_path):
+            html_line = html_line[:start] + f'<a href="{link_text}.html">{link_text}</a>' + html_line[end+2:]
+        else:
+            html_line = html_line[:start] + f'<a href="{link_text}.html" style="color: #ff0000;">{link_text}</a>' + html_line[end+2:]
+    return html_line
+
 def md_to_html(md_file, check_unique=True):
     print(f"Converting {md_file} to HTML...")
 
@@ -11,7 +35,7 @@ def md_to_html(md_file, check_unique=True):
     with open(os.path.join(md_folder, md_file), 'r') as f:
         md_content = f.read()
 
-    # Convert Markdown to HTML
+    # Basic HTML template (truncated for brevity)
     html_content = """
     <!DOCTYPE html>
     <html>
@@ -100,7 +124,9 @@ def md_to_html(md_file, check_unique=True):
     <body>
         <div class="row">
             <div class="nav">
-                <a class="a_nav" href="Azios.html">World Map</a>
+                <a class="a_nav" href="pages.html">All Pages</a><br style="line-height: 0px">
+                <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
+                <a class="a_nav" href="Azios.html">World Map</a><br style="line-height: 0px">
                 <a class="a_nav" href="Cosmology.html">Cosmology</a>
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
                 <h4>Categories</h4>
@@ -151,33 +177,15 @@ def md_to_html(md_file, check_unique=True):
 
     """.format(md_file[:-3])
 
+
+    # Import re for easier text searching and processing
+    import re
+    
     lines = md_content.split('\n')
-    for line in lines:
+    i = 0
+    while i < len(lines):
+        line = lines[i]
         html_line = line
-        while '**' in html_line:
-            start = html_line.index('**')
-            end = html_line.index('**', start + 2)
-            html_line = html_line[:start] + f'<b>{html_line[start+2:end]}</b>' + html_line[end+2:]
-        while '*' in html_line:
-            start = html_line.index('*')
-            end = html_line.index('*', start + 1)
-            html_line = html_line[:start] + f'<i>{html_line[start+1:end]}</i>' + html_line[end+1:]
-        while '[[' in html_line:
-            start = html_line.index('[[')
-            end = html_line.index(']]', start)
-            link_text = html_line[start+2:end]
-            
-            # Check if the corresponding HTML file exists
-            html_file_path = os.path.join(html_folder, f"{link_text}.html")
-            if os.path.exists(html_file_path):
-                # Link as usual if the HTML file exists
-                html_line = html_line[:start] + f'<a href="{link_text}.html">{link_text}</a>' + html_line[end+2:]
-            else:
-                # Change link text color to red if the file doesn't exist
-                html_line = html_line[:start] + f'<a href="{link_text}.html" style="color: #ff0000;">{link_text}</a>' + html_line[end+2:]
-        
-        # Import re for easier text searching and processing
-        import re
         
         # Handle images and standard links separately
         while '[' in html_line and '(' in html_line:
@@ -189,24 +197,29 @@ def md_to_html(md_file, check_unique=True):
             link_text = html_line[start + 1:end_text]
             link_url = html_line[end_text + 2:end_link]
         
-            if html_line[start - 1] == '!':  # Check if it's an image (preceded by '!')
-                # Collect text until the next heading
-                text_before_next_heading = ""
-                lines_after_image = lines[lines.index(line) + 1:]  # Get lines after the current line
-                for next_line in lines_after_image:
-                    if re.match(r'^(#{1,4} )', next_line):  # Check if the line is a heading
+            if html_line[start - 1] == '!':  # Check if it's an image
+                # Collect and process text until the next heading
+                processed_text = ""
+                j = i + 1
+                while j < len(lines):
+                    if re.match(r'^(#{1,4} )', lines[j]):  # Check if the line is a heading
                         break
-                    text_before_next_heading += next_line + "<br>"
+                    # Process markdown in the text alongside the image
+                    processed_line = process_markdown_line(lines[j])
+                    processed_text += processed_line + "<br>"
+                    j += 1
+                i = j - 1  # Update main loop counter to skip processed lines
         
-                # Generate HTML for the image with caption to the right and text in the left column
+                # Generate HTML for the image with processed text
                 html_line = (
-                    html_line[:start - 1] +  # Remove the '!' from the original line
+                    html_line[:start - 1] +
                     f'<div style="display: flex;">'
-                    f'<div style="flex-grow: 1; margin-right: 10px;">{text_before_next_heading}</div>'
-                    f'<div style="max-width: 25%; margin-left: auto; text-align: center;">'
+                    f'<div style="flex-grow: 1; margin-right: 2em;">{processed_text}</div>'
+                    f'<div style="max-width: 300px; margin-left: auto; align-self: flex-start;">'
+                    f'<div style="text-align: center; border: 1px solid #F9CFF2; padding: 0.5em;">'
                     f'<img src="{link_url}" alt="{link_text}" style="width: 100%; height: auto;">'
-                    f'<div style="font-size: 14px; color: #6fbce8; margin-top: 5px;">{link_text}</div>'
-                    f'</div></div>'
+                    f'<div style="font-size: 14px; color: #AAB0C2; margin-top: 5px;">{link_text}</div>'
+                    f'</div></div></div>'
                 )
             else:
                 # Standard link processing
@@ -216,43 +229,10 @@ def md_to_html(md_file, check_unique=True):
                     html_line[end_link + 1:]
                 )
         
-                
-        # Handle images and standard links separately
-        #while '[' in html_line and '(' in html_line:
-        #    start = html_line.index('[')
-        #    end_link = html_line.index(')')
-        #    end_text = html_line.index(']')
-        #
-        #    # Extract the text and URL
-        #    link_text = html_line[start + 1:end_text]
-        #    link_url = html_line[end_text + 2:end_link]
-        #
-        #    if html_line[start - 1] == '!':  # Check if it's an image (preceded by '!')
-        #        # Generate HTML for the image with caption below
-        #        html_line = (
-        #            html_line[:start - 1] +  # Remove the '!' from the original line
-        #            f'<div style="text-align: center; margin: 20px;">'
-        #            f'<img src="{link_url}" alt="{link_text}" style="max-width: 100%; height: auto;">'
-        #            f'<div style="font-size: 14px; color: #6fbce8; margin-top: 5px;">{link_text}</div>'
-        #            f'</div>' +
-        #            html_line[end_link + 1:]
-        #        )
-        #    else:
-        #        # Standard link processing
-        #        html_line = (
-        #            html_line[:start] + 
-        #            f'<a href="{link_url}">{link_text}</a>' + 
-        #            html_line[end_link + 1:]
-        #        )
-        #
-        # handling links without images
-        #while '[' in html_line and '(' in html_line:
-        #    start = html_line.index('[')
-        #    end_link = html_line.index(')')
-        #    end_text = html_line.index(']')
-        #    link_text = html_line[start+1:end_text]
-        #    link_url = html_line[end_text+2:end_link]
-        #    html_line = html_line[:start] + f'<a href="{link_url}">{link_text}</a>' + html_line[end_link+1:]
+        # Process remaining markdown in the line
+        html_line = process_markdown_line(html_line)
+        
+        # Handle headers
         if html_line.startswith('# '):
             html_content += f'<h1>{html_line[2:]}</h1>\n'
         elif html_line.startswith('## '):
@@ -263,7 +243,10 @@ def md_to_html(md_file, check_unique=True):
             html_content += f'<h4>{html_line[5:]}</h4>\n'
         else:
             html_content += f'{html_line}<br>\n'
+        
+        i += 1
 
+    # Close HTML
     html_content += f"""
         <br>
         <div style="text-align: center; margin-top: 20px;">
@@ -282,17 +265,14 @@ def md_to_html(md_file, check_unique=True):
     with open(os.path.join(html_folder, html_file), 'w') as f:
         f.write(html_content)
 
-# Loop through the Markdown files and convert them to HTML
 def convert_all_md_to_html(check_unique=True):
     if check_unique:
         # Get a list of all files in the md folder
         md_files = [f for f in os.listdir(md_folder) if f.endswith('.md')]
 
-        # Get a list of all files in the html folder
-        html_files = [f[:-3] + '.html' for f in os.listdir(html_folder)]
-
         # Find the files in the md folder that are not in the html folder
-        unique_md_files = [f for f in md_files if f[:-3] not in html_files]
+        html_files = [f[:-5] + '.html' for f in md_files]
+        unique_md_files = [f for f in md_files if f[:-3] + '.html' not in os.listdir(html_folder)]
 
         for md_file in unique_md_files:
             md_to_html(md_file)
@@ -305,5 +285,93 @@ def convert_all_md_to_html(check_unique=True):
 # Convert all Markdown files to HTML, checking for unique files
 convert_all_md_to_html(check_unique=False)
 
-# Convert all Markdown files to HTML, without checking for unique files
-# convert_all_md_to_html(check_unique=False)
+
+# List to store the .html file names
+html_files = []
+
+# Walk through every file in the folder
+for file_name in os.listdir(html_folder):
+    if file_name.endswith('.html'):
+        # Remove the .html extension and add to the list
+        html_files.append(file_name[:-5])
+
+# Prepare the content for the markdown file
+markdown_content = "# All Pages\n"
+for file_name in html_files:
+    if file_name != "pages":
+        markdown_content += f"[[{file_name}]]\n"
+
+# Specify the path to save the markdown file
+output_folder = 'md'
+output_file_path = os.path.join(output_folder, 'pages.md')
+
+# Ensure the output folder exists
+os.makedirs(output_folder, exist_ok=True)
+
+# Save the content to pages.md
+with open(output_file_path, 'w') as file:
+    file.write(markdown_content)
+
+print("HTML file list saved to pages.md")
+
+
+
+# dead link processing
+from bs4 import BeautifulSoup
+
+# Folder containing HTML files
+folder_path = 'w'
+
+# List to store missing files in the desired format
+missing_files = []
+
+# Loop through all HTML files in the folder
+for filename in os.listdir(folder_path):
+    if filename.endswith(".html"):
+        file_path = os.path.join(folder_path, filename)
+
+        with open(file_path, 'r', encoding='utf-8') as file:
+            # Parse the HTML content with BeautifulSoup
+            soup = BeautifulSoup(file, 'html.parser')
+
+            # Loop through all <a> elements
+            for a_tag in soup.find_all('a'):
+                href = a_tag.get('href')
+
+                if href and href.endswith(".html"):
+                    # Check if the target file exists
+                    target_file_path = os.path.join(folder_path, href)
+
+                    if not os.path.exists(target_file_path):
+                        # If the file doesn't exist, remove the .html and format it
+                        file_name = os.path.splitext(href)[0]
+                        missing_files.append(f"[[{file_name}]]")
+
+                        # Modify the style of the <a> element
+                        a_tag['style'] = 'color: #ff0000'
+
+            # Save the modified HTML back to the file
+            with open(file_path, 'w', encoding='utf-8') as output_file:
+                output_file.write(str(soup))
+
+# Specify the path to save the markdown file
+output_folder = 'md'
+output_file_path = os.path.join(output_folder, 'pages.md')
+
+# only get unique
+missing_files = list(set(missing_files))
+
+
+# Ensure the output folder exists
+os.makedirs(output_folder, exist_ok=True)
+
+# Save the content to pages.md
+with open(output_file_path, 'a') as dead_links_file:
+    # Write the title at the beginning
+    dead_links_file.write("\n# Dead Links\n")
+    
+    # Write each missing file in the desired format
+    for missing_file in missing_files:
+        dead_links_file.write(missing_file + '\n')
+
+print("Dead links have been processed and appended to 'pages.md'.")
