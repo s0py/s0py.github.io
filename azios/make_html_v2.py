@@ -41,6 +41,7 @@ def md_to_html(md_file, check_unique=True):
     <html>
     <head>
         <title>{}</title>
+        <link rel="icon" type="image/x-icon" href="nestor.ico">
         <style>
             body {{
                 margin: 0;
@@ -86,7 +87,7 @@ def md_to_html(md_file, check_unique=True):
                 text-decoration-style: dotted;
                 color: #F9CFF2;
             }}
-            h1, h2, h3, h4 {{
+            h1, h2 {{
                 font-family: 'Times New Roman', Georgia, Times, serif;
                 font-weight: bold;
                 color: #ffffff;
@@ -95,6 +96,15 @@ def md_to_html(md_file, check_unique=True):
                 margin-top: 0em;
                 margin-bottom: 0.5em;
             }}
+            h3, h4 {{
+                font-family: 'Times New Roman', Georgia, Times, serif;
+                font-weight: bold;
+                color: #ffffff;
+                padding: 5px 0px;
+                margin-top: 0em;
+                margin-bottom: 0.5em;
+            }}
+
             b {{
                 font-weight: 800;
             }}
@@ -129,12 +139,12 @@ def md_to_html(md_file, check_unique=True):
                 <a class="a_nav" href="Azios Map.html">World Map</a><br style="line-height: 0px">
                 <a class="a_nav" href="Cosmology.html">Cosmology</a>
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
-                <h4>Categories</h4>
+                <h4 style="border-bottom: 1px solid #FFFFFF; text-align: center;">Categories</h4>
                 <a class="a_nav" href="Peoples.html">Peoples</a><br style="line-height: 0px">
                 <a class="a_nav" href="Magic.html">Magic</a><br style="line-height: 0px">
                 <a class="a_nav" href="Locations.html">Locations</a><br style="line-height: 0px">
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
-                <h4>Regions</h4>
+                <h4 style="border-bottom: 1px solid #FFFFFF; text-align: center;">Regions</h4>
                 <a class="a_nav" href="Ashen Empire.html">Ashen Empire</a><br style="line-height: 0px">
                 <a class="a_nav" href="Crifico.html">Crifico</a><br style="line-height: 0px">
                 <a class="a_nav" href="Ethqmir.html">Ethqmir</a><br style="line-height: 0px">
@@ -153,7 +163,7 @@ def md_to_html(md_file, check_unique=True):
                 <a class="a_nav" href="Xibalba.html">Xibalba</a><br style="line-height: 0px">
                 <a class="a_nav" href="Yartzland.html">Yartzland</a><br style="line-height: 0px">
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
-                <h4>Popular</h4>
+                <h4 style="border-bottom: 1px solid #FFFFFF; text-align: center;">Popular</h4>
                 <a class="a_nav" href="Vichmeister.html">Vichmeister</a><br style="line-height: 0px">
             </div>
         <div class="container">
@@ -209,18 +219,26 @@ def md_to_html(md_file, check_unique=True):
                     processed_text += processed_line + "<br>"
                     j += 1
                 i = j - 1  # Update main loop counter to skip processed lines
-        
-                # Generate HTML for the image with processed text
-                html_line = (
-                    html_line[:start - 1] +
-                    f'<div style="display: flex;">'
-                    f'<div style="flex-grow: 1; margin-right: 2em;">{processed_text}</div>'
-                    f'<div style="max-width: 300px; margin-left: auto; align-self: flex-start;">'
-                    f'<div style="text-align: center; border: 1px solid #F9CFF2; padding: 0.5em;">'
-                    f'<img src="{link_url}" alt="{link_text}" style="width: 100%; height: auto;">'
-                    f'<div style="font-size: 14px; color: #AAB0C2; margin-top: 5px;">{link_text}</div>'
-                    f'</div></div></div>'
-                )
+            
+                if html_line[start - 2] == '!':  # Check for double exclamation (full-width image)
+                    html_line = (
+                        html_line[:start - 2] +
+                        f'<div style="text-align: center; border: 1px solid #F9CFF2; padding: 0.5em; margin: 1em 0;">'
+                        f'<img src="{link_url}" alt="{link_text}" style="width: 100%; height: auto;">'
+                        f'<div style="font-size: 14px; color: #AAB0C2; margin-top: 5px;">{link_text}</div>'
+                        f'</div>'
+                    )
+                else:  # Regular side-by-side image
+                    html_line = (
+                        html_line[:start - 1] +
+                        f'<div style="display: flex;">'
+                        f'<div style="flex-grow: 1; margin-right: 2em;">{processed_text}</div>'
+                        f'<div style="min-width:30%; max-width: 40%; margin-left: auto; align-self: flex-start;">'
+                        f'<div style="text-align: center; border: 1px solid #F9CFF2; padding: 0.5em;">'
+                        f'<img src="{link_url}" alt="{link_text}" style="width: 100%; height: auto;">'
+                        f'<div style="font-size: 14px; color: #AAB0C2; margin-top: 5px;">{link_text}</div>'
+                        f'</div></div></div>'
+                    )
             else:
                 # Standard link processing
                 html_line = (

@@ -1,6 +1,7 @@
 # All Pages
 [[Ashen Empire]]
 [[Azios Map]]
+[[Calendar and Time]]
 [[Cateclist the Wanderer]]
 [[Featherscale Isles]]
 [[Fractured Concord]]
@@ -14,6 +15,7 @@
 [[Starfall]]
 [[Vichmeister]]
 [[Xibalba]]
+[[Yarril]]
 
 # Dead Links
 [[Azios]]
@@ -36,6 +38,7 @@
 [[Magic in the Four Cities]]
 [[Magic in the Tealands]]
 [[Magic in the United Baronies]]
+[[Moon]]
 [[Peoples]]
 [[Qthemir]]
 [[Serica]]
@@ -43,7 +46,7 @@
 [[Tea Lands]]
 [[Ulaan]]
 [[United Baronies]]
-[[Yarril]]
+[[Yar Rurik]]
 [[Yartzland]]
 [[map]]
 [[planets]]
