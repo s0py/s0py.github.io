@@ -20,3 +20,5 @@ Entity ████████ exhibits a ██████ demeanor when █�
 
 ## Addendum ███-01: 
 Following ████████ Advisory Board's emergency ███████, research into Entity ████████'s █████████ nature has been accelerated. █████████ reports suggest a potential connection to ████████████, but these findings remain ██████████.
+
+<People><Goolands>
