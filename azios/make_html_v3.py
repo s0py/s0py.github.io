@@ -41,7 +41,7 @@ def create_tag_footer(tags):
     
     tag_links = []
     for tag in tags:
-        tag_links.append(f'<a href="categories/tag_{tag}.html">{tag}</a>')
+        tag_links.append(f'<a href="tag_{tag}.html">{tag}</a>')
     
     footer += ' | '.join(tag_links)
     footer += '</div></div>\n'
