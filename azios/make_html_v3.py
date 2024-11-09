@@ -1,8 +1,52 @@
 import os
+import re
 
-# Set the paths to the two folders
+# Set the paths to the folders
 md_folder = 'md'
 html_folder = 'w'
+
+def process_tags(content, current_page):
+    current_page = f"[[{current_page}]]"
+    """Process tags in content and update tag files"""
+    # Find all tags using regex
+    tags = re.findall(r'<([^>]+)>', content)
+    
+    # Process each tag
+    for tag in tags:
+        tag_file = os.path.join(f"{md_folder}/tag_{tag}.md")
+        
+        # Create or update tag file
+        if os.path.exists(tag_file):
+            with open(tag_file, 'r') as f:
+                pages = f.read().splitlines()
+            if current_page not in pages:
+                with open(tag_file, 'a') as f:
+                    f.write(f"{current_page}\n")
+        else:
+            with open(tag_file, 'w') as f:
+                f.write(f"# {tag}\n{current_page}\n")
+    
+    # Remove tags from content
+    content = re.sub(r'<[^>]+>', '', content)
+    
+    return content, tags
+
+def create_tag_footer(tags):
+    """Create HTML footer with tag links"""
+    if not tags:
+        return ""
+        
+    footer = '<div style="margin-top: 2em; padding-top: 1em; border-top: 1px solid #F9CFF2;">\n'
+    footer += '<div style="color: #AAB0C2;">Tags: '
+    
+    tag_links = []
+    for tag in tags:
+        tag_links.append(f'<a href="categories/{tag}.html">{tag}</a>')
+    
+    footer += ' | '.join(tag_links)
+    footer += '</div></div>\n'
+    
+    return footer
 
 def process_markdown_line(line):
     """Helper function to process markdown in a single line"""
@@ -20,7 +64,6 @@ def process_markdown_line(line):
         end = html_line.index(']]', start)
         link_text = html_line[start+2:end]
         
-        # Check if the corresponding HTML file exists
         html_file_path = os.path.join(html_folder, f"{link_text}.html")
         if os.path.exists(html_file_path):
             html_line = html_line[:start] + f'<a href="{link_text}.html">{link_text}</a>' + html_line[end+2:]
@@ -28,14 +71,16 @@ def process_markdown_line(line):
             html_line = html_line[:start] + f'<a href="{link_text}.html" style="color: #ff0000;">{link_text}</a>' + html_line[end+2:]
     return html_line
 
-def md_to_html(md_file, check_unique=True):
+def md_to_html(md_file):
     print(f"Converting {md_file} to HTML...")
 
     # Read the Markdown file
     with open(os.path.join(md_folder, md_file), 'r') as f:
         md_content = f.read()
+    
+    # Process tags before any other processing
+    md_content, tags = process_tags(md_content, md_file[:-3])
 
-    # Basic HTML template (truncated for brevity)
     html_content = """
     <!DOCTYPE html>
     <html>
@@ -140,9 +185,10 @@ def md_to_html(md_file, check_unique=True):
                 <a class="a_nav" href="Cosmology.html">Cosmology</a>
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
                 <h4 style="border-bottom: 1px solid #FFFFFF; text-align: center;">Categories</h4>
-                <a class="a_nav" href="Peoples.html">Peoples</a><br style="line-height: 0px">
+                <a class="a_nav" href="tag_People.html">People</a><br style="line-height: 0px">
+                <a class="a_nav" href="tag_Group.html">Groups</a><br style="line-height: 0px">
                 <a class="a_nav" href="Magic.html">Magic</a><br style="line-height: 0px">
-                <a class="a_nav" href="Locations.html">Locations</a><br style="line-height: 0px">
+                <a class="a_nav" href="tag_Location.html">Locations</a><br style="line-height: 0px">
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
                 <h4 style="border-bottom: 1px solid #FFFFFF; text-align: center;">Regions</h4>
                 <a class="a_nav" href="Ashen Empire.html">Ashen Empire</a><br style="line-height: 0px">
@@ -265,7 +311,10 @@ def md_to_html(md_file, check_unique=True):
         i += 1
 
     # Close HTML
+    # Add tag footer before closing HTML
+    tag_footer = create_tag_footer(tags)
     html_content += f"""
+        {tag_footer}
         <br>
         <div style="text-align: center; margin-top: 20px;">
             <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
@@ -283,25 +332,14 @@ def md_to_html(md_file, check_unique=True):
     with open(os.path.join(html_folder, html_file), 'w') as f:
         f.write(html_content)
 
-def convert_all_md_to_html(check_unique=True):
-    if check_unique:
-        # Get a list of all files in the md folder
-        md_files = [f for f in os.listdir(md_folder) if f.endswith('.md')]
-
-        # Find the files in the md folder that are not in the html folder
-        html_files = [f[:-5] + '.html' for f in md_files]
-        unique_md_files = [f for f in md_files if f[:-3] + '.html' not in os.listdir(html_folder)]
-
-        for md_file in unique_md_files:
+def convert_all_md_to_html():
+    # Convert all Markdown files to HTML
+    for md_file in os.listdir(md_folder):
+        if md_file.endswith('.md'):
             md_to_html(md_file)
-    else:
-        # Convert all Markdown files to HTML
-        for md_file in os.listdir(md_folder):
-            if md_file.endswith('.md'):
-                md_to_html(md_file, check_unique=False)
 
 # Convert all Markdown files to HTML, checking for unique files
-convert_all_md_to_html(check_unique=False)
+convert_all_md_to_html()
 
 
 # List to store the .html file names

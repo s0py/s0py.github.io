@@ -1,0 +1,2 @@
+# Magic
+[[Magic in Ulaan]]

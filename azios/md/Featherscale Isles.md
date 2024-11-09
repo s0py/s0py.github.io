@@ -9,3 +9,5 @@ The isles are a tropical climate and have flat coastal plains which rise to moun
 
 ## War
 The Featherscale Isles and their people have not seen war in almost a century. The rituals of the priest kings can be used to provide boons to battle. Any time in the past that the isles were threatened with invasion or conquest, the royal families would all perform various rituals of torment guaranteeing that wounds would not fester, that arrows would be lucky in their shot, that bones would not splinter, etc. So far, no invading force has been able to overcome these blessings  altho many scholars debate whether this was simply because the resources of the isles are not worth comitted adequate forces to to capture.
+
+<Location><Featherscale Isles>

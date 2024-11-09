@@ -10,3 +10,5 @@ They way a spell is cast can be as simple as playing a leitmotif to cause an imm
 
 # Images
 ![A magician playing a flute](ulaan_magician.png)
+
+<Magic><Ulaan>

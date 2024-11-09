@@ -1,0 +1,2 @@
+# Featherscale Isles
+[[Featherscale Isles]]
