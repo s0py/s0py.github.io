@@ -1,6 +1,6 @@
 # All Pages
 [[Ashen Empire]]
-[[Azios]]
+[[Azios Map]]
 [[Cateclist the Wanderer]]
 [[Featherscale Isles]]
 [[Fractured Concord]]
@@ -16,6 +16,7 @@
 [[Xibalba]]
 
 # Dead Links
+[[Azios]]
 [[Cataclysm]]
 [[Cosmology]]
 [[Crifico]]

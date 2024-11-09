@@ -126,7 +126,7 @@ def md_to_html(md_file, check_unique=True):
             <div class="nav">
                 <a class="a_nav" href="pages.html">All Pages</a><br style="line-height: 0px">
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
-                <a class="a_nav" href="Azios.html">World Map</a><br style="line-height: 0px">
+                <a class="a_nav" href="Azios Map.html">World Map</a><br style="line-height: 0px">
                 <a class="a_nav" href="Cosmology.html">Cosmology</a>
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
                 <h4>Categories</h4>
