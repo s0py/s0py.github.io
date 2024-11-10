@@ -18,3 +18,5 @@ Order is kept by the Yart Mining Company's administration who manage not only th
 ## Rumors
 ![](xibalba_3.jpg)
 There are reports of ice hermits who live amongst the crags and fjords and glaciers of the farthest northern reaches. It is unknown what parts of these rumors are true, what parts are exaggerations, and which parts are misunderstandings of the nomadic peoples who are reported to live that far north.
+
+<Location><Region><Xibalba>

@@ -6,3 +6,5 @@ A conglomerate of soul crystals
 Birthed from a ritual gone wrong
 Exists in eternal torment, screaming out in agony
 Golems that they created adorn it as a god and ‘protect’ it from anyone trying to enter The Ashen Empire
+
+<People><Groups><Ashen Empire>

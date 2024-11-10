@@ -18,3 +18,5 @@ The day on Azios is typically divided into 3 sections: Day, Night, and Shadow. D
 
 ### Smaller Units of Time
 Some astronomers, alchemists, and other learned scholars make use of smaller units of time. Many divide the hours into smaller units but using fixed-length hours based on mechanical measurements rather than the variable hours in common use.
+
+<Technical>

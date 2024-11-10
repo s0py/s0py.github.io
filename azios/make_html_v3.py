@@ -179,6 +179,7 @@ def md_to_html(md_file):
     <body>
         <div class="row">
             <div class="nav">
+                <a class="a_nav" href="main.html">Home Page</a><br style="line-height: 0px">
                 <a class="a_nav" href="pages.html">All Pages</a><br style="line-height: 0px">
                 <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.33), transparent); margin-bottom:1em;">
                 <a class="a_nav" href="Azios Map.html">World Map</a><br style="line-height: 0px">
@@ -270,7 +271,7 @@ def md_to_html(md_file):
                     html_line = (
                         html_line[:start - 2] +
                         f'<div style="text-align: center; padding: 0.5em; margin: 1em 0;">'
-                        f'<img src="{link_url}" alt="{link_text}" style="width: 100%; height: auto;">'
+                        f'<img src="{link_url}" alt="{link_text}" style="max-width: 100%; height: auto;">'
                         f'<div style="font-size: 14px; color: #AAB0C2; margin-top: 5px;">{link_text}</div>'
                         f'</div>'
                     )

@@ -12,3 +12,5 @@ The royals are known as priest kings. Priest kings can be of any gender and thei
 This is not what gives them the ability to perform the rituals--anyone could perform them--but it makes them the only ones who can do it without taboo. Anyone not of these royal lines performing a ritual is typically executed by a priest king. 
 
 The priest kings dress in flamboyant garbs and elaborate outfits in an attempt to attract spectators. They are never seen wearing plain clothing and each priest king has their own style. Some use taxdermied animals and pelts to adorn their bodies while others create elaborate jewel and feather attires. 
+
+<Groups><Featherscale Isles>

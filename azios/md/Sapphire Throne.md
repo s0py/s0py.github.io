@@ -9,3 +9,5 @@ The process of gaining all of the moral insight happens slowly and as a function
 Sitting on the throne is still considered a great honor by many and endless debates persist in the highest circles of the aristocracy and court scholars about how much the throne should be used. 
 
 As it stands, the throne is used very little. Kings of Yama tend only to sit on it to quell national unrest or decide incredibly complex situations after all else has failed.
+
+<Yama><United Baronies>

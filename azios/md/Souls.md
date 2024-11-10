@@ -7,4 +7,4 @@ When a person dies their soul sack crystallizes. It is at this point that the so
 ## Soul Magic
 *See [[Soul Magic]]*
 
-<Magic>
+<Magic><Technical>
