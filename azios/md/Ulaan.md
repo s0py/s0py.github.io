@@ -5,6 +5,9 @@ The plains are a very beautiful place. Plentiful are all good things which natur
 
 The lands surrounding the grasslands are filled with giant insects in the [[Skittering Wilder]], horrible magic golems in the [[Ashen Empire]], and toxic noxious rocks and beasts of the lands of [[Salt and Silence]].
 
+## Locations
+[[Lunn]]
+
 ## Magic
 *See [[Magic in Ulaan]]*
 The main form of magic here is wind magic. Altho there are also a few remaining ashen priests and magi from the thousand year fallen Ashen Empire who practice obscure arts in the ruined temples, the most common form of magic is finding the melody in the cacophony. People will set up wind chimes to gather melodies and will spend hours listening and studying, trying to memorize motifs and progressions which they can then play on their own wind instruments to cast their spells and have magical effects.

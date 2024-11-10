@@ -21,4 +21,7 @@ Entity ████████ exhibits a ██████ demeanor when █�
 ## Addendum ███-01: 
 Following ████████ Advisory Board's emergency ███████, research into Entity ████████'s █████████ nature has been accelerated. █████████ reports suggest a potential connection to ████████████, but these findings remain ██████████.
 
+## Trivia
+He is the main character of the authors' previous book series "*The Keys of Vitch: Adventures in Alonzinon*".
+
 <People><Goolands>
