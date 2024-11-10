@@ -2,21 +2,17 @@
 
 **The Four Cities** are a group of four powerful city states that exist on a peninsula bordering on the [[Far Lands]]. The Four Cities are a technologically advanced civilization that are convinced of their own inherent superiority over their neighbors and feel entitled to their lands and their lives.
 
-## The Four Cities:
+The cities are constantly at war, both with each other, and with the neighboring tribes of the Far Lands. This constant conflict, and the toll of the unique brand of magic that the cities employ has left their peninsula scarred ecologically and its is a very inhospitable place outside of the walls of the cities them selves.
 
+## The Four Cities:
 ### Gahan
 City of Wisdom, known for its great library and intense record keeping of historic events past and present.
-
 ### Dolos
 City of the Sea, known to be the first of the Four Cities to have discovered the art of seafaring and to this day is still the most skilled at it among the four.
-
 ### Wrei
 City of the Arts, known for its aristocrats who shower artists with money to create great works for the city, more so than the other cities.
-
 ### Frinty
 City of Steel, known to have the greats number of steel mills and metal workers than any of their neighbors, all of which still put great amounts of money and labor into metal working. 
-
-The cities are constantly at war, both with each other, and with the neighboring tribes of the Far Lands. This constant conflict, and the toll of the unique brand of magic that the cities employ has left their peninsula scarred ecologically and its is a very inhospitable place outside of the walls of the cities them selves.
 
 ## Government and Culture
 The cities are ruled over by a system of three parts, that is comprised of a complicated interplay between the aristocratic classes of each city, guilds, and the civic governments of the cities. Though the Four Cities often compete with eachother, this system of aligned interests stops any inter-peninsula war from ever reaching beyond the gilded walls of the cities, and allows for most of their more violent efforts to be focused on the real prize of the Far Lands.
