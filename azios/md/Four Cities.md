@@ -2,7 +2,7 @@
 
 **The Four Cities** are a group of four powerful city states that exist on a peninsula bordering on the [[Far Lands]]. The Four Cities are a technologically advanced civilization that are convinced of their own inherent superiority over their neighbors and feel entitled to their lands and their lives.
 
-##The Four Cities Listed:
+## The Four Cities:
 
 ### Gahan
 City of Wisdom, known for its great library and intense record keeping of historic events past and present.
