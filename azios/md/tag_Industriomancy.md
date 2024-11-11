@@ -1,0 +1,2 @@
+# Industriomancy
+[[Industriomancy]]

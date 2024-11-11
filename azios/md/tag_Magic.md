@@ -4,3 +4,4 @@
 [[Souls]]
 [[Magic]]
 [[Magic in Yartzland]]
+[[Industriomancy]]

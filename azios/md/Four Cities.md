@@ -1,5 +1,4 @@
 # The Four Cities
-
 **The Four Cities** are a group of four powerful city states that exist on a peninsula bordering on the [[Far Lands]]. The Four Cities are a technologically advanced civilization that are convinced of their own inherent superiority over their neighbors and feel entitled to their lands and their lives.
 
 The cities are constantly at war, both with each other, and with the neighboring tribes of the Far Lands. This constant conflict, and the toll of the unique brand of magic that the cities employ has left their peninsula scarred ecologically and its is a very inhospitable place outside of the walls of the cities them selves.
