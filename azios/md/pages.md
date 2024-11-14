@@ -25,6 +25,7 @@
 [[Starfall]]
 [[tag_Ashen Empire]]
 [[tag_City]]
+[[tag_Ethqmir]]
 [[tag_Featherscale Isles]]
 [[tag_Four Cities]]
 [[tag_Gangling Grove]]

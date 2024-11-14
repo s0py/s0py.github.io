@@ -46,3 +46,5 @@ Ethqmir is comprised of flatlands with sparse forests and two large lakes, one o
 There are many towns and cities scattered throughout the country, each one with its flavor of political drama currently consuming the lives of its elites. 
 
 Ethqmir is the steward of four ancient stone bridges that were constructed over two thousand years ago by the Ashen Empire as it marched northward. These brides connect two of Azios’ continents and lead to the colony-nation of Qthemir, a subjugation of Ethqmir. Qthemir was settled for two reasons, the first being the incredibly rich soil of the land next to the Gangling Grove, and the second being the lack of native inhabitants that would impede or prevent settlement.
+
+<Ethqmir><Location><Region>
