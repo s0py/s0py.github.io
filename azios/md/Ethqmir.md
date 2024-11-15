@@ -4,7 +4,7 @@
 Ethqmir is also known as the Gate to the South by its northern neighbors as it controls access to [the old bridges](Bridges of Ethqmir) created by the [[Ashen Empire]] that connect the two continents. Partially as a result of this Ethqmir is convinced of its own critical importance to the goings on of the world at large, though this is largely a nationwide delusion.
 
 ## Political Parties in Ethqmir
-**The Douncers** - A party formed from members of the influential douncer family before their untimely deaths, is kept active as a memorial, currently in power.
+**The Douncers** - A party formed from members of the influential [[Douncer family]] before their untimely deaths, is kept active as a memorial, currently in power.
 
 **Oon Carolis** -  A movement to install Oon Carolis into power as an Autocrat. Ran into a problem when Oon Carolis died of a stroke 16 years ago. Currently led by the light-ghost of Oon Carolis.
 
