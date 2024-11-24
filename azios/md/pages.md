@@ -1,4 +1,5 @@
 # All Pages
+[[Ash Spirits]]
 [[Ashen Empire]]
 [[Azios Map]]
 [[Brewomancy]]
@@ -28,6 +29,7 @@
 [[Souls]]
 [[Starfall]]
 [[tag_Animal]]
+[[tag_Ash Magic]]
 [[tag_Ashen Empire]]
 [[tag_Brewomancy]]
 [[tag_City]]
@@ -68,6 +70,7 @@
 [[_Oon Carolis]]
 
 # Dead Links
+[[Ash Magic]]
 [[Azios]]
 [[Cataclysm]]
 [[Cosmology]]

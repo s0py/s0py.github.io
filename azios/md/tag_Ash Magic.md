@@ -1,0 +1,2 @@
+# Ash Magic
+[[Ash Spirits]]
