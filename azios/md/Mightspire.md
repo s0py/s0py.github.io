@@ -20,7 +20,7 @@ The closest thing to a ruling class in the Mightspire is the [[Council of the To
 The Mightspirans have a cultural respect for natural blindness as only those who are born blind, or lose their sight due to age or illness are allowed to commune with the ancient magic of the tower. Inflicting or ensuring blindness in any purposeful way will earn the attemptee an exile. This Magic is not technically unique to the blind but it is only to be carried out by them as they can commune with the tower and suffer the least amount of consequences.
 
 ## Communion with the Tower
-The Mightspire possessed by an ancient ash spirit conjured into it by the Ashen Empire in time long forgotten. The spirit serves a single dedicated role which is to prevent the tower from falling apart despite its massive size. 
+The Mightspire is possessed by an ancient ash spirit conjured into it by the Ashen Empire in time long forgotten. The spirit serves a single dedicated role which is to prevent the tower from falling apart despite its massive size. 
 
 The spirit can perform other tasks, but like all ash magic it comes with a blood price. In the case of this specific spirit that price is eyes, a body part it has a great liking for. In exchange for eyes the spirit can confer blessings on the crops of the tower, or seal it off from the rest of Azios during an [Ice Fall Cataclysm](cataclysm.html).
 
