@@ -6,3 +6,4 @@
 [[Magic in Yartzland]]
 [[Industriomancy]]
 [[Golems]]
+[[Brewomancy]]
