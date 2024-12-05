@@ -214,6 +214,15 @@ def md_to_html(md_file):
                 <a class="a_nav" href="Vichmeister.html">Vichmeister</a><br style="line-height: 0px">
             </div>
         <div class="container">
+        <h1>Welcome to the Azios Wiki</h1>
+            <div style="text-align: center;">
+                <a href="books.html"><img src="nav modests books.png"></a>
+                <a href="main.html"><img src="nav azios lore.png"></a>
+                <a href="pages.html"><img src="nav categories.png"></a>
+                <a href="tag_Location.html"><img src="nav locations 2.png"></a>
+                <a href="fanfic.html"><img src="nav fanfic.png"></a>
+                <a href="Modest Himpson.html"><img src="nav about modest.png"></a>
+            </div>
         <div class="container-banner">
             <div>
                 <img src="flower-kid.png" alt="Flower Kid" style="max-width: 8em; height: auto;">

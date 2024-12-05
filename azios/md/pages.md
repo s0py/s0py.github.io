@@ -69,6 +69,7 @@
 [[Witnesses]]
 [[Xibalba]]
 [[Yarril]]
+[[_main]]
 [[_Oon Carolis]]
 
 # Dead Links
@@ -103,6 +104,9 @@
 [[United Baronies]]
 [[Yar Rurik]]
 [[Yartzland]]
+[[books]]
 [[cataclysm]]
+[[contact]]
+[[fanfic]]
 [[map]]
 [[planets]]
