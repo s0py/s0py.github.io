@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐙 Crimson Letters</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000000;
+        }
+        canvas {
+            display: block;
+        }
+        .input-box {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+        }
+        .input-box input {
+            width: 80%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="input-box">
+        <input type="text" id="imageInput" placeholder="Enter image name...">
+    </div>
+    <script>
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        let images = [
+            { src: "Texturelabs_Wood_178XL.png", name: "texture24138970", x: 0, y: 0, width: 7952, height: 5149, opacity: 255 },
+
+            { src: "arkham 5 Labels.png", name: "map237890", x: 30, y: 30, width: 3600, height: 2820, opacity: 100 },
+
+            { src: "abner_wick.png", name: "063d", x: 3800, y: 100, width: 332, height: 425, opacity: 0 },
+            { src: "cecil_hunter.png", name: "431q", x: 4200, y: 100, width: 332, height: 425, opacity: 0 },
+            { src: "dean_fallon.png", name: "095p", x: 4600, y: 100, width: 332, height: 425, opacity: 0 },
+            { src: "doctor_wheatcroft.png", name: "335g", x: 5000, y: 100, width: 332, height: 425, opacity: 0 },
+            { src: "emelia_court.png", name: "924p", x: 5400, y: 100, width: 332, height: 425, opacity: 0 },
+            { src: "lieter_corpse.png", name: "492a", x: 3800, y: 600, width: 332, height: 425, opacity: 0 },
+            { src: "goons.png", name: "429z", x: 4200, y: 600, width: 332, height: 425, opacity: 0 },
+            { src: "lucy_stone.png", name: "338l", x: 4600, y: 600, width: 332, height: 425, opacity: 0 },
+            { src: "prof_roach.png", name: "130k", x: 5000, y: 600, width: 332, height: 425, opacity: 0 },
+            { src: "tony_flinders.png", name: "784m", x: 5400, y: 600, width: 332, height: 425, opacity: 0 },
+
+            { src: "office - business card wick.png", name: "784m", x: 3940, y: 1161, width: 450, height: 250, opacity: 0},
+            { src: "office - love letter lucy.png", name: "090l", x: 3809, y: 1450, width: 1100, height: 600, opacity: 0 },
+
+            { src: "home - bill atlantic city.png", name: "783e", x: 6124, y: 45, width: 500, height: 1000, opacity: 0 },
+            { src: "home - cecil hunter commit.png", name: "490b", x: 6781, y: 45, width: 1000, height: 1600, opacity: 0 },
+            { src: "home - telegram wick.png", name: "202d", x: 4933, y: 1117, width: 1000, height: 800, opacity: 0 },
+            { src: "house - burned diary.png", name: "647w", x: 6779, y: 1667, width: 900, height: 1100, opacity: 0 },
+            { src: "house - locksmith receipt.png", name: "183x", x: 5945, y: 1050, width: 800, height: 800, opacity: 0 },
+
+            { src: "roadhouse.png", name: "497j", x: 4533, y: 1011, width: 200, height: 400, opacity: 0 },
+            { src: "wick dinner.png", name: "801v", x: 3778, y: 2111, width: 1200, height: 1000, opacity: 0 },
+
+            { src: "Player Map 1 Lieters Cottage.png", name: "879l", x: 6500, y: 2911, width: 1400, height: 1000, opacity: 0 },
+        ];
+        let loadedImages = [];
+        let scale = 1;
+        let originX = 0, originY = 0;
+        let isPanning = false;
+        let startX, startY;
+        const savedOpacities = JSON.parse(localStorage.getItem('imageOpacities') || '{}');
+        images.forEach(img => {
+            if (savedOpacities[img.name] !== undefined) {
+                img.opacity = savedOpacities[img.name];
+            }
+        });
+
+        function loadImages() {
+            let count = 0;
+            images.forEach((imgData, index) => {
+                let img = new Image();
+                img.src = imgData.src;
+                img.onload = () => {
+                    loadedImages[index] = img;
+                    count++;
+                    if (count === images.length) {
+                        draw();
+                    }
+                };
+            });
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.save();
+            ctx.translate(originX, originY);
+            ctx.scale(scale, scale);
+            images.forEach((imgData, index) => {
+                if (loadedImages[index]) {
+                    ctx.save();
+                    ctx.shadowColor = 'rgba(0, 0, 0, 0.2)';
+                    ctx.shadowBlur = 20;
+                    ctx.shadowOffsetX = 10;
+                    ctx.shadowOffsetY = 10;
+                    ctx.globalAlpha = imgData.opacity;
+                    ctx.drawImage(loadedImages[index], imgData.x, imgData.y, imgData.width, imgData.height);
+                    ctx.restore();
+                }
+            });
+            ctx.restore();
+        }
+
+        canvas.addEventListener("wheel", (e) => {
+            e.preventDefault();
+            
+            // Get cursor position relative to canvas
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+            
+            // Convert mouse position to world coordinates
+            const worldX = (mouseX - originX) / scale;
+            const worldY = (mouseY - originY) / scale;
+            
+            // Zoom factor
+            let zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
+            
+            // Apply scaling
+            scale *= zoomFactor;
+            
+            // Adjust origin to keep zoom centered on cursor
+            originX = mouseX - worldX * scale;
+            originY = mouseY - worldY * scale;
+            
+            draw();
+        });
+
+        canvas.addEventListener("mousedown", (e) => {
+            if (e.button === 0) {
+                isPanning = true;
+                startX = e.clientX - originX;
+                startY = e.clientY - originY;
+            }
+        });
+
+        canvas.addEventListener("mousemove", (e) => {
+            if (isPanning) {
+                originX = e.clientX - startX;
+                originY = e.clientY - startY;
+                draw();
+            }
+        });
+
+        canvas.addEventListener("mouseup", () => {
+            isPanning = false;
+        });
+
+        canvas.addEventListener("mouseleave", () => {
+            isPanning = false;
+        });
+
+        window.addEventListener("resize", () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            draw();
+        });
+
+        document.getElementById("imageInput").addEventListener("keypress", (e) => {
+            if (e.key === "Enter") {
+                const inputText = e.target.value.trim().toLowerCase();
+                
+                if (inputText === "000000") {
+                    localStorage.removeItem('imageOpacities');
+                    images.forEach(img => {
+                        if (img.name !== "texture24138970" && img.name !== "map237890") {  // Keep background texture visible
+                            img.opacity = 0;
+                        }
+                    });
+                } if (inputText === "111111") {
+                    const savedOpacities = {};
+                    images.forEach(img => {
+                        img.opacity = 1;
+                        savedOpacities[img.name] = 1;
+                    });
+                    localStorage.setItem('imageOpacities', JSON.stringify(savedOpacities));
+                } else {
+                    images.forEach(img => {
+                        if (img.name === inputText) {
+                            img.opacity = 1;
+                            const savedOpacities = JSON.parse(localStorage.getItem('imageOpacities') || '{}');
+                            savedOpacities[img.name] = img.opacity;
+                            localStorage.setItem('imageOpacities', JSON.stringify(savedOpacities));
+                        }
+                    });
+                }
+                draw();
+                e.target.value = "";
+            }
+        });
+
+        loadImages();
+    </script>
+</body>
+</html>
