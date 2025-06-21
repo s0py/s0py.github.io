@@ -15,6 +15,7 @@ palette in :root
     --overlay: #625565;
     --muted: #7f708a;
     --subtle: #908caa;
+    --white: #f8f8f8;
     --text: #e0def4;
     --love: #f04f78;
     --gold: #f9c22b;
@@ -37,7 +38,7 @@ palette in :root
 }
 /* Common style */
 h1 {
-    color: var(--rose);
+    color: var(--text);
     padding-bottom: 2mm;
     margin-bottom: 12mm;
 }
