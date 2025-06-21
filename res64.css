@@ -43,19 +43,19 @@ h1 {
     margin-bottom: 12mm;
 }
 h2 {
-    color: var(--rose);
+    color: var(--text);
 }
 h3 {
-    color: var(--rose);
+    color: var(--text);
 }
 h4 {
-    color: var(--rose);
+    color: var(--text);
 }
 h5 {
-    color: var(--rose);
+    color: var(--text);
 }
 h6 {
-    color: var(--rose);
+    color: var(--text);
 }
 a {
     color: var(--iris);
