@@ -93,9 +93,10 @@ em {
     font-weight: inherit;
     font-weight: 800;
     color: var(--love);
+    font-style: normal;
 }
 a {
-    color: var(--narj);
+    color: var(--gold);
 }
 ul {
     color: var(--sublte);
