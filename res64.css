@@ -28,7 +28,7 @@ palette in :root
     --highlight-muted: #44415a;
     --highlight-high: #56526e;
 
-    font-family: Aktinson Hyperlegible;
+    font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: initial;
 
     background-color: var(--base);
