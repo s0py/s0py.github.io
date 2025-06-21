@@ -39,9 +39,11 @@ palette in :root
 h1 {
     color: var(--text);
     text-align: center;
+    font-size: 60pt;
 }
 h2 {
     color: var(--text);
+    text-align: center;
 }
 h3 {
     color: var(--text);
