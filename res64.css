@@ -19,6 +19,7 @@ palette in :root
     --text: #ffffff;
     --rose: #e83b3b;
     --love: #f04f78;
+    --narj: #fb6b1d;
     --gold: #f9c22b;
     --foam: #8ff8e2;
     --tree: #1ebc73;
@@ -94,10 +95,10 @@ em {
     color: var(--love);
 }
 a {
-    color: var(--iris);
+    color: var(--narj);
 }
 ul {
-    color: var(--gold);
+    color: var(--sublte);
 }
 
 mjx-container {
