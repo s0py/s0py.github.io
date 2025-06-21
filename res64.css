@@ -85,10 +85,15 @@ img {
     background-color: var(--highlight-low);
 }
 strong {
-    color: var(--text);
     font-weight: inherit;
     font-weight: 800;
-    color: var(--love)
+    color: var(--love);
+}
+em {
+    font-weight: inherit;
+    font-weight: 800;
+    color: var(--seas);
+    font-style: normal;
 }
 mjx-container {
     color: var(--text);
