@@ -60,12 +60,12 @@ a {
 }
 p {
     font-size: 20pt;
-    font-weight: 600;
     color: var(--text);
 }
 code {
     color: var(--text);
     background-color: var(--highlight-muted);
+    font-family: 'Fira Code';
 }
 text {
     color: var(--text);
