@@ -29,9 +29,10 @@ palette in :root
     --highlight-high: #56526e;
 
     font-family: "Atkinson Hyperlegible Next", sans-serif;
-    font-weight: initial;
+    font-weight: 400;
 
     background-color: var(--base);
+    
 }
 /* Common style */
 h1 {
