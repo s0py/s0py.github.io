@@ -58,9 +58,6 @@ h5 {
 h6 {
     color: var(--text);
 }
-a {
-    color: var(--iris);
-}
 p {
     font-size: 24pt;
     color: var(--text);
@@ -75,9 +72,6 @@ code {
 text {
     color: var(--text);
 }
-ul {
-    color: var(--subtle);
-}
 li {
     color: var(--subtle);
 }
@@ -87,14 +81,25 @@ img {
 strong {
     font-weight: inherit;
     font-weight: 800;
-    color: var(--love);
+    color: var(--seas);
+}
+b {
+    font-weight: inherit;
+    font-weight: 800;
+    color: var(--seas);
 }
 em {
     font-weight: inherit;
     font-weight: 800;
-    color: var(--seas);
-    font-style: normal;
+    color: var(--love);
 }
+a {
+    color: var(--iris);
+}
+ul {
+    color: var(--gold);
+}
+
 mjx-container {
     color: var(--text);
 }
