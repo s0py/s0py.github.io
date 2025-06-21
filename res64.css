@@ -59,8 +59,10 @@ a {
     color: var(--iris);
 }
 p {
-    font-size: 20pt;
+    font-size: 24pt;
     color: var(--text);
+    margin-left: 5%;
+    margin-right: 5%;
 }
 code {
     color: var(--text);
